@@ -1,0 +1,116 @@
+# AI+JS逆向京东工业网数据采集智能体 - 配置文件
+# 本文件扩展 settings.yaml，增加智能体专属配置
+
+# 智能体配置
+agent:
+  version: "2.1.0"
+  name: "jd-industry-scraper-agent"
+  description: "AI+JS逆向京东工业网数据采集智能体（自进化版）"
+
+  # 工作流阶段配置
+  phases:
+    diagnose:
+      enabled: true
+      auto_run: true  # 启动时自动诊断
+    startup:
+      enabled: true
+      auto_start_jsrpc: false  # 需手动启动 Node.js 服务
+    sniffing:
+      enabled: true
+      duration: 30  # 嗅探持续秒数
+    strategy:
+      enabled: true
+      auto_detect: true  # 自动检测 h5st 版本
+    collection:
+      enabled: true
+      max_retries: 3
+      retry_delay: 2.0  # 重试间隔（秒）
+    monitoring:
+      enabled: true
+      dashboard_interval: 60  # 仪表盘刷新间隔（秒）
+
+  # 降级策略
+  degradation:
+    auto_switch: true
+    levels:
+      - name: "jsrpc"
+        description: "JSRPC 浏览器池签名"
+        priority: 1
+      - name: "local_sign"
+        description: "本地 MD5 sign 签名"
+        priority: 2
+      - name: "direct"
+        description: "直接请求（兜底）"
+        priority: 3
+
+  # 告警通知
+  alerts:
+    enabled: true
+    channels:
+      - type: "log"  # 日志输出
+      - type: "callback"  # 回调函数
+    rules:
+      - name: "sign_failure_high"
+        metric: "sign_failure_rate"
+        threshold: 0.1
+        level: "warning"
+        message: "签名失败率超过 10%"
+      - name: "ip_banned"
+        metric: "ip_ban_rate"
+        threshold: 0.2
+        level: "critical"
+        message: "IP 封禁率超过 20%，建议切换代理"
+      - name: "cookie_expiring"
+        metric: "cookie_remaining"
+        threshold: 600
+        level: "warning"
+        message: "关键 Cookie 即将过期"
+      - name: "h5st_version_changed"
+        metric: "h5st_version"
+        level: "critical"
+        message: "h5st 版本变化，需重新逆向"
+
+  # 采集目标
+  targets:
+    # 公开 API（无需登录）
+    public:
+      - host: "dc.3.cn"
+        path: "/category/get"
+        method: "GET"
+        description: "京东分类导航树"
+        auth_required: false
+
+    # 需要登录态的 API
+    authenticated:
+      - host: "api.m.jd.com"
+        function_ids:
+          - "bizSearchCategoryList"
+          - "searchWareBusiness"
+          - "getWareDetailInfo"
+          - "getCommentList"
+        description: "京东商品搜索/详情/评论"
+        auth_required: true
+        cookies_required: ["thor", "ctoken", "pt_key"]
+
+  # 报告配置
+  report:
+    output_dir: "./data/reports"
+    format: "markdown"  # markdown / json / html
+    include_screenshots: false
+    auto_save: true
+
+  # 自进化系统配置 (v2.1)
+  evolution:
+    enabled: true
+    # 微进化: 每次失败后自动切换策略
+    max_micro_retries: 3          # 单次失败最多重试 N 次
+    # 宏进化: 连续失败 N 次后触发策略变异/交叉
+    macro_threshold: 5
+    # 策略变异
+    enable_mutation: true
+    enable_crossover: true
+    # 经验学习
+    enable_experience: true
+    experience_path: "./data/experience.json"
+    # 自动进化（无需人工确认）
+    auto_evolve: true

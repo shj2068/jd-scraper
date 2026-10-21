@@ -1,0 +1,122 @@
+# 京东工业招商网数据采集工具库 - 统一配置文件
+# 仅用于技术学习与研究
+# v2.0 深度优化版（基于文档《AI-JS逆向京东工业招商网数据采集实战指南》）
+
+# API 基础配置
+api:
+  base_url: "https://api.m.jd.com/"
+  appid: "ebf5a3c8"
+  client: "h5"
+  client_version: "1.0.0"
+
+# JSRPC 签名服务配置
+jsrpc:
+  server_url: "http://localhost:3001"
+  timeout: 10        # 请求超时（秒）
+  retry: 3           # 最大重试次数
+  enable_fallback: true  # JSRPC 失败时降级到本地签名
+
+# 浏览器池配置
+browser_pool:
+  size: 3            # 池大小（Page 数量）
+  headless: true     # 无头模式
+  warmup_pages: 2    # 预热页面数
+  target_url: "https://zhaoshang.jd.com/"
+  health_check_interval: 60  # 健康检查间隔（秒）
+
+# 反检测配置
+anti_detect:
+  ua_rotation: true              # UA 轮换
+  random_delay: [1.0, 5.0]      # 请求间隔随机范围（秒）
+  tls_fingerprint: "chrome118"   # TLS 指纹预设
+  stealth_headers: true          # 隐身请求头
+  human_timing: true             # 人类操作时序模拟
+  # v2.0 新增：Sec-CH-UA 一致性校验（文档第四章 4.2 节）
+  sec_ch_ua_auto_match: true     # 自动从 UA 提取版本匹配 Sec-CH-UA
+  # v2.0 新增：Canvas/WebGL 指纹注入
+  canvas_noise: true             # Canvas 像素扰动
+  webgl_spoof: true              # WebGL 厂商/渲染器覆盖
+  # v2.0 新增：鼠标轨迹模拟
+  mouse_trajectory: true         # Bezier 曲线鼠标移动
+
+# 降级策略配置
+degradation:
+  level1: "jsrpc"        # 一级：JSRPC 浏览器池签名
+  level2: "local_sign"   # 二级：本地 sign 签名（无 h5st）
+  level3: "direct"       # 三级：直接请求（兜底）
+  auto_switch: true      # 自动降级切换
+  success_threshold: 0.5 # 成功率低于此值触发降级
+
+# Cookie 管理配置
+cookie:
+  storage_dir: "./data/cookies"
+  auto_save: true
+  # v2.0 新增：自动刷新机制（文档第五章 5.3 节）
+  auto_refresh: true                # 启用自动刷新
+  refresh_check_interval: 60        # 检查间隔（秒）
+  refresh_ahead_seconds: 600        # 提前多少秒触发刷新（默认 10min）
+  short_lived_cookies:              # 短生命周期 Cookie 定义
+    thor: 7200       # 2h
+    ctoken: 7200     # 2h
+    pt_key: 86400    # 24h
+  critical_cookies:
+    - "__jda"
+    - "__jdv"
+    - "__jdu"
+    - "pt_key"
+    - "pt_pin"
+    - "thor"
+    - "shshshfpa"
+    - "eid"
+    - "fp"
+    - "jd-uuid"
+
+# v2.0 新增：生产监控配置（文档第六章 6.2 节）
+monitor:
+  enabled: true
+  # 签名失败率阈值（超过则告警）
+  sign_failure_threshold: 0.1       # 10%
+  # Cookie 过期提前告警时间（秒）
+  cookie_expiry_warning_seconds: 600  # 10 分钟
+  # IP 封禁率阈值
+  ip_ban_rate_threshold: 0.2        # 20%
+  # h5st 版本变化检测
+  h5st_version_change_alert: true
+  # 滑动窗口大小（最近 N 次请求）
+  window_size: 100
+
+# v2.0 新增：h5st 签名解析配置（文档第二章）
+h5st:
+  # 默认策略（当版本未知时使用）
+  default_strategy: "jsrpc"
+  # h5st 新鲜度验证（最大允许存活时间，秒）
+  max_age_seconds: 60
+  # 版本检测样本数（多样本投票法）
+  version_sample_count: 5
+
+# v2.0 新增：API 嗅探器配置（文档第一章 1.2 节）
+api_sniffer:
+  # 嗅探持续时间（秒）
+  sniff_duration: 30
+  # 目标域名列表
+  target_hosts:
+    - "api.m.jd.com"
+    - "api.jd.com"
+    - "industry-api.jd.com"
+    - "zhaoshang.jd.com"
+    - "dc.3.cn"
+
+# 日志配置
+logging:
+  level: "INFO"          # DEBUG / INFO / WARNING / ERROR
+  format: "[%(asctime)s] %(levelname)s %(name)s: %(message)s"
+  file: null             # 日志文件路径（null 表示仅输出到控制台）
+
+# 代理配置（可选）
+proxy:
+  enabled: false
+  http: null
+  https: null
+  # 住宅代理推荐（按需配置）
+  # http: "http://user:pass@host:port"
+  # https: "http://user:pass@host:port"

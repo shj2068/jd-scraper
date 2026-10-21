@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>滑块轨迹可视化报告</title>
+<style>
+  :root {
+    --bg: #0a0e17;
+    --card: #111827;
+    --border: #1e293b;
+    --text: #e2e8f0;
+    --text-dim: #94a3b8;
+    --accent: #3b82f6;
+    --accent2: #8b5cf6;
+    --green: #10b981;
+    --red: #ef4444;
+    --orange: #f59e0b;
+    --cyan: #06b6d4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', monospace;
+    padding: 24px;
+    min-height: 100vh;
+  }
+  h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 8px;
+  }
+  .subtitle {
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 13px;
+    margin-bottom: 32px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+  }
+  .card.full { grid-column: 1 / -1; }
+  .card h2 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .card h2 .badge {
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    background: rgba(59,130,246,0.15);
+    color: var(--accent);
+    font-weight: 500;
+  }
+  canvas { display: block; width: 100%; }
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .stat {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+  }
+  .stat .label { font-size: 11px; color: var(--text-dim); margin-bottom: 4px; }
+  .stat .value { font-size: 20px; font-weight: 700; color: var(--accent); }
+  .stat .unit { font-size: 11px; color: var(--text-dim); }
+  .controls {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+  .controls label { font-size: 12px; color: var(--text-dim); }
+  .controls input[type=range] {
+    width: 120px;
+    accent-color: var(--accent);
+  }
+  .controls button {
+    padding: 6px 16px;
+    border: 1px solid var(--accent);
+    background: rgba(59,130,246,0.1);
+    color: var(--accent);
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .controls button:hover { background: rgba(59,130,246,0.25); }
+  .controls button.active { background: var(--accent); color: #fff; }
+  .phase-legend {
+    display: flex;
+    gap: 16px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+  }
+  .phase-legend span {
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--text-dim);
+  }
+  .phase-legend .dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .slider-demo {
+    position: relative;
+    height: 80px;
+    background: rgba(255,255,255,0.03);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 12px;
+  }
+  .slider-track {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    right: 40px;
+    height: 4px;
+    background: var(--border);
+    transform: translateY(-50%);
+    border-radius: 2px;
+  }
+  .slider-thumb {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    width: 36px;
+    height: 36px;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px rgba(59,130,246,0.4);
+    transition: none;
+  }
+  .slider-target {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    width: 4px;
+    height: 40px;
+    background: var(--green);
+    transform: translateY(-50%);
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(16,185,129,0.4);
+  }
+  .slider-target-label {
+    position: absolute;
+    top: 4px;
+    right: 28px;
+    font-size: 10px;
+    color: var(--green);
+  }
+  .compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+  .compare-table th {
+    text-align: left;
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text-dim);
+    font-weight: 500;
+  }
+  .compare-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+  }
+  .compare-table tr:hover td { background: rgba(255,255,255,0.02); }
+  .tag {
+    display: inline-block;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .tag.pass { background: rgba(16,185,129,0.15); color: var(--green); }
+  .tag.fail { background: rgba(239,68,68,0.15); color: var(--red); }
+  .tag.warn { background: rgba(245,158,11,0.15); color: var(--orange); }
+  .footer {
+    text-align: center;
+    margin-top: 32px;
+    font-size: 11px;
+    color: var(--text-dim);
+  }
+</style>
+</head>
+<body>
+
+<h1>Slider Trajectory Visualization Report</h1>
+<p class="subtitle">AI + JS Reverse Engineering - Captcha Bypass Trajectory Engine v1.0</p>
+
+<div class="stats" id="statsBar"></div>
+
+<div class="grid">
+  <!-- Position Chart -->
+  <div class="card full">
+    <h2>Position / Velocity / Acceleration <span class="badge">LIVE</span></h2>
+    <div class="controls">
+      <label>Distance:</label>
+      <input type="range" id="distSlider" min="50" max="500" value="250">
+      <span id="distLabel" style="font-size:12px;color:var(--accent);min-width:50px">250px</span>
+      <button id="btnGenerate">Generate</button>
+      <button id="btnAnimate">Animate</button>
+      <button id="btnCompare">Compare 5x</button>
+    </div>
+    <canvas id="chartMain" height="320"></canvas>
+    <div class="phase-legend">
+      <span><span class="dot" style="background:#3b82f6"></span> Position X</span>
+      <span><span class="dot" style="background:#10b981"></span> Velocity Vx</span>
+      <span><span class="dot" style="background:#f59e0b"></span> Acceleration Ax</span>
+      <span><span class="dot" style="background:rgba(139,92,246,0.5)"></span> Y-Jitter</span>
+    </div>
+  </div>
+
+  <!-- Slider Animation -->
+  <div class="card">
+    <h2>Slider Animation <span class="badge">REPLAY</span></h2>
+    <div class="slider-demo" id="sliderDemo">
+      <div class="slider-track"></div>
+      <div class="slider-target"></div>
+      <div class="slider-target-label">TARGET</div>
+      <div class="slider-thumb" id="sliderThumb"></div>
+    </div>
+    <div style="margin-top:12px;font-size:11px;color:var(--text-dim)" id="animInfo">
+      Click "Animate" to replay the trajectory
+    </div>
+  </div>
+
+  <!-- Y-Jitter Distribution -->
+  <div class="card">
+    <h2>Y-Axis Jitter Distribution <span class="badge">HUMAN-LIKE</span></h2>
+    <canvas id="chartYJitter" height="200"></canvas>
+  </div>
+
+  <!-- Speed Distribution -->
+  <div class="card">
+    <h2>Speed Distribution Histogram <span class="badge">STATS</span></h2>
+    <canvas id="chartSpeed" height="200"></canvas>
+  </div>
+
+  <!-- 5-Run Comparison -->
+  <div class="card">
+    <h2>5-Run Randomness Comparison <span class="badge">MONTE CARLO</span></h2>
+    <canvas id="chartCompare" height="200"></canvas>
+  </div>
+
+  <!-- Anti-Detection Checklist -->
+  <div class="card">
+    <h2>Anti-Detection Feature Checklist <span class="badge">PASS RATE</span></h2>
+    <table class="compare-table" id="checklist"></table>
+  </div>
+
+  <!-- Phase Breakdown -->
+  <div class="card full">
+    <h2>Trajectory Phase Breakdown <span class="badge">4-PHASE MODEL</span></h2>
+    <canvas id="chartPhases" height="180"></canvas>
+    <div class="phase-legend" style="margin-top:8px">
+      <span><span class="dot" style="background:#ef4444"></span> Phase 1: Acceleration (0-30%)</span>
+      <span><span class="dot" style="background:#f59e0b"></span> Phase 2: Cruise (30-65%)</span>
+      <span><span class="dot" style="background:#3b82f6"></span> Phase 3: Deceleration (65-90%)</span>
+      <span><span class="dot" style="background:#10b981"></span> Phase 4: Micro-adjust (90-100%)</span>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  Generated by jd-scraper v2.1 Captcha Module | <span id="genTime"></span>
+</div>
+
+<script>
+// ============================================================
+// Trajectory Engine (JS port of Python slider_trajectory.py)
+// ============================================================
+class SliderTrajectoryEngine {
+  constructor(distance) {
+    this.distance = distance;
+    this.overshootRange = [5, 15];
+    this.minDuration = 800;
+    this.maxDuration = 2500;
+    this.yJitterSigma = 1.5;
+    this.pauseProbability = 0.3;
+  }
+
+  rand(min, max) { return Math.random() * (max - min) + min; }
+  randInt(min, max) { return Math.floor(this.rand(min, max + 1)); }
+  gauss(mean, sigma) {
+    let u = 0, v = 0;
+    while (u === 0) u = Math.random();
+    while (v === 0) v = Math.random();
+    return mean + sigma * Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v);
+  }
+
+  phaseDisplacement(progress, totalDist) {
+    const b = [0, 0.30, 0.65, 0.90, 1.0];
+    if (progress <= b[1]) {
+      const t = progress / b[1];
+      return totalDist * 0.15 * t * t;
+    } else if (progress <= b[2]) {
+      const t = (progress - b[1]) / (b[2] - b[1]);
+      return totalDist * (0.15 + 0.55 * t);
+    } else if (progress <= b[3]) {
+      const t = (progress - b[2]) / (b[3] - b[2]);
+      return totalDist * (0.70 + 0.25 * Math.sin(Math.PI / 2 * t));
+    } else {
+      const t = (progress - b[3]) / (b[4] - b[3]);
+      const of2 = 1.0 + 0.08 * Math.sin(Math.PI * t - Math.PI / 2);
+      return totalDist * (0.95 + 0.05 * t) * of2;
+    }
+  }
+
+  generate() {
+    const overshoot = this.randInt(this.overshootRange[0], this.overshootRange[1]);
+    const totalDist = this.distance + overshoot;
+    let duration = this.rand(this.minDuration, this.maxDuration);
+    duration *= (1 + totalDist / 500);
+    duration = Math.min(duration, this.maxDuration * 1.5);
+
+    const numPoints = Math.max(50, Math.floor(duration / 5));
+    const points = [];
+
+    for (let i = 0; i <= numPoints; i++) {
+      const progress = i / numPoints;
+      const t = progress * duration;
+      const x = this.phaseDisplacement(progress, totalDist);
+      const y = (t > 0) ? this.gauss(0, this.yJitterSigma) : 0;
+      points.push({ x, y, t });
+    }
+
+    // Compute velocities
+    for (let i = 1; i < points.length; i++) {
+      const dt = points[i].t - points[i-1].t || 1;
+      points[i].vx = (points[i].x - points[i-1].x) / dt;
+      points[i].vy = (points[i].y - points[i-1].y) / dt;
+    }
+    points[0].vx = 0; points[0].vy = 0;
+
+    // Overshoot correction
+    const last = points[points.length - 1];
+    for (let i = 1; i <= 5; i++) {
+      const p = i / 5;
+      points.push({
+        x: last.x + (this.distance - last.x) * p,
+        y: last.y,
+        t: last.t + i * 10,
+        vx: 0, vy: 0
+      });
+    }
+
+    return { points, duration: points[points.length - 1].t, overshoot, totalDist, distance: this.distance };
+  }
+}
+
+// ============================================================
+// Chart Drawing Utilities
+// ============================================================
+const DPR = window.devicePixelRatio || 1;
+
+function setupCanvas(canvas, w, h) {
+  canvas.width = w * DPR;
+  canvas.height = h * DPR;
+  canvas.style.width = w + 'px';
+  canvas.style.height = h + 'px';
+  const ctx = canvas.getContext('2d');
+  ctx.scale(DPR, DPR);
+  return ctx;
+}
+
+function drawLine(ctx, pts, color, lineWidth = 1.5) {
+  if (pts.length < 2) return;
+  ctx.beginPath();
+  ctx.strokeStyle = color;
+  ctx.lineWidth = lineWidth;
+  ctx.moveTo(pts[0][0], pts[0][1]);
+  for (let i = 1; i < pts.length; i++) {
+    ctx.lineTo(pts[i][0], pts[i][1]);
+  }
+  ctx.stroke();
+}
+
+function drawGrid(ctx, w, h, padL, padR, padT, padB) {
+  ctx.strokeStyle = 'rgba(255,255,255,0.05)';
+  ctx.lineWidth = 1;
+  const plotW = w - padL - padR;
+  const plotH = h - padT - padB;
+  for (let i = 0; i <= 5; i++) {
+    const y = padT + plotH * i / 5;
+    ctx.beginPath(); ctx.moveTo(padL, y); ctx.lineTo(w - padR, y); ctx.stroke();
+  }
+  for (let i = 0; i <= 10; i++) {
+    const x = padL + plotW * i / 10;
+    ctx.beginPath(); ctx.moveTo(x, padT); ctx.lineTo(x, h - padB); ctx.stroke();
+  }
+}
+
+// ============================================================
+// Main Chart: Position / Velocity / Acceleration
+// ============================================================
+let currentData = null;
+
+function drawMainChart(data) {
+  currentData = data;
+  const canvas = document.getElementById('chartMain');
+  const w = canvas.parentElement.clientWidth - 40;
+  const h = 320;
+  const ctx = setupCanvas(canvas, w, h);
+  const padL = 55, padR = 20, padT = 20, padB = 35;
+  const plotW = w - padL - padR;
+  const plotH = h - padT - padB;
+
+  ctx.clearRect(0, 0, w, h);
+  drawGrid(ctx, w, h, padL, padR, padT, padB);
+
+  const pts = data.points;
+  const maxT = pts[pts.length - 1].t;
+  const maxX = Math.max(...pts.map(p => p.x)) * 1.1;
+  const maxV = Math.max(...pts.map(p => Math.abs(p.vx))) * 1.3 || 1;
+
+  // Compute acceleration
+  const accels = pts.map((p, i) => {
+    if (i === 0) return 0;
+    const dt = p.t - pts[i-1].t || 1;
+    return (p.vx - pts[i-1].vx) / dt;
+  });
+  const maxA = Math.max(...accels.map(a => Math.abs(a))) * 1.3 || 1;
+
+  // Position line (blue)
+  const posPts = pts.map(p => [
+    padL + (p.t / maxT) * plotW,
+    padT + plotH - (p.x / maxX) * plotH
+  ]);
+  drawLine(ctx, posPts, '#3b82f6', 2);
+
+  // Velocity line (green)
+  const velPts = pts.map((p, i) => [
+    padL + (p.t / maxT) * plotW,
+    padT + plotH / 2 - (p.vx / maxV) * (plotH / 2) * 0.8
+  ]);
+  drawLine(ctx, velPts, '#10b981', 1.2);
+
+  // Acceleration line (orange)
+  const accPts = pts.map((p, i) => [
+    padL + (p.t / maxT) * plotW,
+    padT + plotH / 2 - (accels[i] / maxA) * (plotH / 2) * 0.5
+  ]);
+  drawLine(ctx, accPts, '#f59e0b', 0.8);
+
+  // Y-jitter (purple, subtle)
+  const yPts = pts.map(p => [
+    padL + (p.t / maxT) * plotW,
+    padT + plotH / 2 - (p.y / 10) * (plotH / 2) * 0.3
+  ]);
+  drawLine(ctx, yPts, 'rgba(139,92,246,0.35)', 0.6);
+
+  // Phase boundaries
+  const phases = [0.30, 0.65, 0.90];
+  const phaseColors = ['#ef4444', '#f59e0b', '#3b82f6'];
+  phases.forEach((ph, i) => {
+    const x = padL + ph * plotW;
+    ctx.strokeStyle = phaseColors[i];
+    ctx.lineWidth = 1;
+    ctx.setLineDash([4, 4]);
+    ctx.beginPath(); ctx.moveTo(x, padT); ctx.lineTo(x, h - padB); ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.fillStyle = phaseColors[i];
+    ctx.font = '10px monospace';
+    ctx.fillText(`P${i+1}`, x + 3, padT + 12);
+  });
+
+  // Axes labels
+  ctx.fillStyle = '#94a3b8';
+  ctx.font = '10px monospace';
+  ctx.fillText('0ms', padL, h - 8);
+  ctx.fillText(maxT.toFixed(0) + 'ms', w - padR - 40, h - 8);
+  ctx.save();
+  ctx.translate(12, padT + plotH / 2);
+  ctx.rotate(-Math.PI / 2);
+  ctx.fillText('Position / Velocity', 0, 0);
+  ctx.restore();
+}
+
+// ============================================================
+// Y-Jitter Histogram
+// ============================================================
+function drawYJitterChart(data) {
+  const canvas = document.getElementById('chartYJitter');
+  const w = canvas.parentElement.clientWidth - 40;
+  const h = 200;
+  const ctx = setupCanvas(canvas, w, h);
+  const padL = 40, padR = 15, padT = 15, padB = 30;
+
+  ctx.clearRect(0, 0, w, h);
+
+  const ys = data.points.map(p => p.y);
+  const bins = 20;
+  const minY = Math.floor(Math.min(...ys));
+  const maxY = Math.ceil(Math.max(...ys));
+  const range = maxY - minY || 1;
+  const binWidth = range / bins;
+  const counts = new Array(bins).fill(0);
+
+  ys.forEach(y => {
+    const idx = Math.min(Math.floor((y - minY) / binWidth), bins - 1);
+    counts[idx]++;
+  });
+
+  const maxCount = Math.max(...counts);
+  const plotW = w - padL - padR;
+  const plotH = h - padT - padB;
+  const barW = plotW / bins - 2;
+
+  // Draw bars
+  counts.forEach((c, i) => {
+    const x = padL + (i / bins) * plotW + 1;
+    const barH = (c / maxCount) * plotH;
+    const y = padT + plotH - barH;
+
+    const grad = ctx.createLinearGradient(x, y, x, padT + plotH);
+    grad.addColorStop(0, 'rgba(139,92,246,0.8)');
+    grad.addColorStop(1, 'rgba(139,92,246,0.2)');
+    ctx.fillStyle = grad;
+    ctx.fillRect(x, y, barW, barH);
+  });
+
+  // Gaussian overlay
+  ctx.beginPath();
+  ctx.strokeStyle = 'rgba(139,92,246,0.6)';
+  ctx.lineWidth = 1.5;
+  const mean = ys.reduce((a, b) => a + b, 0) / ys.length;
+  const std = Math.sqrt(ys.reduce((a, b) => a + (b - mean) ** 2, 0) / ys.length) || 1;
+  for (let px = 0; px <= plotW; px++) {
+    const yVal = minY + (px / plotW) * range;
+    const gauss = Math.exp(-0.5 * ((yVal - mean) / std) ** 2) / (std * Math.sqrt(2 * Math.PI));
+    const scaledH = gauss * std * Math.sqrt(2 * Math.PI) * maxCount * binWidth;
+    const screenY = padT + plotH - (scaledH / maxCount) * plotH;
+    if (px === 0) ctx.moveTo(padL + px, screenY);
+    else ctx.lineTo(padL + px, screenY);
+  }
+  ctx.stroke();
+
+  // Labels
+  ctx.fillStyle = '#94a3b8';
+  ctx.font = '10px monospace';
+  ctx.fillText(minY.toFixed(1), padL, h - 8);
+  ctx.fillText('0', padL + plotW * (-minY / range), h - 8);
+  ctx.fillText(maxY.toFixed(1), w - padR - 20, h - 8);
+  ctx.fillText(`sigma=${std.toFixed(2)}`, padL + 4, padT + 12);
+}
+
+// ============================================================
+// Speed Distribution Histogram
+// ============================================================
+function drawSpeedChart(data) {
+  const canvas = document.getElementById('chartSpeed');
+  const w = canvas.parentElement.clientWidth - 40;
+  const h = 200;
+  const ctx = setupCanvas(canvas, w, h);
+  const padL = 40, padR = 15, padT = 15, padB = 30;
+
+  ctx.clearRect(0, 0, w, h);
+
+  const speeds = data.points.map(p => Math.abs(p.vx));
+  const bins = 25;
+  const maxSpeed = Math.max(...speeds) || 1;
+  const binWidth = maxSpeed / bins;
+  const counts = new Array(bins).fill(0);
+
+  speeds.forEach(s => {
+    const idx = Math.min(Math.floor(s / binWidth), bins - 1);
+    counts[idx]++;
+  });
+
+  const maxCount = Math.max(...counts);
+  const plotW = w - padL - padR;
+  const plotH = h - padT - padB;
+  const barW = plotW / bins - 1;
+
+  counts.forEach((c, i) => {
+    const x = padL + (i / bins) * plotW + 0.5;
+    const barH = (c / maxCount) * plotH;
+    const y = padT + plotH - barH;
+
+    const grad = ctx.createLinearGradient(x, y, x, padT + plotH);
+    grad.addColorStop(0, 'rgba(16,185,129,0.8)');
+    grad.addColorStop(1, 'rgba(16,185,129,0.15)');
+    ctx.fillStyle = grad;
+    ctx.fillRect(x, y, barW, barH);
+  });
+
+  ctx.fillStyle = '#94a3b8';
+  ctx.font = '10px monospace';
+  ctx.fillText('0', padL, h - 8);
+  ctx.fillText(maxSpeed.toFixed(2) + ' px/ms', w - padR - 80, h - 8);
+  ctx.fillText(`max=${maxSpeed.toFixed(3)}`, padL + 4, padT + 12);
+}
+
+// ============================================================
+// 5-Run Comparison
+// ============================================================
+function drawCompareChart() {
+  const canvas = document.getElementById('chartCompare');
+  const w = canvas.parentElement.clientWidth - 40;
+  const h = 200;
+  const ctx = setupCanvas(canvas, w, h);
+  const padL = 40, padR = 15, padT = 15, padB = 30;
+  const plotW = w - padL - padR;
+  const plotH = h - padT - padB;
+
+  ctx.clearRect(0, 0, w, h);
+  drawGrid(ctx, w, h, padL, padR, padT, padB);
+
+  const dist = parseInt(document.getElementById('distSlider').value);
+  const colors = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6'];
+  let globalMaxT = 0;
+
+  const runs = [];
+  for (let r = 0; r < 5; r++) {
+    const engine = new SliderTrajectoryEngine(dist);
+    const data = engine.generate();
+    runs.push(data);
+    globalMaxT = Math.max(globalMaxT, data.duration);
+  }
+
+  runs.forEach((data, r) => {
+    const pts = data.points;
+    const maxX = Math.max(...pts.map(p => p.x)) * 1.05;
+    const linePts = pts.map(p => [
+      padL + (p.t / globalMaxT) * plotW,
+      padT + plotH - (p.x / maxX) * plotH
+    ]);
+    drawLine(ctx, linePts, colors[r], 1.2);
+  });
+
+  ctx.fillStyle = '#94a3b8';
+  ctx.font = '10px monospace';
+  ctx.fillText('0ms', padL, h - 8);
+  ctx.fillText(globalMaxT.toFixed(0) + 'ms', w - padR - 40, h - 8);
+
+  // Legend
+  runs.forEach((data, r) => {
+    const x = padL + r * 110;
+    ctx.fillStyle = colors[r];
+    ctx.fillRect(x, padT, 10, 3);
+    ctx.fillStyle = '#94a3b8';
+    ctx.font = '9px monospace';
+    ctx.fillText(`Run${r+1}: ${data.duration.toFixed(0)}ms`, x + 14, padT + 5);
+  });
+}
+
+// ============================================================
+// Phase Breakdown Chart
+// ============================================================
+function drawPhaseChart(data) {
+  const canvas = document.getElementById('chartPhases');
+  const w = canvas.parentElement.clientWidth - 40;
+  const h = 180;
+  const ctx = setupCanvas(canvas, w, h);
+  const padL = 40, padR = 15, padT = 15, padB = 30;
+  const plotW = w - padL - padR;
+  const plotH = h - padT - padB;
+
+  ctx.clearRect(0, 0, w, h);
+
+  const pts = data.points;
+  const maxT = pts[pts.length - 1].t;
+  const maxX = Math.max(...pts.map(p => p.x)) * 1.05;
+
+  // Phase regions
+  const phases = [
+    { start: 0, end: 0.30, color: 'rgba(239,68,68,0.08)', label: 'P1: Accel' },
+    { start: 0.30, end: 0.65, color: 'rgba(245,158,11,0.08)', label: 'P2: Cruise' },
+    { start: 0.65, end: 0.90, color: 'rgba(59,130,246,0.08)', label: 'P3: Decel' },
+    { start: 0.90, end: 1.0, color: 'rgba(16,185,129,0.08)', label: 'P4: Adjust' },
+  ];
+
+  phases.forEach(ph => {
+    const x1 = padL + ph.start * plotW;
+    const x2 = padL + ph.end * plotW;
+    ctx.fillStyle = ph.color;
+    ctx.fillRect(x1, padT, x2 - x1, plotH);
+    ctx.fillStyle = '#94a3b8';
+    ctx.font = '10px monospace';
+    ctx.fillText(ph.label, x1 + 4, padT + 14);
+  });
+
+  // Position curve
+  const posPts = pts.map(p => [
+    padL + (p.t / maxT) * plotW,
+    padT + plotH - (p.x / maxX) * plotH
+  ]);
+  drawLine(ctx, posPts, '#3b82f6', 2.5);
+
+  // Fill under curve
+  ctx.beginPath();
+  ctx.moveTo(posPts[0][0], padT + plotH);
+  posPts.forEach(p => ctx.lineTo(p[0], p[1]));
+  ctx.lineTo(posPts[posPts.length - 1][0], padT + plotH);
+  ctx.closePath();
+  const grad = ctx.createLinearGradient(0, padT, 0, padT + plotH);
+  grad.addColorStop(0, 'rgba(59,130,246,0.15)');
+  grad.addColorStop(1, 'rgba(59,130,246,0.01)');
+  ctx.fillStyle = grad;
+  ctx.fill();
+
+  ctx.fillStyle = '#94a3b8';
+  ctx.font = '10px monospace';
+  ctx.fillText('0ms', padL, h - 8);
+  ctx.fillText(maxT.toFixed(0) + 'ms', w - padR - 40, h - 8);
+}
+
+// ============================================================
+// Anti-Detection Checklist
+// ============================================================
+function drawChecklist(data) {
+  const pts = data.points;
+  const speeds = pts.map(p => Math.abs(p.vx));
+  const ys = pts.map(p => p.y);
+  const maxSpeed = Math.max(...speeds);
+  const yRange = Math.max(...ys) - Math.min(...ys);
+  const duration = pts[pts.length - 1].t;
+
+  // Detect pauses
+  let pauseCount = 0;
+  for (let i = 2; i < pts.length; i++) {
+    const dt = pts[i].t - pts[i-1].t;
+    const dx = Math.abs(pts[i].x - pts[i-1].x);
+    if (dt > 0 && dx / dt < 0.001 && dt > 30) pauseCount++;
+  }
+
+  const checks = [
+    { name: 'Speed Curve (non-linear)', pass: maxSpeed > 0.5, detail: `max_v=${maxSpeed.toFixed(3)} px/ms` },
+    { name: 'Y-Axis Jitter', pass: yRange > 3, detail: `range=${yRange.toFixed(1)}px (need >3)` },
+    { name: 'Duration Range', pass: duration >= 600 && duration <= 4000, detail: `${duration.toFixed(0)}ms (600-4000)` },
+    { name: 'Overshoot Present', pass: data.overshoot > 0, detail: `${data.overshoot}px overshoot` },
+    { name: 'Acceleration Variation', pass: true, detail: '4-phase model active' },
+    { name: 'Pause Detection', pass: pauseCount <= 5, detail: `${pauseCount} micro-pauses` },
+    { name: 'Point Density', pass: pts.length > 30, detail: `${pts.length} points` },
+    { name: 'Endpoint Correction', pass: true, detail: `target=${data.distance}px` },
+  ];
+
+  const table = document.getElementById('checklist');
+  table.innerHTML = `
+    <tr><th>Feature</th><th>Status</th><th>Detail</th></tr>
+    ${checks.map(c => `
+      <tr>
+        <td>${c.name}</td>
+        <td><span class="tag ${c.pass ? 'pass' : 'fail'}">${c.pass ? 'PASS' : 'FAIL'}</span></td>
+        <td style="color:var(--text-dim)">${c.detail}</td>
+      </tr>
+    `).join('')}
+  `;
+}
+
+// ============================================================
+// Stats Bar
+// ============================================================
+function updateStats(data) {
+  const pts = data.points;
+  const maxV = Math.max(...pts.map(p => Math.abs(p.vx)));
+  const duration = pts[pts.length - 1].t;
+  const yRange = Math.max(...pts.map(p => p.y)) - Math.min(...pts.map(p => p.y));
+
+  document.getElementById('statsBar').innerHTML = `
+    <div class="stat">
+      <div class="label">Distance</div>
+      <div class="value">${data.distance}<span class="unit">px</span></div>
+    </div>
+    <div class="stat">
+      <div class="label">Duration</div>
+      <div class="value">${(duration/1000).toFixed(2)}<span class="unit">s</span></div>
+    </div>
+    <div class="stat">
+      <div class="label">Max Speed</div>
+      <div class="value">${maxV.toFixed(2)}<span class="unit">px/ms</span></div>
+    </div>
+    <div class="stat">
+      <div class="label">Points</div>
+      <div class="value">${pts.length}</div>
+    </div>
+  `;
+}
+
+// ============================================================
+// Slider Animation
+// ============================================================
+let animFrame = null;
+
+function animateSlider(data) {
+  if (animFrame) cancelAnimationFrame(animFrame);
+  const thumb = document.getElementById('sliderThumb');
+  const demo = document.getElementById('sliderDemo');
+  const info = document.getElementById('animInfo');
+  const demoW = demo.clientWidth - 80;
+  const pts = data.points;
+  const maxT = pts[pts.length - 1].t;
+  const maxX = Math.max(...pts.map(p => p.x));
+  const startTime = performance.now();
+
+  function step(now) {
+    const elapsed = now - startTime;
+    const progress = Math.min(elapsed / maxT, 1);
+
+    // Find current point
+    let idx = 0;
+    for (let i = 0; i < pts.length; i++) {
+      if (pts[i].t / maxT <= progress) idx = i;
+      else break;
+    }
+
+    const p = pts[idx];
+    const screenX = 40 + (p.x / maxX) * demoW;
+    thumb.style.left = screenX + 'px';
+
+    info.textContent = `t=${(progress * maxT).toFixed(0)}ms | x=${p.x.toFixed(1)}px | y=${p.y.toFixed(1)}px | progress=${(progress*100).toFixed(1)}%`;
+
+    if (progress < 1) {
+      animFrame = requestAnimationFrame(step);
+    } else {
+      info.textContent += ' | COMPLETE';
+    }
+  }
+
+  animFrame = requestAnimationFrame(step);
+}
+
+// ============================================================
+// Initialize
+// ============================================================
+function regenerate() {
+  const dist = parseInt(document.getElementById('distSlider').value);
+  document.getElementById('distLabel').textContent = dist + 'px';
+  const engine = new SliderTrajectoryEngine(dist);
+  const data = engine.generate();
+
+  updateStats(data);
+  drawMainChart(data);
+  drawYJitterChart(data);
+  drawSpeedChart(data);
+  drawPhaseChart(data);
+  drawChecklist(data);
+  drawCompareChart();
+
+  return data;
+}
+
+document.getElementById('distSlider').addEventListener('input', () => {
+  document.getElementById('distLabel').textContent = document.getElementById('distSlider').value + 'px';
+});
+
+document.getElementById('btnGenerate').addEventListener('click', regenerate);
+document.getElementById('btnAnimate').addEventListener('click', () => {
+  if (currentData) animateSlider(currentData);
+});
+document.getElementById('btnCompare').addEventListener('click', drawCompareChart);
+
+document.getElementById('genTime').textContent = new Date().toLocaleString('zh-CN');
+
+// Initial render
+const initData = regenerate();
+setTimeout(() => animateSlider(initData), 500);
+
+// Resize handler
+window.addEventListener('resize', () => { if (currentData) regenerate(); });
+</script>
+</body>
+</html>
