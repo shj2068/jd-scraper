@@ -332,7 +332,7 @@ class JDAgent:
         report["services"].append({"name": "API 嗅探器", "status": "ok"})
 
         # 6. 检查 JSRPC 服务
-        jsrpc_url = self._config.get("jsrpc", {}).get("server_url", "http://localhost:3000")
+        jsrpc_url = self._config.get("jsrpc", {}).get("server_url", "http://localhost:3001")
         self._jsrpc_client = JSRPCClient(
             server_url=jsrpc_url, timeout=5.0
         )

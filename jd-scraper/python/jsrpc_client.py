@@ -23,7 +23,7 @@ class JSRPCClient:
 
     def __init__(
         self,
-        server_url: str = "http://localhost:3000",
+        server_url: str = "http://localhost:3001",
         timeout: float = 10.0,
         max_retries: int = 3,
         enable_fallback: bool = True,
@@ -253,7 +253,7 @@ class JSRPCClientFactory:
         """从配置创建客户端"""
         jsrpc_config = config.get("jsrpc", {})
         return JSRPCClient(
-            server_url=jsrpc_config.get("server_url", "http://localhost:3000"),
+            server_url=jsrpc_config.get("server_url", "http://localhost:3001"),
             timeout=jsrpc_config.get("timeout", 10.0),
             max_retries=jsrpc_config.get("retry", 3),
         )

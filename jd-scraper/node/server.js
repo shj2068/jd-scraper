@@ -12,7 +12,7 @@ const rateLimit = require('express-rate-limit');
 const { BrowserPool } = require('./browser_pool');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 // 中间件
 app.use(express.json({ limit: '1mb' }));

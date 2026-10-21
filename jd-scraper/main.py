@@ -72,7 +72,7 @@ def cmd_jsrpc_check(args):
     print("=" * 50)
 
     config = _load_config_safe()
-    server_url = config.get("jsrpc", {}).get("server_url", "http://localhost:3000")
+    server_url = config.get("jsrpc", {}).get("server_url", "http://localhost:3001")
 
     client = JSRPCClient(server_url=server_url, timeout=5.0)
 
@@ -226,7 +226,7 @@ def cmd_status(args):
     print(f"  服务目录: {'存在' if node_dir.exists() else '不存在'}")
 
     config = _load_config_safe()
-    server_url = config.get("jsrpc", {}).get("server_url", "http://localhost:3000")
+    server_url = config.get("jsrpc", {}).get("server_url", "http://localhost:3001")
     client = JSRPCClient(server_url=server_url, timeout=3.0)
     is_healthy = client.check_health()
     print(f"  服务状态: {'运行中' if is_healthy else '未启动'}")

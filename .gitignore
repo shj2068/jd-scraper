@@ -1,0 +1,66 @@
+# AI code tracker
+.ai-code-tracker.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# jd-scraper: sensitive data
+jd-scraper/data/cookies/
+
+# jd-scraper: large/intermediate data (regenerable)
+jd-scraper/data/raw_*.json
+jd-scraper/data/all_pages_*.json
+jd-scraper/data/merged_*.json
+jd-scraper/data/jd_*.json
+jd-scraper/data/api_*.json
+jd-scraper/data/debug_*.json
+jd-scraper/data/intercepted_*.json
+jd-scraper/data/*.png
+jd-scraper/data/*.log
+jd-scraper/data/*_latest.json
+
+# jd-scraper: Node.js
+jd-scraper/node/node_modules/
