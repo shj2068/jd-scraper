@@ -1,0 +1,16 @@
+[
+  {
+    "fid": "dsm.base.service.ducc.query",
+    "code": "2",
+    "echo": "the current API does not exist",
+    "has_data": false,
+    "raw": "{\"code\": \"2\", \"echo\": \"the current API does not exist\"}"
+  },
+  {
+    "fid": "pop.vender.cooperation",
+    "code": "2",
+    "echo": "the current API does not exist",
+    "has_data": false,
+    "raw": "{\"code\": \"2\", \"echo\": \"the current API does not exist\"}"
+  }
+]

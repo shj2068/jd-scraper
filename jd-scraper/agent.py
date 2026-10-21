@@ -28,6 +28,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 from python.sign import generate_sign
 from python.models import SignParams, JDRequest
+from python.tls_client import TLSClient
 from python.fingerprint import FingerprintGenerator
 from python.anti_detect import AntiDetect
 from python.cookie_manager import CookieManager
@@ -371,8 +372,14 @@ class JDAgent:
         report["services"].append({
             "name": "自进化引擎",
             "status": "ok",
-            "hint": f"经验库={self._experience_store.total_count}条",
         })
+
+        # 9. 初始化 TLS 客户端（用于真实 HTTP 请求）
+        self._tls_client = TLSClient(
+            tls_preset=self._config.get("anti_detect", {}).get("tls_fingerprint", "chrome118"),
+            timeout=30.0,
+        )
+        report["services"].append({"name": "TLS 客户端", "status": "ok"})
 
         return report
 
@@ -484,7 +491,7 @@ class JDAgent:
         use_jsrpc: bool = True,
     ) -> Dict[str, Any]:
         """
-        Phase 5: 执行单次数据采集
+        Phase 5: 执行单次数据采集（含真实 HTTP 请求）
 
         Args:
             function_id: API functionId
@@ -492,7 +499,7 @@ class JDAgent:
             use_jsrpc: 是否使用 JSRPC 签名
 
         Returns:
-            采集结果
+            采集结果（含真实响应数据）
         """
         self.state.phase = AgentPhase.COLLECTING
         self.state.total_requests += 1
@@ -525,24 +532,92 @@ class JDAgent:
                     "uuid": uuid,
                 }
 
-            self.state.success_requests += 1
+            # 发送真实 HTTP 请求
+            api_url = self._config.get("api", {}).get("base_url", "https://api.m.jd.com/")
+            headers = self._anti_detect.build_headers() if self._anti_detect else {}
+            headers["Content-Type"] = "application/x-www-form-urlencoded"
 
-            # 记录到监控器
-            if self._monitor:
-                self._monitor.record_sign_result(True)
+            resp = self._tls_client.post(
+                api_url,
+                data=params,
+                headers=headers,
+            )
 
-            result = {
-                "phase": "collection",
-                "status": "success",
-                "function_id": function_id,
-                "params_count": len(params),
-                "sign": sign,
-                "timestamp": t,
-                "strategy": self.state.sign_strategy or "local_sign",
-            }
+            status_code = resp.status_code
+            resp_body = resp.text
 
-            logger.info(f"采集成功: {function_id}")
-            return result
+            # 解析响应判断成功/失败
+            is_success = status_code == 200
+            error_type = None
+
+            if not is_success:
+                if status_code == 403:
+                    error_type = "ip_banned"
+                elif status_code == 429:
+                    error_type = "rate_limited"
+                elif status_code >= 500:
+                    error_type = "server_error"
+                else:
+                    error_type = f"http_{status_code}"
+
+            # 检查响应体中的错误码
+            if is_success:
+                try:
+                    resp_json = resp.json()
+                    code = resp_json.get("code")
+                    if code and code != 0:
+                        is_success = False
+                        msg = resp_json.get("msg", "")
+                        if "验证码" in msg or "滑块" in msg:
+                            error_type = "captcha"
+                        elif "Cookie" in msg or "登录" in msg:
+                            error_type = "cookie_expired"
+                        else:
+                            error_type = "api_error"
+                except Exception:
+                    pass
+
+            if is_success:
+                self.state.success_requests += 1
+                if self._monitor:
+                    self._monitor.record_sign_result(True)
+
+                result = {
+                    "phase": "collection",
+                    "status": "success",
+                    "function_id": function_id,
+                    "params_count": len(params),
+                    "sign": sign,
+                    "timestamp": t,
+                    "strategy": self.state.sign_strategy or "local_sign",
+                    "response": {
+                        "status_code": status_code,
+                        "body": resp_body[:2000],  # 截断避免过大
+                    },
+                }
+
+                logger.info(f"采集成功: {function_id}")
+                return result
+            else:
+                self.state.failed_requests += 1
+                self.state.errors.append(f"{error_type}: {resp_body[:200]}")
+
+                if self._monitor:
+                    self._monitor.record_sign_result(False)
+
+                logger.warning(f"采集失败 [{error_type}]: {function_id}")
+                return {
+                    "phase": "collection",
+                    "status": "error",
+                    "function_id": function_id,
+                    "error_type": error_type,
+                    "error": resp_body[:500],
+                    "response": {
+                        "status_code": status_code,
+                        "body": resp_body[:2000],
+                        "headers": dict(resp.headers),
+                    },
+                }
 
         except Exception as e:
             self.state.failed_requests += 1
@@ -551,11 +626,12 @@ class JDAgent:
             if self._monitor:
                 self._monitor.record_sign_result(False)
 
-            logger.error(f"采集失败: {function_id} → {e}")
+            logger.error(f"采集异常: {function_id} → {e}")
             return {
                 "phase": "collection",
                 "status": "error",
                 "function_id": function_id,
+                "error_type": "exception",
                 "error": str(e),
             }
 
@@ -597,8 +673,8 @@ class JDAgent:
 
         logger.info(f"[自进化] 采集失败，启动进化闭环: {function_id}")
 
-        # 构造失败响应（真实场景从网络响应获取，这里用模拟）
-        failure_response = simulated_response or {
+        # 使用真实响应数据（来自 collect() 返回的 response）
+        failure_response = result.get("response", {}) or {
             "status_code": 403,
             "body": result.get("error", "unknown error"),
             "headers": {},

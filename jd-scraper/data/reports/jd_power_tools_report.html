@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>京东电动工具电商数据采集报告</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif; background: #0f1923; color: #e0e6ed; padding: 20px; }
+.container { max-width: 1200px; margin: 0 auto; }
+.header { text-align: center; padding: 30px 0; border-bottom: 1px solid #1e2d3d; margin-bottom: 30px; }
+.header h1 { font-size: 28px; color: #e74c3c; margin-bottom: 8px; }
+.header .meta { color: #7f8c9b; font-size: 14px; }
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 30px; }
+.stat-card { background: #1a2736; border-radius: 12px; padding: 20px; text-align: center; border: 1px solid #253545; }
+.stat-card .value { font-size: 32px; font-weight: 700; color: #e74c3c; }
+.stat-card .label { font-size: 13px; color: #7f8c9b; margin-top: 4px; }
+.section { background: #1a2736; border-radius: 12px; padding: 24px; margin-bottom: 24px; border: 1px solid #253545; }
+.section h2 { font-size: 18px; color: #3498db; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid #253545; }
+.bar-chart { display: flex; flex-direction: column; gap: 10px; }
+.bar-row { display: flex; align-items: center; gap: 12px; }
+.bar-label { width: 100px; text-align: right; font-size: 13px; color: #b0bec5; flex-shrink: 0; }
+.bar-track { flex: 1; height: 28px; background: #0f1923; border-radius: 6px; overflow: hidden; position: relative; }
+.bar-fill { height: 100%; border-radius: 6px; display: flex; align-items: center; padding-left: 10px; font-size: 12px; font-weight: 600; color: #fff; transition: width 0.8s ease; min-width: 40px; }
+.bar-value { width: 60px; font-size: 13px; color: #7f8c9b; text-align: left; }
+table { width: 100%; border-collapse: collapse; }
+th { text-align: left; padding: 10px 12px; font-size: 12px; color: #7f8c9b; text-transform: uppercase; border-bottom: 2px solid #253545; }
+td { padding: 10px 12px; font-size: 13px; border-bottom: 1px solid #1e2d3d; }
+tr:hover td { background: #1e2d3d; }
+.price { color: #e74c3c; font-weight: 600; }
+.brand-tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+.shop-name { color: #3498db; font-size: 12px; }
+.review { color: #f39c12; font-size: 12px; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+@media (max-width: 768px) { .two-col { grid-template-columns: 1fr; } }
+.price-dist { display: flex; gap: 8px; flex-wrap: wrap; }
+.price-bucket { background: #0f1923; border-radius: 8px; padding: 12px 16px; text-align: center; flex: 1; min-width: 120px; border: 1px solid #253545; }
+.price-bucket .count { font-size: 24px; font-weight: 700; color: #e74c3c; }
+.price-bucket .range { font-size: 12px; color: #7f8c9b; margin-top: 4px; }
+.footer { text-align: center; padding: 20px; color: #4a5568; font-size: 12px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>京东电动工具电商数据采集报告</h1>
+    <div class="meta">采集时间: 2026-10-21 22:06:22 | 关键词: 电钻 + 电动工具 | 排序: 销量 | 来源: search.jd.com</div>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat-card"><div class="value">34</div><div class="label">采集商品数</div></div>
+    <div class="stat-card"><div class="value">13</div><div class="label">品牌数量</div></div>
+    <div class="stat-card"><div class="value">15</div><div class="label">店铺数量</div></div>
+    <div class="stat-card"><div class="value">&yen;142</div><div class="label">平均价格</div></div>
+    <div class="stat-card"><div class="value">&yen;8</div><div class="label">最低价格</div></div>
+    <div class="stat-card"><div class="value">&yen;395</div><div class="label">最高价格</div></div>
+  </div>
+
+  <div class="two-col">
+    <div class="section">
+      <h2>品牌分布 (按商品数量)</h2>
+      <div class="bar-chart">
+        <div class="bar-row">
+          <div class="bar-label">东成</div>
+          <div class="bar-track"><div class="bar-fill" style="width:100.0%;background:#e74c3c">8</div></div>
+          <div class="bar-value">23.5%</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">其他</div>
+          <div class="bar-track"><div class="bar-fill" style="width:62.5%;background:#95a5a6">5</div></div>
+          <div class="bar-value">14.7%</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">德力西电气</div>
+          <div class="bar-track"><div class="bar-fill" style="width:50.0%;background:#3498db">4</div></div>
+          <div class="bar-value">11.8%</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">博世</div>
+          <div class="bar-track"><div class="bar-fill" style="width:50.0%;background:#2ecc71">4</div></div>
+          <div class="bar-value">11.8%</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">得力</div>
+          <div class="bar-track"><div class="bar-fill" style="width:25.0%;background:#f39c12">2</div></div>
+          <div class="bar-value">5.9%</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">班帝森</div>
+          <div class="bar-track"><div class="bar-fill" style="width:25.0%;background:#9b59b6">2</div></div>
+          <div class="bar-value">5.9%</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">爱瑞德</div>
+          <div class="bar-track"><div class="bar-fill" style="width:25.0%;background:#e67e22">2</div></div>
+          <div class="bar-value">5.9%</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">欧莱德</div>
+          <div class="bar-track"><div class="bar-fill" style="width:25.0%;background:#1abc9c">2</div></div>
+          <div class="bar-value">5.9%</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">优力特</div>
+          <div class="bar-track"><div class="bar-fill" style="width:12.5%;background:#34495e">1</div></div>
+          <div class="bar-value">2.9%</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">上海人民</div>
+          <div class="bar-track"><div class="bar-fill" style="width:12.5%;background:#d35400">1</div></div>
+          <div class="bar-value">2.9%</div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <h2>品牌均价排行</h2>
+      <div class="bar-chart">
+        <div class="bar-row">
+          <div class="bar-label">光宸</div>
+          <div class="bar-track"><div class="bar-fill" style="width:100.0%;background:#8e44ad">&yen;297</div></div>
+          <div class="bar-value">1件</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">博世</div>
+          <div class="bar-track"><div class="bar-fill" style="width:77.77777777777779%;background:#2ecc71">&yen;231</div></div>
+          <div class="bar-value">4件</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">东成</div>
+          <div class="bar-track"><div class="bar-fill" style="width:54.882154882154886%;background:#e74c3c">&yen;163</div></div>
+          <div class="bar-value">8件</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">班帝森</div>
+          <div class="bar-track"><div class="bar-fill" style="width:51.515151515151516%;background:#9b59b6">&yen;153</div></div>
+          <div class="bar-value">2件</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">其他</div>
+          <div class="bar-track"><div class="bar-fill" style="width:46.12794612794613%;background:#95a5a6">&yen;137</div></div>
+          <div class="bar-value">5件</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">德力西电气</div>
+          <div class="bar-track"><div class="bar-fill" style="width:40.74074074074074%;background:#3498db">&yen;121</div></div>
+          <div class="bar-value">4件</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">上海人民</div>
+          <div class="bar-track"><div class="bar-fill" style="width:40.06734006734007%;background:#d35400">&yen;119</div></div>
+          <div class="bar-value">1件</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">得力</div>
+          <div class="bar-track"><div class="bar-fill" style="width:31.313131313131315%;background:#f39c12">&yen;93</div></div>
+          <div class="bar-value">2件</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">欧莱德</div>
+          <div class="bar-track"><div class="bar-fill" style="width:29.629629629629626%;background:#1abc9c">&yen;88</div></div>
+          <div class="bar-value">2件</div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label">亚特</div>
+          <div class="bar-track"><div class="bar-fill" style="width:26.262626262626267%;background:#16a085">&yen;78</div></div>
+          <div class="bar-value">1件</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>价格区间分布</h2>
+    <div class="price-dist">
+      <div class="price-bucket">
+        <div class="count">1</div>
+        <div class="range">¥0-50</div>
+      </div>
+      <div class="price-bucket">
+        <div class="count">10</div>
+        <div class="range">¥50-100</div>
+      </div>
+      <div class="price-bucket">
+        <div class="count">13</div>
+        <div class="range">¥100-150</div>
+      </div>
+      <div class="price-bucket">
+        <div class="count">4</div>
+        <div class="range">¥150-200</div>
+      </div>
+      <div class="price-bucket">
+        <div class="count">4</div>
+        <div class="range">¥200-300</div>
+      </div>
+      <div class="price-bucket">
+        <div class="count">2</div>
+        <div class="range">¥300+</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>店铺排名 TOP 10 (按商品数量)</h2>
+    <div class="bar-chart">
+      <div class="bar-row">
+        <div class="bar-label" style="width:200px" title="东成电动工具京东自营旗舰店">东成电动工具</div>
+        <div class="bar-track"><div class="bar-fill" style="width:100.0%;background:#3498db">6</div></div>
+        <div class="bar-value">6件</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label" style="width:200px" title="博世电动工具京东自营旗舰店">博世电动工具</div>
+        <div class="bar-track"><div class="bar-fill" style="width:66.66666666666666%;background:#3498db">4</div></div>
+        <div class="bar-value">4件</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label" style="width:200px" title="京喜自营官方店">京喜自营官方店</div>
+        <div class="bar-track"><div class="bar-fill" style="width:50.0%;background:#3498db">3</div></div>
+        <div class="bar-value">3件</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label" style="width:200px" title="得力工具京东自营旗舰店">得力工具</div>
+        <div class="bar-track"><div class="bar-fill" style="width:33.33333333333333%;background:#3498db">2</div></div>
+        <div class="bar-value">2件</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label" style="width:200px" title="德力西电气电动工具京东自营旗舰店">德力西电气电动工具</div>
+        <div class="bar-track"><div class="bar-fill" style="width:33.33333333333333%;background:#3498db">2</div></div>
+        <div class="bar-value">2件</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label" style="width:200px" title="班帝森京东自营旗舰店">班帝森</div>
+        <div class="bar-track"><div class="bar-fill" style="width:33.33333333333333%;background:#3498db">2</div></div>
+        <div class="bar-value">2件</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label" style="width:200px" title="东成电动工具旗舰店">东成电动工具</div>
+        <div class="bar-track"><div class="bar-fill" style="width:33.33333333333333%;background:#3498db">2</div></div>
+        <div class="bar-value">2件</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label" style="width:200px" title="欧莱德（OULAIDE）京东自营旗舰店">欧莱德（OULAIDE）</div>
+        <div class="bar-track"><div class="bar-fill" style="width:33.33333333333333%;background:#3498db">2</div></div>
+        <div class="bar-value">2件</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label" style="width:200px" title="德力西电气工具京东自营旗舰店">德力西电气工具</div>
+        <div class="bar-track"><div class="bar-fill" style="width:16.666666666666664%;background:#3498db">1</div></div>
+        <div class="bar-value">1件</div>
+      </div>
+      <div class="bar-row">
+        <div class="bar-label" style="width:200px" title="优力特电动工具京东自营旗舰店">优力特电动工具</div>
+        <div class="bar-track"><div class="bar-fill" style="width:16.666666666666664%;background:#3498db">1</div></div>
+        <div class="bar-value">1件</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>全部商品明细 (按价格排序)</h2>
+    <table>
+      <thead>
+        <tr><th>#</th><th>品牌</th><th>商品名称</th><th>价格</th><th>店铺</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td><span class="brand-tag" style="background:#95a5a622;color:#95a5a6">其他</span></td>
+          <td title="充电式电动螺丝刀家用充电小型螺丝批锂电电钻工具 简单配置3件套装">充电式电动螺丝刀家用充电小型螺丝批锂电电钻工具 简单配置3件套装</td>
+          <td class="price">&yen;7.67</td>
+          <td class="shop-name">京喜自营官方店</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><span class="brand-tag" style="background:#27ae6022;color:#27ae60">星固</span></td>
+          <td title="星固手电钻家用电钻电动螺丝刀">星固手电钻家用电钻电动螺丝刀</td>
+          <td class="price">&yen;53.23</td>
+          <td class="shop-name">京喜自营官方店</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><span class="brand-tag" style="background:#1abc9c22;color:#1abc9c">欧莱德</span></td>
+          <td title="欧莱德充电电钻电动螺丝刀充电式双速锂电钻家用手钻电动工具手电钻">欧莱德充电电钻电动螺丝刀充电式双速锂电钻家用手钻电动工具手电钻</td>
+          <td class="price">&yen;56.68</td>
+          <td class="shop-name">欧莱德（OULAIDE）京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><span class="brand-tag" style="background:#95a5a622;color:#95a5a6">其他</span></td>
+          <td title="【德国品质】手电钻冲击钻家用手枪钻锂电多功能充电式电动螺丝刀">【德国品质】手电钻冲击钻家用手枪钻锂电多功能充电式电动螺丝刀</td>
+          <td class="price">&yen;60.66</td>
+          <td class="shop-name">京喜自营官方店</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><span class="brand-tag" style="background:#34495e22;color:#34495e">优力特</span></td>
+          <td title="优力特手电钻多功能家用大功率手枪钻打墙打孔电动工具冲击钻手持瓷砖">优力特手电钻多功能家用大功率手枪钻打墙打孔电动工具冲击钻手持瓷砖</td>
+          <td class="price">&yen;65.67</td>
+          <td class="shop-name">优力特电动工具京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td><span class="brand-tag" style="background:#e67e2222;color:#e67e22">爱瑞德</span></td>
+          <td title="爱瑞德手电钻家用充电电钻电动螺丝刀锂电起子螺丝批电转 电动工具">爱瑞德手电钻家用充电电钻电动螺丝刀锂电起子螺丝批电转 电动工具</td>
+          <td class="price">&yen;66.58</td>
+          <td class="shop-name">爱瑞德电动工具旗舰店</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td><span class="brand-tag" style="background:#e67e2222;color:#e67e22">爱瑞德</span></td>
+          <td title="爱瑞德充电电钻家用手电钻锂电池电动螺丝刀电起子螺丝批电转 电动工具">爱瑞德充电电钻家用手电钻锂电池电动螺丝刀电起子螺丝批电转 电动工具</td>
+          <td class="price">&yen;77.58</td>
+          <td class="shop-name">爱瑞德工具旗舰店</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td><span class="brand-tag" style="background:#16a08522;color:#16a085">亚特</span></td>
+          <td title="亚特 手电钻工具箱家用无级变速">亚特 手电钻工具箱家用无级变速</td>
+          <td class="price">&yen;77.98</td>
+          <td class="shop-name">亚特（YAT）京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td><span class="brand-tag" style="background:#f39c1222;color:#f39c12">得力</span></td>
+          <td title="得力（deli）电动螺丝刀充电式家用小型手电钻迷你电动螺丝批起子机25批头套装">得力（deli）电动螺丝刀充电式家用小型手电钻迷你电动螺丝批起子机25批头套装</td>
+          <td class="price">&yen;82.38</td>
+          <td class="shop-name">得力工具京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td><span class="brand-tag" style="background:#95a5a622;color:#95a5a6">其他</span></td>
+          <td title="大功率打孔手电钻冲击款">大功率打孔手电钻冲击款</td>
+          <td class="price">&yen;91.08</td>
+          <td class="shop-name">-</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td><span class="brand-tag" style="background:#3498db22;color:#3498db">德力西电气</span></td>
+          <td title="德力西电气手电钻锂电钻电动螺丝刀家用充电式手钻电起子电批电动工具箱套装">德力西电气手电钻锂电钻电动螺丝刀家用充电式手钻电起子电批电动工具箱套装</td>
+          <td class="price">&yen;96.78</td>
+          <td class="shop-name">德力西电气电动工具京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td><span class="brand-tag" style="background:#f39c1222;color:#f39c12">得力</span></td>
+          <td title="得力12V锂电钻套装">得力12V锂电钻套装</td>
+          <td class="price">&yen;103.42</td>
+          <td class="shop-name">得力工具京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td><span class="brand-tag" style="background:#3498db22;color:#3498db">德力西电气</span></td>
+          <td title="德力西家用电钻手电钻电动螺丝刀起子机交流电220v多功能打孔电动工具">德力西家用电钻手电钻电动螺丝刀起子机交流电220v多功能打孔电动工具</td>
+          <td class="price">&yen;106.68</td>
+          <td class="shop-name">德力西海若专卖店</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td><span class="brand-tag" style="background:#e74c3c22;color:#e74c3c">东成</span></td>
+          <td title="东成 手电钻家用多功能打孔">东成 手电钻家用多功能打孔</td>
+          <td class="price">&yen;109.45</td>
+          <td class="shop-name">东成电动工具京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td><span class="brand-tag" style="background:#1abc9c22;color:#1abc9c">欧莱德</span></td>
+          <td title="欧莱德无刷电钻手电钻电动螺丝刀充电式双速锂电钻家用手钻工具箱套装">欧莱德无刷电钻手电钻电动螺丝刀充电式双速锂电钻家用手钻工具箱套装</td>
+          <td class="price">&yen;118.62</td>
+          <td class="shop-name">欧莱德（OULAIDE）京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td><span class="brand-tag" style="background:#d3540022;color:#d35400">上海人民</span></td>
+          <td title="SRM上海人民多功能3000W大功率正品手电钻有线手枪钻冲击钻多功能转">SRM上海人民多功能3000W大功率正品手电钻有线手枪钻冲击钻多功能转</td>
+          <td class="price">&yen;119.00</td>
+          <td class="shop-name">-</td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td><span class="brand-tag" style="background:#e74c3c22;color:#e74c3c">东成</span></td>
+          <td title="东成手电钻WJZ400-10多功能家用电钻电动螺丝刀电动工具">东成手电钻WJZ400-10多功能家用电钻电动螺丝刀电动工具</td>
+          <td class="price">&yen;121.77</td>
+          <td class="shop-name">东成电动工具京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td><span class="brand-tag" style="background:#e74c3c22;color:#e74c3c">东成</span></td>
+          <td title="东成 锂电钻电动螺丝刀充电式手电钻多功能手枪钻家用套装电动工具 DCJZ1208B">东成 锂电钻电动螺丝刀充电式手电钻多功能手枪钻家用套装电动工具 DCJZ1208B</td>
+          <td class="price">&yen;123.62</td>
+          <td class="shop-name">东成电动工具旗舰店</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td><span class="brand-tag" style="background:#95a5a622;color:#95a5a6">其他</span></td>
+          <td title="大功率家用冲击钻">大功率家用冲击钻</td>
+          <td class="price">&yen;132.78</td>
+          <td class="shop-name">-</td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td><span class="brand-tag" style="background:#e74c3c22;color:#e74c3c">东成</span></td>
+          <td title="东成角磨机WSM710-100手磨机磨光机打磨机切割机电动工具">东成角磨机WSM710-100手磨机磨光机打磨机切割机电动工具</td>
+          <td class="price">&yen;134.18</td>
+          <td class="shop-name">东成电动工具京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>21</td>
+          <td><span class="brand-tag" style="background:#9b59b622;color:#9b59b6">班帝森</span></td>
+          <td title="班帝森手电钻家用充电电钻电动螺丝刀锂电池手枪钻电动起子电动工具">班帝森手电钻家用充电电钻电动螺丝刀锂电池手枪钻电动起子电动工具</td>
+          <td class="price">&yen;135.85</td>
+          <td class="shop-name">班帝森京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td><span class="brand-tag" style="background:#3498db22;color:#3498db">德力西电气</span></td>
+          <td title="德力西电气手电钻锂电充电式家用小型冲击手枪钻转多功能电动螺丝刀12V冲击">德力西电气手电钻锂电充电式家用小型冲击手枪钻转多功能电动螺丝刀12V冲击</td>
+          <td class="price">&yen;138.99</td>
+          <td class="shop-name">德力西电气电动工具京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>23</td>
+          <td><span class="brand-tag" style="background:#3498db22;color:#3498db">德力西电气</span></td>
+          <td title="德力西电气710W冲击钻">德力西电气710W冲击钻</td>
+          <td class="price">&yen;142.68</td>
+          <td class="shop-name">德力西电气工具京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>24</td>
+          <td><span class="brand-tag" style="background:#2ecc7122;color:#2ecc71">博世</span></td>
+          <td title="博世（BOSCH）400瓦高功率电钻金属瓷砖木材钻孔带自锁夹头便携家用BM380">博世（BOSCH）400瓦高功率电钻金属瓷砖木材钻孔带自锁夹头便携家用BM380</td>
+          <td class="price">&yen;147.18</td>
+          <td class="shop-name">博世电动工具京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>25</td>
+          <td><span class="brand-tag" style="background:#2ecc7122;color:#2ecc71">博世</span></td>
+          <td title="博世GBM 400 KLE 手电钻">博世GBM 400 KLE 手电钻</td>
+          <td class="price">&yen;150.43</td>
+          <td class="shop-name">博世电动工具京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>26</td>
+          <td><span class="brand-tag" style="background:#e74c3c22;color:#e74c3c">东成</span></td>
+          <td title="东成 锂电钻电动螺丝刀充电式手电钻多功能手枪钻家用套装电动工具 MJZ1201D">东成 锂电钻电动螺丝刀充电式手电钻多功能手枪钻家用套装电动工具 MJZ1201D</td>
+          <td class="price">&yen;157.06</td>
+          <td class="shop-name">东成电动工具旗舰店</td>
+        </tr>
+        <tr>
+          <td>27</td>
+          <td><span class="brand-tag" style="background:#9b59b622;color:#9b59b6">班帝森</span></td>
+          <td title="班帝森21V手电钻大功率锂电池家用电钻电动螺丝刀手枪钻电起子电动工具">班帝森21V手电钻大功率锂电池家用电钻电动螺丝刀手枪钻电起子电动工具</td>
+          <td class="price">&yen;170.00</td>
+          <td class="shop-name">班帝森京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>28</td>
+          <td><span class="brand-tag" style="background:#e74c3c22;color:#e74c3c">东成</span></td>
+          <td title="东成锂电钻WJZ1601D手电钻充电式电动螺丝刀起子机家用16V多功能套装">东成锂电钻WJZ1601D手电钻充电式电动螺丝刀起子机家用16V多功能套装</td>
+          <td class="price">&yen;172.90</td>
+          <td class="shop-name">东成电动工具京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>29</td>
+          <td><span class="brand-tag" style="background:#e74c3c22;color:#e74c3c">东成</span></td>
+          <td title="东成20V无刷手电钻">东成20V无刷手电钻</td>
+          <td class="price">&yen;227.46</td>
+          <td class="shop-name">东成电动工具京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>30</td>
+          <td><span class="brand-tag" style="background:#e74c3c22;color:#e74c3c">东成</span></td>
+          <td title="东成锂电钻WJZ1601S手电钻充电式电动螺丝刀起子机家用16V双电套装">东成锂电钻WJZ1601S手电钻充电式电动螺丝刀起子机家用16V双电套装</td>
+          <td class="price">&yen;257.38</td>
+          <td class="shop-name">东成电动工具京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>31</td>
+          <td><span class="brand-tag" style="background:#2ecc7122;color:#2ecc71">博世</span></td>
+          <td title="博世（BOSCH）冲击钻手电钻家装维修瓷砖木材金属砖墙钻孔600瓦插电式GSB 600">博世（BOSCH）冲击钻手电钻家装维修瓷砖木材金属砖墙钻孔600瓦插电式GSB 600</td>
+          <td class="price">&yen;258.33</td>
+          <td class="shop-name">博世电动工具京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>32</td>
+          <td><span class="brand-tag" style="background:#8e44ad22;color:#8e44ad">光宸</span></td>
+          <td title="光宸手电钻电动螺丝刀钻墙打孔锂电冲击钻手枪钻工具箱全套家用五金">光宸手电钻电动螺丝刀钻墙打孔锂电冲击钻手枪钻工具箱全套家用五金</td>
+          <td class="price">&yen;296.78</td>
+          <td class="shop-name">光宸京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>33</td>
+          <td><span class="brand-tag" style="background:#2ecc7122;color:#2ecc71">博世</span></td>
+          <td title="博世（BOSCH）手电钻16V锂电电动螺丝刀55牛米大扭矩起拧家用SR160两电一充">博世（BOSCH）手电钻16V锂电电动螺丝刀55牛米大扭矩起拧家用SR160两电一充</td>
+          <td class="price">&yen;366.78</td>
+          <td class="shop-name">博世电动工具京东自营旗舰店</td>
+        </tr>
+        <tr>
+          <td>34</td>
+          <td><span class="brand-tag" style="background:#95a5a622;color:#95a5a6">其他</span></td>
+          <td title="新款16V无刷锂电电钻充电式电动螺丝批钻家用多功能">新款16V无刷锂电电钻充电式电动螺丝批钻家用多功能</td>
+          <td class="price">&yen;394.78</td>
+          <td class="shop-name">-</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>搜索页品牌筛选区 (京东推荐)</h2>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;">
+      <span class="brand-tag" style="background:#e74c3c22;color:#e74c3c;padding:8px 16px;font-size:14px">东成</span>
+      <span class="brand-tag" style="background:#3498db22;color:#3498db;padding:8px 16px;font-size:14px">欧莱德</span>
+      <span class="brand-tag" style="background:#2ecc7122;color:#2ecc71;padding:8px 16px;font-size:14px">德力西电气</span>
+      <span class="brand-tag" style="background:#f39c1222;color:#f39c12;padding:8px 16px;font-size:14px">大有 Devon</span>
+      <span class="brand-tag" style="background:#9b59b622;color:#9b59b6;padding:8px 16px;font-size:14px">绿林 GREENER</span>
+      <span class="brand-tag" style="background:#1abc9c22;color:#1abc9c;padding:8px 16px;font-size:14px">博世 BOSCH</span>
+    </div>
+  </div>
+
+  <div class="footer">
+    京东电动工具电商数据采集报告 | 数据仅供研究参考 | jd-scraper v2.1
+  </div>
+</div>
+</body>
+</html>

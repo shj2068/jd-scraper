@@ -1,0 +1,22 @@
+{
+  "homepage_cookies": 8,
+  "homepage_url": "https://www.jd.com/",
+  "search_redirect": "ok",
+  "search_skus": 0,
+  "search_links": 0,
+  "search_images": 2,
+  "list_redirect": "ok",
+  "list_skus": 0,
+  "list_links": 0,
+  "list_json_skus": 0,
+  "mobile_redirect": "risk",
+  "h5_api": {
+    "size": 52,
+    "keys": [
+      "code",
+      "echo"
+    ]
+  },
+  "timestamp": "2026-10-07T18:42:21.067424",
+  "api_intercepted": 7
+}

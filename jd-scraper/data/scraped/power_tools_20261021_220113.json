@@ -1,0 +1,27 @@
+{
+  "collected_at": "2026-10-21T22:01:13.610260",
+  "keyword": "电动工具",
+  "sort": "销量",
+  "page": 1,
+  "total_pages": 100,
+  "total_products": 0,
+  "power_tools_count": 0,
+  "brand_filter": [
+    "东成",
+    "欧莱德",
+    "德力西电气（DELIXI ELECTRIC）",
+    "大有（Devon）",
+    "绿林（GREENER）",
+    "博世（BOSCH）"
+  ],
+  "brands": {},
+  "shops": {},
+  "price_stats": {
+    "min": 0,
+    "max": 0,
+    "avg": 0,
+    "count": 0
+  },
+  "power_tools": [],
+  "all_products": []
+}

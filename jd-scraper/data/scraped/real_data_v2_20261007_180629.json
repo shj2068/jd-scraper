@@ -1,0 +1,374 @@
+{
+  "categories": [
+    {
+      "id": "pro.jd.com/mall/active/BRoRGzLkihZSTRU96WLZGLk7FTV/index.html?babelChannel=ttt5",
+      "name": "设备固资",
+      "url": "vclist/jfs/t1/367906/31/1411/21351/691b0e95F4e36ee1c/1148746bbc3db876.png",
+      "type": "parent"
+    },
+    {
+      "id": "pro.jd.com/mall/active/3BTYRTRC86tV9nivuuke2F4XoCRY/index.html?babelChannel=ttt84",
+      "name": "电脑办公国补",
+      "url": "vclist/jfs/t1/351379/22/1449/37922/68bff56aFdfb4d92d/d63fda3a37ee3812.png",
+      "type": "parent"
+    },
+    {
+      "id": "pro.jd.com/mall/active/cXjt7XUhBP2kPVirtkiPXPKnHxn/index.html",
+      "name": "企业购",
+      "url": "vclist/jfs/t1/387807/20/2323/15463/69644cc9Ff9bc5e40/00591c00d0ffa885.jpg",
+      "type": "parent"
+    }
+  ],
+  "brands": [
+    {
+      "name": "海尔",
+      "url": "mall.jd.com/index-1000001782.html?from=pc"
+    },
+    {
+      "name": "美的",
+      "url": "mideajiadian.jd.com"
+    },
+    {
+      "name": "格力",
+      "url": "mall.jd.com/index-1000003445.html?from=pc"
+    },
+    {
+      "name": "TCL",
+      "url": "mall.jd.com/index-1000002816.html"
+    },
+    {
+      "name": "海信",
+      "url": "mall.jd.com/index-1000324421.html?from=pc"
+    },
+    {
+      "name": "小天鹅",
+      "url": "mall.jd.com/index-1000002505.html?from=pc"
+    },
+    {
+      "name": "老板",
+      "url": "mall.jd.com/index-1000001402.html?from=pc"
+    },
+    {
+      "name": "方太",
+      "url": "mall.jd.com/index-1000000907.html?from=pc"
+    },
+    {
+      "name": "联想长期",
+      "url": "mall.jd.com/index-1000000157.html?from=pc"
+    },
+    {
+      "name": "intel长期",
+      "url": "//mall.jd.com/index-1000007482.html?cpdad=1DLSUE"
+    },
+    {
+      "name": "Thinkpad长期",
+      "url": "mall.jd.com/index-1000000158.html"
+    },
+    {
+      "name": "机械革命",
+      "url": "mall.jd.com/index-1000000948.html"
+    },
+    {
+      "name": "华硕长期",
+      "url": "//mall.jd.com/index-1000000182.html"
+    },
+    {
+      "name": "得力",
+      "url": "mall.jd.com/index-1000001132.html?from=pc"
+    },
+    {
+      "name": "索尼11.11",
+      "url": "//mall.jd.com/index-1000000921.html"
+    },
+    {
+      "name": "华为",
+      "url": "//mall.jd.com/index-1000004259.html"
+    },
+    {
+      "name": "大疆4号",
+      "url": "//mall.jd.com/index-1000002350.html"
+    },
+    {
+      "name": "美的",
+      "url": "mideajiadian.jd.com"
+    },
+    {
+      "name": "九阳",
+      "url": "mall.jd.com/index-1000001782.html?from=pc"
+    },
+    {
+      "name": "科沃斯",
+      "url": "mall.jd.com/index-1000002989.html?from=pc"
+    },
+    {
+      "name": "石头",
+      "url": "mall.jd.com/index-1000092953.html?from=pc"
+    },
+    {
+      "name": "飞利浦",
+      "url": "shop.m.jd.com/?shopId=1000003691"
+    },
+    {
+      "name": "戴森",
+      "url": "mall.jd.com/index-1000003263.html?from=pc"
+    },
+    {
+      "name": "厨邦",
+      "url": "mall.jd.com/index-1000102442.html"
+    },
+    {
+      "name": "十月稻田",
+      "url": "mall.jd.com/index-1000014142.html"
+    },
+    {
+      "name": "多力",
+      "url": "mall.jd.com/view_search-627671-1000073422-1000073422-0-0-0-0-1-1-60.html"
+    },
+    {
+      "name": "川娃子",
+      "url": "mall.jd.com/index-1000164822.html"
+    },
+    {
+      "name": "SK-II",
+      "url": "mall.jd.com/index-1000009821.html?babelChannel=pcshouyefucenglogo"
+    },
+    {
+      "name": "修丽可",
+      "url": "mall.jd.com/index-1000209701.html?from=pc"
+    },
+    {
+      "name": "兰蔻",
+      "url": "mall.jd.com/index-1000306683.html?babelChannel=pcshouyefucenglogo"
+    },
+    {
+      "name": "皇家",
+      "url": "mall.jd.com/index-1000001706.html"
+    },
+    {
+      "name": "右1",
+      "url": "mall.jd.com/index-1000001683.html"
+    },
+    {
+      "name": "蓝月亮",
+      "url": "mall.jd.com/index-1000001195.html"
+    },
+    {
+      "name": "滴露",
+      "url": "dettol.jd.com"
+    },
+    {
+      "name": "右3",
+      "url": "mall.jd.com/index-1000008667.html?from=pc"
+    },
+    {
+      "name": "德力西",
+      "url": "mall.jd.com/index-1000369767.html?from=pc"
+    },
+    {
+      "name": "乐泰",
+      "url": "mall.jd.com/index-1000108008.html?from=pc"
+    },
+    {
+      "name": "林德",
+      "url": "mall.jd.com/index-1000123985.html?from=pc"
+    },
+    {
+      "name": "福禄克",
+      "url": "mall.jd.com/index-1000129321.html?from=pc"
+    },
+    {
+      "name": "世达",
+      "url": "mall.jd.com/index-1000412784.html?from=pc"
+    },
+    {
+      "name": "海康消防",
+      "url": "mall.jd.com/index-1000615816.html"
+    },
+    {
+      "name": "东成",
+      "url": "mall.jd.com/index-1000167941.html?from=pc"
+    },
+    {
+      "name": "3M",
+      "url": "mall.jd.com/index-1000147983.html?from=pc"
+    },
+    {
+      "name": "九牧",
+      "url": "mall.jd.com/index-1000001624.html?from=pc"
+    },
+    {
+      "name": "顾家",
+      "url": "//mall.jd.com/index-1000102063.html"
+    },
+    {
+      "name": "箭牌",
+      "url": "mall.jd.com/index-1000368187.html?from=pc"
+    },
+    {
+      "name": "全友",
+      "url": "mall.jd.com/index-1000104146.html?from=pc"
+    },
+    {
+      "name": "雷士",
+      "url": "mall.jd.com/index-1000085202.html?from=pc"
+    },
+    {
+      "name": "源氏木语",
+      "url": "shop.m.jd.com/shop/home?shopId=1000436264"
+    },
+    {
+      "name": "京悦暖",
+      "url": "//mall.jd.com/index-1000577270.html?from=pc"
+    },
+    {
+      "name": "京东生活家",
+      "url": "mall.jd.com/index-1000461812.html?from=pc"
+    },
+    {
+      "name": "J.Dear",
+      "url": "mall.jd.com/index-1000622994.html?from=pc"
+    },
+    {
+      "name": "爱仕达",
+      "url": "mall.jd.com/index-1000001662.html"
+    },
+    {
+      "name": "康巴赫",
+      "url": "pro.m.jd.com/mall/active/2dPira7jG2skXVd33nc98GPeTyjG/index.html"
+    },
+    {
+      "name": "水星家纺",
+      "url": "mall.jd.com/index-1000001764.html"
+    },
+    {
+      "name": "Lee京东自营旗舰店",
+      "url": "mall.jd.com/index-10584371.html?from=pc"
+    },
+    {
+      "name": "骆驼",
+      "url": "mall.jd.com/index-1000004021.html?from=pc"
+    },
+    {
+      "name": "FILA",
+      "url": "mall.jd.com/index-608668.html?from=pc"
+    },
+    {
+      "name": "优衣库",
+      "url": "mall.jd.com/index-18321579.html?from=pc"
+    },
+    {
+      "name": "波斯登",
+      "url": "mall.jd.com/index-1000384206.html?from=pc"
+    },
+    {
+      "name": "雅戈尔",
+      "url": "mall.jd.com/index-34914.html?from=pc"
+    },
+    {
+      "name": "海澜之家",
+      "url": "mall.jd.com/index-62888.html"
+    },
+    {
+      "name": "骆驼",
+      "url": "camelzy.jd.com"
+    },
+    {
+      "name": "ur",
+      "url": "mall.jd.com/index-11035956.html"
+    },
+    {
+      "name": "3",
+      "url": "mall.jd.com/index-33737.html?from=pc"
+    },
+    {
+      "name": "雪",
+      "url": "mall.jd.com/index-582590.html?from=pc"
+    },
+    {
+      "name": "鱼跃",
+      "url": "mall.jd.com/index-1000000946.html"
+    },
+    {
+      "name": "7",
+      "url": "mall.jd.com/index-692446.html"
+    },
+    {
+      "name": "一本",
+      "url": "mall.jd.com/index-1000008562.html?from=pc"
+    },
+    {
+      "name": "外研社",
+      "url": "jd-fltrp.jd.com/"
+    },
+    {
+      "name": "21世纪",
+      "url": "mall.jd.com/index-1000004050.html?from=pc"
+    },
+    {
+      "name": "人民文学",
+      "url": "mall.jd.com/index-1000005720.html?from=pc"
+    },
+    {
+      "name": "中华书局",
+      "url": "mall.jd.com/index-1000005734.html?from=pc"
+    },
+    {
+      "name": "中信",
+      "url": "mall.jd.com/index-1000004235.html?from=pc"
+    },
+    {
+      "name": "当当",
+      "url": "mall.jd.com/index-12384697.html?from=pc"
+    },
+    {
+      "name": "ck",
+      "url": "mall.jd.com/index-1000483801.html?from=pc"
+    },
+    {
+      "name": "百丽",
+      "url": "mall.jd.com/index-1000479483.html?from=pc"
+    },
+    {
+      "name": "泡泡玛特",
+      "url": "mall.jd.com/index-15997944.html?from=pc"
+    },
+    {
+      "name": "乐高",
+      "url": "mall.jd.com/index-1000001521.html"
+    },
+    {
+      "name": "雅马哈",
+      "url": "mall.jd.com/index-1000072692.html?from=pc"
+    },
+    {
+      "name": "罗兰",
+      "url": "mall.jd.com/index-10274548.html"
+    },
+    {
+      "name": "jellycat",
+      "url": "mall.jd.com/index-10055098.html"
+    },
+    {
+      "name": "迪士尼",
+      "url": "mall.jd.com/index-17457010.html?from=pc"
+    },
+    {
+      "name": "Zippo",
+      "url": "zippo.jd.com/"
+    },
+    {
+      "name": "谭木匠",
+      "url": "ctans.jd.com/"
+    },
+    {
+      "name": "嘉丁拿",
+      "url": "//gardena.jd.com/"
+    },
+    {
+      "name": "美乐棵",
+      "url": "mall.jd.com/index-1000074221.html"
+    }
+  ],
+  "search_suggestions": [],
+  "products": []
+}

@@ -284,7 +284,12 @@ class CookieManager:
                 data = json.load(f)
 
             jar = CookieJar(account_id=data.get("account_id", account_id))
-            for name, cookie_data in data.get("cookies", {}).items():
+            cookies_raw = data.get("cookies", {})
+            if isinstance(cookies_raw, list):
+                cookies_dict = {c.get("name", f"cookie_{i}"): c for i, c in enumerate(cookies_raw)}
+            else:
+                cookies_dict = cookies_raw
+            for name, cookie_data in cookies_dict.items():
                 jar.cookies[name] = CookieEntry(
                     name=cookie_data["name"],
                     value=cookie_data["value"],

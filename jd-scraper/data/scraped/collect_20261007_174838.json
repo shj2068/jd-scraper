@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-10-07T17:48:38.483508",
+  "mode": "local_sign_no_h5st",
+  "results": [
+    {
+      "functionId": "jd_industry_news_list",
+      "name": "行业资讯（低加密）",
+      "status_code": 200,
+      "elapsed": 0.33,
+      "code": "2",
+      "message": "",
+      "has_data": false,
+      "raw_keys": [
+        "code",
+        "echo"
+      ]
+    },
+    {
+      "functionId": "bizSearchCategoryList",
+      "name": "分类列表（中加密）",
+      "status_code": 200,
+      "elapsed": 0.07,
+      "code": "2",
+      "message": "",
+      "has_data": false,
+      "raw_keys": [
+        "code",
+        "echo"
+      ]
+    },
+    {
+      "functionId": "supplierServiceProviderList",
+      "name": "供应商列表（中加密）",
+      "status_code": 200,
+      "elapsed": 0.07,
+      "code": "2",
+      "message": "",
+      "has_data": false,
+      "raw_keys": [
+        "code",
+        "echo"
+      ]
+    }
+  ]
+}

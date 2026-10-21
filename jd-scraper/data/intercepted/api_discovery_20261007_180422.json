@@ -1,0 +1,19 @@
+{
+  "categories": [
+    {
+      "url": "https://dc.3.cn/category/get?callback=",
+      "raw": "{\"data\":[{\"p\":[],\"b\":[\"mall.jd.com/index-1000001782.html?from=pc|海尔|vclist/jfs/t1/293804/11/9683/10482/69113eeaF5cbaca65/2eb203eb1ef8050d.png|\",\"mideajiadian.jd.com|美的|vclist/jfs/t1/355594/12/5284/4548/690d5ad5Fe70699df/dfb73bb664746513.png|\",\"mall.jd.com/index-1000003445.html?from=pc|格力|vclist/jfs/"
+    },
+    {
+      "url": "https://dc.3.cn/category/getContent",
+      "raw": "\n<!DOCTYPE HTML>\n<html>\n<head>\n    <meta name=\"format-detection\" content=\"telephone=no\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\" />\n    <meta name=\"format-detection\" content=\"telephone=no\" />\n    <meta http-e"
+    },
+    {
+      "url": "https://api.m.jd.com/api?functionId=bizGetCategoryList&appid",
+      "data": "{\"code\": \"2\", \"echo\": \"the current API does not exist\"}"
+    }
+  ],
+  "products": [],
+  "prices": [],
+  "api_tests": []
+}

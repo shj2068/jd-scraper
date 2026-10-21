@@ -1,0 +1,22 @@
+{
+  "timestamp": "20261007_181248",
+  "browser": "Microsoft Edge (Playwright)",
+  "total_intercepted_apis": 34,
+  "total_intercepted_responses": 34,
+  "search_keywords": [
+    "轴承",
+    "电机",
+    "PLC控制器",
+    "减速机",
+    "传感器"
+  ],
+  "search_products": 0,
+  "detail_products": 0,
+  "category_products": 0,
+  "unique_skus_searched": 0,
+  "unique_skus_detailed": 0,
+  "api_domains": [
+    "lapi.jd.com",
+    "api.m.jd.com"
+  ]
+}

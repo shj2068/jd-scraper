@@ -1,0 +1,40 @@
+{
+  "method": "cookie_mobile_scrape",
+  "timestamp": "2026-10-07T19:08:23.962447",
+  "products_count": 0,
+  "api_responses_count": 98,
+  "product_apis_count": 6,
+  "products": [],
+  "product_apis": [
+    {
+      "url": "https://plogin.m.jd.com/cgi-bin/mm/new_login_entrance?lang=chs&appid=2193&czLogin=1&returnurl=https:%2F%2Fso.m.jd.com%2Fware%2Fsearch.action%3Fkeyword%3D%25E8%25BD%25B4%25E6%2589%25BF&czyl=1&risk_jd[e",
+      "size": 878,
+      "preview": "{\n   \"country_code_switch\" : true,\n   \"enable_smslogin\" : true,\n   \"enable_usernamelogin\" : true,\n   \"err_code\" : 0,\n   \"err_msg\" : \"\",\n   \"jcap_domain\" : \"jcap.m.jd.com\",\n   \"kepler\" : false,\n   \"kpkey_switch\" : false,\n   \"logoUrl\" : \"\",\n   \"mobile\" : \"\",\n   \"need_auth\" : true,\n   \"onekeylog_switch\" : false,\n   \"only_login\" : true,\n   \"qblog_switch\" : false,\n   \"rsa_modulus\" : \"D1F889AF43DC7820989094C00976252A630C3A5519AA73AA3FB7B33770ECDE95407960EBD141370DADEEE11902D0B3BDA5EC4BA6EE27963173A94B"
+    },
+    {
+      "url": "https://api.m.jd.com/?appid=yinliu&functionId=yinliu_service_display&loginType=2&_=1791371280417&cthr=1&body=%7B%22appid%22%3A%222193%22%2C%22czLogin%22%3A%221%22%2C%22returnurl%22%3A%22https%253A%252",
+      "size": 2280,
+      "preview": "{\"code\":\"200\",\"message\":\"成功\",\"data\":{\"kepler\":{\"kepler_data\":null,\"kepler_param\":null},\"downAppConfigData\":{\"downloadAppContentBtnStyle\":\"\",\"downloadApplogo\":\"//storage.360buyimg.com/unionfe/mkt/prod/yinliu/img/yl_exp/app_m.png\",\"downloadAppContentBtn\":\"立即打开\",\"downloadAppContentUpStyle\":\"\",\"downloadAppImg\":\"//img11.360buyimg.com/jdphoto/s640x100_jfs/t25471/63/982804166/2377/f8f633b9/5b850e48Nfd4e116b.png\",\"downloadAppContentUP\":\"京东购物，又好又便宜\",\"downloadAppContentDown\":\"品质外卖&酒店 就上京东\",\"downloadAppCon"
+    },
+    {
+      "url": "https://plogin.m.jd.com/cgi-bin/mm/new_login_entrance?lang=chs&appid=2193&czLogin=1&returnurl=https:%2F%2Fso.m.jd.com%2Fware%2Fsearch.action%3Fkeyword%3D%25E7%2594%25B5%25E6%259C%25BA&czyl=1&risk_jd[e",
+      "size": 878,
+      "preview": "{\n   \"country_code_switch\" : true,\n   \"enable_smslogin\" : true,\n   \"enable_usernamelogin\" : true,\n   \"err_code\" : 0,\n   \"err_msg\" : \"\",\n   \"jcap_domain\" : \"jcap.m.jd.com\",\n   \"kepler\" : false,\n   \"kpkey_switch\" : false,\n   \"logoUrl\" : \"\",\n   \"mobile\" : \"\",\n   \"need_auth\" : true,\n   \"onekeylog_switch\" : false,\n   \"only_login\" : true,\n   \"qblog_switch\" : false,\n   \"rsa_modulus\" : \"EAD0F7364372113337C783B4C0E9F3005B932E92F3DA442199F997A62F5C87B7391596E8D3B14F6432F0C0568A319BCA997DDE53ADB06DF05A0042"
+    },
+    {
+      "url": "https://api.m.jd.com/?appid=yinliu&functionId=yinliu_service_display&loginType=2&_=1791371287196&cthr=1&body=%7B%22appid%22%3A%222193%22%2C%22czLogin%22%3A%221%22%2C%22returnurl%22%3A%22https%253A%252",
+      "size": 2346,
+      "preview": "{\"code\":\"200\",\"message\":\"成功\",\"data\":{\"kepler\":{\"kepler_data\":null,\"kepler_param\":null},\"downAppConfigData\":{\"downloadAppContentBtnStyle\":\"\",\"downloadApplogo\":\"//storage.360buyimg.com/unionfe/mkt/prod/yinliu/img/yl_exp/app_m.png\",\"downloadAppContentBtn\":\"立即打开\",\"downloadAppContentUpStyle\":\"\",\"downloadAppImg\":\"//img11.360buyimg.com/jdphoto/s640x100_jfs/t25471/63/982804166/2377/f8f633b9/5b850e48Nfd4e116b.png\",\"downloadAppContentUP\":\"京东购物，又好又便宜\",\"downloadAppContentDown\":\"品质外卖&酒店 就上京东\",\"downloadAppCon"
+    },
+    {
+      "url": "https://plogin.m.jd.com/cgi-bin/mm/new_login_entrance?lang=chs&appid=2193&czLogin=1&returnurl=https:%2F%2Fso.m.jd.com%2Fware%2Fsearch.action%3Fkeyword%3D%25E4%25BC%25A0%25E6%2584%259F%25E5%2599%25A8&c",
+      "size": 878,
+      "preview": "{\n   \"country_code_switch\" : true,\n   \"enable_smslogin\" : true,\n   \"enable_usernamelogin\" : true,\n   \"err_code\" : 0,\n   \"err_msg\" : \"\",\n   \"jcap_domain\" : \"jcap.m.jd.com\",\n   \"kepler\" : false,\n   \"kpkey_switch\" : false,\n   \"logoUrl\" : \"\",\n   \"mobile\" : \"\",\n   \"need_auth\" : true,\n   \"onekeylog_switch\" : false,\n   \"only_login\" : true,\n   \"qblog_switch\" : false,\n   \"rsa_modulus\" : \"BFC4EB885D772BA6D6E44430C4A8CEF530EEC59A95C6DD9AD4700AAB980AC2A8F70C3E0439513534F8B97B0137E85769BCC9121D76FF59033B1E30"
+    },
+    {
+      "url": "https://api.m.jd.com/?appid=yinliu&functionId=yinliu_service_display&loginType=2&_=1791371293273&cthr=1&body=%7B%22appid%22%3A%222193%22%2C%22czLogin%22%3A%221%22%2C%22returnurl%22%3A%22https%253A%252",
+      "size": 2346,
+      "preview": "{\"code\":\"200\",\"message\":\"成功\",\"data\":{\"kepler\":{\"kepler_data\":null,\"kepler_param\":null},\"downAppConfigData\":{\"downloadAppContentBtnStyle\":\"\",\"downloadApplogo\":\"//storage.360buyimg.com/unionfe/mkt/prod/yinliu/img/yl_exp/app_m.png\",\"downloadAppContentBtn\":\"立即打开\",\"downloadAppContentUpStyle\":\"\",\"downloadAppImg\":\"//img11.360buyimg.com/jdphoto/s640x100_jfs/t25471/63/982804166/2377/f8f633b9/5b850e48Nfd4e116b.png\",\"downloadAppContentUP\":\"京东购物，又好又便宜\",\"downloadAppContentDown\":\"品质外卖&酒店 就上京东\",\"downloadAppCon"
+    }
+  ]
+}

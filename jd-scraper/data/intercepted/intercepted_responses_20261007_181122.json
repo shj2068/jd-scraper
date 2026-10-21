@@ -1,0 +1,4078 @@
+[
+  {
+    "url": "https://api.m.jd.com/",
+    "data": {
+      "msg": "成功",
+      "code": 0,
+      "data": {
+        "enableReport": true,
+        "enableInvokeLog": true,
+        "resources": {
+          "jdwebm": {
+            "version": "7.2.0",
+            "url": "",
+            "timeout": 5000,
+            "hitGray": false
+          }
+        },
+        "runMode": "1",
+        "colorDomain": "api.m.jd.com",
+        "policy": {
+          "reportPeriod": 0,
+          "reportMaxCount": 0,
+          "configCacheTtl": 600,
+          "finishMaxTime": 10000,
+          "invokeLogSampleRate": 10000,
+          "finishMinTime": 1000,
+          "sampleRate": 100
+        }
+      }
+    },
+    "size": 355
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "code": 0,
+      "data": "",
+      "message": "Success",
+      "class": "com.jd.disposal.api.entity.ResponseDTO"
+    },
+    "size": 89
+  },
+  {
+    "url": "https://api.m.jd.com/api?functionId=jsfbox_newUser_hongbao&uuid=&appid=www-jd-com&loginType=3&x-api-eid-token=jdd03TABRUXZ47X63NVF6HOTJT6KVVLLSI2HABMO2F2G3SPGJOJTZXFJCGUXIH24SZCUTN6NSO6JBPZUNDC2AKSWOLUH444AAAANBCXMKEBYAAAAADVOFDNL6F2SDJIX&h5st=20261007181126868;nzpvmbene5npenn8;b5216;tk06wc3b7b6fc41lfUL6NonAfIGqpjrd9yVS7yVeGyVSJ2FO7CEQrrbrKVq1-1GNJGoQW61e1ioeWSGf1jodJeVd7bVS;4eda1bd99ba58d5cc3371e796fe09db74e939b616978cea3d028ac0bc046e1ae;5.3;1791367883868;q3EpJLIQ9WlP9WYS9WFT_SkPxyFjLDIj7SFjLrJ",
+    "data": {
+      "code": -100,
+      "msg": "未登录",
+      "data": null
+    },
+    "size": 37
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=www-jd-com&client=pc&clientVersion=1.0.0&t=1791367883806&uuid=76161171.1791367883048967459410.1791367883.1791367883.1791367883.1&functionId=jsfbox_pre_gb&body=%7B%22source%22:%22pc_home%22%7D&h5st=20261007181126830%3Bnzpvmbene5npenn8%3Bb5216%3Btk06wd175457241lfZ-4h4iiQYaHpjrd9yVS7yVeGyVSJ2FO7CEQrrbrKVq1-RYfiulNSWoZ1yleWCEf1nFf3X1Tzf1f%3B3e714ef8dcaddb12016d3fd09ea7f27f71286b2bf1bc8c189e30ecd2f4552b7a%3B5.3%3B1791367883830%3Bq3EpJLIQ9WlP9WYS9WFT_SkPxyFjLDIj7SFjLrJp-Pof",
+    "data": {
+      "code": 0,
+      "data": {
+        "abBuriedTag": [],
+        "abBuriedTagMap": {
+          "kjgbAbTest": "tsabtest|base64|UENUZXN0XzEwNDI5MnxzaGFuZ2th|tsabtest",
+          "shopSearch": "tsabtest|base64|UENUZXN0XzY0MzcxfHRlc3RzaG9w|tsabtest"
+        },
+        "abExpLabelMap": {
+          "brandSquareAbTest": {
+            "keyParamMap": {
+              "Brand_Shopping_Guide": 0
+            }
+          },
+          "kjgbAbTest": {
+            "abBuriedTag": "tsabtest|base64|UENUZXN0XzEwNDI5MnxzaGFuZ2th|tsabtest",
+            "keyParamMap": {
+              "shangka": 1,
+              "kuangjia": 1,
+              "biaoti": 0
+            },
+            "label": "shangka"
+          },
+          "shopSearch": {
+            "abBuriedTag": "tsabtest|base64|UENUZXN0XzY0MzcxfHRlc3RzaG9w|tsabtest",
+            "keyParamMap": {
+              "hit": 1,
+              "Mainsearch": 1,
+              "Shopsearch": 1
+            },
+            "label": "testshop"
+          },
+          "secondFloorAbTest": {
+            "abBuriedTag": "",
+            "keyParamMap": {
+              "gate_pos": 0
+            },
+            "label": ""
+          },
+          "widgetAbTest": {
+            "abBuriedTag": "",
+            "keyParamMap": {
+              "mult_function": 0
+            },
+            "label": ""
+          },
+          "loginPopup": {
+            "keyParamMap": {
+              "Pc_login_popup_type": "0"
+            }
+          }
+        },
+        "addCartShow": true,
+        "advertModalShow": false,
+        "advertModalShowTime": 5,
+        "beanShow": true,
+        "brandEntryShow": false,
+        "brandHotTextShow": false,
+        "cPinPotential": false,
+        "clientMiniDetail": 0,
+        "enjoyTopBenefitShow": false,
+        "feedAdvertCardShow": false,
+        "feedEnjoyInfoShow": false,
+        "feedGuideShow": false,
+        "feedProductLabelShow": true,
+        "firstScreenGb": 1,
+        "guobuShow": true,
+        "hitSimpleVersion": false,
+        "inputGbGov": true,
+        "kuangjia": true,
+        "loginCardBenefitsShow": false,
+        "loginGuideShow": true,
+        "loginGuideTitle": 1,
+        "lowPriceTagShow": true,
+        "modalLogin": true,
+        "noLoginBrandEntryShow": true,
+        "priceLabelShow": true,
+        "shangkaBiaoTi": 0,
+        "showHandPrice": true,
+        "topbarRefactor": true,
+        "webMiniDetail": 0,
+        "wlEnhance": true,
+        "wxLoginOpen": true
+      },
+      "msg": "Success"
+    },
+    "size": 1496
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=www-jd-com&body=%7B%22source%22%3A%22www.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791367884081&uuid=76161171.1791367883048967459410.1791367883.1791367883.1791367883.1&loginType=3&x-api-eid-token=jdd03TABRUXZ47X63NVF6HOTJT6KVVLLSI2HABMO2F2G3SPGJOJTZXFJCGUXIH24SZCUTN6NSO6JBPZUNDC2AKSWOLUH444AAAANBCXMKEBYAAAAADVOFDNL6F2SDJIX&jsonp=jsonpAbData&_=1791367884113",
+    "data": {
+      "abBuriedTag": [
+        "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+        "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest"
+      ],
+      "abBuriedTagMap": {
+        "autoPopup": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+        "weChatLogin": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest"
+      },
+      "abExpLabelMap": {
+        "autoPopup": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+          "keyParamMap": {
+            "Rights": 2
+          },
+          "label": "test2"
+        },
+        "widget": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "mult_function": 0
+          }
+        },
+        "loginPopup": {
+          "keyParamMap": {
+            "Pc_login_popup_type": "0"
+          }
+        },
+        "secondFloor": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "gate_pos": 0
+          }
+        },
+        "weChatLogin": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+          "keyParamMap": {
+            "hit": 1
+          },
+          "label": "base"
+        },
+        "homeTab": {
+          "keyParamMap": {
+            "Homepage_3Tabs": 3
+          }
+        }
+      },
+      "data": {
+        "loginPopJsPath": "//storage.360buyimg.com/retail-mall/jdc_user_login/pc/user/login/popup_v3.js",
+        "topbarRefactor": true,
+        "autoLoginPopConfig": {
+          "interval": 86400,
+          "lastPopLimit": 60,
+          "maxCount": 1,
+          "wait": 2
+        },
+        "weChatLogin": true,
+        "newFeatureLaunchShowFlag": false
+      },
+      "success": true
+    },
+    "size": 1045
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=www-jd-com&client=pc&clientVersion=1.0.0&t=1791367884110&uuid=76161171.1791367883048967459410.1791367883.1791367883.1791367883.1&functionId=jsfbox_user_queryPlusInfo&body=%7B%22source%22:%22pc-home%22%7D&h5st=20261007181127111%3Bnzpvmbene5npenn8%3Bb5216%3Btk06w75c10aa341lf0L6h4ezfJ-6pjrd9yVS7yVeGyVSJ2FO7CEQrrbrKVq1_tXg1CUWMyVWXekeFeEf1nIS6XVe1X4f%3B201630968ac4418021b4c91be9959a2737dc3016446451ff3ff41b6b147a0e24%3B5.3%3B1791367884111%3BpjbMhjpd9yVS7yVeGyVSJ2FO7CEQJrJd",
+    "data": {
+      "code": 0,
+      "msg": "Success",
+      "data": {
+        "isLogin": false,
+        "bPinPlusSwitch": true,
+        "newUserInfo": {
+          "status": true,
+          "login": false,
+          "pin": "",
+          "title": "新人福利",
+          "tips": "低至1元包邮"
+        },
+        "plusInfo": {
+          "images": {},
+          "isPlus": false,
+          "texts": {
+            "text1": "权益升级"
+          },
+          "plusStatus": ""
+        },
+        "userJumpConfig": {
+          "plusUrl": "https://plus.jd.com/index?flow_system=appicon&flow_entrance=appicon1&flow_channel=pc",
+          "plusNewUserUrl": "https://plus.jd.com/index?flow_system=appicon&flow_entrance=appicon1&flow_channel=pc",
+          "randomBenefits": "享专享立减"
+        },
+        "companyUserInfo": {
+          "giftText": "采购补贴3000元",
+          "pullNewUrl": "https://pro.jd.com/mall/active/2QSx2aihF9gmEyA1gnpqVg15jo86/index.html?babelChannel=ttt38&hdid=5crMGQyZ8tE",
+          "totalDiscountValue": null,
+          "totalDiscountTip": "企业会员首单享优惠",
+          "texts": [
+            "专享价",
+            "企业团购"
+          ],
+          "bvipUrl": "https://bvip.jd.com/?hdid=5crMGQyZ8tE",
+          "bvipButtonText": "查看更多专项权益",
+          "company": false
+        }
+      }
+    },
+    "size": 822
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=www-jd-com&client=pc&clientVersion=1.0.0&t=1791367884145&uuid=76161171.1791367883048967459410.1791367883.1791367883.1791367883.1&functionId=pccorechannels_queryCrossInfo&body=%7B%22source%22:%22home%22,%22sfFlag%22:true,%22area%22:%22%22%7D&h5st=20261007181127146%3Bnzpvmbene5npenn8%3Bb5216%3Btk06w3687a94141lfZ-5h4nAf4T0pjrd9yVS7yVeGyVSJ2FO7CEQrrbrKVq1_hETTulWWKUg5bneybHf1XldJSlSzTle%3B159294737b230fcbd24ff28c7223d47097645646e0d4ae2f908aa7f0ebe5a9bc%3B5.3%3B17913678841",
+    "data": {
+      "data": {
+        "showStatus": false,
+        "zsTips": null,
+        "mainTitle": null,
+        "skuList": [],
+        "emptyTips": null
+      },
+      "code": 0,
+      "subCode": 0,
+      "message": ""
+    },
+    "size": 124
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/getRule?version=1.1.0&aid=c4a31ea580074bc8dc6aa7572a0a0e81",
+    "data": {
+      "code": "0",
+      "msg": "ok",
+      "data": {
+        "aid": "c4a31ea580074bc8dc6aa7572a0a0e81",
+        "er": {
+          "enable": false,
+          "mode": "session",
+          "rate": 1,
+          "rules": [
+            {
+              "enable": true,
+              "type": "pv",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance_timing",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance_longtask",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "action",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "resource",
+              "rate": 0.01,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "resource_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "api",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "api_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "js_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "blank",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "custom",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "custom_log",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": false,
+              "type": "fps_stuck",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "pc_home_api",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "pc_home_fallback",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "pc_home_bussiness",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "pc_home_api_rate",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "pc_home_performance",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "logic_exception",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "net_exception",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            }
+          ],
+          "whitelist": []
+        },
+        "pr": [
+          {
+            "name": "js_error",
+            "enable": true,
+            "options": {
+              "captureGlobalAsync": false,
+              "dedupe": true,
+              "ignores": [],
+              "onerror": true,
+              "onunhandledrejection": true
+            }
+          },
+          {
+            "name": "fps_stuck",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "action",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "blank",
+            "enable": true,
+            "options": {
+              "delay": 8000,
+              "detectSelectors": [
+                {
+                  "exist": true,
+                  "selector": "#J_app"
+                }
+              ],
+              "mask": false,
+              "quality": 0.1,
+              "rootSelector": "body",
+              "screenshot": true
+            }
+          },
+          {
+            "name": "api",
+            "enable": true,
+            "options": {
+              "collectBodyOnError": true,
+              "concreteApis": [],
+              "ignores": [
+                "uranus.jd.com",
+                "h5speed.m.jd.com",
+                "sgm-w.jd.com",
+                "storage.360buyimg.com"
+              ],
+              "slowThreshold": 4000,
+              "wrapFetch": true,
+              "wrapXhr": true
+            }
+          },
+          {
+            "name": "pv",
+            "enable": true,
+            "options": {}
+          },
+          {
+            "name": "resource_error",
+            "enable": true,
+            "options": {
+              "dedupe": true,
+              "ignores": [],
+              "includes": []
+            }
+          },
+          {
+            "name": "console",
+            "enable": true,
+            "options": {
+              "levels": [
+                "warn",
+                "error"
+              ]
+            }
+          },
+          {
+            "name": "resource",
+            "enable": true,
+            "options": {
+              "ignoreTypes": [
+                "beacon",
+                "fetch",
+                "xmlhttprequest"
+              ],
+              "ignores": [],
+              "includes": [],
+              "slowThreshold": 4000
+            }
+          },
+          {
+            "name": "performance",
+            "enable": true,
+            "options": {
+              "cls": true,
+              "fcp": true,
+              "fid": true,
+              "fp": true,
+              "lcp": true,
+              "longtask": true,
+              "timing": true,
+              "ttfb": true
+            }
+          }
+        ],
+        "cr": {
+          "delay": 3000
+        }
+      },
+      "id": "2a46d43a48a3f205fc93483290f67fbd",
+      "ts": 1791367881678
+    },
+    "size": 2939
+  },
+  {
+    "url": "https://lapi.jd.com/locate?source=pchome&callback=jsonpAreaLocate&_=1791367884151",
+    "data": {
+      "code": 0,
+      "data": {
+        "city": "中山市",
+        "cityid": "1657",
+        "district": "",
+        "districtid": "0",
+        "operators": "中国移动",
+        "province": "广东",
+        "provinceid": "19",
+        "town": "",
+        "townid": "0"
+      },
+      "info": {
+        "bak": 0
+      }
+    },
+    "size": 190
+  },
+  {
+    "url": "https://api.m.jd.com/api?functionId=jsfbox_site_notice&uuid=&appid=www-jd-com&loginType=3&x-api-eid-token=jdd03TABRUXZ47X63NVF6HOTJT6KVVLLSI2HABMO2F2G3SPGJOJTZXFJCGUXIH24SZCUTN6NSO6JBPZUNDC2AKSWOLUH444AAAANBCXMKEBYAAAAADVOFDNL6F2SDJIX&h5st=20261007181127721;nzpvmbene5npenn8;b5216;tk03w967d1b7318nuK41skjmQBbSEJaCJdk1WDAnjNrgLE6dq9sUuG-AmQCrAMXWOtAY_ID7t98dPkW9MGBC4NPrVabg;10cb0b9d816ff7a39b658b628538880552c5ba0f80dd8148aa7239ffe24ab046;5.3;1791367884721;pjbMhjpd9yVS7yVeGyVSJ2FO7CEQJrJdJrESJrpjh7p",
+    "data": {
+      "code": 0,
+      "msg": "Success",
+      "data": null
+    },
+    "size": 38
+  },
+  {
+    "url": "https://api.m.jd.com/",
+    "data": {
+      "traceId": "4476857.71502.17913678822939033",
+      "code": 0,
+      "data": "VjVWsffe3bR08C-YJTHCgVJMVNXePKoXqunavn3XpSu6yrWz2BBU_5tUTk_cQGdPMjjwwDuspUBvTstk28_PhAEIwVoZkT_zEAgvZMWIQGGgRhJUUWrEI3LhSpA5nhh7dYn66wn3SwFugy_MB5ABgwo1907PGCBoC0hh3YEGIdgEphiCekFHrCrgmOKkUzFbt4mn0A97Z8F-8xeqjzjaNviZ2bRZ12vXy2UjvFtVgNy487k94FZ9WcsN37q_xr2RgIj3uuzd7yIvggspYMVni34YPn0HqPNH6tqv4hi25aq5NCqZZL79QKh1NTvi9qBHuvmfpwIpkq1R5ktnsZcNF0G9_zWiSdGhydtLYtQbNnLkZL5Xd2hgFDdKN_eYDP5549EJp_A7EOuE5S0TJ1-jWtONM30ehXLRAat0MKtPeLPKH2zgK9DoPYOLdXI4PRHof7dBAGGwGb0DgA6_MPgnwPOgrjjZDzLvvbPCvyYMtfd7ClmvZD0hnioFCIsaOqFGv-Ao7stj2HwaZPLkZQrepBJbyaet5VKAdUrYfDxtQ1gwlYrWDTGrpPVZAWJseqTjRlV3jbpIeQtfM9IwhB6Mb7cb6okJbQgiW8sBsBtDCGQfcf2URLi66CDZUpsDnDhlxiiH_cYylZmshvxhz4_vfstkNl0Ks0dk0daywe_vXfttI_xjukyB2JMfaLjunk7qnNpccDe-cP3yzl_v1hfSBo9S10fswOjk9oaM1Ba9Ebv-V5hFKlinzQjEwTaVr-47TqT800k3DaouKeAgpFxec19QTz5LAStd88-upCeuApvE5srmtcSVG_0audnpRn_EF19NsfvefANKpjg033PsjPGpBKNYWtqBJ1iYvDwO490htYKbkTMpK9zr43wWsnm51akueJqh4-6gDe0SM94pPgdkNkO4wpuZy-IRqFCeXuuRgrRozSbVEAXoCxB_w1gmCEYc_6UXEaRaOnbw5XMUA_M7PJuLaM2t2hKiLNDFpcBrY89yh2nFyXPo3D6QLNVavoT3_FlxTL9kR_NRjR7YYPkD7C9-o2lMQA-S4cCbFfKFa5MZhMkjgvaaw0E5K3x6r2RlFXEcjHtH-JejZ89_kCWWuo1eGFvCg6KeGtnVsUSLN4TbfCSXbVJtZF3pJ5cDNKjtOKlRKhR_sTUh5tlmCw-WiJKXD0XR9LnlXMY2x5b7mBMycl9rFQPqTEPWXVvbu9OqCCOnuEHz_M0X4eU7g3ZdG7Ky1TvPZ3plu8XlypfBJ_gegNnsuzig8DzMzcLm3EDstco2lzKMy_IEujVoTDSCFJ0NMqZStzvqdViFLL__RD7PFbkRrWlLrMQ9WUD484CLKwTskdGPUSBAuUbPyHhOCpTyUQpPvR1KXqnE2NdUfIO0e_0e5JtUJLpp4xu2eMUTJ_aViGNHRUTMZ8qP6h9kcdVgaRpnatX48xrw5l9ALSEy4AqItMXtQpxFkel1HaVTeExksLOAAsRn1Lw9OQj4caDe10FRol4F8hAeyzUl4s4RTP_YWVyzIhh47fha4q3InVf8NzDUaRzgE4LojJ7_6XJkThK74WwuEDUTcAk5vMLeGcBd9SOqW29rni7ecWciZM55KNQfBnsRGKgVcoIeNDbt-RVjBU49OsX0eZFwKIeMae61l87-fyr_KKcZH2JckLOmlnxBWuISTYCoGX2aRDs3y0lfQJXLMFpCdq2y2FCqwh9ROGS_iHHUGa_HJ2AOWk1tO_V_9mu198qgAO-8hQ9DCOxXskHOzz34ghVCyJq69EnwVgp3R50UI7rOOBYCsPcyjO7Cxk3uHOcI_ZiY6hjlMF-2nYHyvdcTZr3uOPvwt5nbtdCee9wEU3PXbwpDeN-7VAkhEniomIpPmgsTKOmdddEUDl0TsjcWvfPBybISot_n7oAHLcnmNiOft3SYahpUCbD4wWuMPmKsrg3N6SQOL0OVEF7Y5gOwe953pbg7Tt93Tjj8Ta2-K0JE3ninbj0U7ybJkqArq2IghAwEQllj2cdPEJ_sOpzBbo_fTb6W9wMRhu4z1tNx0e56ooRi7MR-Ab5epIil8EeXrx_cLiHA6qFAVq0tWa__2_e64aLg1EgI-N7GAB07nAwVNIa3AqeskaD3VwuTxgV6ssFpIN44taFKSDxRLaVrLYqeNaWpfSM99dcP1oXd4b3xH7QH_fCdbgBiKIkE3if8kJrXOxAYFvqXjKgSBCTTTYYU-Njzb-pSfTycIbPf56hEX67GRWwUKNSJv-7pMe3TUcbuNaBrDRcZrtQV_B7adnQkcAfeszjbURJ2AZW3RLQoj6wiO9fyfS-NX7eRMIaXDBLZI-Tsef6Z_M8zD_J7aCczT69rl_KOu4akRWr2EFf5mpbr_u6Jft8_btANugYCnohkkZIwyz4vnUNzdaglyBM0gDcEdjIRtmY3lnfegpR5-U3S8B23xxA2_6JlALdHZ017FL8a67-HwD5lpgt0Uul9PKwb1xqyG-UW83i3NWh9-aKIJ2rXxo2HAyXWyLwLzl2BQzMDCJt7JSr0zRawLaAjZi0QKLqdNGzMoXYDL71AcPmylBgtzA6K5L14ZPoaLtLM3FFkOAEFIrTBZTkp2e4_xxgFUY0LVEJTfxB47ubt_HeX9e21_zotun1nlLTjC5xBJ43yV6jSnbRQ_pcMPOHtiyYd3uXI0G4wA781edwbI-bzG3QQ2Tee0UkNb3k8e58BS0XcXbgZJipI1HScR6IRbuDpy_Y3AhlmBbjM8AMDlBTTl5WhHywAeNJdriDUDLV4spsoaprmj8gyIajlJTeVQ7F--KbWkvL7Xl-lvMvEFKOJw4PdS-RhuGgs5sPp0qhm59kyx3WvA1PltQCW_IVQxrj2BBTK5wn38VO444Mg6Q5Q_bLVgnVMEPWbSLRvURFDsD3TY_K6znsYShqE0EOGinmi--V5JIJ51hbALIGFUEZHMUEz6m1TvB0vls-wXNdI2xFi7755PJ1C9kvCq6k-dZ7gEWDGySDFRoK3yZiOg2MXNFyL_qPuoAj7ISb16wl895hojzV6OrrqI8UlSULfEWKgcBRMlOpFsIRWh7aW061RtSfVxd1ea1SMz5AekQAjDC3L3AiYOllROA6HotxjJ9zPooASwdk0cE3x-yPAekSZFdsEBuGakArvixe7YcJKqOS_fAZYupMVseV_Sfq-0MclUNyJowKX5j_NGwxR7FP_VikOPwBQ9UdfDpHVw784_CGxaxHinYXG2--j2cKR6BHK6vMqUT1LNhtxovJ5fuHdFCnpqo14v8JQVC7UFLcGnE-F2dNsjTVti3WFZhPWNdvV5kmgud0W-ov40qF9xH0Hm3Hoq8lIxbR6val3UFBTryBVbKZItkcZ8VfuSMqmqV_LgHk1s_MXuyi0u5q29_UJJk0h_2MsOB3yS8ywXfEnXSl5M7uQC7fnkWUxHHHIdku6jIgbW4VDN1CHlRxMtwzBURK65w8ngcTZNqIshEHIndZVXof-5nYOhZ-2ICQlCPJPXa1Hlj17oUg9D4_r0TQJt0tTc5lWnyUCmfhl0zRuML71uXRxHndVjcTSgO_VjYH9um1iW3LpaJuYpBGwINOkMaXvb1N932WYjh4CM9b8Y-Omk_KoQviFuGpBXnG_kuoJdU25sAse2qsCmERP-2CMNtI_og9SU_gedX0sX7vyAQC6-CytAG0o6UNlWlNTiNgrPPpvbVXzoelIUWsf4yeaLLN2E0ftwb-uAdVlzsamiAD20GmDjMZicPxQwZQCMHUqYmb1XHfB0cyv2aDHOt_cIOcii_qStlT-scn2G3XKKaw_m8CRb0sRKUpqwZloPVb7gYGjdIPMQHAv4zimL4_qz5tLgE5BbSdXv6WmU5pxLtouWBy_jYud4O9MAzddcK2EafBDqKYUe8C4sw54V9ddiEyEtlX_q2gBWiI51IVfnxoD9iSqRwVTcVXTBXQL6gA_EaqaRfokow5WlGkQyd2pymg_s4nrwQIFYAbwRAtvk82j1ADilJZMK00IHYsUN6plBwuxsVwl6Anyf4fZHwtPrvxpThT4es5Y5tTPBRRDaa3RJKCjruvrWCUuBKcFmsDV9eazqYIxGQJqRbKdiGQIsK-yLAlAYffmreAioB53KY1KSUw71wVRO9ADY912bBM36sTT95i6sAlztXrlsWSE4dLA6QIhJw08WtTrv-ZiyDPBHs0xLpPAfrEUiyVqjPiyhmw_MB3J1uEdPLzqM7zzZsx6rxCfApKTeq5uOXr-drStNnuqhkUm2Wx-CndaelhKw2Q6cOBfBiUcthAIc7wPsEeMy-AE4XvE8V7gqVM-CN0daCYiUfPX4WKUB6H7aFC3tuWr4P2KlVmOHdB1DAU7xm37rjqu92ZBwOvFi1-TN26azyLttbYndRialaK1z0wbxCEenas-hHIceSx5hWkeVhUvOsj5oomphN8QlWeDAGAp9siV2oI9F1quExhTsfCWP5DpjZPnTf8xYIxSvebyRPd5EafuJCd1DQIMPLdAfAVWeIzMNNlxE4lIQEs3kKF5CA9Luk-hzs0Pj07eLr3uemZ0pX4ggce7o_7bu7n5GQHaphPmT2-qQRz5lT66U3Jqj9SMgqXHoI0favp_C7yi_wKPbSixMlCrNoONyBMTKgDemYHlMdHsgSWxM250W2Z6Sc1qks3aUO6r4EAe9wDrvkei8enFPf9QBj4NXJB5zOoMPm7FIUPakJz3eTNTap3w9qfZ6iipF7D_VptY2XVnRbXFS33JWrthCBNK4YQCcniVCWspcjXQKhZF3QQCrcV5wnkdOptt6pk4BJ2FwTcHIss2pjAgvb7MxKzVYr6AqUygRnKlb76z4mhYpw-wD71wVCDvLU43Fn7bT-t0A-rWC5AukaEA0eI36yCeUjdb44vJWZNiRkphkh3-MH775qkI1KUpXYssPjee0k8jcwRs3RZAxcW8vidtQXmVd_KHcBFrolAJ6l8tz6Hcdg-24zm0VbYuYdInbyL8LnBn7PY31PQrufSEg-agajQ7s2wZKoVq2W8wRtgxvtH2sVa6R70EWuePT8tNUYvf9_Ejg9Yik4AJTbfCFBtvJlXKXwvnpHeLNt51bWsY5--Hu7GN7EXJzxAU5yvKVEUbm0kAJbo-T-4SsfmpSJszj5CPTx51k4kpJKGomXT1IonkwY0G2nQuNFiLQjKyadt-MQR3n6Sc3a6U_YPDpLnAT7m9ft1TGkLx7aNtVIw5oZRwNr9AHm3jBPsfnNzOSKDyZI06TKnOAc1HvPqeicdG2kYL3Q1-Cc34h5XEr4O8ZMyqXwV1LIAtqCVPaiqdYhHXrsoNN4KgCDpu0EHdEISGW2rzfwNiMIUpItRMAU19Q9bRUbk=",
+      "message": "Success"
+    },
+    "size": 5440
+  },
+  {
+    "url": "https://api.m.jd.com/api?appid=www-jd-com&client=pc&clientVersion=1.0.0&uuid=76161171.1791367883048967459410.1791367883.1791367883.1791367883.1&loginType=3&t=1791367886287&functionId=pctradesoa_queryBeanLoginPreInfo&x-api-eid-token=jdd03TABRUXZ47X63NVF6HOTJT6KVVLLSI2HABMO2F2G3SPGJOJTZXFJCGUXIH24SZCUTN6NSO6JBPZUNDC2AKSWOLUH444AAAANBCXMKEBYAAAAADVOFDNL6F2SDJIX&h5st=20261007181129288%3Bnzpvmbene5npenn8%3Bb5216%3Btk03w967d1b7318nuK41skjmQBbSEJaCJdk1WDAnjNrgLE6dq9sUuG-AmQCrAMXWOtAY_ID7t98dPkW9MGBC4NP",
+    "data": {
+      "code": 0,
+      "msg": "Success",
+      "data": {
+        "hit": false
+      }
+    },
+    "size": 47
+  },
+  {
+    "url": "https://jcap.m.jd.com/home/requireCaptchaPc.js?v=2",
+    "raw_preview": "(function () {\n    if (typeof globalThis === \"undefined\") {\n        globalThis = this || (typeof window !== \"undefined\" ? window : typeof self !== \"undefined\" ? self : global || {});\n    }\n})();\n\nfunction isWebAssemblySupported() {\n    if (typeof WebAssembly !== 'object' ||\n        typeof WebAssembly.Module !== 'function' ||\n        typeof WebAssembly.Instance !== 'function') {\n        return false;\n    }\n\n    try {\n        var bin = new Uint8Array([0, 97, 115, 109, 1, 0, 0, 0, 1, 6, 1, 96, 1, 127, 1, 127, 3, 2, 1, 0, 5, 3, 1, 0, 1, 7, 8, 1, 4, 116, 101, 115, 116, 0, 0, 10, 16, 1, 14, 0, 32, 0, 65, 1, 54, 2, 0, 32, 0, 40, 2, 0, 11]);\n        var mod = new WebAssembly.Module(bin);\n        var inst = new WebAssembly.Instance(mod, {});\n\n        return (inst.exports.test(4) !== 0);\n    } catch (e) {\n        return false;\n    }\n}\n\nvar jcapLoadCreate = (function () {\n    var JdCaptcha = null;\n    var isLoaded = false;\n    var pubFn = [];\n\n    var info = {\n        appType: 3,\n        tdat_version: 99992,\n        host: \"jcap.m.jd.com\",\n        tdat_ctx: \"A8RpzPvMpQPEEPZC737Wbcqo4er3yvFj4ubEUKiJqqus7qCcnO2epKHwrvn5qfin9_murquvurqxtb0DAwe3Bgutzs_QE78RyxfGFsXL0soaHBwd0dPT28_U1djaK9bY3tje2yzy8vP0oKan\",\n        cs: 1\n    };\n\n    var MAIN_URL = \"https://storage.360buyimg.com/jsresource/jcap/version/v2.8.6/1/jcap_afh1b6.js\";\n    var BACK_URL = \"https://storage.360buyimg.com/jsresource/jcap/version/v2.8.6/0/jcap_i0rbgx.js\";\n\n    function isScriptLoaded(url) {\n        var scripts = document.getElementsByTagName(\"script\");\n        for (var i = 0; i < scripts.length; i++) {\n            if (scripts[i].src === url) {\n                return true;\n            }\n        }\n        return false;\n    }\n\n    function loadScript(url, onLoad, onError) {\n        if (isScriptLoaded(url)) {\n            if (typeof onLoad === \"function\") {\n                onLoad();\n            }\n            return;\n        }\n\n        var script = document.createElement(\"script\");\n        script.src = url;\n        scr",
+    "size": 4364
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/app.0a547a75.js",
+    "raw_preview": "var a0_0x47bb=['\\x20(success)','target','location','profilerInit','./node_modules/@babel/runtime-corejs3/helpers/defineProperty.js','./src/i18n/en_US.js','%25','_doCryptBlock','./node_modules/@babel/runtime-corejs3/core-js-stable/json/stringify.js','iPhone','onerror','//storage.360buyimg.com/jsresource/ws_js/jdwebm.js?v=riskhandle','source','PROGRAM_ERROR','showCountDown','//storage.360buyimg.com/jsresource/common/jssdk/pc-feedback-0.1.7.js','env','inputs','.jd.com','./node_modules/core-js/modules/es.string.raw.js','./node_modules/core-js/modules/es.json.to-string-tag.js','timer','forceCurrentView','concat','./node_modules/@babel/runtime-corejs3/core-js-stable/object/entries.js','./node_modules/@babel/runtime-corejs3/core-js-stable/object/define-property.js','salt','_append','./node_modules/core-js/modules/es.number.max-safe-integer.js','qr-code-highlight','zh_CN','emptyTipRetry','ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=','./node_modules/core-js/modules/web.dom-exception.constructor.js','./node_modules/core-js/modules/es.typed-array.at.js','./node_modules/core-js/modules/es.symbol.is-concat-spreadable.js','setRequestHeader','刷新失败，请3s后重试','string','_map','循环自动登录','errno','BUSINESS_ERROR','risk_loading','检测到当前环境存在安全风险,请进入京东APP查看商品详情','22b0e2ed','shshshfpx','.jingdong.com','WQ登录参数异常','./node_modules/core-js/modules/web.url.can-parse.js','extend','supportTran','[object\\x20Array]','empty_content','./node_modules/core-js/modules/es.object.define-properties.js','empty_button','CODE','application/x-www-form-urlencoded','./node_modules/core-js/modules/es.string.replace-all.js','_nvty','./node_modules/core-js/modules/es.object.has-own.js','./node_modules/cache-loader/dist/cjs.js?{\\x22cacheDirectory\\x22:\\x22node_modules/.cache/vue-loader\\x22,\\x22cacheIdentifier\\x22:\\x22ab346b96-vue-loader-template\\x22}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/componen",
+    "size": 227879
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-corejs.ccfc6249.js",
+    "raw_preview": "var a1_0x339e=['./node_modules/core-js/internals/string-repeat.js','isConcatSpreadable','toLocaleString','left','kind','rejectionhandled','withoutSetter','./node_modules/core-js/internals/document-all.js','apply','Uint16Array','./node_modules/core-js/internals/typed-array-from.js','push','Error','./node_modules/core-js/internals/copy-constructor-properties.js','MAX_VALUE,MIN_VALUE,NaN,NEGATIVE_INFINITY,POSITIVE_INFINITY,EPSILON,MAX_SAFE_INTEGER,MIN_SAFE_INTEGER,isFinite,isInteger,isNaN,isSafeInteger,parseFloat,parseInt,fromString,range','./node_modules/core-js/internals/engine-ff-version.js','getOwnPropertyNames','./node_modules/core-js/internals/string-pad-webkit-bug.js','./node_modules/core-js/internals/engine-is-node.js','sticky','Math','http://a','./node_modules/core-js/internals/get-json-replacer-function.js','PROPER','toJSON','DOMMatrix','./node_modules/core-js/internals/iterate.js','./node_modules/core-js/internals/to-absolute-index.js','Incompatible\\x20receiver,\\x20RegExp\\x20required','trimEnd','./node_modules/core-js/internals/promise-statics-incorrect-iteration.js','setUsername','process','blob','toStringTag','global','./node_modules/core-js/internals/engine-user-agent.js','inspectSource','./node_modules/core-js/internals/correct-prototype-getter.js','./node_modules/core-js/internals/well-known-symbol.js','./node_modules/core-js/modules/web.clear-immediate.js','./node_modules/core-js/internals/an-instance.js','TypeError','searchParams','ArrayBuffer','toSorted','./node_modules/core-js/internals/is-pure.js','./node_modules/core-js/internals/array-reduce.js','./node_modules/core-js/modules/es.promise.reject.js','open','promise','INTERRUPTED','code','items','dgimsy','getPort','port','getSearchParams','application/x-www-form-urlencoded;charset=UTF-8','match','./node_modules/core-js/internals/internal-state.js','NATIVE_ARRAY_BUFFER_VIEWS','buffer','./node_modules/core-js/internals/to-primitive.js','./node_modules/core-js/internals/object-to-array.js','opera','NE",
+    "size": 476024
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-lodash.9ca18afc.js",
+    "raw_preview": "var a2_0x1670=['keys','./node_modules/lodash-es/filter.js','sumBy','./node_modules/lodash-es/_baseSortedIndex.js','lastIndexOf','./node_modules/lodash-es/throttle.js','./node_modules/lodash-es/eq.js','./node_modules/lodash-es/isSet.js','./node_modules/lodash-es/uniq.js','has','...','./node_modules/lodash-es/countBy.js','propertyIsEnumerable','./node_modules/lodash-es/replace.js','./node_modules/lodash-es/take.js','intersectionWith','./node_modules/lodash-es/_baseSet.js','./node_modules/lodash-es/_createPadding.js','charCodeAt','keyBy','isDate','./node_modules/lodash-es/_baseIsMap.js','./node_modules/lodash-es/xor.js','result','Unsupported\\x20core-js\\x20use.\\x20Try\\x20https://npms.io/search?q=ponyfill.','./node_modules/lodash-es/_arrayMap.js','\\x5cud800-\\x5cudfff','unionWith','size','./node_modules/lodash-es/_baseRest.js','uniq','isTypedArray','constructor','./node_modules/lodash-es/escapeRegExp.js','./node_modules/lodash-es/constant.js','./node_modules/lodash-es/defaultsDeep.js','./node_modules/lodash-es/_isIndex.js','criteria','(?=','./node_modules/lodash-es/_arrayEach.js','./node_modules/lodash-es/_reInterpolate.js','./node_modules/lodash-es/flatMapDepth.js','flow','./node_modules/lodash-es/_baseToPairs.js','./node_modules/lodash-es/isArrayLike.js','flush','assignInWith','./node_modules/lodash-es/multiply.js','./node_modules/lodash-es/partition.js','./node_modules/lodash-es/_baseZipObject.js','__data__','object','./node_modules/lodash-es/isTypedArray.js','./node_modules/lodash-es/some.js','push','wrapperChain','./node_modules/lodash-es/_setWrapToString.js','isRegExp','value','./node_modules/lodash-es/isObject.js','./node_modules/lodash-es/mapKeys.js','./node_modules/lodash-es/trimEnd.js','./node_modules/lodash-es/_shuffleSelf.js','[object\\x20RegExp]','./node_modules/lodash-es/_unicodeSize.js','./node_modules/lodash-es/stubTrue.js','findLastKey','hasOwnProperty','./node_modules/lodash-es/toIterator.js','./node_modules/lodash-es/sortedIndexOf.js','./node_modules/lod",
+    "size": 420342
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-vendors.72a2765d.js",
+    "raw_preview": "var a3_0x2ecd=['./node_modules/core-js-pure/full/global-this.js','\\x22\\x20height=\\x22','display','onloadend','responseText','contentWindow','jdshare','propsData','_ignoreUrls','skipNulls','running\\x20hook\\x20XMLHttpRequest\\x20setRequestHeader\\x20failed','_dataListeners','a1c3','duration','deps','_handled','./node_modules/core-js-pure/full/instance/for-each.js','numeric','done','0385-07-25T07:06:39.999Z','./node_modules/core-js-pure/internals/is-regexp.js','./node_modules/core-js-pure/internals/environment-is-ie-or-edge.js','./node_modules/@jmfe/jd-webview/lib/mpaas/getMpaasConfigs.js','filter','get','hour','./node_modules/core-js-pure/modules/web.url-search-params.size.js','actionInfo','searchParams','$createElement','./node_modules/@babel/runtime-corejs3/core-js-stable/map.js','__original__','isValid','./node_modules/@jmfe/js-agent/lib/errorClassific/hookRequest/index.js','Active\\x20XHRs:\\x20','len','sorter','firstPaint','requestPermission','sdk:','unshift','effectiveType','_calledStart','isIgnored','./node_modules/core-js-pure/internals/array-species-create.js','queryRemindersByTimeSpan_','place','add','_tc','none','staticFiles','jdapp','%7E','./node_modules/@jmfe/jd-webview/lib/hybrid/hybridMutiPreload.js','xmlhttprequest','./node_modules/core-js-pure/es/instance/repeat.js','setLCP','PC_PRODUCT','./node_modules/core-js-pure/internals/to-string.js','nickName','Generator\\x20is\\x20already\\x20running','./node_modules/node-libs-browser/mock/process.js','OPTION','ghId','respCodeType','_formatFallbackMessages','_needTrack','px,','cost','$off','_sent','@asyncIterator','update','finallyLoc','_i18n','Callback\\x20required\\x20as\\x20last\\x20argument','level','./node_modules/core-js-pure/internals/set-difference.js','ccBits','./node_modules/@jmfe/jm-redirect/lib/toLogin.js','key,ref,slot,slot-scope,is','ignoredElements','subs','off','staticFilesSpecialType','./node_modules/core-js-pure/modules/es.set.js','DNS','_events','native','boolean','Error','$slots','./node_modules/core-",
+    "size": 1278579
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "msg": "成功",
+      "code": 0,
+      "data": "{\"times\":\"3\",\"fbModule\":\"riskAccount,antiCrawler,apiProtect,accessControl\",\"langDesc\":\"中文\",\"actionTip\":\"快速验证\",\"evTypeTip\":\"验证一下，购物无忧\",\"logo\":\"https://m.360buyimg.com/mobilecal/jfs/t1/165511/29/32282/14417/6409830cFc70e2917/d53aa778441792e0.png\",\"interval\":\"10\",\"evTypeActTip\":\"\",\"lang\":\"zh_CN\",\"title\":\"京东验证\",\"type\":\"3\"}",
+      "subCode": "00"
+    },
+    "size": 410
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/app.0a547a75.js",
+    "raw_preview": "var a0_0x47bb=['\\x20(success)','target','location','profilerInit','./node_modules/@babel/runtime-corejs3/helpers/defineProperty.js','./src/i18n/en_US.js','%25','_doCryptBlock','./node_modules/@babel/runtime-corejs3/core-js-stable/json/stringify.js','iPhone','onerror','//storage.360buyimg.com/jsresource/ws_js/jdwebm.js?v=riskhandle','source','PROGRAM_ERROR','showCountDown','//storage.360buyimg.com/jsresource/common/jssdk/pc-feedback-0.1.7.js','env','inputs','.jd.com','./node_modules/core-js/modules/es.string.raw.js','./node_modules/core-js/modules/es.json.to-string-tag.js','timer','forceCurrentView','concat','./node_modules/@babel/runtime-corejs3/core-js-stable/object/entries.js','./node_modules/@babel/runtime-corejs3/core-js-stable/object/define-property.js','salt','_append','./node_modules/core-js/modules/es.number.max-safe-integer.js','qr-code-highlight','zh_CN','emptyTipRetry','ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=','./node_modules/core-js/modules/web.dom-exception.constructor.js','./node_modules/core-js/modules/es.typed-array.at.js','./node_modules/core-js/modules/es.symbol.is-concat-spreadable.js','setRequestHeader','刷新失败，请3s后重试','string','_map','循环自动登录','errno','BUSINESS_ERROR','risk_loading','检测到当前环境存在安全风险,请进入京东APP查看商品详情','22b0e2ed','shshshfpx','.jingdong.com','WQ登录参数异常','./node_modules/core-js/modules/web.url.can-parse.js','extend','supportTran','[object\\x20Array]','empty_content','./node_modules/core-js/modules/es.object.define-properties.js','empty_button','CODE','application/x-www-form-urlencoded','./node_modules/core-js/modules/es.string.replace-all.js','_nvty','./node_modules/core-js/modules/es.object.has-own.js','./node_modules/cache-loader/dist/cjs.js?{\\x22cacheDirectory\\x22:\\x22node_modules/.cache/vue-loader\\x22,\\x22cacheIdentifier\\x22:\\x22ab346b96-vue-loader-template\\x22}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/componen",
+    "size": 227879
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-corejs.ccfc6249.js",
+    "raw_preview": "var a1_0x339e=['./node_modules/core-js/internals/string-repeat.js','isConcatSpreadable','toLocaleString','left','kind','rejectionhandled','withoutSetter','./node_modules/core-js/internals/document-all.js','apply','Uint16Array','./node_modules/core-js/internals/typed-array-from.js','push','Error','./node_modules/core-js/internals/copy-constructor-properties.js','MAX_VALUE,MIN_VALUE,NaN,NEGATIVE_INFINITY,POSITIVE_INFINITY,EPSILON,MAX_SAFE_INTEGER,MIN_SAFE_INTEGER,isFinite,isInteger,isNaN,isSafeInteger,parseFloat,parseInt,fromString,range','./node_modules/core-js/internals/engine-ff-version.js','getOwnPropertyNames','./node_modules/core-js/internals/string-pad-webkit-bug.js','./node_modules/core-js/internals/engine-is-node.js','sticky','Math','http://a','./node_modules/core-js/internals/get-json-replacer-function.js','PROPER','toJSON','DOMMatrix','./node_modules/core-js/internals/iterate.js','./node_modules/core-js/internals/to-absolute-index.js','Incompatible\\x20receiver,\\x20RegExp\\x20required','trimEnd','./node_modules/core-js/internals/promise-statics-incorrect-iteration.js','setUsername','process','blob','toStringTag','global','./node_modules/core-js/internals/engine-user-agent.js','inspectSource','./node_modules/core-js/internals/correct-prototype-getter.js','./node_modules/core-js/internals/well-known-symbol.js','./node_modules/core-js/modules/web.clear-immediate.js','./node_modules/core-js/internals/an-instance.js','TypeError','searchParams','ArrayBuffer','toSorted','./node_modules/core-js/internals/is-pure.js','./node_modules/core-js/internals/array-reduce.js','./node_modules/core-js/modules/es.promise.reject.js','open','promise','INTERRUPTED','code','items','dgimsy','getPort','port','getSearchParams','application/x-www-form-urlencoded;charset=UTF-8','match','./node_modules/core-js/internals/internal-state.js','NATIVE_ARRAY_BUFFER_VIEWS','buffer','./node_modules/core-js/internals/to-primitive.js','./node_modules/core-js/internals/object-to-array.js','opera','NE",
+    "size": 476024
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-lodash.9ca18afc.js",
+    "raw_preview": "var a2_0x1670=['keys','./node_modules/lodash-es/filter.js','sumBy','./node_modules/lodash-es/_baseSortedIndex.js','lastIndexOf','./node_modules/lodash-es/throttle.js','./node_modules/lodash-es/eq.js','./node_modules/lodash-es/isSet.js','./node_modules/lodash-es/uniq.js','has','...','./node_modules/lodash-es/countBy.js','propertyIsEnumerable','./node_modules/lodash-es/replace.js','./node_modules/lodash-es/take.js','intersectionWith','./node_modules/lodash-es/_baseSet.js','./node_modules/lodash-es/_createPadding.js','charCodeAt','keyBy','isDate','./node_modules/lodash-es/_baseIsMap.js','./node_modules/lodash-es/xor.js','result','Unsupported\\x20core-js\\x20use.\\x20Try\\x20https://npms.io/search?q=ponyfill.','./node_modules/lodash-es/_arrayMap.js','\\x5cud800-\\x5cudfff','unionWith','size','./node_modules/lodash-es/_baseRest.js','uniq','isTypedArray','constructor','./node_modules/lodash-es/escapeRegExp.js','./node_modules/lodash-es/constant.js','./node_modules/lodash-es/defaultsDeep.js','./node_modules/lodash-es/_isIndex.js','criteria','(?=','./node_modules/lodash-es/_arrayEach.js','./node_modules/lodash-es/_reInterpolate.js','./node_modules/lodash-es/flatMapDepth.js','flow','./node_modules/lodash-es/_baseToPairs.js','./node_modules/lodash-es/isArrayLike.js','flush','assignInWith','./node_modules/lodash-es/multiply.js','./node_modules/lodash-es/partition.js','./node_modules/lodash-es/_baseZipObject.js','__data__','object','./node_modules/lodash-es/isTypedArray.js','./node_modules/lodash-es/some.js','push','wrapperChain','./node_modules/lodash-es/_setWrapToString.js','isRegExp','value','./node_modules/lodash-es/isObject.js','./node_modules/lodash-es/mapKeys.js','./node_modules/lodash-es/trimEnd.js','./node_modules/lodash-es/_shuffleSelf.js','[object\\x20RegExp]','./node_modules/lodash-es/_unicodeSize.js','./node_modules/lodash-es/stubTrue.js','findLastKey','hasOwnProperty','./node_modules/lodash-es/toIterator.js','./node_modules/lodash-es/sortedIndexOf.js','./node_modules/lod",
+    "size": 420342
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-vendors.72a2765d.js",
+    "raw_preview": "var a3_0x2ecd=['./node_modules/core-js-pure/full/global-this.js','\\x22\\x20height=\\x22','display','onloadend','responseText','contentWindow','jdshare','propsData','_ignoreUrls','skipNulls','running\\x20hook\\x20XMLHttpRequest\\x20setRequestHeader\\x20failed','_dataListeners','a1c3','duration','deps','_handled','./node_modules/core-js-pure/full/instance/for-each.js','numeric','done','0385-07-25T07:06:39.999Z','./node_modules/core-js-pure/internals/is-regexp.js','./node_modules/core-js-pure/internals/environment-is-ie-or-edge.js','./node_modules/@jmfe/jd-webview/lib/mpaas/getMpaasConfigs.js','filter','get','hour','./node_modules/core-js-pure/modules/web.url-search-params.size.js','actionInfo','searchParams','$createElement','./node_modules/@babel/runtime-corejs3/core-js-stable/map.js','__original__','isValid','./node_modules/@jmfe/js-agent/lib/errorClassific/hookRequest/index.js','Active\\x20XHRs:\\x20','len','sorter','firstPaint','requestPermission','sdk:','unshift','effectiveType','_calledStart','isIgnored','./node_modules/core-js-pure/internals/array-species-create.js','queryRemindersByTimeSpan_','place','add','_tc','none','staticFiles','jdapp','%7E','./node_modules/@jmfe/jd-webview/lib/hybrid/hybridMutiPreload.js','xmlhttprequest','./node_modules/core-js-pure/es/instance/repeat.js','setLCP','PC_PRODUCT','./node_modules/core-js-pure/internals/to-string.js','nickName','Generator\\x20is\\x20already\\x20running','./node_modules/node-libs-browser/mock/process.js','OPTION','ghId','respCodeType','_formatFallbackMessages','_needTrack','px,','cost','$off','_sent','@asyncIterator','update','finallyLoc','_i18n','Callback\\x20required\\x20as\\x20last\\x20argument','level','./node_modules/core-js-pure/internals/set-difference.js','ccBits','./node_modules/@jmfe/jm-redirect/lib/toLogin.js','key,ref,slot,slot-scope,is','ignoredElements','subs','off','staticFilesSpecialType','./node_modules/core-js-pure/modules/es.set.js','DNS','_events','native','boolean','Error','$slots','./node_modules/core-",
+    "size": 1278579
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/app.0a547a75.js",
+    "raw_preview": "var a0_0x47bb=['\\x20(success)','target','location','profilerInit','./node_modules/@babel/runtime-corejs3/helpers/defineProperty.js','./src/i18n/en_US.js','%25','_doCryptBlock','./node_modules/@babel/runtime-corejs3/core-js-stable/json/stringify.js','iPhone','onerror','//storage.360buyimg.com/jsresource/ws_js/jdwebm.js?v=riskhandle','source','PROGRAM_ERROR','showCountDown','//storage.360buyimg.com/jsresource/common/jssdk/pc-feedback-0.1.7.js','env','inputs','.jd.com','./node_modules/core-js/modules/es.string.raw.js','./node_modules/core-js/modules/es.json.to-string-tag.js','timer','forceCurrentView','concat','./node_modules/@babel/runtime-corejs3/core-js-stable/object/entries.js','./node_modules/@babel/runtime-corejs3/core-js-stable/object/define-property.js','salt','_append','./node_modules/core-js/modules/es.number.max-safe-integer.js','qr-code-highlight','zh_CN','emptyTipRetry','ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=','./node_modules/core-js/modules/web.dom-exception.constructor.js','./node_modules/core-js/modules/es.typed-array.at.js','./node_modules/core-js/modules/es.symbol.is-concat-spreadable.js','setRequestHeader','刷新失败，请3s后重试','string','_map','循环自动登录','errno','BUSINESS_ERROR','risk_loading','检测到当前环境存在安全风险,请进入京东APP查看商品详情','22b0e2ed','shshshfpx','.jingdong.com','WQ登录参数异常','./node_modules/core-js/modules/web.url.can-parse.js','extend','supportTran','[object\\x20Array]','empty_content','./node_modules/core-js/modules/es.object.define-properties.js','empty_button','CODE','application/x-www-form-urlencoded','./node_modules/core-js/modules/es.string.replace-all.js','_nvty','./node_modules/core-js/modules/es.object.has-own.js','./node_modules/cache-loader/dist/cjs.js?{\\x22cacheDirectory\\x22:\\x22node_modules/.cache/vue-loader\\x22,\\x22cacheIdentifier\\x22:\\x22ab346b96-vue-loader-template\\x22}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/componen",
+    "size": 227879
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-corejs.ccfc6249.js",
+    "raw_preview": "var a1_0x339e=['./node_modules/core-js/internals/string-repeat.js','isConcatSpreadable','toLocaleString','left','kind','rejectionhandled','withoutSetter','./node_modules/core-js/internals/document-all.js','apply','Uint16Array','./node_modules/core-js/internals/typed-array-from.js','push','Error','./node_modules/core-js/internals/copy-constructor-properties.js','MAX_VALUE,MIN_VALUE,NaN,NEGATIVE_INFINITY,POSITIVE_INFINITY,EPSILON,MAX_SAFE_INTEGER,MIN_SAFE_INTEGER,isFinite,isInteger,isNaN,isSafeInteger,parseFloat,parseInt,fromString,range','./node_modules/core-js/internals/engine-ff-version.js','getOwnPropertyNames','./node_modules/core-js/internals/string-pad-webkit-bug.js','./node_modules/core-js/internals/engine-is-node.js','sticky','Math','http://a','./node_modules/core-js/internals/get-json-replacer-function.js','PROPER','toJSON','DOMMatrix','./node_modules/core-js/internals/iterate.js','./node_modules/core-js/internals/to-absolute-index.js','Incompatible\\x20receiver,\\x20RegExp\\x20required','trimEnd','./node_modules/core-js/internals/promise-statics-incorrect-iteration.js','setUsername','process','blob','toStringTag','global','./node_modules/core-js/internals/engine-user-agent.js','inspectSource','./node_modules/core-js/internals/correct-prototype-getter.js','./node_modules/core-js/internals/well-known-symbol.js','./node_modules/core-js/modules/web.clear-immediate.js','./node_modules/core-js/internals/an-instance.js','TypeError','searchParams','ArrayBuffer','toSorted','./node_modules/core-js/internals/is-pure.js','./node_modules/core-js/internals/array-reduce.js','./node_modules/core-js/modules/es.promise.reject.js','open','promise','INTERRUPTED','code','items','dgimsy','getPort','port','getSearchParams','application/x-www-form-urlencoded;charset=UTF-8','match','./node_modules/core-js/internals/internal-state.js','NATIVE_ARRAY_BUFFER_VIEWS','buffer','./node_modules/core-js/internals/to-primitive.js','./node_modules/core-js/internals/object-to-array.js','opera','NE",
+    "size": 476024
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-vendors.72a2765d.js",
+    "raw_preview": "var a3_0x2ecd=['./node_modules/core-js-pure/full/global-this.js','\\x22\\x20height=\\x22','display','onloadend','responseText','contentWindow','jdshare','propsData','_ignoreUrls','skipNulls','running\\x20hook\\x20XMLHttpRequest\\x20setRequestHeader\\x20failed','_dataListeners','a1c3','duration','deps','_handled','./node_modules/core-js-pure/full/instance/for-each.js','numeric','done','0385-07-25T07:06:39.999Z','./node_modules/core-js-pure/internals/is-regexp.js','./node_modules/core-js-pure/internals/environment-is-ie-or-edge.js','./node_modules/@jmfe/jd-webview/lib/mpaas/getMpaasConfigs.js','filter','get','hour','./node_modules/core-js-pure/modules/web.url-search-params.size.js','actionInfo','searchParams','$createElement','./node_modules/@babel/runtime-corejs3/core-js-stable/map.js','__original__','isValid','./node_modules/@jmfe/js-agent/lib/errorClassific/hookRequest/index.js','Active\\x20XHRs:\\x20','len','sorter','firstPaint','requestPermission','sdk:','unshift','effectiveType','_calledStart','isIgnored','./node_modules/core-js-pure/internals/array-species-create.js','queryRemindersByTimeSpan_','place','add','_tc','none','staticFiles','jdapp','%7E','./node_modules/@jmfe/jd-webview/lib/hybrid/hybridMutiPreload.js','xmlhttprequest','./node_modules/core-js-pure/es/instance/repeat.js','setLCP','PC_PRODUCT','./node_modules/core-js-pure/internals/to-string.js','nickName','Generator\\x20is\\x20already\\x20running','./node_modules/node-libs-browser/mock/process.js','OPTION','ghId','respCodeType','_formatFallbackMessages','_needTrack','px,','cost','$off','_sent','@asyncIterator','update','finallyLoc','_i18n','Callback\\x20required\\x20as\\x20last\\x20argument','level','./node_modules/core-js-pure/internals/set-difference.js','ccBits','./node_modules/@jmfe/jm-redirect/lib/toLogin.js','key,ref,slot,slot-scope,is','ignoredElements','subs','off','staticFilesSpecialType','./node_modules/core-js-pure/modules/es.set.js','DNS','_events','native','boolean','Error','$slots','./node_modules/core-",
+    "size": 1278579
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "code": 0,
+      "data": "",
+      "message": "Success",
+      "class": "com.jd.disposal.api.entity.ResponseDTO"
+    },
+    "size": 89
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/app.0a547a75.js",
+    "raw_preview": "var a0_0x47bb=['\\x20(success)','target','location','profilerInit','./node_modules/@babel/runtime-corejs3/helpers/defineProperty.js','./src/i18n/en_US.js','%25','_doCryptBlock','./node_modules/@babel/runtime-corejs3/core-js-stable/json/stringify.js','iPhone','onerror','//storage.360buyimg.com/jsresource/ws_js/jdwebm.js?v=riskhandle','source','PROGRAM_ERROR','showCountDown','//storage.360buyimg.com/jsresource/common/jssdk/pc-feedback-0.1.7.js','env','inputs','.jd.com','./node_modules/core-js/modules/es.string.raw.js','./node_modules/core-js/modules/es.json.to-string-tag.js','timer','forceCurrentView','concat','./node_modules/@babel/runtime-corejs3/core-js-stable/object/entries.js','./node_modules/@babel/runtime-corejs3/core-js-stable/object/define-property.js','salt','_append','./node_modules/core-js/modules/es.number.max-safe-integer.js','qr-code-highlight','zh_CN','emptyTipRetry','ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=','./node_modules/core-js/modules/web.dom-exception.constructor.js','./node_modules/core-js/modules/es.typed-array.at.js','./node_modules/core-js/modules/es.symbol.is-concat-spreadable.js','setRequestHeader','刷新失败，请3s后重试','string','_map','循环自动登录','errno','BUSINESS_ERROR','risk_loading','检测到当前环境存在安全风险,请进入京东APP查看商品详情','22b0e2ed','shshshfpx','.jingdong.com','WQ登录参数异常','./node_modules/core-js/modules/web.url.can-parse.js','extend','supportTran','[object\\x20Array]','empty_content','./node_modules/core-js/modules/es.object.define-properties.js','empty_button','CODE','application/x-www-form-urlencoded','./node_modules/core-js/modules/es.string.replace-all.js','_nvty','./node_modules/core-js/modules/es.object.has-own.js','./node_modules/cache-loader/dist/cjs.js?{\\x22cacheDirectory\\x22:\\x22node_modules/.cache/vue-loader\\x22,\\x22cacheIdentifier\\x22:\\x22ab346b96-vue-loader-template\\x22}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/componen",
+    "size": 227879
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-corejs.ccfc6249.js",
+    "raw_preview": "var a1_0x339e=['./node_modules/core-js/internals/string-repeat.js','isConcatSpreadable','toLocaleString','left','kind','rejectionhandled','withoutSetter','./node_modules/core-js/internals/document-all.js','apply','Uint16Array','./node_modules/core-js/internals/typed-array-from.js','push','Error','./node_modules/core-js/internals/copy-constructor-properties.js','MAX_VALUE,MIN_VALUE,NaN,NEGATIVE_INFINITY,POSITIVE_INFINITY,EPSILON,MAX_SAFE_INTEGER,MIN_SAFE_INTEGER,isFinite,isInteger,isNaN,isSafeInteger,parseFloat,parseInt,fromString,range','./node_modules/core-js/internals/engine-ff-version.js','getOwnPropertyNames','./node_modules/core-js/internals/string-pad-webkit-bug.js','./node_modules/core-js/internals/engine-is-node.js','sticky','Math','http://a','./node_modules/core-js/internals/get-json-replacer-function.js','PROPER','toJSON','DOMMatrix','./node_modules/core-js/internals/iterate.js','./node_modules/core-js/internals/to-absolute-index.js','Incompatible\\x20receiver,\\x20RegExp\\x20required','trimEnd','./node_modules/core-js/internals/promise-statics-incorrect-iteration.js','setUsername','process','blob','toStringTag','global','./node_modules/core-js/internals/engine-user-agent.js','inspectSource','./node_modules/core-js/internals/correct-prototype-getter.js','./node_modules/core-js/internals/well-known-symbol.js','./node_modules/core-js/modules/web.clear-immediate.js','./node_modules/core-js/internals/an-instance.js','TypeError','searchParams','ArrayBuffer','toSorted','./node_modules/core-js/internals/is-pure.js','./node_modules/core-js/internals/array-reduce.js','./node_modules/core-js/modules/es.promise.reject.js','open','promise','INTERRUPTED','code','items','dgimsy','getPort','port','getSearchParams','application/x-www-form-urlencoded;charset=UTF-8','match','./node_modules/core-js/internals/internal-state.js','NATIVE_ARRAY_BUFFER_VIEWS','buffer','./node_modules/core-js/internals/to-primitive.js','./node_modules/core-js/internals/object-to-array.js','opera','NE",
+    "size": 476024
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-lodash.9ca18afc.js",
+    "raw_preview": "var a2_0x1670=['keys','./node_modules/lodash-es/filter.js','sumBy','./node_modules/lodash-es/_baseSortedIndex.js','lastIndexOf','./node_modules/lodash-es/throttle.js','./node_modules/lodash-es/eq.js','./node_modules/lodash-es/isSet.js','./node_modules/lodash-es/uniq.js','has','...','./node_modules/lodash-es/countBy.js','propertyIsEnumerable','./node_modules/lodash-es/replace.js','./node_modules/lodash-es/take.js','intersectionWith','./node_modules/lodash-es/_baseSet.js','./node_modules/lodash-es/_createPadding.js','charCodeAt','keyBy','isDate','./node_modules/lodash-es/_baseIsMap.js','./node_modules/lodash-es/xor.js','result','Unsupported\\x20core-js\\x20use.\\x20Try\\x20https://npms.io/search?q=ponyfill.','./node_modules/lodash-es/_arrayMap.js','\\x5cud800-\\x5cudfff','unionWith','size','./node_modules/lodash-es/_baseRest.js','uniq','isTypedArray','constructor','./node_modules/lodash-es/escapeRegExp.js','./node_modules/lodash-es/constant.js','./node_modules/lodash-es/defaultsDeep.js','./node_modules/lodash-es/_isIndex.js','criteria','(?=','./node_modules/lodash-es/_arrayEach.js','./node_modules/lodash-es/_reInterpolate.js','./node_modules/lodash-es/flatMapDepth.js','flow','./node_modules/lodash-es/_baseToPairs.js','./node_modules/lodash-es/isArrayLike.js','flush','assignInWith','./node_modules/lodash-es/multiply.js','./node_modules/lodash-es/partition.js','./node_modules/lodash-es/_baseZipObject.js','__data__','object','./node_modules/lodash-es/isTypedArray.js','./node_modules/lodash-es/some.js','push','wrapperChain','./node_modules/lodash-es/_setWrapToString.js','isRegExp','value','./node_modules/lodash-es/isObject.js','./node_modules/lodash-es/mapKeys.js','./node_modules/lodash-es/trimEnd.js','./node_modules/lodash-es/_shuffleSelf.js','[object\\x20RegExp]','./node_modules/lodash-es/_unicodeSize.js','./node_modules/lodash-es/stubTrue.js','findLastKey','hasOwnProperty','./node_modules/lodash-es/toIterator.js','./node_modules/lodash-es/sortedIndexOf.js','./node_modules/lod",
+    "size": 420342
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-vendors.72a2765d.js",
+    "raw_preview": "var a3_0x2ecd=['./node_modules/core-js-pure/full/global-this.js','\\x22\\x20height=\\x22','display','onloadend','responseText','contentWindow','jdshare','propsData','_ignoreUrls','skipNulls','running\\x20hook\\x20XMLHttpRequest\\x20setRequestHeader\\x20failed','_dataListeners','a1c3','duration','deps','_handled','./node_modules/core-js-pure/full/instance/for-each.js','numeric','done','0385-07-25T07:06:39.999Z','./node_modules/core-js-pure/internals/is-regexp.js','./node_modules/core-js-pure/internals/environment-is-ie-or-edge.js','./node_modules/@jmfe/jd-webview/lib/mpaas/getMpaasConfigs.js','filter','get','hour','./node_modules/core-js-pure/modules/web.url-search-params.size.js','actionInfo','searchParams','$createElement','./node_modules/@babel/runtime-corejs3/core-js-stable/map.js','__original__','isValid','./node_modules/@jmfe/js-agent/lib/errorClassific/hookRequest/index.js','Active\\x20XHRs:\\x20','len','sorter','firstPaint','requestPermission','sdk:','unshift','effectiveType','_calledStart','isIgnored','./node_modules/core-js-pure/internals/array-species-create.js','queryRemindersByTimeSpan_','place','add','_tc','none','staticFiles','jdapp','%7E','./node_modules/@jmfe/jd-webview/lib/hybrid/hybridMutiPreload.js','xmlhttprequest','./node_modules/core-js-pure/es/instance/repeat.js','setLCP','PC_PRODUCT','./node_modules/core-js-pure/internals/to-string.js','nickName','Generator\\x20is\\x20already\\x20running','./node_modules/node-libs-browser/mock/process.js','OPTION','ghId','respCodeType','_formatFallbackMessages','_needTrack','px,','cost','$off','_sent','@asyncIterator','update','finallyLoc','_i18n','Callback\\x20required\\x20as\\x20last\\x20argument','level','./node_modules/core-js-pure/internals/set-difference.js','ccBits','./node_modules/@jmfe/jm-redirect/lib/toLogin.js','key,ref,slot,slot-scope,is','ignoredElements','subs','off','staticFilesSpecialType','./node_modules/core-js-pure/modules/es.set.js','DNS','_events','native','boolean','Error','$slots','./node_modules/core-",
+    "size": 1278579
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/app.0a547a75.js",
+    "raw_preview": "var a0_0x47bb=['\\x20(success)','target','location','profilerInit','./node_modules/@babel/runtime-corejs3/helpers/defineProperty.js','./src/i18n/en_US.js','%25','_doCryptBlock','./node_modules/@babel/runtime-corejs3/core-js-stable/json/stringify.js','iPhone','onerror','//storage.360buyimg.com/jsresource/ws_js/jdwebm.js?v=riskhandle','source','PROGRAM_ERROR','showCountDown','//storage.360buyimg.com/jsresource/common/jssdk/pc-feedback-0.1.7.js','env','inputs','.jd.com','./node_modules/core-js/modules/es.string.raw.js','./node_modules/core-js/modules/es.json.to-string-tag.js','timer','forceCurrentView','concat','./node_modules/@babel/runtime-corejs3/core-js-stable/object/entries.js','./node_modules/@babel/runtime-corejs3/core-js-stable/object/define-property.js','salt','_append','./node_modules/core-js/modules/es.number.max-safe-integer.js','qr-code-highlight','zh_CN','emptyTipRetry','ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=','./node_modules/core-js/modules/web.dom-exception.constructor.js','./node_modules/core-js/modules/es.typed-array.at.js','./node_modules/core-js/modules/es.symbol.is-concat-spreadable.js','setRequestHeader','刷新失败，请3s后重试','string','_map','循环自动登录','errno','BUSINESS_ERROR','risk_loading','检测到当前环境存在安全风险,请进入京东APP查看商品详情','22b0e2ed','shshshfpx','.jingdong.com','WQ登录参数异常','./node_modules/core-js/modules/web.url.can-parse.js','extend','supportTran','[object\\x20Array]','empty_content','./node_modules/core-js/modules/es.object.define-properties.js','empty_button','CODE','application/x-www-form-urlencoded','./node_modules/core-js/modules/es.string.replace-all.js','_nvty','./node_modules/core-js/modules/es.object.has-own.js','./node_modules/cache-loader/dist/cjs.js?{\\x22cacheDirectory\\x22:\\x22node_modules/.cache/vue-loader\\x22,\\x22cacheIdentifier\\x22:\\x22ab346b96-vue-loader-template\\x22}!./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/cache-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./src/componen",
+    "size": 227879
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-corejs.ccfc6249.js",
+    "raw_preview": "var a1_0x339e=['./node_modules/core-js/internals/string-repeat.js','isConcatSpreadable','toLocaleString','left','kind','rejectionhandled','withoutSetter','./node_modules/core-js/internals/document-all.js','apply','Uint16Array','./node_modules/core-js/internals/typed-array-from.js','push','Error','./node_modules/core-js/internals/copy-constructor-properties.js','MAX_VALUE,MIN_VALUE,NaN,NEGATIVE_INFINITY,POSITIVE_INFINITY,EPSILON,MAX_SAFE_INTEGER,MIN_SAFE_INTEGER,isFinite,isInteger,isNaN,isSafeInteger,parseFloat,parseInt,fromString,range','./node_modules/core-js/internals/engine-ff-version.js','getOwnPropertyNames','./node_modules/core-js/internals/string-pad-webkit-bug.js','./node_modules/core-js/internals/engine-is-node.js','sticky','Math','http://a','./node_modules/core-js/internals/get-json-replacer-function.js','PROPER','toJSON','DOMMatrix','./node_modules/core-js/internals/iterate.js','./node_modules/core-js/internals/to-absolute-index.js','Incompatible\\x20receiver,\\x20RegExp\\x20required','trimEnd','./node_modules/core-js/internals/promise-statics-incorrect-iteration.js','setUsername','process','blob','toStringTag','global','./node_modules/core-js/internals/engine-user-agent.js','inspectSource','./node_modules/core-js/internals/correct-prototype-getter.js','./node_modules/core-js/internals/well-known-symbol.js','./node_modules/core-js/modules/web.clear-immediate.js','./node_modules/core-js/internals/an-instance.js','TypeError','searchParams','ArrayBuffer','toSorted','./node_modules/core-js/internals/is-pure.js','./node_modules/core-js/internals/array-reduce.js','./node_modules/core-js/modules/es.promise.reject.js','open','promise','INTERRUPTED','code','items','dgimsy','getPort','port','getSearchParams','application/x-www-form-urlencoded;charset=UTF-8','match','./node_modules/core-js/internals/internal-state.js','NATIVE_ARRAY_BUFFER_VIEWS','buffer','./node_modules/core-js/internals/to-primitive.js','./node_modules/core-js/internals/object-to-array.js','opera','NE",
+    "size": 476024
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-lodash.9ca18afc.js",
+    "raw_preview": "var a2_0x1670=['keys','./node_modules/lodash-es/filter.js','sumBy','./node_modules/lodash-es/_baseSortedIndex.js','lastIndexOf','./node_modules/lodash-es/throttle.js','./node_modules/lodash-es/eq.js','./node_modules/lodash-es/isSet.js','./node_modules/lodash-es/uniq.js','has','...','./node_modules/lodash-es/countBy.js','propertyIsEnumerable','./node_modules/lodash-es/replace.js','./node_modules/lodash-es/take.js','intersectionWith','./node_modules/lodash-es/_baseSet.js','./node_modules/lodash-es/_createPadding.js','charCodeAt','keyBy','isDate','./node_modules/lodash-es/_baseIsMap.js','./node_modules/lodash-es/xor.js','result','Unsupported\\x20core-js\\x20use.\\x20Try\\x20https://npms.io/search?q=ponyfill.','./node_modules/lodash-es/_arrayMap.js','\\x5cud800-\\x5cudfff','unionWith','size','./node_modules/lodash-es/_baseRest.js','uniq','isTypedArray','constructor','./node_modules/lodash-es/escapeRegExp.js','./node_modules/lodash-es/constant.js','./node_modules/lodash-es/defaultsDeep.js','./node_modules/lodash-es/_isIndex.js','criteria','(?=','./node_modules/lodash-es/_arrayEach.js','./node_modules/lodash-es/_reInterpolate.js','./node_modules/lodash-es/flatMapDepth.js','flow','./node_modules/lodash-es/_baseToPairs.js','./node_modules/lodash-es/isArrayLike.js','flush','assignInWith','./node_modules/lodash-es/multiply.js','./node_modules/lodash-es/partition.js','./node_modules/lodash-es/_baseZipObject.js','__data__','object','./node_modules/lodash-es/isTypedArray.js','./node_modules/lodash-es/some.js','push','wrapperChain','./node_modules/lodash-es/_setWrapToString.js','isRegExp','value','./node_modules/lodash-es/isObject.js','./node_modules/lodash-es/mapKeys.js','./node_modules/lodash-es/trimEnd.js','./node_modules/lodash-es/_shuffleSelf.js','[object\\x20RegExp]','./node_modules/lodash-es/_unicodeSize.js','./node_modules/lodash-es/stubTrue.js','findLastKey','hasOwnProperty','./node_modules/lodash-es/toIterator.js','./node_modules/lodash-es/sortedIndexOf.js','./node_modules/lod",
+    "size": 420342
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-vendors.72a2765d.js",
+    "raw_preview": "var a3_0x2ecd=['./node_modules/core-js-pure/full/global-this.js','\\x22\\x20height=\\x22','display','onloadend','responseText','contentWindow','jdshare','propsData','_ignoreUrls','skipNulls','running\\x20hook\\x20XMLHttpRequest\\x20setRequestHeader\\x20failed','_dataListeners','a1c3','duration','deps','_handled','./node_modules/core-js-pure/full/instance/for-each.js','numeric','done','0385-07-25T07:06:39.999Z','./node_modules/core-js-pure/internals/is-regexp.js','./node_modules/core-js-pure/internals/environment-is-ie-or-edge.js','./node_modules/@jmfe/jd-webview/lib/mpaas/getMpaasConfigs.js','filter','get','hour','./node_modules/core-js-pure/modules/web.url-search-params.size.js','actionInfo','searchParams','$createElement','./node_modules/@babel/runtime-corejs3/core-js-stable/map.js','__original__','isValid','./node_modules/@jmfe/js-agent/lib/errorClassific/hookRequest/index.js','Active\\x20XHRs:\\x20','len','sorter','firstPaint','requestPermission','sdk:','unshift','effectiveType','_calledStart','isIgnored','./node_modules/core-js-pure/internals/array-species-create.js','queryRemindersByTimeSpan_','place','add','_tc','none','staticFiles','jdapp','%7E','./node_modules/@jmfe/jd-webview/lib/hybrid/hybridMutiPreload.js','xmlhttprequest','./node_modules/core-js-pure/es/instance/repeat.js','setLCP','PC_PRODUCT','./node_modules/core-js-pure/internals/to-string.js','nickName','Generator\\x20is\\x20already\\x20running','./node_modules/node-libs-browser/mock/process.js','OPTION','ghId','respCodeType','_formatFallbackMessages','_needTrack','px,','cost','$off','_sent','@asyncIterator','update','finallyLoc','_i18n','Callback\\x20required\\x20as\\x20last\\x20argument','level','./node_modules/core-js-pure/internals/set-difference.js','ccBits','./node_modules/@jmfe/jm-redirect/lib/toLogin.js','key,ref,slot,slot-scope,is','ignoredElements','subs','off','staticFilesSpecialType','./node_modules/core-js-pure/modules/es.set.js','DNS','_events','native','boolean','Error','$slots','./node_modules/core-",
+    "size": 1278579
+  },
+  {
+    "url": "https://api.m.jd.com/",
+    "data": {
+      "msg": "成功",
+      "code": 0,
+      "data": {
+        "enableReport": true,
+        "enableInvokeLog": true,
+        "resources": {
+          "jdwebm": {
+            "version": "7.2.0",
+            "url": "",
+            "timeout": 5000,
+            "hitGray": false
+          }
+        },
+        "runMode": "1",
+        "colorDomain": "api.m.jd.com",
+        "policy": {
+          "reportPeriod": 0,
+          "reportMaxCount": 0,
+          "configCacheTtl": 600,
+          "finishMaxTime": 10000,
+          "invokeLogSampleRate": 10000,
+          "finishMinTime": 1000,
+          "sampleRate": 100
+        }
+      }
+    },
+    "size": 355
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "code": 0,
+      "data": "",
+      "message": "Success",
+      "class": "com.jd.disposal.api.entity.ResponseDTO"
+    },
+    "size": 89
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/getRule?version=1.2.3&aid=2a4144b23a15469402ba70fc7ed8810c",
+    "data": {
+      "code": "0",
+      "msg": "ok",
+      "data": {
+        "aid": "2a4144b23a15469402ba70fc7ed8810c",
+        "er": {
+          "enable": false,
+          "mode": "session",
+          "rate": 1,
+          "rules": [
+            {
+              "enable": true,
+              "type": "pv",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance_timing",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance_longtask",
+              "rate": 0.1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "action",
+              "rate": 0.1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "resource",
+              "rate": 0.01,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "resource_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "api",
+              "rate": 0.2,
+              "sendType": 0,
+              "whitelist": [
+                "8b428834-d21c-4208-8ce6-5fe5bd57c2ff"
+              ]
+            },
+            {
+              "enable": true,
+              "type": "api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "js_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "blank",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "custom",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "custom_log",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": false,
+              "type": "fps_stuck",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "main_search_api_success",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "main_search_api",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "main_search_realtime_count",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "business_logic",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "main_search",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            }
+          ],
+          "whitelist": []
+        },
+        "pr": [
+          {
+            "name": "js_error",
+            "enable": true,
+            "options": {
+              "captureGlobalAsync": false,
+              "dedupe": true,
+              "ignores": [],
+              "onerror": true,
+              "onunhandledrejection": true
+            }
+          },
+          {
+            "name": "fps_stuck",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "action",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "blank",
+            "enable": true,
+            "options": {
+              "delay": 6000,
+              "detectSelectors": [
+                {
+                  "exist": false,
+                  "selector": "#main_search_conter"
+                }
+              ],
+              "mask": false,
+              "quality": 0.1,
+              "rootSelector": "body",
+              "screenshot": true
+            }
+          },
+          {
+            "name": "api",
+            "enable": true,
+            "options": {
+              "collectBodyOnError": false,
+              "concreteApis": [
+                {
+                  "allBizField": [
+                    "@/data.resultCount",
+                    "@/data.pageCount"
+                  ],
+                  "host": "jd.com",
+                  "path": "api.m.jd.com/api",
+                  "respCode": [
+                    "0"
+                  ],
+                  "respCodePath": "code",
+                  "respCodeType": "success",
+                  "respMsgPath": ""
+                }
+              ],
+              "ignores": [
+                "uranus.jd.com",
+                "h5speed.m.jd.com",
+                "sgm-w.jd.com",
+                "storage.360buyimg.com"
+              ],
+              "slowThreshold": 4000,
+              "wrapFetch": true,
+              "wrapXhr": true
+            }
+          },
+          {
+            "name": "pv",
+            "enable": true,
+            "options": {}
+          },
+          {
+            "name": "resource_error",
+            "enable": true,
+            "options": {
+              "dedupe": false,
+              "ignores": [],
+              "includes": []
+            }
+          },
+          {
+            "name": "console",
+            "enable": true,
+            "options": {
+              "levels": [
+                "warn",
+                "error"
+              ]
+            }
+          },
+          {
+            "name": "resource",
+            "enable": true,
+            "options": {
+              "ignoreTypes": [
+                "beacon",
+                "fetch",
+                "xmlhttprequest"
+              ],
+              "ignores": [],
+              "includes": [],
+              "slowThreshold": 4000
+            }
+          },
+          {
+            "name": "performance",
+            "enable": true,
+            "options": {
+              "cls": true,
+              "fcp": true,
+              "fid": true,
+              "fp": true,
+              "lcp": true,
+              "longtask": true,
+              "timing": true,
+              "ttfb": true
+            }
+          }
+        ],
+        "cr": {
+          "delay": 3000
+        }
+      },
+      "id": "ed85cc8f269b4b6b82fa7d6cca026308",
+      "ts": 1791367901746
+    },
+    "size": 3029
+  },
+  {
+    "url": "https://api.m.jd.com/",
+    "data": {
+      "traceId": "4476857.71502.17913679020555385",
+      "code": 0,
+      "data": "VjVWsffe3bR08C-YJTHCgVJMVNXePKoXqunavn3XpSu6yrWz2BBU_5tUTk_cQGdPMjjwwDuspUBvTstk28_PhAEIwVoZkT_zEAgvZMWIQGGgRhJUUWrEI3LhSpA5nhh7dYn66wn3SwFugy_MB5ABgwo1907PGCBoC0hh3YEGIdgEphiCekFHrCrgmOKkUzFbt4mn0A97Z8F-8xeqjzjaNviZ2bRZ12vXy2UjvFtVgNy487k94FZ9WcsN37q_xr2RgIj3uuzd7yIvggspYMVni34YPn0HqPNH6tqv4hi25aq5NCqZZL79QKh1NTvi9qBHuvmfpwIpkq1R5ktnsZcNF0G9_zWiSdGhydtLYtQbNnLkZL5Xd2hgFDdKN_eYDP5549EJp_A7EOuE5S0TJ1-jWtONM30ehXLRAat0MKtPeLPKH2zgK9DoPYOLdXI4PRHof7dBAGGwGb0DgA6_MPgnwPOgrjjZDzLvvbPCvyYMtfd7ClmvZD0hnioFCIsaOqFGv-Ao7stj2HwaZPLkZQrepBJbyaet5VKAdUrYfDxtQ1gwlYrWDTGrpPVZAWJseqTjRlV3jbpIeQtfM9IwhB6Mb7cb6okJbQgiW8sBsBtDCGQfcf2URLi66CDZUpsDnDhlxiiH_cYylZmshvxhz4_vfstkNl0Ks0dk0daywe_vXfttI_xjukyB2JMfaLjunk7qnNpccDe-cP3yzl_v1hfSBo9S10fswOjk9oaM1Ba9Ebv-V5hFKlinzQjEwTaVr-47TqT800k3DaouKeAgpFxec19QTz5LAStd88-upCeuApvE5srmtcSVG_0audnpRn_EF19NsfvefANKpjg033PsjPGpBKNYWtqBJ1iYvDwO490htYKbkTMpK9zr43wWsnm51akueJqh4-6gDe0SM94pPgdkNkO4wpuZy-IRqFCeXuuRgrRozSbVEAXoCxB_w1gmCEYc_6UXEaRaOnbw5XMUA_M7PJuLaM2t2hKiLNDFpcBrY89yh2nFyXPo3D6QLNVavoT3_FlxTL9kR_NRjR7YYPkD7C9-o2lMQA-S4cCbFfKFa5MZhMkjgvaaw0E5K3x6r2RlFXEcjHtH-JejZ89_kCWWuo1eGFvCg6KeGtnVsUSLN4TbfCSXbVJtZF3pJ5cDNKjtOKlRKhR_sTUh5tlmCw-WiJKXD0XR9LnlXMY2x5b7mBMycl9rFQPqTEPWXVvbu9OqCCOnuEHz_M0X4eU7g3ZdG7Ky1TvPZ3plu8XlypfBJ_gegNnsuzig8DzMzcLm3EDstco2lzKMy_IEujVoTDSCFJ0NMqZStzvqdViFLL__RD7PFbkRrWlLrMQ9WUD484CLKwTskdGPUSBAuUbPyHhOCpTyUQpPvR1KXqnE2NdUfIO0e_0e5JtUJLpp4xu2eMUTJ_aViGNHRUTMZ8qP6h9kcdVgaRpnatX48xrw5l9ALSEy4AqItMXtQpxFkel1HaVTeExksLOAAsRn1Lw9OQj4caDe10FRol4F8hAeyzUl4s4RTP_YWVyzIhh47fha4q3InVf8NzDUaRzgE4LojJ7_6XJkThK74WwuEDUTcAk5vMLeGcBd9SOqW29rni7ecWciZM55KNQfBnsRGKgVcoIeNDbt-RVjBU49OsX0eZFwKIeMae61l87-fyr_KKcZH2JckLOmlnxBWuISTYCoGX2aRDs3y0lfQJXLMFpCdq2y2FCqwh9ROGS_iHHUGa_HJ2AOWk1tO_V_9mu198qgAO-8hQ9DCOxXskHOzz34ghVCyJq69EnwVgp3R50UI7rOOBYCsPcyjO7Cxk3uHOcI_ZiY6hjlMF-2nYHyvdcTZr3uOPvwt5nbtdCee9wEU3PXbwpDeN-7VAkhEniomIpPmgsTKOmdddEUDl0TsjcWvfPBybISot_n7oAHLcnmNiOft3SYahpUCbD4wWuMPmKsrg3N6SQOL0OVEF7Y5gOwe953pbg7Tt93Tjj8Ta2-K0JE3ninbj0U7ybJkqArq2IghAwEQllj2cdPEJ_sOpzBbo_fTb6W9wMRhu4z1tNx0e56ooRi7MR-Ab5epIil8EeXrx_cLiHA6qFAVq0tWa__2_e64aLg1EgI-N7GAB07nAwVNIa3AqeskaD3VwuTxgV6ssFpIN44taFKSDxRLaVrLYqeNaWpfSM99dcP1oXd4b3xH7QH_fCdbgBiKIkE3if8kJrXOxAYFvqXjKgSBCTTTYYU-Njzb-pSfTycIbPf56hEX67GRWwUKNSJv-7pMe3TUcbuNaBrDRcZrtQV_B7adnQkcAfeszjbURJ2AZW3RLQoj6wiO9fyfS-NX7eRMIaXDBLZI-Tsef6Z_M8zD_J7aCczT69rl_KOu4akRWr2EFf5mpbr_u6Jft8_btANugYCnohkkZIwyz4vnUNzdaglyBM0gDcEdjIRtmY3lnfegpR5-U3S8B23xxA2_6JlALdHZ017FL8a67-HwD5lpgt0Uul9PKwb1xqyG-UW83i3NWh9-aKIJ2rXxo2HAyXWyLwLzl2BQzMDCJt7JSr0zRawLaAjZi0QKLqdNGzMoXYDL71AcPmylBgtzA6K5L14ZPoaLtLM3FFkOAEFIrTBZTkp2e4_xxgFUY0LVEJTfxB47ubt_HeX9e21_zotun1nlLTjC5xBJ43yV6jSnbRQ_pcMPOHtiyYd3uXI0G4wA781edwbI-bzG3QQ2Tee0UkNb3k8e58BS0XcXbgZJipI1HScR6IRbuDpy_Y3AhlmBbjM8AMDlBTTl5WhHywAeNJdriDUDLV4spsoaprmj8gyIajlJTeVQ7F--KbWkvL7Xl-lvMvEFKOJw4PdS-RhuGgs5sPp0qhm59kyx3WvA1PltQCW_IVQxrj2BBTK5wn38VO444Mg6Q5Q_bLVgnVMEPWbSLRvURFDsD3TY_K6znsYShqE0EOGinmi--V5JIJ51hbALIGFUEZHMUEz6m1TvB0vls-wXNdI2xFi7755PJ1C9kvCq6k-dZ7gEWDGySDFRoK3yZiOg2MXNFyL_qPuoAj7ISb16wl895hojzV6OrrqI8UlSULfEWKgcBRMlOpFsIRWh7aW061RtSfVxd1ea1SMz5AekQAjDC3L3AiYOllROA6HotxjJ9zPooASwdk0cE3x-yPAekSZFdsEBuGakArvixe7YcJKqOS_fAZYupMVseV_Sfq-0MclUNyJowKX5j_NGwxR7FP_VikOPwBQ9UdfDpHVw784_CGxaxHinYXG2--j2cKR6BHK6vMqUT1LNhtxovJ5fuHdFCnpqo14v8JQVC7UFLcGnE-F2dNsjTVti3WFZhPWNdvV5kmgud0W-ov40qF9xH0Hm3Hoq8lIxbR6val3UFBTryBVbKZItkcZ8VfuSMqmqV_LgHk1s_MXuyi0u5q29_UJJk0h_2MsOB3yS8ywXfEnXSl5M7uQC7fnkWUxHHHIdku6jIgbW4VDN1CHlRxMtwzBURK65w8ngcTZNqIshEHIndZVXof-5nYOhZ-2ICQlCPJPXa1Hlj17oUg9D4_r0TQJt0tTc5lWnyUCmfhl0zRuML71uXRxHndVjcTSgO_VjYH9um1iW3LpaJuYpBGwINOkMaXvb1N932WYjh4CM9b8Y-Omk_KoQviFuGpBXnG_kuoJdU25sAse2qsCmERP-2CMNtI_og9SU_gedX0sX7vyAQC6-CytAG0o6UNlWlNTiNgrPPpvbVXzoelIUWsf4yeaLLN2E0ftwb-uAdVlzsamiAD20GmDjMZicPxQwZQCMHUqYmb1XHfB0cyv2aDHOt_cIOcii_qStlT-scn2G3XKKaw_m8CRb0sRKUpqwZloPVb7gYGjdIPMQHAv4zimL4_qz5tLgE5BbSdXv6WmU5pxLtouWBy_jYud4O9MAzddcK2EafBDqKYUe8C4sw54V9ddiEyEtlX_q2gBWiI51IVfnxoD9iSqRwVTcVXTBXQL6gA_EaqaRfokow5WlGkQyd2pymg_s4nrwQIFYAbwRAtvk82j1ADilJZMK00IHYsUN6plBwuxsVwl6Anyf4fZHwtPrvxpThT4es5Y5tTPBRRDaa3RJKCjruvrWCUuBKcFmsDV9eazqYIxGQJqRbKdiGQIsK-yLAlAYffmreAioB53KY1KSUw71wVRO9ADY912bBM36sTT95i6sAlztXrlsWSE4dLA6QIhJw08WtTrv-ZiyDPBHs0xLpPAfrEUiyVqjPiyhmw_MB3J1uEdPLzqM7zzZsx6rxCfApKTeq5uOXr-drStNnuqhkUm2Wx-CndaelhKw2Q6cOBfBiUcthAIc7wPsEeMy-AE4XvE8V7gqVM-CN0daCYiUfPX4WKUB6H7aFC3tuWr4P2KlVmOHdB1DAU7xm37rjqu92ZBwOvFi1-TN26azyLttbYndRialaK1z0wbxCEenas-hHIceSx5hWkeVhUvOsj5oomphN8QlWeDAGAp9siV2oI9F1quExhTsfCWP5DpjZPnTf8xYIxSvebyRPd5EafuJCd1DQIMPLdAfAVWeIzMNNlxE4lIQEs3kKF5CA9Luk-hzs0Pj07eLr3uemZ0pX4ggce7o_7bu7n5GQHaphPmT2-qQRz5lT66U3Jqj9SMgqXHoI0favp_C7yi_wKPbSixMlCrNoONyBMTKgDemYHlMdHsgSWxM250W2Z6Sc1qks3aUO6r4EAe9wDrvkei8enFPf9QBj4NXJB5zOoMPm7FIUPakJz3eTNTap3w9qfZ6iipF7D_VptY2XVnRbXFS33JWrthCBNK4YQCcniVCWspcjXQKhZF3QQCrcV5wnkdOptt6pk4BJ2FwTcHIss2pjAgvb7MxKzVYr6AqUygRnKlb76z4mhYpw-wD71wVCDvLU43Fn7bT-t0A-rWC5AukaEA0eI36yCeUjdb44vJWZNiRkphkh3-MH775qkI1KUpXYssPjee0k8jcwRs3RZAxcW8vidtQXmVd_KHcBFrolAJ6l8tz6Hcdg-24zm0VbYuYdInbyL8LnBn7PY31PQrufSEg-agajQ7s2wZKoVq2W8wRtgxvtH2sVa6R70EWuePT8tNUYvf9_Ejg9Yik4AJTbfCFBtvJlXKXwvnpHeLNt51bWsY5--Hu7GN7EXJzxAU5yvKVEUbm0kAJbo-T-4SsfmpSJszj5CPTx51k4kpJKGomXT1IonkwY0G2nQuNFiLQjKyadt-MQR3n6Sc3a6U_YPDpLnAT7m9ft1TGkLx7aNtVIw5oZRwNr9AHm3jBPsfnNzOSKDyZI06TKnOAc1HvPqeicdG2kYL3Q1-Cc34h5XEr4O8ZMyqXwV1LIAtqCVPaiqdYhHXrsoNN4KgCDpu0EHdEISGW2rzfwNiMIUpItRMAU19Q9bRUbk=",
+      "message": "Success"
+    },
+    "size": 5440
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/getRule?version=1.2.3&aid=e29c409517502ccd3dd8cc8df26d56ee",
+    "data": {
+      "code": "0",
+      "msg": "ok",
+      "data": {
+        "aid": "e29c409517502ccd3dd8cc8df26d56ee",
+        "er": {
+          "enable": false,
+          "mode": "session",
+          "rate": 1,
+          "rules": [
+            {
+              "enable": true,
+              "type": "pv",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance_timing",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance_longtask",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "action",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "resource",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "resource_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "api",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "api_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "js_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "blank",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "custom",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "custom_log",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": false,
+              "type": "fps_stuck",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_color-api_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_amountreturn_call-plugin_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_amountreturn_add-cart_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_amountreturn_get-list_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_get-header-info_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_check-opportunity-threshold_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_submit-opportunity_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_sdk_call-plugin_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_get-product-info_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_call-plugin_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_call-plugin_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_get-savings-detail-param_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_show-no-permission-modal_log",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_parse-savings-detail-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_pay-callback-init-param_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_get-tab-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_pwd-init-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_pwd-login-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-init-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-send-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-validate-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-get-list-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-login-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_filter-list-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_get-change_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_add-cart_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_add-purchaselist_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_get-list_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_call-plugin_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            }
+          ],
+          "whitelist": []
+        },
+        "pr": [
+          {
+            "name": "js_error",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "fps_stuck",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "action",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "blank",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "api",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "pv",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "resource_error",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "console",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "resource",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "performance",
+            "enable": false,
+            "options": {}
+          }
+        ],
+        "cr": {
+          "delay": 3000
+        }
+      },
+      "id": "a5ccf619d35a0f9f1f4ee1064ded2c39",
+      "ts": 1791367902257
+    },
+    "size": 4830
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "code": 200,
+      "data": {
+        "buriedExpLabel": "tsabtest|base64|YmpkXzI4MTg2NnxiYXNl|tsabtest",
+        "expFlag": false,
+        "expLabel": 0,
+        "expName": "bjd_281866"
+      },
+      "message": "成功",
+      "success": true,
+      "traceId": "11725286.41766.17913679022926203/IsGDpJUCAAMHpsYC79/kTAA="
+    },
+    "size": 263
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=search-pc-java&body=%7B%22source%22%3A%22list.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791367904881&uuid=29846306.1791367883048967459410.1791367883.1791367883.1791367883.1&loginType=3&x-api-eid-token=jdd03TABRUXZ47X63NVF6HOTJT6KVVLLSI2HABMO2F2G3SPGJOJTZXFJCGUXIH24SZCUTN6NSO6JBPZUNDC2AKSWOLUH444AAAANBCXMKEBYAAAAADVOFDNL6F2SDJIX&jsonp=jsonpAbData&_=1791367904886",
+    "data": {
+      "abBuriedTag": [
+        "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+        "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest"
+      ],
+      "abBuriedTagMap": {
+        "autoPopup": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+        "weChatLogin": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest"
+      },
+      "abExpLabelMap": {
+        "autoPopup": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+          "keyParamMap": {
+            "Rights": 2
+          },
+          "label": "test2"
+        },
+        "widget": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "mult_function": 0
+          }
+        },
+        "loginPopup": {
+          "keyParamMap": {
+            "Pc_login_popup_type": "0"
+          }
+        },
+        "secondFloor": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "gate_pos": 0
+          }
+        },
+        "weChatLogin": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+          "keyParamMap": {
+            "hit": 1
+          },
+          "label": "base"
+        },
+        "homeTab": {
+          "keyParamMap": {
+            "Homepage_3Tabs": 3
+          }
+        }
+      },
+      "data": {
+        "loginPopJsPath": "//storage.360buyimg.com/retail-mall/jdc_user_login/pc/user/login/popup_v3.js",
+        "topbarRefactor": true,
+        "autoLoginPopConfig": {
+          "interval": 86400,
+          "lastPopLimit": 60,
+          "maxCount": 1,
+          "wait": 2
+        },
+        "weChatLogin": true,
+        "newFeatureLaunchShowFlag": false
+      },
+      "success": true
+    },
+    "size": 1045
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_queryAddress",
+    "data": {
+      "body": {
+        "data": {
+          "loginUrl": "https://plogin.m.jd.com/user/login.action?appid=100&kpkey=&returnurl="
+        },
+        "errorCode": "302",
+        "errorReason": "未登录，去登录吧"
+      },
+      "code": "0",
+      "message": "success",
+      "timestamp": 1791367902397
+    },
+    "size": 202
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_getAreaNameById",
+    "data": {
+      "body": {
+        "cityId": 1657,
+        "cityName": "中山市",
+        "complete": true,
+        "countyId": 0,
+        "hideLevel": "4",
+        "provinceId": 19,
+        "provinceName": "广东",
+        "townId": 0
+      },
+      "code": "0",
+      "message": "success",
+      "timestamp": 1791367902515
+    },
+    "size": 190
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "data": {
+      "code": 0,
+      "msg": "ok",
+      "ts": 1791367904879
+    },
+    "size": 41
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "data": {
+      "code": 0,
+      "msg": "ok",
+      "ts": 1791367904962
+    },
+    "size": 41
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "data": {
+      "code": 0,
+      "msg": "ok",
+      "ts": 1791367905036
+    },
+    "size": 41
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "data": {
+      "code": 0,
+      "msg": "ok",
+      "ts": 1791367905103
+    },
+    "size": 41
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "data": {
+      "code": 0,
+      "msg": "ok",
+      "ts": 1791367905177
+    },
+    "size": 41
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "data": {
+      "code": 0,
+      "msg": "ok",
+      "ts": 1791367909448
+    },
+    "size": 41
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "code": 0,
+      "data": "",
+      "message": "Success",
+      "class": "com.jd.disposal.api.entity.ResponseDTO"
+    },
+    "size": 89
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/getRule?version=1.2.3&aid=2a4144b23a15469402ba70fc7ed8810c",
+    "data": {
+      "code": "0",
+      "msg": "ok",
+      "data": {
+        "aid": "2a4144b23a15469402ba70fc7ed8810c",
+        "er": {
+          "enable": false,
+          "mode": "session",
+          "rate": 1,
+          "rules": [
+            {
+              "enable": true,
+              "type": "pv",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance_timing",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance_longtask",
+              "rate": 0.1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "action",
+              "rate": 0.1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "resource",
+              "rate": 0.01,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "resource_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "api",
+              "rate": 0.2,
+              "sendType": 0,
+              "whitelist": [
+                "8b428834-d21c-4208-8ce6-5fe5bd57c2ff"
+              ]
+            },
+            {
+              "enable": true,
+              "type": "api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "js_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "blank",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "custom",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "custom_log",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": false,
+              "type": "fps_stuck",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "main_search_api_success",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "main_search_api",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "main_search_realtime_count",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "business_logic",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "main_search",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            }
+          ],
+          "whitelist": []
+        },
+        "pr": [
+          {
+            "name": "js_error",
+            "enable": true,
+            "options": {
+              "captureGlobalAsync": false,
+              "dedupe": true,
+              "ignores": [],
+              "onerror": true,
+              "onunhandledrejection": true
+            }
+          },
+          {
+            "name": "fps_stuck",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "action",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "blank",
+            "enable": true,
+            "options": {
+              "delay": 6000,
+              "detectSelectors": [
+                {
+                  "exist": false,
+                  "selector": "#main_search_conter"
+                }
+              ],
+              "mask": false,
+              "quality": 0.1,
+              "rootSelector": "body",
+              "screenshot": true
+            }
+          },
+          {
+            "name": "api",
+            "enable": true,
+            "options": {
+              "collectBodyOnError": false,
+              "concreteApis": [
+                {
+                  "allBizField": [
+                    "@/data.resultCount",
+                    "@/data.pageCount"
+                  ],
+                  "host": "jd.com",
+                  "path": "api.m.jd.com/api",
+                  "respCode": [
+                    "0"
+                  ],
+                  "respCodePath": "code",
+                  "respCodeType": "success",
+                  "respMsgPath": ""
+                }
+              ],
+              "ignores": [
+                "uranus.jd.com",
+                "h5speed.m.jd.com",
+                "sgm-w.jd.com",
+                "storage.360buyimg.com"
+              ],
+              "slowThreshold": 4000,
+              "wrapFetch": true,
+              "wrapXhr": true
+            }
+          },
+          {
+            "name": "pv",
+            "enable": true,
+            "options": {}
+          },
+          {
+            "name": "resource_error",
+            "enable": true,
+            "options": {
+              "dedupe": false,
+              "ignores": [],
+              "includes": []
+            }
+          },
+          {
+            "name": "console",
+            "enable": true,
+            "options": {
+              "levels": [
+                "warn",
+                "error"
+              ]
+            }
+          },
+          {
+            "name": "resource",
+            "enable": true,
+            "options": {
+              "ignoreTypes": [
+                "beacon",
+                "fetch",
+                "xmlhttprequest"
+              ],
+              "ignores": [],
+              "includes": [],
+              "slowThreshold": 4000
+            }
+          },
+          {
+            "name": "performance",
+            "enable": true,
+            "options": {
+              "cls": true,
+              "fcp": true,
+              "fid": true,
+              "fp": true,
+              "lcp": true,
+              "longtask": true,
+              "timing": true,
+              "ttfb": true
+            }
+          }
+        ],
+        "cr": {
+          "delay": 3000
+        }
+      },
+      "id": "ed85cc8f269b4b6b82fa7d6cca026308",
+      "ts": 1791367914644
+    },
+    "size": 3029
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "code": 200,
+      "data": {
+        "buriedExpLabel": "tsabtest|base64|YmpkXzI4MTg2NnxiYXNl|tsabtest",
+        "expFlag": false,
+        "expLabel": 0,
+        "expName": "bjd_281866"
+      },
+      "message": "成功",
+      "success": true,
+      "traceId": "10264204.41766.17913679146884750/IsGDpJUCAAMHpsYC79/kTAA="
+    },
+    "size": 263
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/getRule?version=1.2.3&aid=e29c409517502ccd3dd8cc8df26d56ee",
+    "data": {
+      "code": "0",
+      "msg": "ok",
+      "data": {
+        "aid": "e29c409517502ccd3dd8cc8df26d56ee",
+        "er": {
+          "enable": false,
+          "mode": "session",
+          "rate": 1,
+          "rules": [
+            {
+              "enable": true,
+              "type": "pv",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance_timing",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance_longtask",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "action",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "resource",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "resource_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "api",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "api_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "js_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "blank",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "custom",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "custom_log",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": false,
+              "type": "fps_stuck",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_color-api_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_amountreturn_call-plugin_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_amountreturn_add-cart_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_amountreturn_get-list_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_get-header-info_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_check-opportunity-threshold_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_submit-opportunity_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_sdk_call-plugin_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_get-product-info_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_call-plugin_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_call-plugin_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_get-savings-detail-param_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_show-no-permission-modal_log",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_parse-savings-detail-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_pay-callback-init-param_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_get-tab-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_pwd-init-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_pwd-login-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-init-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-send-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-validate-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-get-list-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-login-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_filter-list-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_get-change_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_add-cart_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_add-purchaselist_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_get-list_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_call-plugin_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            }
+          ],
+          "whitelist": []
+        },
+        "pr": [
+          {
+            "name": "js_error",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "fps_stuck",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "action",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "blank",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "api",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "pv",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "resource_error",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "console",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "resource",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "performance",
+            "enable": false,
+            "options": {}
+          }
+        ],
+        "cr": {
+          "delay": 3000
+        }
+      },
+      "id": "a5ccf619d35a0f9f1f4ee1064ded2c39",
+      "ts": 1791367914731
+    },
+    "size": 4830
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=search-pc-java&body=%7B%22source%22%3A%22list.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791367917324&uuid=29846306.1791367883048967459410.1791367883.1791367883.1791367883.1&loginType=3&x-api-eid-token=jdd03TABRUXZ47X63NVF6HOTJT6KVVLLSI2HABMO2F2G3SPGJOJTZXFJCGUXIH24SZCUTN6NSO6JBPZUNDC2AKSWOLUH444AAAANBCXMKEBYAAAAADVOFDNL6F2SDJIX&jsonp=jsonpAbData&_=1791367917326",
+    "data": {
+      "abBuriedTag": [
+        "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+        "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest"
+      ],
+      "abBuriedTagMap": {
+        "autoPopup": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+        "weChatLogin": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest"
+      },
+      "abExpLabelMap": {
+        "autoPopup": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+          "keyParamMap": {
+            "Rights": 2
+          },
+          "label": "test2"
+        },
+        "widget": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "mult_function": 0
+          }
+        },
+        "loginPopup": {
+          "keyParamMap": {
+            "Pc_login_popup_type": "0"
+          }
+        },
+        "secondFloor": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "gate_pos": 0
+          }
+        },
+        "weChatLogin": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+          "keyParamMap": {
+            "hit": 1
+          },
+          "label": "base"
+        },
+        "homeTab": {
+          "keyParamMap": {
+            "Homepage_3Tabs": 3
+          }
+        }
+      },
+      "data": {
+        "loginPopJsPath": "//storage.360buyimg.com/retail-mall/jdc_user_login/pc/user/login/popup_v3.js",
+        "topbarRefactor": true,
+        "autoLoginPopConfig": {
+          "interval": 86400,
+          "lastPopLimit": 60,
+          "maxCount": 1,
+          "wait": 2
+        },
+        "weChatLogin": true,
+        "newFeatureLaunchShowFlag": false
+      },
+      "success": true
+    },
+    "size": 1045
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_queryAddress",
+    "data": {
+      "body": {
+        "data": {
+          "loginUrl": "https://plogin.m.jd.com/user/login.action?appid=100&kpkey=&returnurl="
+        },
+        "errorCode": "302",
+        "errorReason": "未登录，去登录吧"
+      },
+      "code": "0",
+      "message": "success",
+      "timestamp": 1791367914782
+    },
+    "size": 202
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_getAreaNameById",
+    "data": {
+      "body": {
+        "cityId": 72,
+        "cityName": "朝阳区",
+        "complete": true,
+        "countyId": 55653,
+        "countyName": "八里庄街道",
+        "hideLevel": "3",
+        "provinceId": 1,
+        "provinceName": "北京",
+        "townId": 0
+      },
+      "code": "0",
+      "message": "success",
+      "timestamp": 1791367914846
+    },
+    "size": 212
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "data": {
+      "code": 0,
+      "msg": "ok",
+      "ts": 1791367917767
+    },
+    "size": 41
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "data": {
+      "code": 0,
+      "msg": "ok",
+      "ts": 1791367917842
+    },
+    "size": 41
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "data": {
+      "code": 0,
+      "msg": "ok",
+      "ts": 1791367917905
+    },
+    "size": 41
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "data": {
+      "code": 0,
+      "msg": "ok",
+      "ts": 1791367922000
+    },
+    "size": 41
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "code": 0,
+      "data": "",
+      "message": "Success",
+      "class": "com.jd.disposal.api.entity.ResponseDTO"
+    },
+    "size": 89
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/getRule?version=1.2.3&aid=2a4144b23a15469402ba70fc7ed8810c",
+    "data": {
+      "code": "0",
+      "msg": "ok",
+      "data": {
+        "aid": "2a4144b23a15469402ba70fc7ed8810c",
+        "er": {
+          "enable": false,
+          "mode": "session",
+          "rate": 1,
+          "rules": [
+            {
+              "enable": true,
+              "type": "pv",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance_timing",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance_longtask",
+              "rate": 0.1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "action",
+              "rate": 0.1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "resource",
+              "rate": 0.01,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "resource_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "api",
+              "rate": 0.2,
+              "sendType": 0,
+              "whitelist": [
+                "8b428834-d21c-4208-8ce6-5fe5bd57c2ff"
+              ]
+            },
+            {
+              "enable": true,
+              "type": "api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "js_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "blank",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "custom",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "custom_log",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": false,
+              "type": "fps_stuck",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "main_search_api_success",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "main_search_api",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "main_search_realtime_count",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "business_logic",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "main_search",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            }
+          ],
+          "whitelist": []
+        },
+        "pr": [
+          {
+            "name": "js_error",
+            "enable": true,
+            "options": {
+              "captureGlobalAsync": false,
+              "dedupe": true,
+              "ignores": [],
+              "onerror": true,
+              "onunhandledrejection": true
+            }
+          },
+          {
+            "name": "fps_stuck",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "action",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "blank",
+            "enable": true,
+            "options": {
+              "delay": 6000,
+              "detectSelectors": [
+                {
+                  "exist": false,
+                  "selector": "#main_search_conter"
+                }
+              ],
+              "mask": false,
+              "quality": 0.1,
+              "rootSelector": "body",
+              "screenshot": true
+            }
+          },
+          {
+            "name": "api",
+            "enable": true,
+            "options": {
+              "collectBodyOnError": false,
+              "concreteApis": [
+                {
+                  "allBizField": [
+                    "@/data.resultCount",
+                    "@/data.pageCount"
+                  ],
+                  "host": "jd.com",
+                  "path": "api.m.jd.com/api",
+                  "respCode": [
+                    "0"
+                  ],
+                  "respCodePath": "code",
+                  "respCodeType": "success",
+                  "respMsgPath": ""
+                }
+              ],
+              "ignores": [
+                "uranus.jd.com",
+                "h5speed.m.jd.com",
+                "sgm-w.jd.com",
+                "storage.360buyimg.com"
+              ],
+              "slowThreshold": 4000,
+              "wrapFetch": true,
+              "wrapXhr": true
+            }
+          },
+          {
+            "name": "pv",
+            "enable": true,
+            "options": {}
+          },
+          {
+            "name": "resource_error",
+            "enable": true,
+            "options": {
+              "dedupe": false,
+              "ignores": [],
+              "includes": []
+            }
+          },
+          {
+            "name": "console",
+            "enable": true,
+            "options": {
+              "levels": [
+                "warn",
+                "error"
+              ]
+            }
+          },
+          {
+            "name": "resource",
+            "enable": true,
+            "options": {
+              "ignoreTypes": [
+                "beacon",
+                "fetch",
+                "xmlhttprequest"
+              ],
+              "ignores": [],
+              "includes": [],
+              "slowThreshold": 4000
+            }
+          },
+          {
+            "name": "performance",
+            "enable": true,
+            "options": {
+              "cls": true,
+              "fcp": true,
+              "fid": true,
+              "fp": true,
+              "lcp": true,
+              "longtask": true,
+              "timing": true,
+              "ttfb": true
+            }
+          }
+        ],
+        "cr": {
+          "delay": 3000
+        }
+      },
+      "id": "ed85cc8f269b4b6b82fa7d6cca026308",
+      "ts": 1791367927295
+    },
+    "size": 3029
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "code": 200,
+      "data": {
+        "buriedExpLabel": "tsabtest|base64|YmpkXzI4MTg2NnxiYXNl|tsabtest",
+        "expFlag": false,
+        "expLabel": 0,
+        "expName": "bjd_281866"
+      },
+      "message": "成功",
+      "success": true,
+      "traceId": "3513120.41766.17913679273274610/IsGDpJUCAAMHpsYC79/kTAA="
+    },
+    "size": 262
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/getRule?version=1.2.3&aid=e29c409517502ccd3dd8cc8df26d56ee",
+    "data": {
+      "code": "0",
+      "msg": "ok",
+      "data": {
+        "aid": "e29c409517502ccd3dd8cc8df26d56ee",
+        "er": {
+          "enable": false,
+          "mode": "session",
+          "rate": 1,
+          "rules": [
+            {
+              "enable": true,
+              "type": "pv",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance_timing",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance_longtask",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "action",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "resource",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "resource_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "api",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "api_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "js_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "blank",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "custom",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "custom_log",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": false,
+              "type": "fps_stuck",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_color-api_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_amountreturn_call-plugin_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_amountreturn_add-cart_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_amountreturn_get-list_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_get-header-info_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_check-opportunity-threshold_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_submit-opportunity_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_sdk_call-plugin_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_get-product-info_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_call-plugin_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_call-plugin_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_get-savings-detail-param_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_show-no-permission-modal_log",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_parse-savings-detail-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_pay-callback-init-param_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_get-tab-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_pwd-init-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_pwd-login-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-init-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-send-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-validate-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-get-list-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-login-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_filter-list-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_get-change_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_add-cart_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_add-purchaselist_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_get-list_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_call-plugin_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            }
+          ],
+          "whitelist": []
+        },
+        "pr": [
+          {
+            "name": "js_error",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "fps_stuck",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "action",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "blank",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "api",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "pv",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "resource_error",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "console",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "resource",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "performance",
+            "enable": false,
+            "options": {}
+          }
+        ],
+        "cr": {
+          "delay": 3000
+        }
+      },
+      "id": "a5ccf619d35a0f9f1f4ee1064ded2c39",
+      "ts": 1791367927345
+    },
+    "size": 4830
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=search-pc-java&body=%7B%22source%22%3A%22list.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791367929929&uuid=29846306.1791367883048967459410.1791367883.1791367883.1791367883.1&loginType=3&x-api-eid-token=jdd03TABRUXZ47X63NVF6HOTJT6KVVLLSI2HABMO2F2G3SPGJOJTZXFJCGUXIH24SZCUTN6NSO6JBPZUNDC2AKSWOLUH444AAAANBCXMKEBYAAAAADVOFDNL6F2SDJIX&jsonp=jsonpAbData&_=1791367929932",
+    "data": {
+      "abBuriedTag": [
+        "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+        "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest"
+      ],
+      "abBuriedTagMap": {
+        "autoPopup": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+        "weChatLogin": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest"
+      },
+      "abExpLabelMap": {
+        "autoPopup": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+          "keyParamMap": {
+            "Rights": 2
+          },
+          "label": "test2"
+        },
+        "widget": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "mult_function": 0
+          }
+        },
+        "loginPopup": {
+          "keyParamMap": {
+            "Pc_login_popup_type": "0"
+          }
+        },
+        "secondFloor": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "gate_pos": 0
+          }
+        },
+        "weChatLogin": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+          "keyParamMap": {
+            "hit": 1
+          },
+          "label": "base"
+        },
+        "homeTab": {
+          "keyParamMap": {
+            "Homepage_3Tabs": 3
+          }
+        }
+      },
+      "data": {
+        "loginPopJsPath": "//storage.360buyimg.com/retail-mall/jdc_user_login/pc/user/login/popup_v3.js",
+        "topbarRefactor": true,
+        "autoLoginPopConfig": {
+          "interval": 86400,
+          "lastPopLimit": 60,
+          "maxCount": 1,
+          "wait": 2
+        },
+        "weChatLogin": true,
+        "newFeatureLaunchShowFlag": false
+      },
+      "success": true
+    },
+    "size": 1045
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_queryAddress",
+    "data": {
+      "body": {
+        "data": {
+          "loginUrl": "https://plogin.m.jd.com/user/login.action?appid=100&kpkey=&returnurl="
+        },
+        "errorCode": "302",
+        "errorReason": "未登录，去登录吧"
+      },
+      "code": "0",
+      "message": "success",
+      "timestamp": 1791367927387
+    },
+    "size": 202
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_getAreaNameById",
+    "data": {
+      "body": {
+        "cityId": 72,
+        "cityName": "朝阳区",
+        "complete": true,
+        "countyId": 55653,
+        "countyName": "八里庄街道",
+        "hideLevel": "3",
+        "provinceId": 1,
+        "provinceName": "北京",
+        "townId": 0
+      },
+      "code": "0",
+      "message": "success",
+      "timestamp": 1791367927449
+    },
+    "size": 212
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "data": {
+      "code": 0,
+      "msg": "ok",
+      "ts": 1791367930363
+    },
+    "size": 41
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "data": {
+      "code": 0,
+      "msg": "ok",
+      "ts": 1791367930422
+    },
+    "size": 41
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "data": {
+      "code": 0,
+      "msg": "ok",
+      "ts": 1791367930484
+    },
+    "size": 41
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "data": {
+      "code": 0,
+      "msg": "ok",
+      "ts": 1791367930559
+    },
+    "size": 41
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "data": {
+      "code": 0,
+      "msg": "ok",
+      "ts": 1791367934699
+    },
+    "size": 41
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "code": 0,
+      "data": "",
+      "message": "Success",
+      "class": "com.jd.disposal.api.entity.ResponseDTO"
+    },
+    "size": 89
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/getRule?version=1.2.3&aid=2a4144b23a15469402ba70fc7ed8810c",
+    "data": {
+      "code": "0",
+      "msg": "ok",
+      "data": {
+        "aid": "2a4144b23a15469402ba70fc7ed8810c",
+        "er": {
+          "enable": false,
+          "mode": "session",
+          "rate": 1,
+          "rules": [
+            {
+              "enable": true,
+              "type": "pv",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance_timing",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance_longtask",
+              "rate": 0.1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "action",
+              "rate": 0.1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "resource",
+              "rate": 0.01,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "resource_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "api",
+              "rate": 0.2,
+              "sendType": 0,
+              "whitelist": [
+                "8b428834-d21c-4208-8ce6-5fe5bd57c2ff"
+              ]
+            },
+            {
+              "enable": true,
+              "type": "api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "js_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "blank",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "custom",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "custom_log",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": false,
+              "type": "fps_stuck",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "main_search_api_success",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "main_search_api",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "main_search_realtime_count",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "business_logic",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "main_search",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            }
+          ],
+          "whitelist": []
+        },
+        "pr": [
+          {
+            "name": "js_error",
+            "enable": true,
+            "options": {
+              "captureGlobalAsync": false,
+              "dedupe": true,
+              "ignores": [],
+              "onerror": true,
+              "onunhandledrejection": true
+            }
+          },
+          {
+            "name": "fps_stuck",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "action",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "blank",
+            "enable": true,
+            "options": {
+              "delay": 6000,
+              "detectSelectors": [
+                {
+                  "exist": false,
+                  "selector": "#main_search_conter"
+                }
+              ],
+              "mask": false,
+              "quality": 0.1,
+              "rootSelector": "body",
+              "screenshot": true
+            }
+          },
+          {
+            "name": "api",
+            "enable": true,
+            "options": {
+              "collectBodyOnError": false,
+              "concreteApis": [
+                {
+                  "allBizField": [
+                    "@/data.resultCount",
+                    "@/data.pageCount"
+                  ],
+                  "host": "jd.com",
+                  "path": "api.m.jd.com/api",
+                  "respCode": [
+                    "0"
+                  ],
+                  "respCodePath": "code",
+                  "respCodeType": "success",
+                  "respMsgPath": ""
+                }
+              ],
+              "ignores": [
+                "uranus.jd.com",
+                "h5speed.m.jd.com",
+                "sgm-w.jd.com",
+                "storage.360buyimg.com"
+              ],
+              "slowThreshold": 4000,
+              "wrapFetch": true,
+              "wrapXhr": true
+            }
+          },
+          {
+            "name": "pv",
+            "enable": true,
+            "options": {}
+          },
+          {
+            "name": "resource_error",
+            "enable": true,
+            "options": {
+              "dedupe": false,
+              "ignores": [],
+              "includes": []
+            }
+          },
+          {
+            "name": "console",
+            "enable": true,
+            "options": {
+              "levels": [
+                "warn",
+                "error"
+              ]
+            }
+          },
+          {
+            "name": "resource",
+            "enable": true,
+            "options": {
+              "ignoreTypes": [
+                "beacon",
+                "fetch",
+                "xmlhttprequest"
+              ],
+              "ignores": [],
+              "includes": [],
+              "slowThreshold": 4000
+            }
+          },
+          {
+            "name": "performance",
+            "enable": true,
+            "options": {
+              "cls": true,
+              "fcp": true,
+              "fid": true,
+              "fp": true,
+              "lcp": true,
+              "longtask": true,
+              "timing": true,
+              "ttfb": true
+            }
+          }
+        ],
+        "cr": {
+          "delay": 3000
+        }
+      },
+      "id": "ed85cc8f269b4b6b82fa7d6cca026308",
+      "ts": 1791367939992
+    },
+    "size": 3029
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "code": 200,
+      "data": {
+        "buriedExpLabel": "tsabtest|base64|YmpkXzI4MTg2NnxiYXNl|tsabtest",
+        "expFlag": false,
+        "expLabel": 0,
+        "expName": "bjd_281866"
+      },
+      "message": "成功",
+      "success": true,
+      "traceId": "10263696.41766.17913679399922165/IsGDpJUCAAMHpsYC79/kTAA="
+    },
+    "size": 263
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/getRule?version=1.2.3&aid=e29c409517502ccd3dd8cc8df26d56ee",
+    "data": {
+      "code": "0",
+      "msg": "ok",
+      "data": {
+        "aid": "e29c409517502ccd3dd8cc8df26d56ee",
+        "er": {
+          "enable": false,
+          "mode": "session",
+          "rate": 1,
+          "rules": [
+            {
+              "enable": true,
+              "type": "pv",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance_timing",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "performance_longtask",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "action",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "resource",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "resource_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "api",
+              "rate": 0.1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "api_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "js_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "blank",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "custom",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "custom_log",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": false,
+              "type": "fps_stuck",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_color-api_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_amountreturn_call-plugin_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_amountreturn_add-cart_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_amountreturn_get-list_error",
+              "rate": 1,
+              "sendType": 0,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_get-header-info_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_check-opportunity-threshold_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_submit-opportunity_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_sdk_call-plugin_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_get-product-info_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_businessEnquiryPrice_call-plugin_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_call-plugin_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_get-savings-detail-param_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_show-no-permission-modal_log",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_parse-savings-detail-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_bplusReferralPc_pay-callback-init-param_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_get-tab-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_pwd-init-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_pwd-login-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-init-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-send-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-validate-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-get-list-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_phone-login-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_login_filter-list-api_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_get-change_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_add-cart_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_add-purchaselist_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_get-list_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            },
+            {
+              "enable": true,
+              "type": "smb_common_aishoparound_call-plugin_error",
+              "rate": 1,
+              "sendType": 1,
+              "whitelist": []
+            }
+          ],
+          "whitelist": []
+        },
+        "pr": [
+          {
+            "name": "js_error",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "fps_stuck",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "action",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "blank",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "api",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "pv",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "resource_error",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "console",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "resource",
+            "enable": false,
+            "options": {}
+          },
+          {
+            "name": "performance",
+            "enable": false,
+            "options": {}
+          }
+        ],
+        "cr": {
+          "delay": 3000
+        }
+      },
+      "id": "a5ccf619d35a0f9f1f4ee1064ded2c39",
+      "ts": 1791367940037
+    },
+    "size": 4830
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=search-pc-java&body=%7B%22source%22%3A%22list.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791367942627&uuid=29846306.1791367883048967459410.1791367883.1791367883.1791367883.1&loginType=3&x-api-eid-token=jdd03TABRUXZ47X63NVF6HOTJT6KVVLLSI2HABMO2F2G3SPGJOJTZXFJCGUXIH24SZCUTN6NSO6JBPZUNDC2AKSWOLUH444AAAANBCXMKEBYAAAAADVOFDNL6F2SDJIX&jsonp=jsonpAbData&_=1791367942629",
+    "data": {
+      "abBuriedTag": [
+        "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+        "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest"
+      ],
+      "abBuriedTagMap": {
+        "autoPopup": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+        "weChatLogin": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest"
+      },
+      "abExpLabelMap": {
+        "autoPopup": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+          "keyParamMap": {
+            "Rights": 2
+          },
+          "label": "test2"
+        },
+        "widget": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "mult_function": 0
+          }
+        },
+        "loginPopup": {
+          "keyParamMap": {
+            "Pc_login_popup_type": "0"
+          }
+        },
+        "secondFloor": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "gate_pos": 0
+          }
+        },
+        "weChatLogin": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+          "keyParamMap": {
+            "hit": 1
+          },
+          "label": "base"
+        },
+        "homeTab": {
+          "keyParamMap": {
+            "Homepage_3Tabs": 3
+          }
+        }
+      },
+      "data": {
+        "loginPopJsPath": "//storage.360buyimg.com/retail-mall/jdc_user_login/pc/user/login/popup_v3.js",
+        "topbarRefactor": true,
+        "autoLoginPopConfig": {
+          "interval": 86400,
+          "lastPopLimit": 60,
+          "maxCount": 1,
+          "wait": 2
+        },
+        "weChatLogin": true,
+        "newFeatureLaunchShowFlag": false
+      },
+      "success": true
+    },
+    "size": 1045
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_queryAddress",
+    "data": {
+      "body": {
+        "data": {
+          "loginUrl": "https://plogin.m.jd.com/user/login.action?appid=100&kpkey=&returnurl="
+        },
+        "errorCode": "302",
+        "errorReason": "未登录，去登录吧"
+      },
+      "code": "0",
+      "message": "success",
+      "timestamp": 1791367940082
+    },
+    "size": 202
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_getAreaNameById",
+    "data": {
+      "body": {
+        "cityId": 72,
+        "cityName": "朝阳区",
+        "complete": true,
+        "countyId": 55653,
+        "countyName": "八里庄街道",
+        "hideLevel": "3",
+        "provinceId": 1,
+        "provinceName": "北京",
+        "townId": 0
+      },
+      "code": "0",
+      "message": "success",
+      "timestamp": 1791367940151
+    },
+    "size": 212
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "data": {
+      "code": 0,
+      "msg": "ok",
+      "ts": 1791367943099
+    },
+    "size": 41
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "data": {
+      "code": 0,
+      "msg": "ok",
+      "ts": 1791367943173
+    },
+    "size": 41
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "data": {
+      "code": 0,
+      "msg": "ok",
+      "ts": 1791367943233
+    },
+    "size": 41
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "data": {
+      "code": 0,
+      "msg": "ok",
+      "ts": 1791367947295
+    },
+    "size": 41
+  }
+]

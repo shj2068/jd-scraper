@@ -1,0 +1,39 @@
+{
+  "method": "cookie_detail_scrape",
+  "timestamp": "2026-10-07T19:12:08.788868",
+  "products_count": 0,
+  "api_responses_count": 6,
+  "products": [],
+  "apis": [
+    {
+      "url": "https://api.m.jd.com/",
+      "size": 355,
+      "preview": "{\"msg\":\"成功\",\"code\":0,\"data\":{\"enableReport\":true,\"enableInvokeLog\":true,\"resources\":{\"jdwebm\":{\"version\":\"7.2.0\",\"url\":\"\",\"timeout\":5000,\"hitGray\":false}},\"runMode\":\"1\",\"colorDomain\":\"api.m.jd.com\",\"policy\":{\"reportPeriod\":0,\"reportMaxCount\":0,\"configCacheTtl\":600,\"finishMaxTime\":10000,\"invokeLogSampleRate\":10000,\"finishMinTime\":1000,\"sampleRate\":100}}}"
+    },
+    {
+      "url": "https://api.m.jd.com/?appid=www-jd-com&client=pc&clientVersion=1.0.0&t=1791371429192&uuid=76161171.17913709197511055044959.1791370920.1791370920.1791370920.1&functionId=jsfbox_pre_gb&body=%7B%22source",
+      "size": 1496,
+      "preview": "{\"code\":0,\"data\":{\"abBuriedTag\":[],\"abBuriedTagMap\":{\"kjgbAbTest\":\"tsabtest|base64|UENUZXN0XzEwNDI5MnxzaGFuZ2th|tsabtest\",\"shopSearch\":\"tsabtest|base64|UENUZXN0XzY0MzcxfHRlc3RzaG9w|tsabtest\"},\"abExpLabelMap\":{\"brandSquareAbTest\":{\"keyParamMap\":{\"Brand_Shopping_Guide\":0}},\"kjgbAbTest\":{\"abBuriedTag\":\"tsabtest|base64|UENUZXN0XzEwNDI5MnxzaGFuZ2th|tsabtest\",\"keyParamMap\":{\"shangka\":1,\"kuangjia\":1,\"biaoti\":0},\"label\":\"shangka\"},\"shopSearch\":{\"abBuriedTag\":\"tsabtest|base64|UENUZXN0XzY0MzcxfHRlc3RzaG9w"
+    },
+    {
+      "url": "https://api.m.jd.com/?appid=www-jd-com&body=%7B%22source%22%3A%22www.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791371429442&uuid=76161171.17913709197511",
+      "size": 1045,
+      "preview": "jsonpAbData({\"abBuriedTag\":[\"tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest\",\"tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest\"],\"abBuriedTagMap\":{\"autoPopup\":\"tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest\",\"weChatLogin\":\"tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest\"},\"abExpLabelMap\":{\"autoPopup\":{\"abBuriedTag\":\"tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest\",\"keyParamMap\":{\"Rights\":2},\"label\":\"test2\"},\"widget\":{\"abBuriedTag\":\"\",\"keyParamMap\":{\"mult_function\":0}},\"loginPopup\":{\"key"
+    },
+    {
+      "url": "https://api.m.jd.com/?appid=www-jd-com&client=pc&clientVersion=1.0.0&t=1791371429446&uuid=76161171.17913709197511055044959.1791370920.1791370920.1791370920.1&functionId=jsfbox_user_queryPlusInfo&body=",
+      "size": 823,
+      "preview": "{\"code\":0,\"msg\":\"Success\",\"data\":{\"isLogin\":false,\"bPinPlusSwitch\":true,\"newUserInfo\":{\"status\":true,\"login\":false,\"pin\":\"\",\"title\":\"新人福利\",\"tips\":\"低至1元包邮\"},\"plusInfo\":{\"images\":{},\"isPlus\":false,\"texts\":{\"text1\":\"权益升级\"},\"plusStatus\":\"\"},\"userJumpConfig\":{\"plusUrl\":\"https://plus.jd.com/index?flow_system=appicon&flow_entrance=appicon1&flow_channel=pc\",\"plusNewUserUrl\":\"https://plus.jd.com/index?flow_system=appicon&flow_entrance=appicon1&flow_channel=pc\",\"randomBenefits\":\"享折上95折\"},\"companyUserInfo\""
+    },
+    {
+      "url": "https://api.m.jd.com/",
+      "size": 5440,
+      "preview": "{\"traceId\":\"4476857.71502.17913714275506928\",\"code\":0,\"data\":\"VjVWsffe3bR08C-YJTHCgVJMVNXePKoXqunavn3XpSu6yrWz2BBU_5tUTk_cQGdPMjjwwDuspUBvTstk28_PhAEIwVoZkT_zEAgvZMWIQGGgRhJUUWrEI3LhSpA5nhh7dYn66wn3SwFugy_MB5ABgwo1907PGCBoC0hh3YEGIdgEphiCekFHrCrgmOKkUzFbt4mn0A97Z8F-8xeqjzjaNviZ2bRZ12vXy2UjvFtVgNy487k94FZ9WcsN37q_xr2RgIj3uuzd7yIvggspYMVni34YPn0HqPNH6tqv4hi25aq5NCqZZL79QKh1NTvi9qBHuvmfpwIpkq1R5ktnsZcNF0G9_zWiSdGhydtLYtQbNnLkZL5Xd2hgFDdKN_eYDP5549EJp_A7EOuE5S0TJ1-jWtONM30ehXLRAat0MKtPeLPKH2zgK9DoPY"
+    },
+    {
+      "url": "https://api.m.jd.com/",
+      "size": 355,
+      "preview": "{\"msg\":\"成功\",\"code\":0,\"data\":{\"enableReport\":true,\"enableInvokeLog\":true,\"resources\":{\"jdwebm\":{\"version\":\"7.2.0\",\"url\":\"\",\"timeout\":5000,\"hitGray\":false}},\"runMode\":\"1\",\"colorDomain\":\"api.m.jd.com\",\"policy\":{\"reportPeriod\":0,\"reportMaxCount\":0,\"configCacheTtl\":600,\"finishMaxTime\":10000,\"invokeLogSampleRate\":10000,\"finishMinTime\":1000,\"sampleRate\":100}}}"
+    }
+  ]
+}

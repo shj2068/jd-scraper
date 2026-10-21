@@ -1,0 +1,32 @@
+[
+  {
+    "domain": "https://api-industrial.jd.com/",
+    "status": 200,
+    "title": "您所访问的页面不存在",
+    "apis": []
+  },
+  {
+    "domain": "https://sell-api.jd.com/",
+    "status": 200,
+    "title": "您所访问的页面不存在",
+    "apis": []
+  },
+  {
+    "domain": "https://zhaoshang-api.jd.com/",
+    "status": 200,
+    "title": "您所访问的页面不存在",
+    "apis": []
+  },
+  {
+    "domain": "https://gong-api.jd.com/",
+    "status": 200,
+    "title": "您所访问的页面不存在",
+    "apis": []
+  },
+  {
+    "domain": "https://industry-api.jd.com/",
+    "status": 200,
+    "title": "您所访问的页面不存在",
+    "apis": []
+  }
+]

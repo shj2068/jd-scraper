@@ -1,0 +1,31 @@
+{
+  "pages": [
+    {
+      "url": "search.jd.com",
+      "status": 200,
+      "skus": 0,
+      "products": 0
+    },
+    {
+      "url": "item.jd.com/100012043978",
+      "status": 200,
+      "title": "京东验证"
+    },
+    {
+      "url": "item.jd.com/100009375439",
+      "status": 200,
+      "title": "京东验证"
+    },
+    {
+      "url": "item.jd.com/100038014896",
+      "status": 200,
+      "title": "京东验证"
+    },
+    {
+      "url": "jd.com/allSort",
+      "categories": 0
+    }
+  ],
+  "apis": [],
+  "products": []
+}

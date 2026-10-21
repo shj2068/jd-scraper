@@ -1,0 +1,79 @@
+[
+  {
+    "name": "招商网首页",
+    "url": "https://zhaoshang.jd.com/",
+    "status": 200,
+    "type": "html",
+    "title": ""
+  },
+  {
+    "name": "导航 REST API",
+    "url": "https://zhaoshang.jd.com/rest/navigation",
+    "status": 200,
+    "type": "html",
+    "title": ""
+  },
+  {
+    "name": "注册入口",
+    "url": "https://zhaoshang.jd.com/register/v1",
+    "status": 200,
+    "type": "html",
+    "title": ""
+  },
+  {
+    "name": "登录组件",
+    "url": "https://zhaoshang.jd.com/login/component",
+    "status": 200,
+    "type": "html",
+    "title": ""
+  },
+  {
+    "name": "服务页",
+    "url": "https://zhaoshang.jd.com/service/mobile",
+    "status": 200,
+    "type": "html",
+    "title": ""
+  },
+  {
+    "name": "入驻申请",
+    "url": "https://newapply.jd.com/",
+    "status": 200,
+    "type": "html",
+    "title": "京东入驻"
+  },
+  {
+    "name": "入驻申请-POP",
+    "url": "https://newapply.jd.com/site/pop/create-apply",
+    "status": 200,
+    "type": "html",
+    "title": "京东入驻"
+  },
+  {
+    "name": "企业注册",
+    "url": "https://zhaoshang.jd.com/register/enterprise",
+    "status": 200,
+    "type": "html",
+    "title": ""
+  },
+  {
+    "name": "商家帮助",
+    "url": "https://helpcenter.jd.com/vender/issue/42981.html",
+    "status": 200,
+    "type": "html",
+    "title": "帮助中心-京东"
+  },
+  {
+    "name": "京东工业品",
+    "url": "https://gong.jd.com",
+    "status": 200,
+    "type": "html",
+    "title": "供货京东"
+  },
+  {
+    "name": "商家数据",
+    "url": "https://morder.shop.jd.com/api/dsm",
+    "status": 200,
+    "type": "html",
+    "title": "京东"
+  }
+]

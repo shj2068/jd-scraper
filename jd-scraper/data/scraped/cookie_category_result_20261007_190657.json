@@ -1,0 +1,29 @@
+{
+  "method": "cookie_category_browse",
+  "timestamp": "2026-10-07T19:06:57.099424",
+  "products_count": 0,
+  "api_responses_count": 95,
+  "products": [],
+  "api_urls": [
+    "https://storage.360buyimg.com/retail-mall/main_search/preload/0.0.7/preload-search.js",
+    "https://storage.360buyimg.com/retail-mall/lib/react/18.3.1/react.production.min.js",
+    "https://storage.360buyimg.com/retail-mall/main_search/pro/0.0.11/js/index.223f82fc.js",
+    "https://storage.360buyimg.com/retail-mall/lib/react/18.3.1/react-dom.production.min.js",
+    "https://static.360buyimg.com/item/assets/oldman/wza1/aria.js?appid=bfeaebea192374ec1f220455f8d5f952",
+    "https://storage.360buyimg.com/jsresource/ws_js/jdwebm.js?v=pcSearch",
+    "https://storage.360buyimg.com/bjd-utils-sdk/bjdcommon/purchaselist/1.0.4/bjd.js",
+    "https://api.m.jd.com/?appid=search-pc-java&body=%7B%22source%22%3A%22list.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791371153730&uuid=29846306.179137091",
+    "https://storage.360buyimg.com/retail-mall/main_search/preload/0.0.7/preload-search.js",
+    "https://storage.360buyimg.com/retail-mall/lib/react/18.3.1/react.production.min.js",
+    "https://storage.360buyimg.com/retail-mall/lib/react/18.3.1/react-dom.production.min.js",
+    "https://storage.360buyimg.com/retail-mall/main_search/pro/0.0.11/js/index.223f82fc.js",
+    "https://storage.360buyimg.com/jsresource/ws_js/jdwebm.js?v=pcSearch",
+    "https://static.360buyimg.com/item/assets/oldman/wza1/aria.js?appid=bfeaebea192374ec1f220455f8d5f952",
+    "https://storage.360buyimg.com/bjd-utils-sdk/bjdcommon/purchaselist/1.0.4/bjd.js",
+    "https://api.m.jd.com/?appid=search-pc-java&body=%7B%22source%22%3A%22list.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791371159733&uuid=29846306.179137091",
+    "https://storage.360buyimg.com/retail-mall/main_search/preload/0.0.7/preload-search.js",
+    "https://storage.360buyimg.com/retail-mall/lib/react/18.3.1/react.production.min.js",
+    "https://storage.360buyimg.com/retail-mall/lib/react/18.3.1/react-dom.production.min.js",
+    "https://storage.360buyimg.com/retail-mall/main_search/pro/0.0.11/js/index.223f82fc.js"
+  ]
+}

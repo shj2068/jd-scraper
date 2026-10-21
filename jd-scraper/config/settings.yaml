@@ -115,8 +115,15 @@ logging:
 # 代理配置（可选）
 proxy:
   enabled: false
+  rotation_strategy: "round_robin"  # round_robin / random / fastest / best
+  health_check_interval: 60         # 健康检查间隔（秒）
   http: null
   https: null
-  # 住宅代理推荐（按需配置）
-  # http: "http://user:pass@host:port"
-  # https: "http://user:pass@host:port"
+  # 代理池（多代理轮换）
+  pool: []
+  # - url: "http://proxy1.example.com:8080"
+  #   protocol: "http"
+  #   username: "user"
+  #   password: "pass"
+  # - url: "http://proxy2.example.com:8080"
+  #   protocol: "http"

@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-10-07T18:46:22.915194",
+  "results": {
+    "item_soa": {
+      "status": 302,
+      "size": 154
+    },
+    "ad_api": {
+      "status": 302,
+      "size": 142
+    },
+    "xin_api": {
+      "status": 200,
+      "size": 1724
+    },
+    "enterprise_api": {
+      "status": 200,
+      "size": 6901
+    },
+    "global_api": {
+      "status": 200,
+      "size": 13395
+    },
+    "auction_api": {
+      "status": 302,
+      "size": 154
+    },
+    "daojia_api": {
+      "status": 200,
+      "size": 13511
+    },
+    "health_api": {
+      "status": 301,
+      "size": 178
+    },
+    "book_api": {
+      "status": 302,
+      "size": 154
+    },
+    "chaoshi_api": {
+      "status": 302,
+      "size": 154
+    },
+    "gy_api": {
+      "status": 302,
+      "size": 154
+    },
+    "wujin_api": {
+      "status": 302,
+      "size": 154
+    },
+    "zhaoshang_api": {
+      "status": 200,
+      "size": 6508
+    }
+  }
+}

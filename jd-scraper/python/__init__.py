@@ -54,6 +54,7 @@ from .experience_store import (
     StrategyRecord,
     OutcomeRecord,
 )
+from .proxy_pool import ProxyPool, ProxyEntry
 
 __all__ = [
     # 核心模型
@@ -100,4 +101,7 @@ __all__ = [
     "TriggerSnapshot",
     "StrategyRecord",
     "OutcomeRecord",
+    # 代理池 (v2.1)
+    "ProxyPool",
+    "ProxyEntry",
 ]

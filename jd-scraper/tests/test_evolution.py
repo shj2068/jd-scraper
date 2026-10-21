@@ -487,10 +487,23 @@ class TestAgentEvolution:
         assert "自进化引擎" in service_names
 
     def test_agent_collect_with_evolution_success(self):
+        """测试采集成功时不触发进化（mock HTTP 响应）"""
         from agent import JDAgent
+        from unittest.mock import patch, MagicMock
+
         agent = JDAgent()
         agent.start_services()
-        result = agent.collect_with_evolution("bizSearchCategoryList")
+
+        # Mock TLS 客户端返回成功响应
+        mock_resp = MagicMock()
+        mock_resp.status_code = 200
+        mock_resp.text = '{"code":0,"data":{}}'
+        mock_resp.json.return_value = {"code": 0, "data": {}}
+        mock_resp.headers = {}
+
+        with patch.object(agent._tls_client, 'post', return_value=mock_resp):
+            result = agent.collect_with_evolution("bizSearchCategoryList")
+
         # 正常采集成功，不触发进化
         assert result["evolution"]["triggered"] is False
 

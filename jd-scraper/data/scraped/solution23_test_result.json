@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-10-07T18:44:59.615858",
+  "results": {
+    "union_gateway": {
+      "status": 200,
+      "response": "{\"error_response\":{\"code\":\"10001\",\"zh_desc\":\"入参异常(appkey为空或请求体大小超过3M).[NG.beta]\",\"en_desc\":\"The input params is illegal. Please check and contact the Jos administrator.\"}}"
+    },
+    "jos_gateway": {
+      "status": 200,
+      "response": "{\"error_response\":{\"code\":\"10001\",\"zh_desc\":\"入参异常(appkey为空或请求体大小超过3M).[NG.beta]\",\"en_desc\":\"The input params is illegal. Please check and contact the Jos administrator.\"}}"
+    },
+    "invalid_key": {
+      "error_response": {
+        "code": "21",
+        "zh_desc": "key=test_invalid_key 信息无效（解决方案参考: https://open.jd.com/v2/#/doc/guide?listId=533）",
+        "en_desc": "Invalid app_key(Solution reference: https://open.jd.com/v2/#/doc/guide?listId=533)",
+        "request_id": "11055862.39587.17913698639072792"
+      }
+    },
+    "h5_autocomplete": {
+      "code": "2",
+      "echo": "the current API does not exist"
+    },
+    "comment_api": {
+      "raw": "The Request Forbidden\n"
+    },
+    "recommend_api": {
+      "raw": "<html>\r\n<head><title>302 Found</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>302 Found</h1></center>\r\n<hr><center>openresty/1.7.2.1</center>\r\n</body>\r\n</html>\r\n"
+    },
+    "detail_api": {
+      "status": 302,
+      "size": 154
+    },
+    "search_suggest": {
+      "raw": "<html>\r\n<head><title>302 Found</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>302 Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    },
+    "category_api": {
+      "success": false
+    },
+    "rank_api": {
+      "status": 302,
+      "size": 154
+    },
+    "seckill_api": {
+      "raw": "<html>\r\n<head><title>400 Bad Request</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>400 Bad Request</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    }
+  }
+}

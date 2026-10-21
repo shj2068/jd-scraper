@@ -1,0 +1,97 @@
+{
+  "report_time": "2026-10-21T21:33:35.770953",
+  "data_source": "dc.3.cn/category/get",
+  "fetch_time": "2026-10-14T06:21:46.201218",
+  "summary": {
+    "level_1_categories": 20,
+    "level_2_categories": 65,
+    "level_3_categories": 205,
+    "total_brands": 87
+  },
+  "total_brands": 85,
+  "power_tool_brands": [
+    "TCL",
+    "东成",
+    "得力",
+    "德力西",
+    "格力",
+    "海信",
+    "海尔",
+    "美的",
+    "美的"
+  ],
+  "categories": {
+    "level_1": 20,
+    "level_2": 0,
+    "power_tool_related": 0
+  },
+  "limitations": [
+    "搜索页需要登录 + 验证码",
+    "列表页需要登录 + 验证码",
+    "详情页需要登录 + 验证码",
+    "价格 API 连接超时",
+    "排行榜需要登录"
+  ],
+  "available_data": [
+    "dc.3.cn 分类树 + 品牌列表"
+  ],
+  "expected_structure": {
+    "keyword": "电动工具",
+    "fetch_time": "ISO 时间戳",
+    "summary": {
+      "total_products": "采集商品总数",
+      "total_brands": "涉及品牌数",
+      "total_shops": "涉及店铺数",
+      "price_range": {
+        "min": 0,
+        "max": 0,
+        "avg": 0
+      }
+    },
+    "brand_distribution": [
+      {
+        "brand": "博世",
+        "count": 150,
+        "percentage": 15.0
+      },
+      {
+        "brand": "东成",
+        "count": 120,
+        "percentage": 12.0
+      }
+    ],
+    "price_analysis": {
+      "count": 1000,
+      "min": 29.9,
+      "max": 15999.0,
+      "avg": 456.78,
+      "median": 299.0,
+      "distribution": {
+        "0-100": 200,
+        "100-300": 350,
+        "300-500": 250,
+        "500-1000": 150,
+        "1000+": 50
+      }
+    },
+    "top_shops": [
+      {
+        "rank": 1,
+        "shop": "博世京东自营旗舰店",
+        "product_count": 85,
+        "avg_price": 599.0,
+        "total_sales": "10万+"
+      }
+    ],
+    "sample_products": [
+      {
+        "sku": "100012345678",
+        "name": "博世(BOSCH) 充电式电钻 GSR 120-LI",
+        "brand": "博世",
+        "price": 599.0,
+        "shop": "博世京东自营旗舰店",
+        "comments": "5万+"
+      }
+    ]
+  }
+}

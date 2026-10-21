@@ -7,9 +7,11 @@ TLS 指纹模拟模块
 
 from __future__ import annotations
 
+import time
 from typing import Any, Dict, Optional
 
 from .utils import setup_logger
+from .proxy_pool import ProxyPool
 
 logger = setup_logger(__name__)
 
@@ -33,6 +35,7 @@ class TLSClient:
         tls_preset: str = "chrome118",
         timeout: float = 30.0,
         proxy: Optional[str] = None,
+        proxy_pool: Optional[ProxyPool] = None,
     ):
         """
         初始化 TLS 客户端
@@ -41,10 +44,12 @@ class TLSClient:
             tls_preset: TLS 指纹预设名称
             timeout: 请求超时时间（秒）
             proxy: 代理地址（如 http://127.0.0.1:8080）
+            proxy_pool: 代理池实例（优先于 proxy 参数）
         """
         self.tls_preset = tls_preset
         self.timeout = timeout
         self.proxy = proxy
+        self.proxy_pool = proxy_pool
         self._session = None
         self._backend = self._detect_backend()
 
@@ -66,10 +71,14 @@ class TLSClient:
                 logger.warning("httpx 未安装，回退到 requests")
                 return "requests"
 
+    def _resolve_proxy(self) -> Optional[str]:
+        if self.proxy_pool:
+            return self.proxy_pool.get_proxy_url()
+        return self.proxy
+
     def _get_session(self):
         """获取或创建 HTTP 会话"""
-        if self._session is not None:
-            return self._session
+        proxy = self._resolve_proxy()
 
         if self._backend == "curl_cffi":
             from curl_cffi import requests as curl_requests  # type: ignore
@@ -77,16 +86,14 @@ class TLSClient:
             self._session = curl_requests.Session(
                 impersonate=self.tls_preset,
                 timeout=self.timeout,
-                proxies={"http": self.proxy, "https": self.proxy}
-                if self.proxy
-                else None,
+                proxies={"http": proxy, "https": proxy} if proxy else None,
             )
         elif self._backend == "httpx":
             import httpx
 
             self._session = httpx.Client(
                 timeout=self.timeout,
-                proxy=self.proxy,
+                proxy=proxy,
                 headers=self._default_headers(),
             )
         else:
@@ -94,6 +101,8 @@ class TLSClient:
 
             self._session = requests.Session()
             self._session.headers.update(self._default_headers())
+            if proxy:
+                self._session.proxies = {"http": proxy, "https": proxy}
 
         return self._session
 

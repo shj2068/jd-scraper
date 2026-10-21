@@ -1,0 +1,240 @@
+[
+  {
+    "url": "https://api.m.jd.com/",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 355,
+    "timestamp": "2026-10-07T18:12:52.125494"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 89,
+    "timestamp": "2026-10-07T18:12:52.168962"
+  },
+  {
+    "url": "https://api.m.jd.com/api?functionId=jsfbox_newUser_hongbao&uuid=&appid=www-jd-com&loginType=3&x-api-eid-token=jdd03O7MTQTPRVPL7SXTAUAACCKBFNRDEFRDMNPLXGM6QQ5H3HOXG3LNXIFPSVTVG2JAGESAWSMY4G6E7UN63VNK2CPJHVMAAAANBCXM7F2IAAAAACQJSZ6XDZXOVEMX&h5st=20261007181253114;p5p52jjave5ipjj5;b5216;tk06w4229589041lf0L4h4mxSoajpjbeBClPCWYS1mFRBiYe7WoPrrbrKVa1ugHbJm3OEGmVECme8GEf1H4fHKYS4fVd;5c61bb1d9683c06c598cf6149337d88e93fa5a9fe46d9835f37a928dca979c2e;5.3;1791367970114;of7ruCLj2DFR7GVeGSUTBCFf2rUe7ipjxjpPFip",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 37,
+    "timestamp": "2026-10-07T18:12:52.168962"
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=www-jd-com&client=pc&clientVersion=1.0.0&t=1791367970058&uuid=76161171.17913679697341068511729.1791367970.1791367970.1791367970.1&functionId=jsfbox_pre_gb&body=%7B%22source%22:%22pc_home%22%7D&h5st=20261007181253079%3Bp5p52jjave5ipjj5%3Bb5216%3Btk06w7b1cde0641lfZ-6NomzfJ-5pjbeBClPCWYS1mFRBiYe7WoPrrbrKVa1uoJQ6KkP-ulOyjlepWHf1X4eHOofJqYf%3Ba6adb6c3fa12d61e97fa5a324206af7c0d227c4598e33547dacfb4cfec35285b%3B5.3%3B1791367970079%3Bof7ruCLj2DFR7GVeGSUTBCFf2rUe7ipjxjpPFipjLDr",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 1496,
+    "timestamp": "2026-10-07T18:12:52.168962"
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=www-jd-com&body=%7B%22source%22%3A%22www.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791367970362&uuid=76161171.17913679697341068511729.1791367970.1791367970.1791367970.1&loginType=3&x-api-eid-token=jdd03O7MTQTPRVPL7SXTAUAACCKBFNRDEFRDMNPLXGM6QQ5H3HOXG3LNXIFPSVTVG2JAGESAWSMY4G6E7UN63VNK2CPJHVMAAAANBCXM7F2IAAAAACQJSZ6XDZXOVEMX&jsonp=jsonpAbData&_=1791367970367",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 1045,
+    "timestamp": "2026-10-07T18:12:52.168962"
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=www-jd-com&client=pc&clientVersion=1.0.0&t=1791367970366&uuid=76161171.17913679697341068511729.1791367970.1791367970.1791367970.1&functionId=jsfbox_user_queryPlusInfo&body=%7B%22source%22:%22pc-home%22%7D&h5st=20261007181253366%3Bp5p52jjave5ipjj5%3Bb5216%3Btk03w9c801c2f18ni67v92QluLmg8K1OdGsQW_Skjiq0yNcGNj114bYhi7IMS8VGh4RRnkfVoYzu4pCzwLITQqYRYiH7%3B8c7a23154d30effeb0ed079a36a284affbe08e160b3525e87f6d97d1a9c493a1%3B5.3%3B1791367970366%3Bq3EpJXIRBqUR2XFOKCFR5XoP2rEjLDI",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 823,
+    "timestamp": "2026-10-07T18:12:52.168962"
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=www-jd-com&client=pc&clientVersion=1.0.0&t=1791367970383&uuid=76161171.17913679697341068511729.1791367970.1791367970.1791367970.1&functionId=pccorechannels_queryCrossInfo&body=%7B%22source%22:%22home%22,%22sfFlag%22:true,%22area%22:%22%22%7D&h5st=20261007181253383%3Bp5p52jjave5ipjj5%3Bb5216%3Btk03w9c801c2f18ni67v92QluLmg8K1OdGsQW_Skjiq0yNcGNj114bYhi7IMS8VGh4RRnkfVoYzu4pCzwLITQqYRYiH7%3B0daa44278c1ef34be15f1002a5491f63c24821fc596d3542ee7b1d0524e3373f%3B5.3%3B1791367970",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 124,
+    "timestamp": "2026-10-07T18:12:52.168962"
+  },
+  {
+    "url": "https://lapi.jd.com/locate?source=pchome&callback=jsonpAreaLocate&_=1791367970389",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 190,
+    "timestamp": "2026-10-07T18:12:52.168962"
+  },
+  {
+    "url": "https://api.m.jd.com/api?functionId=jsfbox_site_notice&uuid=&appid=www-jd-com&loginType=3&x-api-eid-token=jdd03O7MTQTPRVPL7SXTAUAACCKBFNRDEFRDMNPLXGM6QQ5H3HOXG3LNXIFPSVTVG2JAGESAWSMY4G6E7UN63VNK2CPJHVMAAAANBCXM7F2IAAAAACQJSZ6XDZXOVEMX&h5st=20261007181254057;p5p52jjave5ipjj5;b5216;tk03w9c801c2f18ni67v92QluLmg8K1OdGsQW_Skjiq0yNcGNj114bYhi7IMS8VGh4RRnkfVoYzu4pCzwLITQqYRYiH7;b50bba34799c8bea26fb0b50c89e4d474b1b2c54d420f18fc18fd3e0ab83c71b;5.3;1791367971057;q3EpJXIRBqUR2XFOKCFR5XoP2rEjLDIj7SFjLrJp-TY",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 38,
+    "timestamp": "2026-10-07T18:12:52.169965"
+  },
+  {
+    "url": "https://api.m.jd.com/",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 5440,
+    "timestamp": "2026-10-07T18:12:52.169965"
+  },
+  {
+    "url": "https://api.m.jd.com/api?appid=www-jd-com&client=pc&clientVersion=1.0.0&uuid=76161171.17913679697341068511729.1791367970.1791367970.1791367970.1&loginType=3&t=1791367972582&functionId=pctradesoa_queryBeanLoginPreInfo&x-api-eid-token=jdd03O7MTQTPRVPL7SXTAUAACCKBFNRDEFRDMNPLXGM6QQ5H3HOXG3LNXIFPSVTVG2JAGESAWSMY4G6E7UN63VNK2CPJHVMAAAANBCXM7F2IAAAAACQJSZ6XDZXOVEMX&h5st=20261007181255584%3Bp5p52jjave5ipjj5%3Bb5216%3Btk03w9c801c2f18ni67v92QluLmg8K1OdGsQW_Skjiq0yNcGNj114bYhi7IMS8VGh4RRnkfVoYzu4pCzwLITQq",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 47,
+    "timestamp": "2026-10-07T18:12:54.209911"
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=O2_channel&body=%7B%22action%22%3A%22gis%22%2C%22type%22%3A%22std%22%2C%22appid%22%3A%229ac75736119512c531a264b59a7ce24b%22%2C%22isdefaultipaddr%22%3A%221%22%7D&clientVersion=1.0.0&jsonp=jsonpGetLocation&client=wh5&functionId=lbsapi&x-api-eid-token=jdd03O7MTQTPRVPL7SXTAUAACCKBFNRDEFRDMNPLXGM6QQ5H3HOXG3LNXIFPSVTVG2JAGESAWSMY4G6E7UN63VNK2CPJHVMAAAANBCXM7F2IAAAAACQJSZ6XDZXOVEMX&callback=jsonpGetLocation&_=1791367973827",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 462,
+    "timestamp": "2026-10-07T18:12:54.210910"
+  },
+  {
+    "url": "https://api.m.jd.com/",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 355,
+    "timestamp": "2026-10-07T18:13:45.316755"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 89,
+    "timestamp": "2026-10-07T18:13:45.365980"
+  },
+  {
+    "url": "https://api.m.jd.com/",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 5440,
+    "timestamp": "2026-10-07T18:13:47.514516"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 263,
+    "timestamp": "2026-10-07T18:13:47.514516"
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=search-pc-java&body=%7B%22source%22%3A%22list.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791368026001&uuid=29846306.17913679697341068511729.1791367970.1791367970.1791367970.1&loginType=3&x-api-eid-token=jdd03O7MTQTPRVPL7SXTAUAACCKBFNRDEFRDMNPLXGM6QQ5H3HOXG3LNXIFPSVTVG2JAGESAWSMY4G6E7UN63VNK2CPJHVMAAAANBCXM7F2IAAAAACQJSZ6XDZXOVEMX&jsonp=jsonpAbData&_=1791368026005",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 1045,
+    "timestamp": "2026-10-07T18:13:47.514516"
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_queryAddress",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 202,
+    "timestamp": "2026-10-07T18:13:49.515291"
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_getAreaNameById",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 190,
+    "timestamp": "2026-10-07T18:13:49.515291"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 89,
+    "timestamp": "2026-10-07T18:13:55.100415"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 263,
+    "timestamp": "2026-10-07T18:13:55.100415"
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=search-pc-java&body=%7B%22source%22%3A%22list.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791368033309&uuid=29846306.17913679697341068511729.1791367970.1791367970.1791367970.1&loginType=3&x-api-eid-token=jdd03O7MTQTPRVPL7SXTAUAACCKBFNRDEFRDMNPLXGM6QQ5H3HOXG3LNXIFPSVTVG2JAGESAWSMY4G6E7UN63VNK2CPJHVMAAAANBCXM7F2IAAAAACQJSZ6XDZXOVEMX&jsonp=jsonpAbData&_=1791368033315",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 1045,
+    "timestamp": "2026-10-07T18:13:55.100415"
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_queryAddress",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 202,
+    "timestamp": "2026-10-07T18:13:55.100415"
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_getAreaNameById",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 212,
+    "timestamp": "2026-10-07T18:13:57.102058"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 89,
+    "timestamp": "2026-10-07T18:14:02.591129"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 262,
+    "timestamp": "2026-10-07T18:14:02.591129"
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=search-pc-java&body=%7B%22source%22%3A%22list.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791368040785&uuid=29846306.17913679697341068511729.1791367970.1791367970.1791367970.1&loginType=3&x-api-eid-token=jdd03O7MTQTPRVPL7SXTAUAACCKBFNRDEFRDMNPLXGM6QQ5H3HOXG3LNXIFPSVTVG2JAGESAWSMY4G6E7UN63VNK2CPJHVMAAAANBCXM7F2IAAAAACQJSZ6XDZXOVEMX&jsonp=jsonpAbData&_=1791368040788",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 1045,
+    "timestamp": "2026-10-07T18:14:02.591129"
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_queryAddress",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 202,
+    "timestamp": "2026-10-07T18:14:02.591129"
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_getAreaNameById",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 212,
+    "timestamp": "2026-10-07T18:14:02.591129"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 89,
+    "timestamp": "2026-10-07T18:14:10.009841"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 262,
+    "timestamp": "2026-10-07T18:14:10.009841"
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=search-pc-java&body=%7B%22source%22%3A%22list.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791368048171&uuid=29846306.17913679697341068511729.1791367970.1791367970.1791367970.1&loginType=3&x-api-eid-token=jdd03O7MTQTPRVPL7SXTAUAACCKBFNRDEFRDMNPLXGM6QQ5H3HOXG3LNXIFPSVTVG2JAGESAWSMY4G6E7UN63VNK2CPJHVMAAAANBCXM7F2IAAAAACQJSZ6XDZXOVEMX&jsonp=jsonpAbData&_=1791368048174",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 1045,
+    "timestamp": "2026-10-07T18:14:10.009841"
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_queryAddress",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 202,
+    "timestamp": "2026-10-07T18:14:10.009841"
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_getAreaNameById",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 212,
+    "timestamp": "2026-10-07T18:14:12.012709"
+  }
+]

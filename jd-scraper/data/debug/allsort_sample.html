@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8" version='1'/>
+    <title>京东(JD.COM)-正品低价、品质保障、配送及时、轻松购物！</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"/>
+    <meta name="description"
+          content="京东JD.COM-专业的综合网上购物商城，为您提供正品低价的购物选择、优质便捷的服务体验。商品来自全球数十万品牌商家，囊括家电、手机、电脑、服装、居家、母婴、美妆、个护、食品、生鲜等丰富品类，满足各种购物需求。"/>
+    <meta name="Keywords" content="网上购物,网上商城,家电,手机,电脑,服装,居家,母婴,美妆,个护,食品,生鲜,京东"/>
+    <link rel="manifest" href="https://www.jd.com/manifest.json"  crossorigin="anonymous" />
+    <script type="text/javascript">
+        window.point = {}
+        window.point.start = new Date().getTime()
+    </script>
+    <!-- 所有资源文件 -->
+    <link rel="dns-prefetch" href="//360buyimg.com"/>
+    <link rel="dns-prefetch" href="//d.3.cn"/>
+    <link rel="dns-prefetch" href="//d.jd.com"/>
+    <link rel="dns-prefetch" href="//wl.jd.com"/>
+    <!-- 预连接关键子域名 -->
+    <link rel="preconnect" href="//static.360buyimg.com" crossorigin>
+    <link rel="preconnect" href="//misc.360buyimg.com" crossorigin>
+    <link rel="icon" href="//storage.360buyimg.com/retail-mall/mall-common-component/favicon.ico" mce_href="//storage.360buyimg.com/retail-mall/mall-common-component/favicon.ico" type="image/x-icon"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="renderer" content="webkit"/>
+
+    <!--[if lte IE 6]>
+    <script src="//misc.360buyimg.com/mtd/pc/index/home/ie6tip.min.js"></script>
+    <![endif]-->
+    <!--[if IE 8]>
+    <script src="//misc.360buyimg.com/mtd/pc/index_2019/1.0.0/static/lib/polyfill/index.js"></script>
+    <![endif]-->
+
+    <script src="//misc.360buyimg.com/jdf/lib/jquery-1.6.4.js?v=20240117"></script>
+            <script type="text/javascript">
+            window.jaq = []; // 注意 jaq需要是window下的全局变量
+            jaq.push(['autoLogPv', false]); // 关闭自动上报PV
+            jaq.push(['maAppId', 'app_000014'])
+        </script>
+        <script src="//wl.jd.com/wl.js"></script>
+    <script>
+        var pageid = "JD_main"; // 首页的pageid
+        var spmAb = 'a0219.b002356';
+        try {
+            window.spmPV({ spm: spmAb, page_id: pageid, page_param: JSON.stringify({ view_type: 1 }) })
+            document.addEventListener('visibilitychange', function () {
+                if (document.visibilityState === 'visible') {
+                    window.spmPV({ spm: spmAb, page_id: pageid, page_param: JSON.stringify({ view_type: 2 }) })
+                }
+            });
+        } catch (e) {
+            console.log("浏览事件上报异常", e);
+        }
+    </script>
+    <script>
+        try {
+            ;(function () {
+                var visibilityHidden = false
+                function installPerformanceObserverPatch() {
+                    var nativePerformanceObserver = window.PerformanceObserver
+                    if (!nativePerformanceObserver) return
+                    // 重写了PerformanceObserver
+                    window.PerformanceObserver = class extends nativePerformanceObserver {
+                        constructor(callback) {
+                            super((list, observer) => {
+                                var entries = list.getEntries()
+                                var entry = entries[entries.length - 1]
+                                // 当页面加载中 用户切走页面，LCP 可能会记录一个较大的值，导致误报，所以当 LCP 事件发生时，如果页面不可见，则不触发回调
+                                if (visibilityHidden) {
+                                    return
+                                }
+                                // 过滤异常URL
+                                if(window.location.href === 'https://www.jd.com/?d' || window.location.href.includes('utm_source=')) {
+                                    return
+                                }
+                                // 新增：FCP大于2s时过滤掉
+                                if (entry && entry.entryType === 'paint' && entry.name === 'first-contentful-paint' && entry.startTime > 2000) {
+                                    return
+                                }
+                                // 8s以上的异常数据过滤掉
+                                if (entry && (entry.entryType === 'largest-contentful-paint') && entry.startTime > 8000) {
+                                    return
+                                }
+                                // 过滤掉爬虫
+                                if (/spider|bot|crawl/i.test(navigator.userAgent)) {
+                                    return
+                                }
+                                callback && callback(list, observer)
+                            })
+                        }
+                    }
+                }
+                function handleVisibilityChange() {
+                    visibilityHidden = true
+                    document.removeEventListener('visibilitychange', handleVisibilityChange)
+                }
+                document.addEventListener('visibilitychange', handleVisibilityChange)
+                installPerformanceObserverPatch()
+            })()
+        } catch (error) {
+            console.error('自定义Performance失败:', error)
+        }
+    </script>
+    
+    <script>
+     function getQueryString(name) {
+         var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+         var r = window.location.search.substr(1).match(reg);
+         if (r != null) return unescape(r[2]); return null;
+     }
+    window.doubleCookieWhiteList = "cn,TrackID";
+     var ckdw = getQueryString("ckdw")
+     if(document.domain == "www.jingdong.com" &&(ckdw==null || !!ckdw && ckdw != "1")){
+         try {
+             var isJdvChanged = JA.tracker && JA.tracker.isJdvChanged && JA.tracker.isJdvChanged()
+             if(isJdvChanged || !!window.doubleCookieWhiteList){
+                var postParam = {};
+                postParam["isJdv"] = !!isJdvChanged ? "1" : "0";
+                postParam["source"] = "pchome";
+                postParam["returnUrl"] = encodeURIComponent(window.location.href.split("#")[0]);
+                $.ajax({
+                    url: "//pjapi.jingdong.com/doubleWriteCookie",
+                    async: true,
+                    data : postParam,
+                    dataType: 'jsonp',
+                    success: function(obj) {
+                        if(obj && obj.needDw == 1 && obj.redirectUrl && obj.redirectUrl != ""){
+                            window.location.href = obj.redirectUrl;
+                        }
+                    },
+                    error: function(xhr, status) {
+                        console.log(xhr);
+                    }
+                });
+             }
+         } catch (o) {
+            console.log("域名双写cookie异常");
+         }
+     }
+ </script>
+    <link href="//storage.360buyimg.com/channel2022/jd_home/0.0.190/static/css/first-screen.chunk.css" rel="stylesheet"/>
+    <link href="//storage.360buyimg.com/channel2022/jd_home/0.0.190/static/css/index.chunk.css" rel="stylesheet"/>
+
+    <script type="text/javascript">
+        window.point.css = new Date().getTime()
+    </script>
+    <script type="text/javascript">
+        window.pageConfig = {};
+        window.colorApiDomain = "//api.m.jd.com";
+        window.miaoshaRefreshTime = 1800;
+        window.navitemsHideSwitch = true;
+		window.imageLayerSwitch = true;
+		window.weixin_scheme = "weixin://dl/business/?t=5gbG4suSbHu";
+		window.feedTabIconList = [{"title":"为你精选","desc":"猜你喜欢","type":0,"imgUrl":"//img14.360buyimg.com/imagetools/jfs/t1/26577/33/22983/2322/66cc2351F2ef728a4/c0dcf30b31a65169.png"},{"title":"潮电好物","desc":"3C数码 ","type":1,"imgUrl":"//img12.360buyimg.com/imagetools/jfs/t1/5590/18/22998/4490/66cc2352Fc05f25b6/f2677cf1a21ef0d4.png"},{"title":"居家优品","desc":"家电家居","type":3,"imgUrl":"//img10.360buyimg.com/imagetools/jfs/t1/158479/31/47913/8842/66cc2352Fd8ec932a/d2b0de0b2a55be2c.png"},{"title":"超市百货","desc":"百货生鲜","type":4,"imgUrl":"//img13.360buyimg.com/imagetools/jfs/t1/234786/29/25832/7172/66cc2352F183e6d2e/f96b1f420b0309af.png"},{"title":"时尚达人","desc":"美妆穿搭","type":2,"imgUrl":"//img11.360buyimg.com/imagetools/jfs/t1/3045/1/25061/4916/66cc2352Fd1520cfc/07606706723455b1.png"},{"title":"进口好物","desc":"京东国际","type":5,"imgUrl":"//img10.360buyimg.com/imagetools/jfs/t1/244153/36/17482/7629/66cc2352F27b6b8b3/f88f5a03278dd6d5.png"}];
+		window.floorDegrade = {"orderList":false} ;
+		window.floorConfig = {
+    "searchDimDegrade": 0,
+    "homeNavChannelDegrade": 0,
+    "umcCountLimit": 1,
+    "cartNumDegrade": 0,
+    "umcShowTime": 5,
+    "totalModalCount": 2,
+    "modalCount": 1,
+    "modalShowTime": 5,
+    "addCartFailToast": "当前商品暂不支持加入购物车"
+} ;
+		window.myHomeIconList = [{"name":"商品收藏","iconUrl":"//img11.360buyimg.com/imagetools/jfs/t1/111399/20/47797/1626/66cecde5Fb4ab8613/931a837d74ace63e.png","link":"//t.jd.com/home/follow"},{"name":"店铺关注","iconUrl":"//img10.360buyimg.com/imagetools/jfs/t1/154257/31/33291/1399/66cecde5F91d18706/83c9b2d5c3b9b99a.png","link":"//t.jd.com/vender/followVenderList.action"},{"name":"我的京东","iconUrl":"//img14.360buyimg.com/imagetools/jfs/t1/188604/23/47813/2205/66e3b4b9F53e58b3e/5a8b00e7c764a9ba.png","link":"//home.jd.com"}] ;
+
+		//灰度区间统一配置
+		window.pageConfig.hashList ={"research":[{"start":"0","end":"10000"},{"start":"10000","end":"10000"}],"navitems":[{"start":"0","end":"0"},{"start":"0","end":"10000"}],"treasure":[{"start":"0","end":"10000"},{"start":"10000","end":"10000"}],"floor":[{"start":"0","end":"10000"},{"start":"10000","end":"10000"}],"schoolFloor":[{"start":"0","end":"10000"},{"start":"10000","end":"10000"}],"top":[{"start":"0","end":"10000"},{"start":"10000","end":"10000"}],"recommend":[{"start":"0","end":"10000"},{"start":"10000","end":"10000"}],"channels":[{"start":"0","end":"10000"},{"start":"10000","end":"10000"}]};
+        // 大促配置
+        window.promotional = {};
+        window.promotional.enableShowToolbar = false;
+        window.pageConfig.enableShowSpecialTop = false;
+        window.promotional.enableShowTop = false;
+        window.promotional.actTimeStart = new Date('2025/03/01 00:00:00').getTime();window.promotional.actTimeE

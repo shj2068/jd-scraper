@@ -1,0 +1,872 @@
+[
+  {
+    "url": "https://api.m.jd.com/",
+    "data": {
+      "msg": "成功",
+      "code": 0,
+      "data": {
+        "enableReport": true,
+        "enableInvokeLog": true,
+        "resources": {
+          "jdwebm": {
+            "version": "7.2.0",
+            "url": "",
+            "timeout": 5000,
+            "hitGray": false
+          }
+        },
+        "runMode": "1",
+        "colorDomain": "api.m.jd.com",
+        "policy": {
+          "reportPeriod": 0,
+          "reportMaxCount": 0,
+          "configCacheTtl": 600,
+          "finishMaxTime": 10000,
+          "invokeLogSampleRate": 10000,
+          "finishMinTime": 1000,
+          "sampleRate": 100
+        }
+      }
+    },
+    "size": 355
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "code": 0,
+      "data": "",
+      "message": "Success",
+      "class": "com.jd.disposal.api.entity.ResponseDTO"
+    },
+    "size": 89
+  },
+  {
+    "url": "https://api.m.jd.com/api?functionId=jsfbox_newUser_hongbao&uuid=&appid=www-jd-com&loginType=3&x-api-eid-token=jdd03O7MTQTPRVPL7SXTAUAACCKBFNRDEFRDMNPLXGM6QQ5H3HOXG3LNXIFPSVTVG2JAGESAWSMY4G6E7UN63VNK2CPJHVMAAAANBCXM7F2IAAAAACQJSZ6XDZXOVEMX&h5st=20261007181253114;p5p52jjave5ipjj5;b5216;tk06w4229589041lf0L4h4mxSoajpjbeBClPCWYS1mFRBiYe7WoPrrbrKVa1ugHbJm3OEGmVECme8GEf1H4fHKYS4fVd;5c61bb1d9683c06c598cf6149337d88e93fa5a9fe46d9835f37a928dca979c2e;5.3;1791367970114;of7ruCLj2DFR7GVeGSUTBCFf2rUe7ipjxjpPFip",
+    "data": {
+      "code": -100,
+      "msg": "未登录",
+      "data": null
+    },
+    "size": 37
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=www-jd-com&client=pc&clientVersion=1.0.0&t=1791367970058&uuid=76161171.17913679697341068511729.1791367970.1791367970.1791367970.1&functionId=jsfbox_pre_gb&body=%7B%22source%22:%22pc_home%22%7D&h5st=20261007181253079%3Bp5p52jjave5ipjj5%3Bb5216%3Btk06w7b1cde0641lfZ-6NomzfJ-5pjbeBClPCWYS1mFRBiYe7WoPrrbrKVa1uoJQ6KkP-ulOyjlepWHf1X4eHOofJqYf%3Ba6adb6c3fa12d61e97fa5a324206af7c0d227c4598e33547dacfb4cfec35285b%3B5.3%3B1791367970079%3Bof7ruCLj2DFR7GVeGSUTBCFf2rUe7ipjxjpPFipjLDr",
+    "data": {
+      "code": 0,
+      "data": {
+        "abBuriedTag": [],
+        "abBuriedTagMap": {
+          "kjgbAbTest": "tsabtest|base64|UENUZXN0XzEwNDI5MnxzaGFuZ2th|tsabtest",
+          "shopSearch": "tsabtest|base64|UENUZXN0XzY0MzcxfHRlc3RzaG9w|tsabtest"
+        },
+        "abExpLabelMap": {
+          "brandSquareAbTest": {
+            "keyParamMap": {
+              "Brand_Shopping_Guide": 0
+            }
+          },
+          "kjgbAbTest": {
+            "abBuriedTag": "tsabtest|base64|UENUZXN0XzEwNDI5MnxzaGFuZ2th|tsabtest",
+            "keyParamMap": {
+              "shangka": 1,
+              "kuangjia": 1,
+              "biaoti": 0
+            },
+            "label": "shangka"
+          },
+          "shopSearch": {
+            "abBuriedTag": "tsabtest|base64|UENUZXN0XzY0MzcxfHRlc3RzaG9w|tsabtest",
+            "keyParamMap": {
+              "hit": 1,
+              "Mainsearch": 1,
+              "Shopsearch": 1
+            },
+            "label": "testshop"
+          },
+          "secondFloorAbTest": {
+            "abBuriedTag": "",
+            "keyParamMap": {
+              "gate_pos": 0
+            },
+            "label": ""
+          },
+          "widgetAbTest": {
+            "abBuriedTag": "",
+            "keyParamMap": {
+              "mult_function": 0
+            },
+            "label": ""
+          },
+          "loginPopup": {
+            "keyParamMap": {
+              "Pc_login_popup_type": "0"
+            }
+          }
+        },
+        "addCartShow": true,
+        "advertModalShow": false,
+        "advertModalShowTime": 5,
+        "beanShow": true,
+        "brandEntryShow": false,
+        "brandHotTextShow": false,
+        "cPinPotential": false,
+        "clientMiniDetail": 0,
+        "enjoyTopBenefitShow": false,
+        "feedAdvertCardShow": false,
+        "feedEnjoyInfoShow": false,
+        "feedGuideShow": false,
+        "feedProductLabelShow": true,
+        "firstScreenGb": 1,
+        "guobuShow": true,
+        "hitSimpleVersion": false,
+        "inputGbGov": true,
+        "kuangjia": true,
+        "loginCardBenefitsShow": false,
+        "loginGuideShow": true,
+        "loginGuideTitle": 1,
+        "lowPriceTagShow": true,
+        "modalLogin": true,
+        "noLoginBrandEntryShow": true,
+        "priceLabelShow": true,
+        "shangkaBiaoTi": 0,
+        "showHandPrice": true,
+        "topbarRefactor": true,
+        "webMiniDetail": 0,
+        "wlEnhance": true,
+        "wxLoginOpen": true
+      },
+      "msg": "Success"
+    },
+    "size": 1496
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=www-jd-com&body=%7B%22source%22%3A%22www.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791367970362&uuid=76161171.17913679697341068511729.1791367970.1791367970.1791367970.1&loginType=3&x-api-eid-token=jdd03O7MTQTPRVPL7SXTAUAACCKBFNRDEFRDMNPLXGM6QQ5H3HOXG3LNXIFPSVTVG2JAGESAWSMY4G6E7UN63VNK2CPJHVMAAAANBCXM7F2IAAAAACQJSZ6XDZXOVEMX&jsonp=jsonpAbData&_=1791367970367",
+    "data": {
+      "abBuriedTag": [
+        "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+        "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest"
+      ],
+      "abBuriedTagMap": {
+        "autoPopup": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+        "weChatLogin": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest"
+      },
+      "abExpLabelMap": {
+        "autoPopup": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+          "keyParamMap": {
+            "Rights": 2
+          },
+          "label": "test2"
+        },
+        "widget": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "mult_function": 0
+          }
+        },
+        "loginPopup": {
+          "keyParamMap": {
+            "Pc_login_popup_type": "0"
+          }
+        },
+        "secondFloor": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "gate_pos": 0
+          }
+        },
+        "weChatLogin": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+          "keyParamMap": {
+            "hit": 1
+          },
+          "label": "base"
+        },
+        "homeTab": {
+          "keyParamMap": {
+            "Homepage_3Tabs": 0
+          }
+        }
+      },
+      "data": {
+        "loginPopJsPath": "//storage.360buyimg.com/retail-mall/jdc_user_login/pc/user/login/popup_v3.js",
+        "topbarRefactor": true,
+        "autoLoginPopConfig": {
+          "interval": 86400,
+          "lastPopLimit": 60,
+          "maxCount": 1,
+          "wait": 2
+        },
+        "weChatLogin": true,
+        "newFeatureLaunchShowFlag": false
+      },
+      "success": true
+    },
+    "size": 1045
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=www-jd-com&client=pc&clientVersion=1.0.0&t=1791367970366&uuid=76161171.17913679697341068511729.1791367970.1791367970.1791367970.1&functionId=jsfbox_user_queryPlusInfo&body=%7B%22source%22:%22pc-home%22%7D&h5st=20261007181253366%3Bp5p52jjave5ipjj5%3Bb5216%3Btk03w9c801c2f18ni67v92QluLmg8K1OdGsQW_Skjiq0yNcGNj114bYhi7IMS8VGh4RRnkfVoYzu4pCzwLITQqYRYiH7%3B8c7a23154d30effeb0ed079a36a284affbe08e160b3525e87f6d97d1a9c493a1%3B5.3%3B1791367970366%3Bq3EpJXIRBqUR2XFOKCFR5XoP2rEjLDI",
+    "data": {
+      "code": 0,
+      "msg": "Success",
+      "data": {
+        "isLogin": false,
+        "bPinPlusSwitch": true,
+        "newUserInfo": {
+          "status": true,
+          "login": false,
+          "pin": "",
+          "title": "新人福利",
+          "tips": "低至1元包邮"
+        },
+        "plusInfo": {
+          "images": {},
+          "isPlus": false,
+          "texts": {
+            "text1": "权益升级"
+          },
+          "plusStatus": ""
+        },
+        "userJumpConfig": {
+          "plusUrl": "https://plus.jd.com/index?flow_system=appicon&flow_entrance=appicon1&flow_channel=pc",
+          "plusNewUserUrl": "https://plus.jd.com/index?flow_system=appicon&flow_entrance=appicon1&flow_channel=pc",
+          "randomBenefits": "享折上95折"
+        },
+        "companyUserInfo": {
+          "giftText": "采购补贴3000元",
+          "pullNewUrl": "https://pro.jd.com/mall/active/2QSx2aihF9gmEyA1gnpqVg15jo86/index.html?babelChannel=ttt38&hdid=5crMGQyZ8tE",
+          "totalDiscountValue": null,
+          "totalDiscountTip": "企业会员首单享优惠",
+          "texts": [
+            "专享价",
+            "企业团购"
+          ],
+          "bvipUrl": "https://bvip.jd.com/?hdid=5crMGQyZ8tE",
+          "bvipButtonText": "查看更多专项权益",
+          "company": false
+        }
+      }
+    },
+    "size": 823
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=www-jd-com&client=pc&clientVersion=1.0.0&t=1791367970383&uuid=76161171.17913679697341068511729.1791367970.1791367970.1791367970.1&functionId=pccorechannels_queryCrossInfo&body=%7B%22source%22:%22home%22,%22sfFlag%22:true,%22area%22:%22%22%7D&h5st=20261007181253383%3Bp5p52jjave5ipjj5%3Bb5216%3Btk03w9c801c2f18ni67v92QluLmg8K1OdGsQW_Skjiq0yNcGNj114bYhi7IMS8VGh4RRnkfVoYzu4pCzwLITQqYRYiH7%3B0daa44278c1ef34be15f1002a5491f63c24821fc596d3542ee7b1d0524e3373f%3B5.3%3B1791367970",
+    "data": {
+      "data": {
+        "showStatus": false,
+        "zsTips": null,
+        "mainTitle": null,
+        "skuList": [],
+        "emptyTips": null
+      },
+      "code": 0,
+      "subCode": 0,
+      "message": ""
+    },
+    "size": 124
+  },
+  {
+    "url": "https://lapi.jd.com/locate?source=pchome&callback=jsonpAreaLocate&_=1791367970389",
+    "data": {
+      "code": 0,
+      "data": {
+        "city": "中山市",
+        "cityid": "1657",
+        "district": "",
+        "districtid": "0",
+        "operators": "中国移动",
+        "province": "广东",
+        "provinceid": "19",
+        "town": "",
+        "townid": "0"
+      },
+      "info": {
+        "bak": 0
+      }
+    },
+    "size": 190
+  },
+  {
+    "url": "https://api.m.jd.com/api?functionId=jsfbox_site_notice&uuid=&appid=www-jd-com&loginType=3&x-api-eid-token=jdd03O7MTQTPRVPL7SXTAUAACCKBFNRDEFRDMNPLXGM6QQ5H3HOXG3LNXIFPSVTVG2JAGESAWSMY4G6E7UN63VNK2CPJHVMAAAANBCXM7F2IAAAAACQJSZ6XDZXOVEMX&h5st=20261007181254057;p5p52jjave5ipjj5;b5216;tk03w9c801c2f18ni67v92QluLmg8K1OdGsQW_Skjiq0yNcGNj114bYhi7IMS8VGh4RRnkfVoYzu4pCzwLITQqYRYiH7;b50bba34799c8bea26fb0b50c89e4d474b1b2c54d420f18fc18fd3e0ab83c71b;5.3;1791367971057;q3EpJXIRBqUR2XFOKCFR5XoP2rEjLDIj7SFjLrJp-TY",
+    "data": {
+      "code": 0,
+      "msg": "Success",
+      "data": null
+    },
+    "size": 38
+  },
+  {
+    "url": "https://api.m.jd.com/",
+    "data": {
+      "traceId": "4476834.71502.17913679686176796",
+      "code": 0,
+      "data": "VjVWsffe3bR08C-YJTHCgVJMVNXePKoXqunavn3XpSu6yrWz2BBU_5tUTk_cQGdPMjjwwDuspUBvTstk28_PhAEIwVoZkT_zEAgvZMWIQGGgRhJUUWrEI3LhSpA5nhh7dYn66wn3SwFugy_MB5ABgwo1907PGCBoC0hh3YEGIdgEphiCekFHrCrgmOKkUzFbt4mn0A97Z8F-8xeqjzjaNviZ2bRZ12vXy2UjvFtVgNy487k94FZ9WcsN37q_xr2RgIj3uuzd7yIvggspYMVni34YPn0HqPNH6tqv4hi25aq5NCqZZL79QKh1NTvi9qBHuvmfpwIpkq1R5ktnsZcNF0G9_zWiSdGhydtLYtQbNnLkZL5Xd2hgFDdKN_eYDP5549EJp_A7EOuE5S0TJ1-jWtONM30ehXLRAat0MKtPeLPKH2zgK9DoPYOLdXI4PRHof7dBAGGwGb0DgA6_MPgnwPOgrjjZDzLvvbPCvyYMtff7ABcCdzPQ7CZUWuy7iYwgXtTV911qhJDXZ-g-2ugW0FSUWogJIKt9OYf5ddqVareoWU0MAFP4L4MiZMmW1gDEK1hbhghR8bAM-hge6MDwBZPKuL3c_fKSMVjFOoypUhYRLA8c9IHLTms8afL4u4yRox-R3VMUff0nysA2Pf8vW6XEQA9PmSCIGQCUEG-hEM3ZJBzN2RMML5tnZRgCV6C7YfRCSARQZoWJZj_zV9AkRLhK0Mkq3e4GYNumwZ-EQsEDQqA8Wpd-TjVdGATZZAdXG5Nrjg8IOOqqYAVO0giKybbU4MRt_SlNM6bYYVRyoUtW4StXNDEG1p-eVLO0gFiaNKvCFhvfa88tCEZUEY4mP1IKCZCzo0-Acra78mGhzXnCntaiG8w-c9jneN9oQtEvagBVPU7pnGRc0QZ9s_eq-BjqWt1HSp1hznqSQa7qRc-Yvn5IJzKQ3Iqj3fpwh4Pv5KSLbadCfGGRq66_Gd9huJhcbKIKvjfRxyqwo6ubPQKS7Ishhz9066NUKEhJ6AId6Bg0GX_ec_NVdqZOQFfgtZ-q9M8To0glySLdUIx_UnZ3sM88kCYhOufB7h2I3HfbV1mDTBWyPWEc6gQByC8AD_h7M3GQ3D2-tFpkb3l-H4L02vhsUtJTZ5gcvLQGQY9xI9zHzZuhqLwVpMpn7h_TVDv2dPJVqbmeSOX_7cqXf6QY1CIKLl_dQblGimL6jrfy7T37pvOca_pgMSaeaw4eRMCl_0eSYXlv-Ur5EyveL841cWfBjd-XSgkrgXjAmZ2kVBxK0XaYZkC8FNJknVUCLD78U4s6fVoXvOZ_-BvcXEI4DIvziFghjk9hfSM-0f1DdxIiY1TM-4ZeEAog6MXazcKSAMo9ifRBxXYlq2RrhkcWwe5-WGM3arp1EP7DernSRN9HOBFDRulk6i8CDKBwKppflB1pgHb-VHt6jepRk6uoM3satomKp3fYo9IsqxzKHnpCN2TBGvam_e5pLRfzTJLhPvPpIHIso41j03wVWwESJYv3LZiDxTwglwNcgDTl1BhMGeuozTtDfP92MwBx0uxXAdhmyDNAuFWNGaRFWGAo1J8Od6qQJr4ozFQa2zL0CCk-hadTNuYoF-KtnS7lnJ4sLj9CvC9mpUnfHS7pcNb6LRTosNyK2T22bYG6U4JXXxlCOpZBnccgTet0IM7Dx_7P_f_Tv4VFBXfI5NIdki71jtPxhJusjTkds2Tjge3-UCUh7iDXMRHW0Hy5NfW99DCJZg31x0czONxhHqWrobFHvR2508EgZwSTcyUw1HEJsjt2JiXp_ErqVU7r2SWqcuaTCA68KQux9yItXv4aDeg_-rpnz_Rus7kjrxeoDiElykMFV6R612-ON1HLTcu2bkty0gNiY6HpZGLutBPBUVFFS1SRu9zXx7IS4ANm8TB-GPWjSC8NyLdIbtNxz5zYWNV2Gvxp1gRnvVGWH_3LH5rysmJ81tEv_XyF3_bzQ78uEg46FJDfR5sUh2NmlQidzJhFF7SEAYoKvSakmOzUi_9Ia0fNt-wPfe5WIPu4QN1oviJcVDuH5M9MxZns-Dlc_onPpjnbWjHTNyYnobdyRisYyeSYXX2NbpQtAGANfJmEayhG3ovzFxGDqspuP5C2LtJ9xlbZYQOPcAiYpP3-T6Lrg6WWTLE5hhWCZN4gmCPM1q3ABN64bHB8Ccrf3a7se4dYzhgYnGEQ_XQUNrVKFBie1xFRheA8_DhX5fBZVSEVrnUWsbspLbmBKjfuGMlPHj_gjLIbDjTEbLxl5KmWyaRQLBn2Q_07gRiFnyxvgiTFI9UlhHCdBaohlSfoNwEWvj5spU7C16nPaxYL1WjmJiw3vbV-OVXlbLdrh6iDzkpZtN9Dn5lLG0PRAq7QmDttkPYiwbxfxMRiveAFLm5JwWa2F035WnOmh3pVTgHBdFAthNIxc9bGrU9U8-P8QzYcPSsIqCD0BXi1xSDxVaao5_qfkuZVyW9HtMyDPLUx4RVo3EBA1zWxSmtQVLlPymP9lc3eE6U50iXvRksFPwHahMdUHET_Et4HHSLg4Y-3lg3qa26pIK1jNEMcM2TmcUok0zB36OyNOrqfrs6KDlnHyOLWaCRQugwgkmW_Xvkfz-K4iSNmTj4IBCWd71uIPTqbZqzYVLBdsVTrrsuy4ytk89VUId7_4Lp9CBVby6jm0XMeu8n2vNfGlPkpRNKl9DiZ7aHvYc9cesA8NDbGJ-KO0XjRh-NkDE-TUJlFuCHYdQOxAj4l05cmkA2iwmGpuRRBMbMC2EoCHrgbNr9lvcJaB8cvJ_NMOT-xUZE9AaykN96kIRmWiQCrmU7kBd__p0v67In0mK6svvxXA8kJtD69dY4pP1JpWy9CL9GWccC3PPLpO7rnaxhszMceTlm0IUzIP3l3IyqioTC5fJFfeFqz4-VFEiW51hQwkNatLnRAv5Q9QwLjbZTy1DzEnZTKA4Oz6n2k95RQOEfoowyQKm5UYsFX_51BU2e5xlz7KaWfxo6gAu9ex5VzZ7AApqIOomFmoLV2l45YXwz9-IWXhUTjY7x1BxnP5QOZrspfB4iXqamviEjCbUv96LV8xE7nafaKNQQc3TIb-zfuTpmO5z0r388SrAjVUJA7FZj3udCJBNk3ja9ohPTObu78vebFJ_0SsWndKY54LTzhPA8qBAVl6nbivZMRpwjykczVc-5hOzT1cRBhpIPl6F6v7A49VrNU5ksgoAvLfUhuD_B9Eca6bZlQXCsUSlyT0yr56zw3Rb9BFpqkOAlsBQUNxayiTDQC3ZNUqtvUyOT9WmcdIoAVAIHlm3sYYBGasvg6ZNRDyylsa7n5T9JX9Fgr9U2JaD-08g5nKtHQ3e9l7vbnOr2xXV2g6ipVuHSYWQWVxJIRTh9Qf5jZN5UAghw-TbOQE8ymvNsedfKpc6UGfwR2vkwBysj1qltVOHsM-sFWjUcOVgmEJu3QOADFX0dtZ-5BqkIK-sUSofIAGpP1iuhKgpq5_p0_kEnr1Nx3mUxTLNwR28yJ63ztHi01lyupzX3-lCOhkNhyrqQABr41UbgN4LLPip7rrguhUJwZw-T4BjVRiQrzRO0tbvm45uRjUtGgA0Q9fPhMbGl37LbSyY1uk6JRZHTMG-p0YzCJjvEO-XFDt3_9cseNRvknmYxiahBvOgkOKaqDS-BRtouTwtG_RhOouQM_Gqxt8I_3xXElco24ttUMrWl2o_bdtZOLwfWHBjH_X3KbIouzkYTKmPj4vCq-79M_sX4zzOL_ocksSgI5M-f3lDvXspuvIQn-SfvH38hlDn_Hg_tDzrCsQMdnk861Uoo57cGCDgkJrU1rcw_uCOof2bbf9Nr3afcPBcicmxjlWSCKLs0rbSmA6Ci4RjcjTIpTMW4bfNZmivIw0oivtPGVf2-QjD3AXOrTKChx4Xbks-AlBZ_SAiSLCEqsd71EQw-ffmCLahIjcGrwyCl1Ui4asdsJkqY0oAlajEPC-hv6pUERUJtSyA7GX7oQSNGURBDiCq6tS-KO2_q6nwrziIU5x2VT_c1Mh3GRbbo0R0SXBVXtnBwaBOjMGrSyDwR8SLfYnGeBa8J3PTSjPKjfGWCkt7a4jtEzxpkYfhhlJtePM5kI_Hemn2asJ-whx1a_y0tBKw1P80tcaqT-yxEIM9ScwoWi39XdNJyBIUVZNbhMqUO5NpXT2ss8-h6CiJngCldm-Xy54u8o5uTKC5tiNNEuv4S3V0bgBTHLxivCltpM0ZYS2psPmSOf-IABETy_EbCoChLwmdZXy1J7D24DYRjtZTFKA_sp10U2u2n1s5beaCRoeKVmf3B_oyPRGH54S1UqpaiC7NKXr_xdcz7XlCwg2i8-WeNkWGsRLU8_AxpSoOS0E2xRG4a-R0jXkdlfFU6Ez2QZzoBeeGR9DB2zACXnaaPq9ygjSP5Os8QgrgKcRM_8ibp8za_-jST0-cvwpo1pJsU8mPeJbH5mHZgjv3e54tUhPdnJWamOXpChgmlhQhVlUbKuhnMuBFXXxQoKWaDcLwayS93XZ4KTamJgIKa7ehbMECJ62AFG2Ij2xV68omifqt_pOobMXoh3X2HabS_moPCWxTjehGbTwjuksPqfmqIBT8UUwYIG7pD4QQWwQOCSQrE-GF3X_vEpYjwSwt1CK8hR0BUsceYyKVSAGpb-cJPRnVwWgCXH0FrniptA8noRrvNpwODQwtU2oiuG3mw6R0xKW41BsoLSpx66nnIOegiYzl1nVOH0azbUZ59NxGFZhwOwDpNuJzsMXPP_4wK0Rr79AGKnnYLLGKzifwr5rIHcx0Fp6LSqTluNd4o9-Bsojf-vTnvU-U3MKtgUd4V9vacDpB6BlRglOAvdpwIAFJna9Qv8CNzlijOe-kgzG7VXhaoJb23cAfcn87TVtdBVVjosnsJwg_ER4hzQeXkitLfALmiufJSq_CyAEZPwM5A8vtslLWQQMz6ZvmZU13V6n624yLq1irfWLsV9tL3EQnLfUiDjVqbRkrVUmiGocq3rLOaQs_o9GNEtjBwqRIqXc_VI09-qYW_39VHv3i5lOXb7TlcG-YDMmQDfWV2HcJRedahPFw2oQxwCt3tyb823USVVAXvisxU0_C20EIhyT7V3Qky70KSuXS8_PaWGf7VvHhcJXmQfhpDuyickYn0GUJsaLgAUf2saYsM3Xuc52hp5PzgNrRQNIWh_3VfKxc_LqVQ8j0JCkx1BH8wAQ5RsiD0EKNhMboNPQoJxPkDmalNVtOJgF1cYSv0weBnbOdHG6F4WALZM4FGT5y_ch1DYzqOxq-zPe7bqy2kHIf7W6XX2SGH-R1g552iI2fmF7kqUyFWK5Na7dlHF-IG6vWg=",
+      "message": "Success"
+    },
+    "size": 5440
+  },
+  {
+    "url": "https://api.m.jd.com/api?appid=www-jd-com&client=pc&clientVersion=1.0.0&uuid=76161171.17913679697341068511729.1791367970.1791367970.1791367970.1&loginType=3&t=1791367972582&functionId=pctradesoa_queryBeanLoginPreInfo&x-api-eid-token=jdd03O7MTQTPRVPL7SXTAUAACCKBFNRDEFRDMNPLXGM6QQ5H3HOXG3LNXIFPSVTVG2JAGESAWSMY4G6E7UN63VNK2CPJHVMAAAANBCXM7F2IAAAAACQJSZ6XDZXOVEMX&h5st=20261007181255584%3Bp5p52jjave5ipjj5%3Bb5216%3Btk03w9c801c2f18ni67v92QluLmg8K1OdGsQW_Skjiq0yNcGNj114bYhi7IMS8VGh4RRnkfVoYzu4pCzwLITQq",
+    "data": {
+      "code": 0,
+      "msg": "Success",
+      "data": {
+        "hit": false
+      }
+    },
+    "size": 47
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=O2_channel&body=%7B%22action%22%3A%22gis%22%2C%22type%22%3A%22std%22%2C%22appid%22%3A%229ac75736119512c531a264b59a7ce24b%22%2C%22isdefaultipaddr%22%3A%221%22%7D&clientVersion=1.0.0&jsonp=jsonpGetLocation&client=wh5&functionId=lbsapi&x-api-eid-token=jdd03O7MTQTPRVPL7SXTAUAACCKBFNRDEFRDMNPLXGM6QQ5H3HOXG3LNXIFPSVTVG2JAGESAWSMY4G6E7UN63VNK2CPJHVMAAAANBCXM7F2IAAAAACQJSZ6XDZXOVEMX&callback=jsonpGetLocation&_=1791367973827",
+    "raw_preview": "jsonpGetLocation({\"code\":0,\"message\":\"ok\",\"callType\":\"IpService\",\"region\":\"中国\",\"province\":\"广东省\",\"city\":\"中山市\",\"district\":\"\",\"town\":\"\",\"oversea\":\"0\",\"gridId\":0,\"adminCode\":\"\",\"geohashLng\":0.0,\"geohashLat\":0.0,\"lng\":\"113.366699\",\"lat\":\"22.516701\",\"operators\":\"中国移动\",\"usageType\":\"\",\"tlsIsBlack\":-1,\"isIDC\":\"\",\"regionid\":\"CN\",\"provinceid\":\"440000\",\"cityid\":\"442000\",\"districtid\":\"0\",\"townid\":\"0\",\"detailaddr\":\"\",\"poi\":\"\",\"srclng\":0.0,\"srclat\":0.0})",
+    "size": 462
+  },
+  {
+    "url": "https://api.m.jd.com/",
+    "data": {
+      "msg": "成功",
+      "code": 0,
+      "data": {
+        "enableReport": true,
+        "enableInvokeLog": true,
+        "resources": {
+          "jdwebm": {
+            "version": "7.2.0",
+            "url": "",
+            "timeout": 5000,
+            "hitGray": false
+          }
+        },
+        "runMode": "1",
+        "colorDomain": "api.m.jd.com",
+        "policy": {
+          "reportPeriod": 0,
+          "reportMaxCount": 0,
+          "configCacheTtl": 600,
+          "finishMaxTime": 10000,
+          "invokeLogSampleRate": 10000,
+          "finishMinTime": 1000,
+          "sampleRate": 100
+        }
+      }
+    },
+    "size": 355
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "code": 0,
+      "data": "",
+      "message": "Success",
+      "class": "com.jd.disposal.api.entity.ResponseDTO"
+    },
+    "size": 89
+  },
+  {
+    "url": "https://api.m.jd.com/",
+    "data": {
+      "traceId": "8133665.71502.17913680232078043",
+      "code": 0,
+      "data": "VjVWsffe3bR08C-YJTHCgVJMVNXePKoXqunavn3XpSu6yrWz2BBU_5tUTk_cQGdPMjjwwDuspUBvTstk28_PhAEIwVoZkT_zEAgvZMWIQGGgRhJUUWrEI3LhSpA5nhh7dYn66wn3SwFugy_MB5ABgwo1907PGCBoC0hh3YEGIdgEphiCekFHrCrgmOKkUzFbt4mn0A97Z8F-8xeqjzjaNviZ2bRZ12vXy2UjvFtVgNy487k94FZ9WcsN37q_xr2RgIj3uuzd7yIvggspYMVni34YPn0HqPNH6tqv4hi25aq5NCqZZL79QKh1NTvi9qBHuvmfpwIpkq1R5ktnsZcNF0G9_zWiSdGhydtLYtQbNnLkZL5Xd2hgFDdKN_eYDP5549EJp_A7EOuE5S0TJ1-jWtONM30ehXLRAat0MKtPeLPKH2zgK9DoPYOLdXI4PRHof7dBAGGwGb0DgA6_MPgnwPOgrjjZDzLvvbPCvyYMtfd7ClmvZD0hnioFCIsaOqFGv-Ao7stj2HwaZPLkZQrepBJbyaet5VKAdUrYfDxtQ1gwlYrWDTGrpPVZAWJseqTjRlV3jbpIeQtfM9IwhB6Mb7cb6okJbQgiW8sBsBtDCGQfcf2URLi66CDZUpsDnDhlxiiH_cYylZmshvxhz4_vfstkNl0Ks0dk0daywe_vXfttI_xjukyB2JMfaLjunk7qnNpccDe-cP3yzl_v1hfSBo9S10fswOjk9oaM1Ba9Ebv-V5hFKlinzQjEwTaVr-47TqT800k3DaouKeAgpFxec19QTz5LAStd88-upCeuApvE5srmtcSVG_0audnpRn_EF19NsfvefANKpjg033PsjPGpBKNYWtqBJ1iYvDwO490htYKbkTMpK9zr43wWsnm51akueJqh4-6gDe0SM94pPgdkNkO4wpuZy-IRqFCeXuuRgrRozSbVEAXoCxB_w1gmCEYc_6UXEaRaOnbw5XMUA_M7PJuLaM2t2hKiLNDFpcBrY89yh2nFyXPo3D6QLNVavoT3_FlxTL9kR_NRjR7YYPkD7C9-o2lMQA-S4cCbFfKFa5MZhMkjgvaaw0E5K3x6r2RlFXEcjHtH-JejZ89_kCWWuo1eGFvCg6KeGtnVsUSLN4TbfCSXbVJtZF3pJ5cDNKjtOKlRKhR_sTUh5tlmCw-WiJKXD0XR9LnlXMY2x5b7mBMycl9rFQPqTEPWXVvbu9OqCCOnuEHz_M0X4eU7g3ZdG7Ky1TvPZ3plu8XlypfBJ_gegNnsuzig8DzMzcLm3EDstco2lzKMy_IEujVoTDSCFJ0NMqZStzvqdViFLL__RD7PFbkRrWlLrMQ9WUD484CLKwTskdGPUSBAuUbPyHhOCpTyUQpPvR1KXqnE2NdUfIO0e_0e5JtUJLpp4xu2eMUTJ_aViGNHRUTMZ8qP6h9kcdVgaRpnatX48xrw5l9ALSEy4AqItMXtQpxFkel1HaVTeExksLOAAsRn1Lw9OQj4caDe10FRol4F8hAeyzUl4s4RTP_YWVyzIhh47fha4q3InVf8NzDUaRzgE4LojJ7_6XJkThK74WwuEDUTcAk5vMLeGcBd9SOqW29rni7ecWciZM55KNQfBnsRGKgVcoIeNDbt-RVjBU49OsX0eZFwKIeMae61l87-fyr_KKcZH2JckLOmlnxBWuISTYCoGX2aRDs3y0lfQJXLMFpCdq2y2FCqwh9ROGS_iHHUGa_HJ2AOWk1tO_V_9mu198qgAO-8hQ9DCOxXskHOzz34ghVCyJq69EnwVgp3R50UI7rOOBYCsPcyjO7Cxk3uHOcI_ZiY6hjlMF-2nYHyvdcTZr3uOPvwt5nbtdCee9wEU3PXbwpDeN-7VAkhEniomIpPmgsTKOmdddEUDl0TsjcWvfPBybISot_n7oAHLcnmNiOft3SYahpUCbD4wWuMPmKsrg3N6SQOL0OVEF7Y5gOwe953pbg7Tt93Tjj8Ta2-K0JE3ninbj0U7ybJkqArq2IghAwEQllj2cdPEJ_sOpzBbo_fTb6W9wMRhu4z1tNx0e56ooRi7MR-Ab5epIil8EeXrx_cLiHA6qFAVq0tWa__2_e64aLg1EgI-N7GAB07nAwVNIa3AqeskaD3VwuTxgV6ssFpIN44taFKSDxRLaVrLYqeNaWpfSM99dcP1oXd4b3xH7QH_fCdbgBiKIkE3if8kJrXOxAYFvqXjKgSBCTTTYYU-Njzb-pSfTycIbPf56hEX67GRWwUKNSJv-7pMe3TUcbuNaBrDRcZrtQV_B7adnQkcAfeszjbURJ2AZW3RLQoj6wiO9fyfS-NX7eRMIaXDBLZI-Tsef6Z_M8zD_J7aCczT69rl_KOu4akRWr2EFf5mpbr_u6Jft8_btANugYCnohkkZIwyz4vnUNzdaglyBM0gDcEdjIRtmY3lnfegpR5-U3S8B23xxA2_6JlALdHZ017FL8a67-HwD5lpgt0Uul9PKwb1xqyG-UW83i3NWh9-aKIJ2rXxo2HAyXWyLwLzl2BQzMDCJt7JSr0zRawLaAjZi0QKLqdNGzMoXYDL71AcPmylBgtzA6K5L14ZPoaLtLM3FFkOAEFIrTBZTkp2e4_xxgFUY0LVEJTfxB47ubt_HeX9e21_zotun1nlLTjC5xBJ43yV6jSnbRQ_pcMPOHtiyYd3uXI0G4wA781edwbI-bzG3QQ2Tee0UkNb3k8e58BS0XcXbgZJipI1HScR6IRbuDpy_Y3AhlmBbjM8AMDlBTTl5WhHywAeNJdriDUDLV4spsoaprmj8gyIajlJTeVQ7F--KbWkvL7Xl-lvMvEFKOJw4PdS-RhuGgs5sPp0qhm59kyx3WvA1PltQCW_IVQxrj2BBTK5wn38VO444Mg6Q5Q_bLVgnVMEPWbSLRvURFDsD3TY_K6znsYShqE0EOGinmi--V5JIJ51hbALIGFUEZHMUEz6m1TvB0vls-wXNdI2xFi7755PJ1C9kvCq6k-dZ7gEWDGySDFRoK3yZiOg2MXNFyL_qPuoAj7ISb16wl895hojzV6OrrqI8UlSULfEWKgcBRMlOpFsIRWh7aW061RtSfVxd1ea1SMz5AekQAjDC3L3AiYOllROA6HotxjJ9zPooASwdk0cE3x-yPAekSZFdsEBuGakArvixe7YcJKqOS_fAZYupMVseV_Sfq-0MclUNyJowKX5j_NGwxR7FP_VikOPwBQ9UdfDpHVw784_CGxaxHinYXG2--j2cKR6BHK6vMqUT1LNhtxovJ5fuHdFCnpqo14v8JQVC7UFLcGnE-F2dNsjTVti3WFZhPWNdvV5kmgud0W-ov40qF9xH0Hm3Hoq8lIxbR6val3UFBTryBVbKZItkcZ8VfuSMqmqV_LgHk1s_MXuyi0u5q29_UJJk0h_2MsOB3yS8ywXfEnXSl5M7uQC7fnkWUxHHHIdku6jIgbW4VDN1CHlRxMtwzBURK65w8ngcTZNqIshEHIndZVXof-5nYOhZ-2ICQlCPJPXa1Hlj17oUg9D4_r0TQJt0tTc5lWnyUCmfhl0zRuML71uXRxHndVjcTSgO_VjYH9um1iW3LpaJuYpBGwINOkMaXvb1N932WYjh4CM9b8Y-Omk_KoQviFuGpBXnG_kuoJdU25sAse2qsCmERP-2CMNtI_og9SU_gedX0sX7vyAQC6-CytAG0o6UNlWlNTiNgrPPpvbVXzoelIUWsf4yeaLLN2E0ftwb-uAdVlzsamiAD20GmDjMZicPxQwZQCMHUqYmb1XHfB0cyv2aDHOt_cIOcii_qStlT-scn2G3XKKaw_m8CRb0sRKUpqwZloPVb7gYGjdIPMQHAv4zimL4_qz5tLgE5BbSdXv6WmU5pxLtouWBy_jYud4O9MAzddcK2EafBDqKYUe8C4sw54V9ddiEyEtlX_q2gBWiI51IVfnxoD9iSqRwVTcVXTBXQL6gA_EaqaRfokow5WlGkQyd2pymg_s4nrwQIFYAbwRAtvk82j1ADilJZMK00IHYsUN6plBwuxsVwl6Anyf4fZHwtPrvxpThT4es5Y5tTPBRRDaa3RJKCjruvrWCUuBKcFmsDV9eazqYIxGQJqRbKdiGQIsK-yLAlAYffmreAioB53KY1KSUw71wVRO9ADY912bBM36sTT95i6sAlztXrlsWSE4dLA6QIhJw08WtTrv-ZiyDPBHs0xLpPAfrEUiyVqjPiyhmw_MB3J1uEdPLzqM7zzZsx6rxCfApKTeq5uOXr-drStNnuqhkUm2Wx-CndaelhKw2Q6cOBfBiUcthAIc7wPsEeMy-AE4XvE8V7gqVM-CN0daCYiUfPX4WKUB6H7aFC3tuWr4P2KlVmOHdB1DAU7xm37rjqu92ZBwOvFi1-TN26azyLttbYndRialaK1z0wbxCEenas-hHIceSx5hWkeVhUvOsj5oomphN8QlWeDAGAp9siV2oI9F1quExhTsfCWP5DpjZPnTf8xYIxSvebyRPd5EafuJCd1DQIMPLdAfAVWeIzMNNlxE4lIQEs3kKF5CA9Luk-hzs0Pj07eLr3uemZ0pX4ggce7o_7bu7n5GQHaphPmT2-qQRz5lT66U3Jqj9SMgqXHoI0favp_C7yi_wKPbSixMlCrNoONyBMTKgDemYHlMdHsgSWxM250W2Z6Sc1qks3aUO6r4EAe9wDrvkei8enFPf9QBj4NXJB5zOoMPm7FIUPakJz3eTNTap3w9qfZ6iipF7D_VptY2XVnRbXFS33JWrthCBNK4YQCcniVCWspcjXQKhZF3QQCrcV5wnkdOptt6pk4BJ2FwTcHIss2pjAgvb7MxKzVYr6AqUygRnKlb76z4mhYpw-wD71wVCDvLU43Fn7bT-t0A-rWC5AukaEA0eI36yCeUjdb44vJWZNiRkphkh3-MH775qkI1KUpXYssPjee0k8jcwRs3RZAxcW8vidtQXmVd_KHcBFrolAJ6l8tz6Hcdg-24zm0VbYuYdInbyL8LnBn7PY31PQrufSEg-agajQ7s2wZKoVq2W8wRtgxvtH2sVa6R70EWuePT8tNUYvf9_Ejg9Yik4AJTbfCFBtvJlXKXwvnpHeLNt51bWsY5--Hu7GN7EXJzxAU5yvKVEUbm0kAJbo-T-4SsfmpSJszj5CPTx51k4kpJKGomXT1IonkwY0G2nQuNFiLQjKyadt-MQR3n6Sc3a6U_YPDpLnAT7m9ft1TGkLx7aNtVIw5oZRwNr9AHm3jBPsfnNzOSKDyZI06TKnOAc1HvPqeicdG2kYL3Q1-Cc34h5XEr4O8ZMyqXwV1LIAtqCVPaiqdYhHXrsoNN4KgCDpu0EHdEISGW2rzfwNiMIUpItRMAU19Q9bRUbk=",
+      "message": "Success"
+    },
+    "size": 5440
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "code": 200,
+      "data": {
+        "buriedExpLabel": "tsabtest|base64|YmpkXzI4MTg2NnxiYXNl|tsabtest",
+        "expFlag": false,
+        "expLabel": 0,
+        "expName": "bjd_281866"
+      },
+      "message": "成功",
+      "success": true,
+      "traceId": "11451879.41766.17913680234044640/IsGDpJUCAAMHpsYC79/kTAA="
+    },
+    "size": 263
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=search-pc-java&body=%7B%22source%22%3A%22list.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791368026001&uuid=29846306.17913679697341068511729.1791367970.1791367970.1791367970.1&loginType=3&x-api-eid-token=jdd03O7MTQTPRVPL7SXTAUAACCKBFNRDEFRDMNPLXGM6QQ5H3HOXG3LNXIFPSVTVG2JAGESAWSMY4G6E7UN63VNK2CPJHVMAAAANBCXM7F2IAAAAACQJSZ6XDZXOVEMX&jsonp=jsonpAbData&_=1791368026005",
+    "data": {
+      "abBuriedTag": [
+        "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+        "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest"
+      ],
+      "abBuriedTagMap": {
+        "autoPopup": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+        "weChatLogin": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest"
+      },
+      "abExpLabelMap": {
+        "autoPopup": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+          "keyParamMap": {
+            "Rights": 2
+          },
+          "label": "test2"
+        },
+        "widget": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "mult_function": 0
+          }
+        },
+        "loginPopup": {
+          "keyParamMap": {
+            "Pc_login_popup_type": "0"
+          }
+        },
+        "secondFloor": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "gate_pos": 0
+          }
+        },
+        "weChatLogin": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+          "keyParamMap": {
+            "hit": 1
+          },
+          "label": "base"
+        },
+        "homeTab": {
+          "keyParamMap": {
+            "Homepage_3Tabs": 0
+          }
+        }
+      },
+      "data": {
+        "loginPopJsPath": "//storage.360buyimg.com/retail-mall/jdc_user_login/pc/user/login/popup_v3.js",
+        "topbarRefactor": true,
+        "autoLoginPopConfig": {
+          "interval": 86400,
+          "lastPopLimit": 60,
+          "maxCount": 1,
+          "wait": 2
+        },
+        "weChatLogin": true,
+        "newFeatureLaunchShowFlag": false
+      },
+      "success": true
+    },
+    "size": 1045
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_queryAddress",
+    "data": {
+      "body": {
+        "data": {
+          "loginUrl": "https://plogin.m.jd.com/user/login.action?appid=100&kpkey=&returnurl="
+        },
+        "errorCode": "302",
+        "errorReason": "未登录，去登录吧"
+      },
+      "code": "0",
+      "message": "success",
+      "timestamp": 1791368023515
+    },
+    "size": 202
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_getAreaNameById",
+    "data": {
+      "body": {
+        "cityId": 1657,
+        "cityName": "中山市",
+        "complete": true,
+        "countyId": 0,
+        "hideLevel": "4",
+        "provinceId": 19,
+        "provinceName": "广东",
+        "townId": 0
+      },
+      "code": "0",
+      "message": "success",
+      "timestamp": 1791368023753
+    },
+    "size": 190
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "code": 0,
+      "data": "",
+      "message": "Success",
+      "class": "com.jd.disposal.api.entity.ResponseDTO"
+    },
+    "size": 89
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "code": 200,
+      "data": {
+        "buriedExpLabel": "tsabtest|base64|YmpkXzI4MTg2NnxiYXNl|tsabtest",
+        "expFlag": false,
+        "expLabel": 0,
+        "expName": "bjd_281866"
+      },
+      "message": "成功",
+      "success": true,
+      "traceId": "10264204.41766.17913680306656106/IsGDpJUCAAMHpsYC79/kTAA="
+    },
+    "size": 263
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=search-pc-java&body=%7B%22source%22%3A%22list.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791368033309&uuid=29846306.17913679697341068511729.1791367970.1791367970.1791367970.1&loginType=3&x-api-eid-token=jdd03O7MTQTPRVPL7SXTAUAACCKBFNRDEFRDMNPLXGM6QQ5H3HOXG3LNXIFPSVTVG2JAGESAWSMY4G6E7UN63VNK2CPJHVMAAAANBCXM7F2IAAAAACQJSZ6XDZXOVEMX&jsonp=jsonpAbData&_=1791368033315",
+    "data": {
+      "abBuriedTag": [
+        "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+        "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest"
+      ],
+      "abBuriedTagMap": {
+        "autoPopup": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+        "weChatLogin": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest"
+      },
+      "abExpLabelMap": {
+        "autoPopup": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+          "keyParamMap": {
+            "Rights": 2
+          },
+          "label": "test2"
+        },
+        "widget": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "mult_function": 0
+          }
+        },
+        "loginPopup": {
+          "keyParamMap": {
+            "Pc_login_popup_type": "0"
+          }
+        },
+        "secondFloor": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "gate_pos": 0
+          }
+        },
+        "weChatLogin": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+          "keyParamMap": {
+            "hit": 1
+          },
+          "label": "base"
+        },
+        "homeTab": {
+          "keyParamMap": {
+            "Homepage_3Tabs": 0
+          }
+        }
+      },
+      "data": {
+        "loginPopJsPath": "//storage.360buyimg.com/retail-mall/jdc_user_login/pc/user/login/popup_v3.js",
+        "topbarRefactor": true,
+        "autoLoginPopConfig": {
+          "interval": 86400,
+          "lastPopLimit": 60,
+          "maxCount": 1,
+          "wait": 2
+        },
+        "weChatLogin": true,
+        "newFeatureLaunchShowFlag": false
+      },
+      "success": true
+    },
+    "size": 1045
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_queryAddress",
+    "data": {
+      "body": {
+        "data": {
+          "loginUrl": "https://plogin.m.jd.com/user/login.action?appid=100&kpkey=&returnurl="
+        },
+        "errorCode": "302",
+        "errorReason": "未登录，去登录吧"
+      },
+      "code": "0",
+      "message": "success",
+      "timestamp": 1791368030770
+    },
+    "size": 202
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_getAreaNameById",
+    "data": {
+      "body": {
+        "cityId": 72,
+        "cityName": "朝阳区",
+        "complete": true,
+        "countyId": 55653,
+        "countyName": "八里庄街道",
+        "hideLevel": "3",
+        "provinceId": 1,
+        "provinceName": "北京",
+        "townId": 0
+      },
+      "code": "0",
+      "message": "success",
+      "timestamp": 1791368030825
+    },
+    "size": 212
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "code": 0,
+      "data": "",
+      "message": "Success",
+      "class": "com.jd.disposal.api.entity.ResponseDTO"
+    },
+    "size": 89
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "code": 200,
+      "data": {
+        "buriedExpLabel": "tsabtest|base64|YmpkXzI4MTg2NnxiYXNl|tsabtest",
+        "expFlag": false,
+        "expLabel": 0,
+        "expName": "bjd_281866"
+      },
+      "message": "成功",
+      "success": true,
+      "traceId": "3513120.41766.17913680381014031/IsGDpJUCAAMHpsYC79/kTAA="
+    },
+    "size": 262
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=search-pc-java&body=%7B%22source%22%3A%22list.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791368040785&uuid=29846306.17913679697341068511729.1791367970.1791367970.1791367970.1&loginType=3&x-api-eid-token=jdd03O7MTQTPRVPL7SXTAUAACCKBFNRDEFRDMNPLXGM6QQ5H3HOXG3LNXIFPSVTVG2JAGESAWSMY4G6E7UN63VNK2CPJHVMAAAANBCXM7F2IAAAAACQJSZ6XDZXOVEMX&jsonp=jsonpAbData&_=1791368040788",
+    "data": {
+      "abBuriedTag": [
+        "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+        "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest"
+      ],
+      "abBuriedTagMap": {
+        "autoPopup": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+        "weChatLogin": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest"
+      },
+      "abExpLabelMap": {
+        "autoPopup": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+          "keyParamMap": {
+            "Rights": 2
+          },
+          "label": "test2"
+        },
+        "widget": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "mult_function": 0
+          }
+        },
+        "loginPopup": {
+          "keyParamMap": {
+            "Pc_login_popup_type": "0"
+          }
+        },
+        "secondFloor": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "gate_pos": 0
+          }
+        },
+        "weChatLogin": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+          "keyParamMap": {
+            "hit": 1
+          },
+          "label": "base"
+        },
+        "homeTab": {
+          "keyParamMap": {
+            "Homepage_3Tabs": 0
+          }
+        }
+      },
+      "data": {
+        "loginPopJsPath": "//storage.360buyimg.com/retail-mall/jdc_user_login/pc/user/login/popup_v3.js",
+        "topbarRefactor": true,
+        "autoLoginPopConfig": {
+          "interval": 86400,
+          "lastPopLimit": 60,
+          "maxCount": 1,
+          "wait": 2
+        },
+        "weChatLogin": true,
+        "newFeatureLaunchShowFlag": false
+      },
+      "success": true
+    },
+    "size": 1045
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_queryAddress",
+    "data": {
+      "body": {
+        "data": {
+          "loginUrl": "https://plogin.m.jd.com/user/login.action?appid=100&kpkey=&returnurl="
+        },
+        "errorCode": "302",
+        "errorReason": "未登录，去登录吧"
+      },
+      "code": "0",
+      "message": "success",
+      "timestamp": 1791368038251
+    },
+    "size": 202
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_getAreaNameById",
+    "data": {
+      "body": {
+        "cityId": 72,
+        "cityName": "朝阳区",
+        "complete": true,
+        "countyId": 55653,
+        "countyName": "八里庄街道",
+        "hideLevel": "3",
+        "provinceId": 1,
+        "provinceName": "北京",
+        "townId": 0
+      },
+      "code": "0",
+      "message": "success",
+      "timestamp": 1791368038327
+    },
+    "size": 212
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "code": 0,
+      "data": "",
+      "message": "Success",
+      "class": "com.jd.disposal.api.entity.ResponseDTO"
+    },
+    "size": 89
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "data": {
+      "code": 200,
+      "data": {
+        "buriedExpLabel": "tsabtest|base64|YmpkXzI4MTg2NnxiYXNl|tsabtest",
+        "expFlag": false,
+        "expLabel": 0,
+        "expName": "bjd_281866"
+      },
+      "message": "成功",
+      "success": true,
+      "traceId": "9234454.41766.17913680455149097/IsGDpJUCAAMHpsYC79/kTAA="
+    },
+    "size": 262
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=search-pc-java&body=%7B%22source%22%3A%22list.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791368048171&uuid=29846306.17913679697341068511729.1791367970.1791367970.1791367970.1&loginType=3&x-api-eid-token=jdd03O7MTQTPRVPL7SXTAUAACCKBFNRDEFRDMNPLXGM6QQ5H3HOXG3LNXIFPSVTVG2JAGESAWSMY4G6E7UN63VNK2CPJHVMAAAANBCXM7F2IAAAAACQJSZ6XDZXOVEMX&jsonp=jsonpAbData&_=1791368048174",
+    "data": {
+      "abBuriedTag": [
+        "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+        "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest"
+      ],
+      "abBuriedTagMap": {
+        "autoPopup": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+        "weChatLogin": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest"
+      },
+      "abExpLabelMap": {
+        "autoPopup": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzk4Njk1fHRlc3Qy|tsabtest",
+          "keyParamMap": {
+            "Rights": 2
+          },
+          "label": "test2"
+        },
+        "widget": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "mult_function": 0
+          }
+        },
+        "loginPopup": {
+          "keyParamMap": {
+            "Pc_login_popup_type": "0"
+          }
+        },
+        "secondFloor": {
+          "abBuriedTag": "",
+          "keyParamMap": {
+            "gate_pos": 0
+          }
+        },
+        "weChatLogin": {
+          "abBuriedTag": "tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest",
+          "keyParamMap": {
+            "hit": 1
+          },
+          "label": "base"
+        },
+        "homeTab": {
+          "keyParamMap": {
+            "Homepage_3Tabs": 0
+          }
+        }
+      },
+      "data": {
+        "loginPopJsPath": "//storage.360buyimg.com/retail-mall/jdc_user_login/pc/user/login/popup_v3.js",
+        "topbarRefactor": true,
+        "autoLoginPopConfig": {
+          "interval": 86400,
+          "lastPopLimit": 60,
+          "maxCount": 1,
+          "wait": 2
+        },
+        "weChatLogin": true,
+        "newFeatureLaunchShowFlag": false
+      },
+      "success": true
+    },
+    "size": 1045
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_queryAddress",
+    "data": {
+      "body": {
+        "data": {
+          "loginUrl": "https://plogin.m.jd.com/user/login.action?appid=100&kpkey=&returnurl="
+        },
+        "errorCode": "302",
+        "errorReason": "未登录，去登录吧"
+      },
+      "code": "0",
+      "message": "success",
+      "timestamp": 1791368045630
+    },
+    "size": 202
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_getAreaNameById",
+    "data": {
+      "body": {
+        "cityId": 72,
+        "cityName": "朝阳区",
+        "complete": true,
+        "countyId": 55653,
+        "countyName": "八里庄街道",
+        "hideLevel": "3",
+        "provinceId": 1,
+        "provinceName": "北京",
+        "townId": 0
+      },
+      "code": "0",
+      "message": "success",
+      "timestamp": 1791368045688
+    },
+    "size": 212
+  }
+]

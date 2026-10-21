@@ -1,0 +1,2105 @@
+{
+  "fetch_time": "2026-10-14T06:21:46.201218",
+  "source": "dc.3.cn/category/get",
+  "summary": {
+    "level_1_categories": 20,
+    "level_2_categories": 65,
+    "level_3_categories": 205,
+    "total_brands": 87
+  },
+  "categories": [
+    {
+      "name": "冰箱/洗衣机",
+      "level": 1,
+      "brands": [
+        {
+          "url": "mall.jd.com/index-1000001782.html?from=pc",
+          "name": "海尔",
+          "logo": "vclist/jfs/t1/293804/11/9683/10482/69113eeaF5cbaca65/2eb203eb1ef8050d.png"
+        },
+        {
+          "url": "mideajiadian.jd.com",
+          "name": "美的",
+          "logo": "vclist/jfs/t1/355594/12/5284/4548/690d5ad5Fe70699df/dfb73bb664746513.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000003445.html?from=pc",
+          "name": "格力",
+          "logo": "vclist/jfs/t1/294805/37/14072/4484/690dbed1F828c7d1d/b664311fe1738363.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000002816.html",
+          "name": "TCL",
+          "logo": "vclist/jfs/t1/355290/14/5473/6707/690dc10dFe8bcb679/4b47b355e368fd26.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000324421.html?from=pc",
+          "name": "海信",
+          "logo": "vclist/jfs/t1/361975/9/99/4204/690dc139Fac39064b/966f52ea88bb98a5.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000002505.html?from=pc",
+          "name": "小天鹅",
+          "logo": "vclist/jfs/t1/301704/8/18022/11751/69113fd3F78540ad9/0caa938919a1533c.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000001402.html?from=pc",
+          "name": "老板",
+          "logo": "vclist/jfs/t1/354283/33/8357/10834/69113f30Fcc68b09d/fd419b58a74c6210.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000000907.html?from=pc",
+          "name": "方太",
+          "logo": "vclist/jfs/t1/346639/10/26077/12112/69114009F060e03d4/13ed64bc7808bfe6.png"
+        }
+      ],
+      "children": [
+        {
+          "name": "冰洗",
+          "url": "search.jd.com/Search?keyword=冰箱%2F洗衣机&enc=utf-8&wq=冰洗&pvid=86906b9466d84cb99b938ce3d1f98eb1",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "冰箱",
+              "url": "search.jd.com/Search?keyword=冰箱&enc=utf-8&pvid=ea8a29378d0b4b1e89f2430b79665d1c",
+              "level": 3
+            },
+            {
+              "name": "洗衣机",
+              "url": "search.jd.com/Search?keyword=洗衣机&enc=utf-8&wq=冰箱shi%27zi%27m&pvid=5b294e52042c443d8c5747f995ba7de0",
+              "level": 3
+            },
+            {
+              "name": "空调",
+              "url": "search.jd.com/Search?keyword=空调&enc=utf-8&wq=空调&pvid=d4838b0188684013823b83834c67fdeb",
+              "level": 3
+            },
+            {
+              "name": "中央空调",
+              "url": "search.jd.com/Search?keyword=%E4%B8%AD%E5%A4%AE%E7%A9%BA%E8%B0%83&enc=utf-8&wq=%E4%B8%AD%E5%A4%AE%E7%A9%BA%E8%B0%83&pvid=a37cb3c3905e43b1878f34b99f53ab7e",
+              "level": 3
+            },
+            {
+              "name": "电视",
+              "url": "list.jd.com/list.html?cat=737%2C794%2C798&pvid=5f8f9877ed21485ba9cae1b26ff2ff57",
+              "level": 3
+            },
+            {
+              "name": "厨卫大电",
+              "url": "search.jd.com/Search?keyword=厨卫大电",
+              "level": 3
+            },
+            {
+              "name": "商用电器",
+              "url": "list.jd.com/list.html?cat=44737",
+              "level": 3
+            },
+            {
+              "name": "家电配件",
+              "url": "search.jd.com/Search?keyword=%E5%AE%B6%E7%94%B5%E9%85%8D%E4%BB%B6&enc=utf-8&wq=%E5%AE%B6%E7%94%B5%E9%85%8D%E4%BB%B6&pvid=2692090a35c14518a0fc74d12f6c7fe3",
+              "level": 3
+            },
+            {
+              "name": "视听影音",
+              "url": "search.jd.com/Search?keyword=%E8%A7%86%E5%90%AC%E5%BD%B1%E9%9F%B3&enc=utf-8&wq=%E8%A7%86%E5%90%AC%E5%BD%B1%E9%9F%B3&pvid=3b7300b755ec47e3958e9defab28df88",
+              "level": 3
+            },
+            {
+              "name": "冷柜",
+              "url": "search.jd.com/Search?keyword=冷柜&enc=utf-8&pvid=9d467511e89149e38a4fbc9b771dc119",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "空调",
+          "url": "search.jd.com/Search?keyword=空调&enc=utf-8&wq=空调&pvid=d4838b0188684013823b83834c67fdeb",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "电视",
+          "url": "search.jd.com/Search?keyword=电视&enc=utf-8&pvid=5cb7fcf3d78045e082eee2cc6d33c054",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "厨卫大电",
+          "url": "search.jd.com/Search?keyword=厨卫大电&enc=utf-8&pvid=ba95fa066c7f4d868bb290f303af75df",
+          "level": 2,
+          "brands": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "电脑整机",
+      "level": 1,
+      "brands": [
+        {
+          "url": "mall.jd.com/index-1000000157.html?from=pc",
+          "name": "联想长期",
+          "logo": "vclist/jfs/t1/343237/10/2509/15542/68c3ea17F27b987c5/5ec596d3842e6b30.png"
+        },
+        {
+          "url": "//mall.jd.com/index-1000007482.html?cpdad=1DLSUE",
+          "name": "intel长期",
+          "logo": "vclist/jfs/t1/288396/30/15117/2768/68b68d05Ff2a573c3/d359d2ecc15676be.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000000158.html",
+          "name": "Thinkpad长期",
+          "logo": "vclist/jfs/t1/324102/8/14593/4651/68b68d47Fe3b48e00/2e73008324e57666.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000000948.html",
+          "name": "机械革命",
+          "logo": "vclist/jfs/t1/322582/37/8383/12306/68c242f5F053a6e30/640c7bf35317253a.png"
+        },
+        {
+          "url": "//mall.jd.com/index-1000000182.html",
+          "name": "华硕长期",
+          "logo": "vclist/jfs/t1/327677/15/19027/14351/68c3d705F3d88529e/d7d9d771ec8823ca.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000001132.html?from=pc",
+          "name": "得力",
+          "logo": "vclist/jfs/t1/326980/3/18254/1944/68c130faF68810ebc/5ac957d298eb7e23.png"
+        }
+      ],
+      "children": [
+        {
+          "name": "电脑",
+          "url": "search.jd.com/Search?keyword=电脑整机&enc=utf-8&pvid=e2444eaf9a9b4e33b9bf031c43e39940",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "电脑整机",
+              "url": "search.jd.com/Search?keyword=%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%94%B5%E8%84%91&enc=utf-8&themeColor=&pvid=5b24a12a7fb34ac7803240903f552537&spmTag=YTAyMTkuYjAwMjM1Ni5jMDAwMDYzOTQuMV8yJTQwMTc4ODg1NzM3ODQ0MyUyMzE3NzA4MDIzOTE4NTcxNDMzNjUwODY0JTIzMjA0NzM4MjAyMyUyQ2EwMjQwLmIwMDI0OTMuYzAwMDA3MjEwLnNlYXJjaF9idXR0b24lMjNidXR0b24lNDAxNzg4ODU3Mzg3MDI2JTIzMTc3MDgwMjM5MTg1NzE0MzM2NTA4NjQlMjM0NDY4MTQ2MjQ",
+              "level": 3
+            },
+            {
+              "name": "电脑组件",
+              "url": "list.jd.com/list.html?cat=670,677",
+              "level": 3
+            },
+            {
+              "name": "外设产品",
+              "url": "list.jd.com/list.html?cat=670,686",
+              "level": 3
+            },
+            {
+              "name": "游戏设备",
+              "url": "search.jd.com/Search?keyword=游戏设备",
+              "level": 3
+            },
+            {
+              "name": "网络产品",
+              "url": "list.jd.com/list.html?cat=699",
+              "level": 3
+            },
+            {
+              "name": "办公设备",
+              "url": "search.jd.com/Search?keyword=办公设备&enc=utf-8&pvid=622d2731700340459bf89ef4796fa954",
+              "level": 3
+            },
+            {
+              "name": "耗材",
+              "url": "list.jd.com/list.html?cat=670,21076",
+              "level": 3
+            },
+            {
+              "name": "服务产品",
+              "url": "list.jd.com/list.html?cat=670,703",
+              "level": 3
+            },
+            {
+              "name": "办公用纸",
+              "url": "search.jd.com/Search?keyword=%E5%8A%9E%E5%85%AC%E7%94%A8%E7%BA%B8&enc=utf-8&wq=%E5%8A%9E%E5%85%AC%E7%94%A8%E7%BA%B8&pvid=a7703b23fd254a778c6d3af491b8c9cf",
+              "level": 3
+            },
+            {
+              "name": "财务办公",
+              "url": "list.jd.com/list.html?cat=37462,37565",
+              "level": 3
+            },
+            {
+              "name": "收纳管理",
+              "url": "list.jd.com/list.html?cat=37462,37560",
+              "level": 3
+            },
+            {
+              "name": "书写工具",
+              "url": "list.jd.com/list.html?cat=37462,37564",
+              "level": 3
+            },
+            {
+              "name": "本册纸签",
+              "url": "list.jd.com/list.html?cat=37462,37559",
+              "level": 3
+            },
+            {
+              "name": "学习用品",
+              "url": "list.jd.com/list.html?cat=37462,37563",
+              "level": 3
+            },
+            {
+              "name": "绘画书法",
+              "url": "list.jd.com/list.html?cat=37462,37467",
+              "level": 3
+            },
+            {
+              "name": "商务定制",
+              "url": "search.jd.com/Search?keyword=%E5%95%86%E5%8A%A1%E5%AE%9A%E5%88%B6%E5%8A%9E%E5%85%AC%E6%96%87%E5%85%B7&enc=utf-8&wq=%E5%A7%93%E5%90%8D%E8%B4%B4%E6%89%93%E5%8D%B0%E7%BA%B8&pvid=0f4772d843134b4f8f51d4d5f398c1f8",
+              "level": 3
+            },
+            {
+              "name": "个人定制",
+              "url": "search.jd.com/Search?keyword=%E4%B8%AA%E4%BA%BA%E5%AE%9A%E5%88%B6%E6%96%87%E5%85%B7&enc=utf-8&wq=%E5%A7%93%E5%90%8D%E8%B4%B4%E6%89%93%E5%8D%B0%E7%BA%B8&pvid=0f4772d843134b4f8f51d4d5f398c1f8",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "办公",
+          "url": "search.jd.com/Search?keyword=%E5%8A%9E%E5%85%AC&enc=utf-8&wq=%E5%8A%9E%E5%85%AC&pvid=c8ee4353f33d4eed82f969ce97eba434",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "文具用品",
+          "url": "list.jd.com/list.html?cat=37462",
+          "level": 2,
+          "brands": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "手机",
+      "level": 1,
+      "brands": [
+        {
+          "url": "//mall.jd.com/index-1000000921.html",
+          "name": "索尼11.11",
+          "logo": "vclist/jfs/t1/209676/30/8204/3862/6184ca7aE8fd926d3/fb2a63e440b109c1.png"
+        },
+        {
+          "url": "//mall.jd.com/index-1000004259.html",
+          "name": "华为",
+          "logo": "vclist/jfs/t1/340628/20/4956/6725/68b562caF9cd01e32/1633922ce7fbaa8f.png"
+        },
+        {
+          "url": "//mall.jd.com/index-1000002350.html",
+          "name": "大疆4号",
+          "logo": "vclist/jfs/t1/156965/27/11869/4107/603da99aE3a068be4/1439c3c3819381d6.jpg"
+        }
+      ],
+      "children": [
+        {
+          "name": "手机",
+          "url": "search.jd.com/Search?keyword=手机&enc=utf-8&pvid=25db2d08e2d04e1b91d79c9a65766521",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "手机通讯",
+              "url": "search.jd.com/Search?keyword=手机&enc=utf-8&pvid=25db2d08e2d04e1b91d79c9a65766521",
+              "level": 3
+            },
+            {
+              "name": "运营商",
+              "url": "search.jd.com/Search?keyword=运营商&enc=utf-8&wq=运营商&pvid=3a4453c7ef49462a8c5b73cc9f56ad97&spmTag=YTAyMTkuYjAwMjM1Ni5jMDAwMDYzOTMuM18y",
+              "level": 3
+            },
+            {
+              "name": "手机配件",
+              "url": "search.jd.com/Search?keyword=%E6%89%8B%E6%9C%BA%E9%85%8D%E4%BB%B6",
+              "level": 3
+            },
+            {
+              "name": "摄影摄像",
+              "url": "search.jd.com/Search?keyword=%E6%91%84%E5%BD%B1%E6%91%84%E5%83%8F&enc=utf-8&wq=%E6%91%84%E5%BD%B1%E6%91%84%E5%83%8F&pvid=be16ddd6eb05428286f46cf6540f951a",
+              "level": 3
+            },
+            {
+              "name": "数码配件",
+              "url": "search.jd.com/Search?keyword=数码配件&enc=utf-8&wq=运营商&pvid=3a4453c7ef49462a8c5b73cc9f56ad97&spmTag=YTAyMTkuYjAwMjM1Ni5jMDAwMDYzOTMuM18y",
+              "level": 3
+            },
+            {
+              "name": "影音娱乐",
+              "url": "search.jd.com/Search?keyword=%E5%BD%B1%E9%9F%B3%E5%A8%B1%E4%B9%90&enc=utf-8&wq=%E5%BD%B1%E9%9F%B3%E5%A8%B1%E4%B9%90&pvid=ee34ffd3cc764fd8a275e4dca83b60e2",
+              "level": 3
+            },
+            {
+              "name": "智能设备",
+              "url": "search.jd.com/Search?keyword=%E6%99%BA%E8%83%BD%E8%AE%BE%E5%A4%87&enc=utf-8&wq=%E6%91%84%E5%BD%B1%E6%91%84%E5%83%8F&pvid=b83a1af1a88e4f3aabbfb6cd33e6454f",
+              "level": 3
+            },
+            {
+              "name": "电子教育",
+              "url": "search.jd.com/Search?keyword=%E7%94%B5%E5%AD%90%E6%95%99%E8%82%B2&enc=utf-8&wq=%E7%94%B5%E5%AD%90%E6%95%99%E8%82%B2&pvid=58a36e7f9ddd4c8a88cab3c891878d30",
+              "level": 3
+            },
+            {
+              "name": "对讲机",
+              "url": "search.jd.com/Search?keyword=对讲机",
+              "level": 3
+            },
+            {
+              "name": "智能机器人",
+              "url": "search.jd.com/Search?keyword=智能机器人&enc=utf-8&wq=智能jiqir&pvid=53395bb1a2f440b8bde53ffa05cafc55&spmTag=YTAyMTkuYjAwMjM1Ni5jMDAwMDQ2ODkuc2VhcmNoX2NvbmZpcm0",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "运营商",
+          "url": "search.jd.com/Search?keyword=%E8%BF%90%E8%90%A5%E5%95%86&enc=utf-8&wq=%E8%BF%90%E8%90%A5%E5%95%86&pvid=3a4453c7ef49462a8c5b73cc9f56ad97",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "数码",
+          "url": "search.jd.com/Search?keyword=%E6%95%B0%E7%A0%81&enc=utf-8&wq=%E6%95%B0%E7%A0%81&pvid=34b0fcf7ed434840a74c057bc97be346",
+          "level": 2,
+          "brands": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "",
+      "level": 1,
+      "brands": [
+        {
+          "url": "mideajiadian.jd.com",
+          "name": "美的",
+          "logo": "vclist/jfs/t1/345601/12/1723/4548/68c1381eF6a819aaa/e480b387f555100b.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000001782.html?from=pc",
+          "name": "九阳",
+          "logo": "vclist/jfs/t1/353154/2/8265/4974/690dd76fF9e3dbd46/14374e94331e6dad.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000002989.html?from=pc",
+          "name": "科沃斯",
+          "logo": "vclist/jfs/t1/361930/34/156/29572/690dd7e8Ff0b3245e/4faab51bf13929d8.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000092953.html?from=pc",
+          "name": "石头",
+          "logo": "vclist/jfs/t1/359873/6/186/11463/690dd830Fdaafb220/2648596d54e5bdcb.png"
+        },
+        {
+          "url": "shop.m.jd.com/?shopId=1000003691",
+          "name": "飞利浦",
+          "logo": "vclist/jfs/t1/350391/30/23971/5203/690dbb00F60f3ec36/2af2e9a2a88e4aa3.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000003263.html?from=pc",
+          "name": "戴森",
+          "logo": "vclist/jfs/t1/360175/22/124/8882/690dbc45Fd8ce98f6/f9595b536e274c2f.png"
+        }
+      ],
+      "children": [
+        {
+          "name": "生活电器",
+          "url": "list.jd.com/list.html?cat=737%2C738&pvid=2f4bddc5bb364eff8f104ed59ffd6dc2",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "生活电器",
+              "url": "list.jd.com/list.html?cat=737,738",
+              "level": 3
+            },
+            {
+              "name": "厨房小电",
+              "url": "search.jd.com/Search?keyword=%E5%8E%A8%E6%88%BF%E5%B0%8F%E7%94%B5&enc=utf-8&wq=%E5%8E%A8%E6%88%BF%E5%B0%8F%E7%94%B5&pvid=bce4c4a55a604feab45820e58f17848a",
+              "level": 3
+            },
+            {
+              "name": "个护健康",
+              "url": "list.jd.com/list.html?cat=737,1276",
+              "level": 3
+            },
+            {
+              "name": "清洁电器",
+              "url": "list.jd.com/list.html?cat=737,31479",
+              "level": 3
+            },
+            {
+              "name": "家庭机器人",
+              "url": "search.jd.com/Search?keyword=%E5%AE%B6%E5%BA%AD%E6%9C%8D%E5%8A%A1%E6%9C%BA%E5%99%A8%E4%BA%BA&enc=utf-8&suggest=1.his.0.0&wq=&pvid=ef484eda39e043d582cc4483f6c3ea0d",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "厨房小电",
+          "url": "search.jd.com/Search?keyword=厨房小电&enc=utf-8&wq=厨房小电&pvid=bce4c4a55a604feab45820e58f17848a",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "个护健康",
+          "url": "list.jd.com/list.html?cat=737%2C1276&pvid=53516f056c30425bb479be65c839d48a",
+          "level": 2,
+          "brands": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "食品",
+      "level": 1,
+      "brands": [
+        {
+          "url": "mall.jd.com/index-1000102442.html",
+          "name": "厨邦",
+          "logo": "vclist/jfs/t1/369396/13/2223/10655/691d975eF89f6fe3d/13d36d2f1d186e78.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000014142.html",
+          "name": "十月稻田",
+          "logo": "vclist/jfs/t1/368570/37/2574/10849/691d9791F71c38b29/731e01143154b867.png"
+        },
+        {
+          "url": "mall.jd.com/view_search-627671-1000073422-1000073422-0-0-0-0-1-1-60.html",
+          "name": "多力",
+          "logo": "vclist/jfs/t1/353480/19/14816/15355/691d97f5F9906564e/f92d8262c190cf57.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000164822.html",
+          "name": "川娃子",
+          "logo": "vclist/jfs/t1/365836/23/1968/9866/691d980aFa9a2514b/d1391cfceebd9d73.png"
+        }
+      ],
+      "children": [
+        {
+          "name": "食品",
+          "url": "search.jd.com/Search?keyword=%E9%A3%9F%E5%93%81&enc=utf-8&wq=%E9%A3%9F%E5%93%81&pvid=b22bb1ad1cb045aa989753d21f73c228",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "粮油调味",
+              "url": "list.jd.com/list.html?cat=34911,35018,34885,34971,36126,34897,34895,34965,35014,34990,34942",
+              "level": 3
+            },
+            {
+              "name": "新鲜水果",
+              "url": "list.jd.com/list.html?cat=12218,12221",
+              "level": 3
+            },
+            {
+              "name": "精选肉类",
+              "url": "list.jd.com/list.html?cat=12218,13581",
+              "level": 3
+            },
+            {
+              "name": "饮料冲调",
+              "url": "search.jd.com/Search?keyword=饮料冲调&enc=utf-8&wq=饮料冲调&pvid=b98bb4f233634f8bbba368156c04bfb1",
+              "level": 3
+            },
+            {
+              "name": "海鲜水产",
+              "url": "list.jd.com/list.html?cat=12218,12222",
+              "level": 3
+            },
+            {
+              "name": "冷饮冻食",
+              "url": "Search?keyword=冷冻饮食&enc=utf-8&pvid=3d6c54166a3449dd90e06e1c4eebcfa8",
+              "level": 3
+            },
+            {
+              "name": "中外名酒",
+              "url": "search.jd.com/Search?keyword=中外名酒&enc=utf-8&wq=中外名酒&pvid=16e1724bdc294613b5c43df42878baba",
+              "level": 3
+            },
+            {
+              "name": "进口食品",
+              "url": "search.jd.com/Search?keyword=进口食品&enc=utf-8&pvid=214e9f33e1e64316b4b53019236cbff7",
+              "level": 3
+            },
+            {
+              "name": "休闲食品",
+              "url": "search.jd.com/Search?keyword=休闲食品&enc=utf-8&pvid=8f84ef257c264303995dfb7bcd3d5727",
+              "level": 3
+            },
+            {
+              "name": "茗茶",
+              "url": "list.jd.com/list.html?cat=36720,36724",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "酒类",
+          "url": "search.jd.com/Search?keyword=中外名酒&enc=utf-8&wq=中外名酒&pvid=16e1724bdc294613b5c43df42878baba",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "生鲜",
+          "url": "search.jd.com/Search?keyword=生鲜&enc=utf-8&wq=生鲜&pvid=da1c472045b0441b96fee205b1d3cb96",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "特产",
+          "url": "search.jd.com/Search?keyword=特产&enc=utf-8&wq=特产&pvid=6f537ac338c54110b040bde0fc3ee7f6",
+          "level": 2,
+          "brands": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "美妆",
+      "level": 1,
+      "brands": [
+        {
+          "url": "mall.jd.com/index-1000009821.html?babelChannel=pcshouyefucenglogo",
+          "name": "SK-II",
+          "logo": "vclist/jfs/t1/324652/32/18390/6535/68c11c16F3c5ec7be/58dc6c224990db89.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000209701.html?from=pc",
+          "name": "修丽可",
+          "logo": "vclist/jfs/t1/324264/24/18355/2865/68c10ec7F7282b4cd/58a538c08c59834c.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000306683.html?babelChannel=pcshouyefucenglogo",
+          "name": "兰蔻",
+          "logo": "vclist/jfs/t1/347285/15/2498/10324/68c3d629F08b0db7d/5be583ea9096dfe6.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000001706.html",
+          "name": "皇家",
+          "logo": "vclist/jfs/t1/376456/8/7220/6981/693a8dfcFbad68be6/1194619a72b3b0a0.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000001683.html",
+          "name": "右1",
+          "logo": "vclist/jfs/t1/379895/39/4992/13299/693f82f3F25e2a6ad/00590d805875d9eb.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000001195.html",
+          "name": "蓝月亮",
+          "logo": "vclist/jfs/t1/375178/38/11101/6032/693fa019Fb7b24f5f/00590d80581c7c9f.png"
+        },
+        {
+          "url": "dettol.jd.com",
+          "name": "滴露",
+          "logo": "vclist/jfs/t1/379656/15/5716/15451/693f8342F512b390b/00590d8058724f4b.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000008667.html?from=pc",
+          "name": "右3",
+          "logo": "vclist/jfs/t1/373350/34/13653/20085/693fa066F74ee2b9c/00590d80585ac937.png"
+        }
+      ],
+      "children": [
+        {
+          "name": "美妆",
+          "url": "search.jd.com/Search?keyword=%E7%BE%8E%E5%A6%86&enc=utf-8&wq=%E7%BE%8E%E5%A6%86&pvid=c8ee6f8f98ba4aeabf534a34348c0d87",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "面部护肤",
+              "url": "list.jd.com/list.html?cat=1316,1381",
+              "level": 3
+            },
+            {
+              "name": "香水彩妆",
+              "url": "list.jd.com/list.html?cat=1316,1387",
+              "level": 3
+            },
+            {
+              "name": "男士护肤",
+              "url": "list.jd.com/list.html?cat=1316,16831",
+              "level": 3
+            },
+            {
+              "name": "洗发护发",
+              "url": "list.jd.com/list.html?cat=16750,16751",
+              "level": 3
+            },
+            {
+              "name": "口腔护理",
+              "url": "list.jd.com/list.html?cat=16750,16755",
+              "level": 3
+            },
+            {
+              "name": "身体护理",
+              "url": "search.jd.com/Search?keyword=%E8%BA%AB%E4%BD%93%E6%8A%A4%E7%90%86&enc=utf-8&pvid=29471305c1fe46f58a0f67b733b7819e",
+              "level": 3
+            },
+            {
+              "name": "女性护理",
+              "url": "list.jd.com/list.html?cat=16750,16754",
+              "level": 3
+            },
+            {
+              "name": "纸品清洗",
+              "url": "list.jd.com/list.html?cat=15901,15902",
+              "level": 3
+            },
+            {
+              "name": "家庭清洁",
+              "url": "search.jd.com/Search?keyword=家庭清洁&enc=utf-8&wq=家庭清洁&pvid=c2d975942f494ba5a47ea98f13a8d050",
+              "level": 3
+            },
+            {
+              "name": "宠物生活",
+              "url": "search.jd.com/Search?keyword=宠物生活&enc=utf-8&wq=宠物生活&pvid=1f3582a38d2c428183399f9ad34eeeff",
+              "level": 3
+            },
+            {
+              "name": "成人护理",
+              "url": "list.jd.com/list.html?cat=16750,38090",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "个护清洁",
+          "url": "search.jd.com/Search?keyword=个护清洁&enc=utf-8&wq=个护清洁&pvid=261b201c58c643d88b3722d66158dd67",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "宠物",
+          "url": "search.jd.com/Search?keyword=%E5%AE%A0%E7%89%A9&enc=utf-8&wq=%E5%AE%A0%E7%89%A9&pvid=1e791e1325ba47048d2722e68da9289a",
+          "level": 2,
+          "brands": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "",
+      "level": 1,
+      "brands": [
+        {
+          "url": "mall.jd.com/index-1000369767.html?from=pc",
+          "name": "德力西",
+          "logo": "vclist/jfs/t1/323977/29/18488/13691/68c26decF1d32cbba/5df6cda652c36aea.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000108008.html?from=pc",
+          "name": "乐泰",
+          "logo": "vclist/jfs/t1/339974/20/6123/10798/68b81b20Fd0593ebb/1bfc7a0676bd107c.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000123985.html?from=pc",
+          "name": "林德",
+          "logo": "vclist/jfs/t1/328446/12/15456/8147/68b81b49F3841dd90/81ddb494da5d6947.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000129321.html?from=pc",
+          "name": "福禄克",
+          "logo": "vclist/jfs/t1/325055/1/15512/7463/68b81bc6Fee80ca5c/f732977be1729e25.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000412784.html?from=pc",
+          "name": "世达",
+          "logo": "vclist/jfs/t1/325174/9/15519/9154/68b80dc0F8ce7af16/4be258d7ea4e5ad7.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000615816.html",
+          "name": "海康消防",
+          "logo": "vclist/jfs/t1/330286/25/8727/22829/68b81c48F1c3e05d0/3fdb186da163189e.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000167941.html?from=pc",
+          "name": "东成",
+          "logo": "vclist/jfs/t1/339387/9/6207/13816/68b81c73F8f65fad4/a84a7691f853c429.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000147983.html?from=pc",
+          "name": "3M",
+          "logo": "vclist/jfs/t1/340546/36/6165/10589/68b80d52F2c4f02ea/7b3299de96a3260d.png"
+        }
+      ],
+      "children": [
+        {
+          "name": "元器件",
+          "url": "ic.jd.com",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "劳保物资",
+          "url": "list.jd.com/list.html?cat=14065%2C14099&event_id=2",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "五金机电",
+          "url": "mro.jd.com",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "电动工具",
+              "url": "list.jd.com/list.html?cat=36320,36321",
+              "level": 3
+            },
+            {
+              "name": "手动工具",
+              "url": "list.jd.com/list.html?cat=36320,36394",
+              "level": 3
+            },
+            {
+              "name": "仪器仪表",
+              "url": "list.jd.com/list.html?cat=36320,36449",
+              "level": 3
+            },
+            {
+              "name": "机电机械",
+              "url": "search.jd.com/Search?keyword=机械五金及设备&enc=utf-8&pvid=242b8bdac28346cb9ca7e9b24996823f",
+              "level": 3
+            },
+            {
+              "name": "个人防护",
+              "url": "list.jd.com/list.html?cat=14065,14099",
+              "level": 3
+            },
+            {
+              "name": "清洁用品",
+              "url": "list.jd.com/list.html?cat=14065,14113",
+              "level": 3
+            },
+            {
+              "name": "搬运存储",
+              "url": "list.jd.com/list.html?cat=14065,14076",
+              "level": 3
+            },
+            {
+              "name": "安防用品",
+              "url": "i-list.jd.com/list.html?cat=14065,14066",
+              "level": 3
+            },
+            {
+              "name": "消防用品",
+              "url": "i-list.jd.com/list.html?cat=14065,35678&event_id=2&source=item",
+              "level": 3
+            },
+            {
+              "name": "工控",
+              "url": "i-list.jd.com/list.html?cat=14065,15673",
+              "level": 3
+            },
+            {
+              "name": "低压配电",
+              "url": "i-list.jd.com/list.html?cat=14065,14079",
+              "level": 3
+            },
+            {
+              "name": "暖通照明",
+              "url": "i-list.jd.com/list.html?cat=14065,14126",
+              "level": 3
+            },
+            {
+              "name": "流体管材",
+              "url": "i-list.jd.com/list.html?cat=14065,35800",
+              "level": 3
+            },
+            {
+              "name": "实验化学",
+              "url": "i-list.jd.com/list.html?cat=14065,14086",
+              "level": 3
+            },
+            {
+              "name": "传动加工",
+              "url": "i-list.jd.com/list.html?cat=14065,14108",
+              "level": 3
+            },
+            {
+              "name": "电线电料",
+              "url": "i-list.jd.com/list.html?cat=14065,15831",
+              "level": 3
+            },
+            {
+              "name": "元器件",
+              "url": "ic.jd.com/",
+              "level": 3
+            },
+            {
+              "name": "紧固密封",
+              "url": "i-list.jd.com/list.html?cat=14065,14130",
+              "level": 3
+            },
+            {
+              "name": "标签包装",
+              "url": "i-list.jd.com/list.html?cat=14065,14070",
+              "level": 3
+            },
+            {
+              "name": "气动液压",
+              "url": "i-list.jd.com/list.html?cat=14065,14134",
+              "level": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "家装",
+      "level": 1,
+      "brands": [
+        {
+          "url": "mall.jd.com/index-1000001624.html?from=pc",
+          "name": "九牧",
+          "logo": "vclist/jfs/t1/353060/18/7858/13766/690dc47dF3d50585f/6bfcfa333bddafd3.png"
+        },
+        {
+          "url": "//mall.jd.com/index-1000102063.html",
+          "name": "顾家",
+          "logo": "vclist/jfs/t1/355840/35/5575/7636/690dc2e9Ff678950f/78d3e3327f5bc7b0.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000368187.html?from=pc",
+          "name": "箭牌",
+          "logo": "vclist/jfs/t1/341623/23/23963/17879/690dc48bFde151047/09348e856da80e16.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000104146.html?from=pc",
+          "name": "全友",
+          "logo": "vclist/jfs/t1/360161/25/141/4683/690dc32bFe7fa9e6e/8ad0492800bf5fe6.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000085202.html?from=pc",
+          "name": "雷士",
+          "logo": "vclist/jfs/t1/360832/6/140/6821/690dc49aF4a5e5f3d/5ed7c435e3820e39.png"
+        },
+        {
+          "url": "shop.m.jd.com/shop/home?shopId=1000436264",
+          "name": "源氏木语",
+          "logo": "vclist/jfs/t1/350517/12/23533/8369/690dc3f9F0b6f0990/11f5c847ac279618.png"
+        },
+        {
+          "url": "//mall.jd.com/index-1000577270.html?from=pc",
+          "name": "京悦暖",
+          "logo": "vclist/jfs/t1/356750/27/5340/6314/690dc2c9F86b4f39c/0ac3fcc675ad8767.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000461812.html?from=pc",
+          "name": "京东生活家",
+          "logo": "vclist/jfs/t1/357957/1/4963/6405/690dc408Fc6005b4a/5e2ac69ca7175942.png"
+        }
+      ],
+      "children": [
+        {
+          "name": "家装",
+          "url": "search.jd.com/Search?keyword=%E5%AE%B6%E8%A3%85&enc=utf-8&wq=%E5%AE%B6%E8%A3%85jianc&pvid=ab225ed5a88c44e391dc224e03e1950c",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "电工电料",
+              "url": "list.jd.com/list.html?cat=9859",
+              "level": 3
+            },
+            {
+              "name": "基建材料",
+              "url": "list.jd.com/list.html?cat=17084",
+              "level": 3
+            },
+            {
+              "name": "锁具五金",
+              "url": "list.jd.com/list.html?cat=23020",
+              "level": 3
+            },
+            {
+              "name": "浴霸吊顶",
+              "url": "list.jd.com/list.html?cat=38239",
+              "level": 3
+            },
+            {
+              "name": "装修服务",
+              "url": "list.jd.com/list.html?cat=9855,9862",
+              "level": 3
+            },
+            {
+              "name": "厨房卫浴",
+              "url": "list.jd.com/list.html?cat=43575",
+              "level": 3
+            },
+            {
+              "name": "门/窗",
+              "url": "list.jd.com/list.html?cat=9855,38206",
+              "level": 3
+            },
+            {
+              "name": "暖通设备",
+              "url": "list.jd.com/list.html?cat=9855,41969",
+              "level": 3
+            },
+            {
+              "name": "墙地面材料",
+              "url": "list.jd.com/list.html?cat=9855,9860",
+              "level": 3
+            },
+            {
+              "name": "灯饰照明",
+              "url": "list.jd.com/list.html?cat=37893",
+              "level": 3
+            },
+            {
+              "name": "家具",
+              "url": "search.jd.com/Search?keyword=%E5%AE%B6%E5%85%B7&enc=utf-8&pvid=1c58265e1904499a9c1d9c7847b7b962",
+              "level": 3
+            },
+            {
+              "name": "定制家具",
+              "url": "list.jd.com/list.html?cat=9847,21036",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "建材",
+          "url": "search.jd.com/Search?keyword=%E5%BB%BA%E6%9D%90&enc=utf-8&wq=%E5%BB%BA%E6%9D%90jianc&pvid=ab225ed5a88c44e391dc224e03e1950c",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "家具",
+          "url": "search.jd.com/Search?keyword=%E5%AE%B6%E5%85%B7&enc=utf-8&pvid=1c58265e1904499a9c1d9c7847b7b962",
+          "level": 2,
+          "brands": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "家居日用",
+      "level": 1,
+      "brands": [
+        {
+          "url": "mall.jd.com/index-1000622994.html?from=pc",
+          "name": "J.Dear",
+          "logo": "vclist/jfs/t1/358922/25/5435/6621/690dc6ecF8cdb3fc3/cde74a0bf12821d6.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000001662.html",
+          "name": "爱仕达",
+          "logo": "vclist/jfs/t1/341513/11/24327/6176/690dc73bF901dd796/1ff9e1b2b4ef3b65.png"
+        },
+        {
+          "url": "pro.m.jd.com/mall/active/2dPira7jG2skXVd33nc98GPeTyjG/index.html",
+          "name": "康巴赫",
+          "logo": "vclist/jfs/t1/354845/13/8411/59574/690dc75fFd6ea8a57/e151eb4d445dbbd7.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000001764.html",
+          "name": "水星家纺",
+          "logo": "vclist/jfs/t1/362600/27/7496/10487/691ecf4cF69a9b0b2/a69cc75efadfae24.png"
+        }
+      ],
+      "children": [
+        {
+          "name": "家居日用",
+          "url": "search.jd.com/Search?keyword=家居日用",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "床上用品",
+              "url": "list.jd.com/list.html?cat=34675",
+              "level": 3
+            },
+            {
+              "name": "生活日用",
+              "url": "list.jd.com/list.html?cat=1620",
+              "level": 3
+            },
+            {
+              "name": "居家布艺",
+              "url": "list.jd.com/list.html?cat=34767",
+              "level": 3
+            },
+            {
+              "name": "收纳用品",
+              "url": "search.jd.com/Search?keyword=收纳用品&enc=utf-8&wq=收纳yongp&pvid=ec437bfccec142d3b9e847d1f46f5d92",
+              "level": 3
+            },
+            {
+              "name": "家居饰品",
+              "url": "list.jd.com/list.html?cat=35338",
+              "level": 3
+            },
+            {
+              "name": "茶具",
+              "url": "list.jd.com/list.html?cat=6196,11143",
+              "level": 3
+            },
+            {
+              "name": "烘焙用具",
+              "url": "list.jd.com/list.html?cat=6196,30751",
+              "level": 3
+            },
+            {
+              "name": "酒杯/酒具",
+              "url": "list.jd.com/list.html?cat=6196,31679",
+              "level": 3
+            },
+            {
+              "name": "一次性用品",
+              "url": "list.jd.com/list.html?cat=6196,37430",
+              "level": 3
+            },
+            {
+              "name": "烹饪锅具",
+              "url": "list.jd.com/list.html?cat=6196,6197",
+              "level": 3
+            },
+            {
+              "name": "刀剪菜板",
+              "url": "list.jd.com/list.html?cat=6196,6198",
+              "level": 3
+            },
+            {
+              "name": "厨房储物",
+              "url": "list.jd.com/list.html?cat=6196,6214",
+              "level": 3
+            },
+            {
+              "name": "水具",
+              "url": "list.jd.com/list.html?cat=6196,6219",
+              "level": 3
+            },
+            {
+              "name": "餐具",
+              "url": "list.jd.com/list.html?cat=6196,6227",
+              "level": 3
+            },
+            {
+              "name": "酒店用品",
+              "url": "list.jd.com/list.html?cat=6196,9182",
+              "level": 3
+            },
+            {
+              "name": "咖啡具",
+              "url": "list.jd.com/list.html?cat=6196,16817",
+              "level": 3
+            },
+            {
+              "name": "厨房置物架",
+              "url": "list.jd.com/list.html?cat=6196,30749",
+              "level": 3
+            },
+            {
+              "name": "厨房小工具",
+              "url": "list.jd.com/list.html?cat=6196,30750",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "厨具",
+          "url": "search.jd.com/Search?keyword=%E5%8E%A8%E5%85%B7&enc=utf-8&wq=%E5%8E%A8%E5%85%B7&pvid=7bdf296458744f4d8d17be5fbdaed59a",
+          "level": 2,
+          "brands": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "男鞋",
+      "level": 1,
+      "brands": [
+        {
+          "url": "mall.jd.com/index-10584371.html?from=pc",
+          "name": "Lee京东自营旗舰店",
+          "logo": "vclist/jfs/t1/333901/2/11765/4626/68c13faeFf680d19f/5ace0104bd576a8b.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000004021.html?from=pc",
+          "name": "骆驼",
+          "logo": "vclist/jfs/t1/364733/4/6849/5549/6928fd86Fac10fc58/37bf53b67839fc6c.png"
+        },
+        {
+          "url": "mall.jd.com/index-608668.html?from=pc",
+          "name": "FILA",
+          "logo": "vclist/jfs/t1/361782/6/11773/3705/6928fcf5Fba2eeaf6/2769bd9bd6bf8cea.png"
+        }
+      ],
+      "children": [
+        {
+          "name": "男鞋",
+          "url": "search.jd.com/Search?keyword=男鞋&enc=utf-8&pvid=66d6dae0cc0f4f7faf6ae3c48f71ca83",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "流行男鞋",
+              "url": "search.jd.com/Search?keyword=流行男鞋",
+              "level": 3
+            },
+            {
+              "name": "运动鞋包",
+              "url": "search.jd.com/Search?keyword=运动鞋包",
+              "level": 3
+            },
+            {
+              "name": "运动服饰",
+              "url": "list.jd.com/list.html?cat=1318,12102",
+              "level": 3
+            },
+            {
+              "name": "健身训练",
+              "url": "search.jd.com/Search?keyword=%E5%81%A5%E8%BA%AB%E8%AE%AD%E7%BB%83&enc=utf-8&wq=%E5%81%A5%E8%BA%AB%E8%AE%AD%E7%BB%83&pvid=cd2a141439cd4629b1b9e1688a64b2de&czLogin=1",
+              "level": 3
+            },
+            {
+              "name": "骑行运动",
+              "url": "list.jd.com/list.html?cat=1318,12115",
+              "level": 3
+            },
+            {
+              "name": "体育用品",
+              "url": "search.jd.com/Search?keyword=体育用品",
+              "level": 3
+            },
+            {
+              "name": "户外鞋服",
+              "url": "list.jd.com/list.html?cat=1318,2628",
+              "level": 3
+            },
+            {
+              "name": "户外装备",
+              "url": "list.jd.com/list.html?cat=1318,1462",
+              "level": 3
+            },
+            {
+              "name": "垂钓用品",
+              "url": "list.jd.com/list.html?cat=1318,12147",
+              "level": 3
+            },
+            {
+              "name": "游泳用品",
+              "url": "list.jd.com/list.html?cat=1318,12154",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "运动",
+          "url": "search.jd.com/Search?keyword=运动&enc=utf-8&wq=运动&pvid=88866502b55f445ea1b14dfdbf768812",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "户外",
+          "url": "search.jd.com/Search?keyword=%E6%88%B7%E5%A4%96&enc=utf-8&wq=%E6%88%B7%E5%A4%96&pvid=4a62c590cb774f1d853e3da9a2e453a0",
+          "level": 2,
+          "brands": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "",
+      "level": 1,
+      "brands": [
+        {
+          "url": "mall.jd.com/index-18321579.html?from=pc",
+          "name": "优衣库",
+          "logo": "vclist/jfs/t1/364134/40/7170/3289/6927ff8dFca692d07/b98e1884ced25474.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000384206.html?from=pc",
+          "name": "波斯登",
+          "logo": "vclist/jfs/t1/363352/13/7541/4984/6928fa27Fc3f39468/ad92f453927c90ea.png"
+        },
+        {
+          "url": "mall.jd.com/index-34914.html?from=pc",
+          "name": "雅戈尔",
+          "logo": "vclist/jfs/t1/364856/37/6338/27461/6928fa55Fd65efd61/731394e5c70c417f.png"
+        },
+        {
+          "url": "mall.jd.com/index-62888.html",
+          "name": "海澜之家",
+          "logo": "vclist/jfs/t1/358770/24/16601/4411/6928fa97F6cfe8f43/08520d2f941b8d00.png"
+        },
+        {
+          "url": "camelzy.jd.com",
+          "name": "骆驼",
+          "logo": "vclist/jfs/t1/369920/34/6200/5549/6928fae2F86210cd5/c4ab623a2efd727b.png"
+        },
+        {
+          "url": "mall.jd.com/index-11035956.html",
+          "name": "ur",
+          "logo": "vclist/jfs/t1/354095/31/20306/4126/6928fb34Ff9474a1e/426ee455f3ceffad.png"
+        },
+        {
+          "url": "mall.jd.com/index-33737.html?from=pc",
+          "name": "3",
+          "logo": "vclist/jfs/t1/354106/17/17405/7193/6928fb7eF2d5e0a23/994a289633e8ff0e.png"
+        },
+        {
+          "url": "mall.jd.com/index-582590.html?from=pc",
+          "name": "雪",
+          "logo": "vclist/jfs/t1/371282/2/1559/7312/6928fc8cF21aed7e9/713034a0e59a3004.png"
+        }
+      ],
+      "children": [
+        {
+          "name": "男装",
+          "url": "list.jd.com/list.html?cat=1315,1342",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "男装",
+              "url": "list.jd.com/list.html?cat=1315,1342",
+              "level": 3
+            },
+            {
+              "name": "女装",
+              "url": "list.jd.com/list.html?cat=1315,1343",
+              "level": 3
+            },
+            {
+              "name": "内衣",
+              "url": "list.jd.com/list.html?cat=1315,1345",
+              "level": 3
+            },
+            {
+              "name": "配饰",
+              "url": "list.jd.com/list.html?cat=1315,1346",
+              "level": 3
+            },
+            {
+              "name": "童装",
+              "url": "list.jd.com/list.html?cat=1319,11842",
+              "level": 3
+            },
+            {
+              "name": "童鞋",
+              "url": "list.jd.com/list.html?cat=1319,14941",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "女装",
+          "url": "list.jd.com/list.html?cat=1315,1343",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "童装",
+          "url": "list.jd.com/list.html?cat=1319,11842",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "内衣",
+          "url": "list.jd.com/list.html?cat=1315,1345",
+          "level": 2,
+          "brands": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "京东买药",
+      "level": 1,
+      "brands": [
+        {
+          "url": "mall.jd.com/index-1000000946.html",
+          "name": "鱼跃",
+          "logo": "vclist/jfs/t1/336178/18/9175/6557/68c1579fFe3c798ce/ae4ffb67de63dd27.jpg"
+        }
+      ],
+      "children": [
+        {
+          "name": "京东买药",
+          "url": "search.jd.com/Search?keyword=%E4%BA%AC%E4%B8%9C%E4%B9%B0%E8%8D%AF&enc=utf-8&wq=%E4%BA%AC%E4%B8%9C%E4%B9%B0%E8%8D%AF&pvid=d605a440ef96406f9dedbe3e8ddc9dbd",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "中西药品",
+              "url": "search.jd.com/Search?keyword=%E4%B8%AD%E8%A5%BF%E8%8D%AF%E5%93%81&enc=utf-8&wq=&pvid=de02ea4a38ac48fab3c3fb2868873851",
+              "level": 3
+            },
+            {
+              "name": "营养健康",
+              "url": "search.jd.com/Search?keyword=营养健康",
+              "level": 3
+            },
+            {
+              "name": "营养成分",
+              "url": "search.jd.com/Search?keyword=营养成分",
+              "level": 3
+            },
+            {
+              "name": "滋补养生",
+              "url": "search.jd.com/Search?keyword=滋补养生",
+              "level": 3
+            },
+            {
+              "name": "计生情趣",
+              "url": "list.jd.com/list.html?cat=9192,9196",
+              "level": 3
+            },
+            {
+              "name": "保健器械",
+              "url": "list.jd.com/list.html?cat=9192,9197",
+              "level": 3
+            },
+            {
+              "name": "护理护具",
+              "url": "list.jd.com/list.html?cat=9192,12190",
+              "level": 3
+            },
+            {
+              "name": "隐形眼镜",
+              "url": "search.jd.com/Search?keyword=隐形眼镜&enc=utf-8&pvid=5afbd47ce7da4ef58320e8d01dc510a1",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "计生情趣",
+          "url": "search.jd.com/Search?keyword=%E8%AE%A1%E7%94%9F%E6%83%85%E8%B6%A3&enc=utf-8&wq=%E8%AE%A1%E7%94%9F%E6%83%85%E8%B6%A3&pvid=e8284db88df24f919dfc31e5536bbf64",
+          "level": 2,
+          "brands": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "房产",
+      "level": 1,
+      "brands": [
+        {
+          "url": "mall.jd.com/index-692446.html",
+          "name": "7",
+          "logo": "vclist/jfs/t1/333535/30/11587/4569/68c14705F611b2eb9/6d790e4087b691b7.jpg"
+        }
+      ],
+      "children": [
+        {
+          "name": "房产",
+          "url": "search.jd.com/Search?keyword=房产&enc=utf-8&wq=房产&pvid=ebe58fbf611c414395103b9d55334cb8",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "房产",
+              "url": "list.jd.com/list.html?cat=15083",
+              "level": 3
+            },
+            {
+              "name": "汽车车型",
+              "url": "search.jd.com/Search?keyword=%E6%B1%BD%E8%BD%A6&enc=utf-8&wq=%E6%B1%BD%E8%BD%A6",
+              "level": 3
+            },
+            {
+              "name": "汽车品牌",
+              "url": "search.jd.com/Search?keyword=品牌汽车&enc=utf-8&wq=汽车&pvid=699639c05ab948a194fb28604606c46c",
+              "level": 3
+            },
+            {
+              "name": "维修保养",
+              "url": "search.jd.com/Search?keyword=汽车维修保养",
+              "level": 3
+            },
+            {
+              "name": "汽车装饰",
+              "url": "search.jd.com/Search?keyword=汽车装饰",
+              "level": 3
+            },
+            {
+              "name": "汽车贴膜",
+              "url": "list.jd.com/list.html?cat=6728,34130",
+              "level": 3
+            },
+            {
+              "name": "车载电器",
+              "url": "list.jd.com/list.html?cat=6728,6740",
+              "level": 3
+            },
+            {
+              "name": "美容清洗",
+              "url": "list.jd.com/list.html?cat=6728,6743",
+              "level": 3
+            },
+            {
+              "name": "安全自驾",
+              "url": "list.jd.com/list.html?cat=6728,6747",
+              "level": 3
+            },
+            {
+              "name": "汽车服务",
+              "url": "list.jd.com/list.html?cat=6728,12402",
+              "level": 3
+            },
+            {
+              "name": "电动车",
+              "url": "list.jd.com/list.html?cat=27508,28168",
+              "level": 3
+            },
+            {
+              "name": "摩托车",
+              "url": "list.jd.com/list.html?cat=27508,27509",
+              "level": 3
+            },
+            {
+              "name": "充电装备",
+              "url": "search.jd.com/Search?keyword=%E5%85%85%E7%94%B5%E6%A1%A9&enc=utf-8&wq=c%27d%27z&pvid=d734433b3fb84f5590d78f9ee7934c9b",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "汽车",
+          "url": "list.jd.com/list.html?cat=12379",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "汽车用品",
+          "url": "list.jd.com/list.html?cat=6728",
+          "level": 2,
+          "brands": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "图书",
+      "level": 1,
+      "brands": [
+        {
+          "url": "mall.jd.com/index-1000008562.html?from=pc",
+          "name": "一本",
+          "logo": "vclist/jfs/t1/336417/32/5405/5519/68b682f0F0de84438/93b586a11d5706a6.png"
+        },
+        {
+          "url": "jd-fltrp.jd.com/",
+          "name": "外研社",
+          "logo": "vclist/jfs/t1/345162/24/2248/17836/68c2cce8F4c96a6ba/e0202bf30622db65.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000004050.html?from=pc",
+          "name": "21世纪",
+          "logo": "vclist/jfs/t1/297634/29/14580/7936/68c2cd30Feb9ed926/c6abfecdc0b5eb9a.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000005720.html?from=pc",
+          "name": "人民文学",
+          "logo": "vclist/jfs/t1/329156/25/7821/10488/68b68490Fa96fb99f/2ee825730d72178b.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000005734.html?from=pc",
+          "name": "中华书局",
+          "logo": "vclist/jfs/t1/329260/29/12188/9853/68c2cd8cFcf6c5d78/266527d6c06fddc9.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000004235.html?from=pc",
+          "name": "中信",
+          "logo": "vclist/jfs/t1/326843/23/14202/10201/68b573e7Fdc05bc74/f6c67349a0981383.png"
+        },
+        {
+          "url": "mall.jd.com/index-12384697.html?from=pc",
+          "name": "当当",
+          "logo": "vclist/jfs/t1/338269/4/9645/4859/68c2cd73F76021705/feb8d688b3d06be9.png"
+        }
+      ],
+      "children": [
+        {
+          "name": "图书",
+          "url": "search.jd.com/Search?keyword=图书&enc=utf-8&wq=图书&pvid=ef13c075c94e415a9c1a468f6716ed0e",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "文学",
+              "url": "search.jd.com/Search?keyword=文学小说&enc=utf-8&wq=文学小说&pvid=93178d485039457b9d1431b0d8399156",
+              "level": 3
+            },
+            {
+              "name": "童书",
+              "url": "search.jd.com/Search?keyword=童书&enc=utf-8&pvid=023a4070a5ad4a72aad1a493bd1003b2",
+              "level": 3
+            },
+            {
+              "name": "教材教辅",
+              "url": "search.jd.com/Search?keyword=教材教辅&enc=utf-8&wq=教材教辅&pvid=5a6595bdc5db4a5aaa17d1963cba353f",
+              "level": 3
+            },
+            {
+              "name": "人文社科",
+              "url": "search.jd.com/Search?keyword=人文图书&enc=utf-8&wq=人文图书&pvid=ccd9ebca1639499aae4a5a98a43dd1ea",
+              "level": 3
+            },
+            {
+              "name": "经管励志",
+              "url": "search.jd.com/Search?keyword=经管励志&enc=utf-8&pvid=0ec68757121a4926a5cfc3df35330224",
+              "level": 3
+            },
+            {
+              "name": "艺术",
+              "url": "list.jd.com/list.html?cat=1713,3262",
+              "level": 3
+            },
+            {
+              "name": "科学技术",
+              "url": "search.jd.com/Search?keyword=科学技术&enc=utf-8&pvid=ae8cd33488f54e50b19871755d8e399f",
+              "level": 3
+            },
+            {
+              "name": "生活",
+              "url": "search.jd.com/Search?keyword=生活类图书&enc=utf-8&pvid=1e92d0ebc1c5402f9094ebaae49ad520",
+              "level": 3
+            },
+            {
+              "name": "文娱",
+              "url": "search.jd.com/Search?keyword=文娱图书&enc=utf-8&pvid=6cfb90c593194a49b183d5bfa4d52e90",
+              "level": 3
+            },
+            {
+              "name": "教育培训",
+              "url": "search.jd.com/Search?keyword=%E6%95%99%E8%82%B2%E5%9F%B9%E8%AE%AD&enc=utf-8&wq=%E6%95%99%E8%82%B2%E5%9F%B9%E8%AE%AD&pvid=e431b13542804ba89c91ba6eab3793b3",
+              "level": 3
+            },
+            {
+              "name": "电子书",
+              "url": "e.jd.com/ebook.html",
+              "level": 3
+            },
+            {
+              "name": "邮币",
+              "url": "search.jd.com/Search?keyword=%E9%82%AE%E5%B8%81&enc=utf-8&wq=%E9%82%AE%E5%B8%81&pvid=8f9e6894465843c48b247f289d875b5d",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "文娱",
+          "url": "search.jd.com/search?keyword=文娱&wq=文娱&cid2=17338",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "教育",
+          "url": "search.jd.com/Search?keyword=%E6%95%99%E8%82%B2%E5%9F%B9%E8%AE%AD%E8%AF%BE%E7%A8%8B&enc=utf-8&wq=%E6%95%99%E8%82%B2%E5%9F%B9%E8%AE%AD%E8%AF%BE%E7%A8%8B&pvid=04dff2bdd3694c96ab68337e9fc4c6b2",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "电子书",
+          "url": "e.jd.com/",
+          "level": 2,
+          "brands": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "女鞋",
+      "level": 1,
+      "brands": [
+        {
+          "url": "mall.jd.com/index-1000483801.html?from=pc",
+          "name": "ck",
+          "logo": "vclist/jfs/t1/342755/6/1857/7639/68c15046F57502b6c/55c32afdfa876329.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000479483.html?from=pc",
+          "name": "百丽",
+          "logo": "vclist/jfs/t1/118888/14/11347/4436/5efaf21eE0192601b/b42b70b6b4d2bb88.jpg"
+        }
+      ],
+      "children": [
+        {
+          "name": "女鞋",
+          "url": "search.jd.com/Search?keyword=女鞋&enc=utf-8&pvid=a0ad3cfe0a7743e281ca4d7469d3e91a",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "时尚女鞋",
+              "url": "search.jd.com/Search?keyword=时尚女鞋&enc=utf-8&pvid=35ef3213f51c416e882543a789f89d89",
+              "level": 3
+            },
+            {
+              "name": "潮流女包",
+              "url": "list.jd.com/list.html?cat=17329,2575",
+              "level": 3
+            },
+            {
+              "name": "精品男包",
+              "url": "list.jd.com/list.html?cat=17329,2576",
+              "level": 3
+            },
+            {
+              "name": "功能箱包",
+              "url": "search.jd.com/Search?keyword=功能箱包",
+              "level": 3
+            },
+            {
+              "name": "奢侈品",
+              "url": "list.jd.com/list.html?cat=1672,2615",
+              "level": 3
+            },
+            {
+              "name": "钟表",
+              "url": "search.jd.com/Search?keyword=钟表&enc=utf-8&pvid=2c4b0073a9af46c2be08d248ed2634c2",
+              "level": 3
+            },
+            {
+              "name": "珠宝首饰",
+              "url": "search.jd.com/search?keyword=珠宝首饰",
+              "level": 3
+            },
+            {
+              "name": "金银投资",
+              "url": "list.jd.com/list.html?cat=6144,6146",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "箱包",
+          "url": "search.jd.com/search?keyword=箱包&wq=箱包&cid3=9186",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "钟表",
+          "url": "search.jd.com/Search?keyword=钟表&enc=utf-8&wq=钟表&pvid=68f920a7a65d482a986b9274cbab8951",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "珠宝",
+          "url": "search.jd.com/Search?keyword=珠宝&enc=utf-8&wq=zhu%27bao&pvid=e026943b581c48718e20ca9645e5d259",
+          "level": 2,
+          "brands": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "母婴",
+      "level": 1,
+      "brands": [
+        {
+          "url": "mall.jd.com/index-15997944.html?from=pc",
+          "name": "泡泡玛特",
+          "logo": "vclist/jfs/t1/333942/16/11956/40527/68c26e6fF452c3d9c/de09ecb11c084954.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000001521.html",
+          "name": "乐高",
+          "logo": "vclist/jfs/t1/332712/32/7443/5317/68b55ffbF4aa07800/b7b2b6d23ad3b1b5.png"
+        },
+        {
+          "url": "mall.jd.com/index-1000072692.html?from=pc",
+          "name": "雅马哈",
+          "logo": "vclist/jfs/t1/334010/10/7416/6281/68b56024F22b30626/99e7fba1ef41c93d.png"
+        },
+        {
+          "url": "mall.jd.com/index-10274548.html",
+          "name": "罗兰",
+          "logo": "vclist/jfs/t1/358105/6/13161/4804/691e7091F1e2e44a5/e3e3c7d2e6f897b0.png"
+        },
+        {
+          "url": "mall.jd.com/index-10055098.html",
+          "name": "jellycat",
+          "logo": "vclist/jfs/t1/357510/22/13367/6953/691e70ebF0c1dfca9/072673d23f98937e.png"
+        },
+        {
+          "url": "mall.jd.com/index-17457010.html?from=pc",
+          "name": "迪士尼",
+          "logo": "vclist/jfs/t1/365670/5/2724/9188/691e7111F842ea270/0b9fc68c353c4348.png"
+        }
+      ],
+      "children": [
+        {
+          "name": "母婴",
+          "url": "search.jd.com/Search?keyword=%E6%AF%8D%E5%A9%B4&enc=utf-8&wq=%E6%AF%8D%E5%A9%B4&pvid=3e86f063795740d594b1bb1187e02063",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "奶粉",
+              "url": "list.jd.com/list.html?cat=1319,1523",
+              "level": 3
+            },
+            {
+              "name": "尿裤湿巾",
+              "url": "search.jd.com/Search?keyword=尿裤湿巾&enc=utf-8&pvid=02fcec6ed8984d2cb4b9e7517af6e7e0",
+              "level": 3
+            },
+            {
+              "name": "童车童床",
+              "url": "search.jd.com/Search?keyword=%E7%AB%A5%E8%BD%A6%E7%AB%A5%E5%BA%8A&enc=utf-8",
+              "level": 3
+            },
+            {
+              "name": "喂养用品",
+              "url": "list.jd.com/list.html?cat=1319,1526",
+              "level": 3
+            },
+            {
+              "name": "洗护用品",
+              "url": "list.jd.com/list.html?cat=1319,1527",
+              "level": 3
+            },
+            {
+              "name": "玩具",
+              "url": "search.jd.com/Search?keyword=玩具&enc=utf-8&suggest=1.his.0.0&wq=&pvid=15326ae1666949c0939c2d6cb6e24160",
+              "level": 3
+            },
+            {
+              "name": "营养辅食",
+              "url": "list.jd.com/list.html?cat=1319,1524",
+              "level": 3
+            },
+            {
+              "name": "寝居服饰",
+              "url": "list.jd.com/list.html?cat=1319,6313",
+              "level": 3
+            },
+            {
+              "name": "乐器",
+              "url": "list.jd.com/list.html?cat=6233,36725",
+              "level": 3
+            },
+            {
+              "name": "妈妈专区",
+              "url": "list.jd.com/list.html?cat=1319,4997",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "玩具乐器",
+          "url": "search.jd.com/Search?keyword=%E7%8E%A9%E5%85%B7%E4%B9%90%E5%99%A8&enc=utf-8&wq=%E7%8E%A9%E5%85%B7%E4%B9%90%E5%99%A8&pvid=6acae74f0ea34c6a8db6b5563f1a24d1",
+          "level": 2,
+          "brands": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": [
+        {
+          "name": "机票",
+          "url": "jipiao.jd.com/",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "交通出行",
+              "url": "search.jd.com/Search?keyword=交通出行机票&enc=utf-8&wq=交通出行&pvid=4b372f4875ac4e78868147c0ef4ddaad",
+              "level": 3
+            },
+            {
+              "name": "旅游度假",
+              "url": "list.jd.com/list.html?cat=4938,7089",
+              "level": 3
+            },
+            {
+              "name": "演出票务",
+              "url": "list.jd.com/list.html?cat=4938,4943",
+              "level": 3
+            },
+            {
+              "name": "生活缴费",
+              "url": "huoyue.jd.com/forwardToJiaofeiFrame.html",
+              "level": 3
+            },
+            {
+              "name": "生活服务",
+              "url": "list.jd.com/list.html?cat=4938,11760",
+              "level": 3
+            },
+            {
+              "name": "游戏",
+              "url": "search.jd.com/Search?keyword=游戏充值&enc=utf-8&pvid=e27005f2ab204d2f942e88d93e8ab7a6",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "酒店",
+          "url": "search.jd.com/Search?keyword=酒店预订&enc=utf-8&wq=酒店yud&pvid=bf240e078f6c4b16ba42faf6428f1518&spmTag=YTAyMTkuYjAwMjM1Ni5jMDAwMDQ2ODkuc2VhcmNoX2NvbmZpcm0",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "旅游",
+          "url": "list.jd.com/list.html?cat=12420",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "生活",
+          "url": "huoyue.jd.com/forwardToJiaofeiFrame.html",
+          "level": 2,
+          "brands": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "艺术品",
+      "level": 1,
+      "brands": [
+        {
+          "url": "zippo.jd.com/",
+          "name": "Zippo",
+          "logo": "vclist/jfs/t1/342077/1/1778/3734/68c15340Fad6f4a1d/b9e80a34f5295350.jpg"
+        },
+        {
+          "url": "ctans.jd.com/",
+          "name": "谭木匠",
+          "logo": "vclist/jfs/t1/338519/29/9173/5094/68c15399F5555cb7e/9d7ce1dbad603ddc.jpg"
+        },
+        {
+          "url": "//gardena.jd.com/",
+          "name": "嘉丁拿",
+          "logo": "vclist/jfs/t1/286620/26/22293/6182/68c15416Fddebf2ca/13eaae98c8743b06.jpg"
+        },
+        {
+          "url": "mall.jd.com/index-1000074221.html",
+          "name": "美乐棵",
+          "logo": "vclist/jfs/t1/351040/39/1824/6344/68c155c7F1a3ac19d/91d61a2a02ce2d4d.jpg"
+        }
+      ],
+      "children": [
+        {
+          "name": "艺术",
+          "url": "search.jd.com/Search?keyword=艺术品&enc=utf-8&wq=艺术品&pvid=5928d0db63e24f479330f2922ea1b0d7",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "艺术品",
+              "url": "search.jd.com/Search?keyword=艺术品&enc=utf-8&wq=艺术品&pvid=5928d0db63e24f479330f2922ea1b0d7",
+              "level": 3
+            },
+            {
+              "name": "火机烟具",
+              "url": "search.jd.com/Search?keyword=火机烟具&enc=utf-8&wq=火机烟具&pvid=81bd0b3c8e2f4c2585766034b4274b9f",
+              "level": 3
+            },
+            {
+              "name": "礼品",
+              "url": "search.jd.com/Search?keyword=礼品&enc=utf-8&wq=礼品&pvid=f17fa21512af4afc9063de7868970718",
+              "level": 3
+            },
+            {
+              "name": "鲜花",
+              "url": "search.jd.com/Search?keyword=鲜花&enc=utf-8&pvid=e213c995ba30405bbd6a1e9061abd31e",
+              "level": 3
+            },
+            {
+              "name": "绿植园艺",
+              "url": "search.jd.com/Search?keyword=园艺用品&enc=utf-8&wq=园艺用品&pvid=cf214d48ab374d39bd325df739277f90",
+              "level": 3
+            },
+            {
+              "name": "户外园林",
+              "url": "search.jd.com/Search?keyword=园林用品&enc=utf-8&wq=园林用品&pvid=11c5d4f65bf04ae9b7977235e26738f3",
+              "level": 3
+            },
+            {
+              "name": "大田种植",
+              "url": "search.jd.com/Search?keyword=大田种植&enc=utf-8&wq=大田种植&pvid=aa9bcdbb65c040858ffcca5abe7192cf",
+              "level": 3
+            },
+            {
+              "name": "农机农具",
+              "url": "search.jd.com/Search?keyword=农机农具&enc=utf-8&wq=农机农具&pvid=7dfe7943b21746f9968bdc23e61daebe",
+              "level": 3
+            },
+            {
+              "name": "畜牧养殖",
+              "url": "search.jd.com/Search?keyword=畜牧养殖品",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "礼品鲜花",
+          "url": "search.jd.com/Search?keyword=%E9%B2%9C%E8%8A%B1&enc=utf-8&wq=%E9%B2%9C%E8%8A%B1&pvid=0aad3e1477ad46829f14f3cb19b25b0a",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "农牧园艺",
+          "url": "search.jd.com/Search?keyword=农牧园艺",
+          "level": 2,
+          "brands": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "安装",
+      "level": 1,
+      "brands": [],
+      "children": [
+        {
+          "name": "安装",
+          "url": "search.jd.com/Search?keyword=安装&enc=utf-8&wq=安装&pvid=97bb21465c894defaccfc1f197896150",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "办公安装",
+              "url": "bginstall.jd.com",
+              "level": 3
+            },
+            {
+              "name": "二手电脑",
+              "url": "search.jd.com/Search?keyword=二手电脑",
+              "level": 3
+            },
+            {
+              "name": "二手奢品",
+              "url": "search.jd.com/Search?keyword=二手奢品",
+              "level": 3
+            },
+            {
+              "name": "二手书",
+              "url": "list.jd.com/list.html?cat=13765,15155",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "维修",
+          "url": "search.jd.com/Search?keyword=维修&enc=utf-8&wq=维修&pvid=eba9b7454da0494c960f074db37be847",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "清洗",
+          "url": "search.jd.com/Search?keyword=清洗服务&enc=utf-8&wq=清洗&pvid=5b8c10e5e1d242fa931e2c6bca2e4624",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "二手",
+          "url": "2.jd.com/",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "二手数码",
+              "url": "list.jd.com/list.html?cat=13765,13767",
+              "level": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": [
+        {
+          "name": "支付",
+          "url": "www.jdpay.com/home/",
+          "level": 2,
+          "brands": [],
+          "children": [
+            {
+              "name": "个人金融",
+              "url": "pro.jd.com/mall/active/2aC6CfwEdXQQCNxMabogZuMnwAjw/index.html",
+              "level": 3
+            },
+            {
+              "name": "白条",
+              "url": "baitiao.jd.com",
+              "level": 3
+            },
+            {
+              "name": "支付",
+              "url": "www.jdpay.com/home/",
+              "level": 3
+            },
+            {
+              "name": "保险",
+              "url": "prodev.jd.com/mall/active/3i11dVqMyKjD3RdMkj5DsLy4aCur/index.html",
+              "level": 3
+            },
+            {
+              "name": "企业金融",
+              "url": "qyjr.jddglobal.com/?source=jdportal",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "name": "白条",
+          "url": "baitiao.jd.com",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "保险",
+          "url": "search.jd.com/Search?keyword=保险&enc=utf-8&wq=baoxian&pvid=3062c3f2b60c4b15a4f58fb618029917&spmTag=YTAyMTkuYjAwMjM1Ni5jMDAwMDQ2ODkuc2VhcmNoX2NvbmZpcm0",
+          "level": 2,
+          "brands": [],
+          "children": []
+        },
+        {
+          "name": "企业金融",
+          "url": "qyjr.jddglobal.com/ ",
+          "level": 2,
+          "brands": [],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

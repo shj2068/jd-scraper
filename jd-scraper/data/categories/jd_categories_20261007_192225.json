@@ -1,0 +1,152 @@
+{
+  "fetch_time": "2026-10-07T19:22:25.109289",
+  "source": "dc.3.cn/category/get",
+  "summary": {
+    "top_level_categories": 20,
+    "sub_categories": 0,
+    "total_brands": 0,
+    "total_third_level": 0
+  },
+  "categories": [
+    {
+      "id": "s",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    },
+    {
+      "id": "c",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    },
+    {
+      "id": "b",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    },
+    {
+      "id": "a",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    },
+    {
+      "id": "k",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    },
+    {
+      "id": "f",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    },
+    {
+      "id": "r",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    },
+    {
+      "id": "t",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    },
+    {
+      "id": "d",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    },
+    {
+      "id": "h",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    },
+    {
+      "id": "e",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    },
+    {
+      "id": "m",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    },
+    {
+      "id": "i",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    },
+    {
+      "id": "n",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    },
+    {
+      "id": "g",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    },
+    {
+      "id": "j",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    },
+    {
+      "id": "o",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    },
+    {
+      "id": "l",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    },
+    {
+      "id": "q",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    },
+    {
+      "id": "p",
+      "name": "",
+      "level": 1,
+      "brands": [],
+      "children": []
+    }
+  ]
+}

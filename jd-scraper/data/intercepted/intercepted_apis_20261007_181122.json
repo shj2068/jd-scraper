@@ -1,0 +1,583 @@
+[
+  {
+    "url": "https://api.m.jd.com/",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 355,
+    "timestamp": "2026-10-07T18:11:26.997260"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 89,
+    "timestamp": "2026-10-07T18:11:26.997260"
+  },
+  {
+    "url": "https://api.m.jd.com/api?functionId=jsfbox_newUser_hongbao&uuid=&appid=www-jd-com&loginType=3&x-api-eid-token=jdd03TABRUXZ47X63NVF6HOTJT6KVVLLSI2HABMO2F2G3SPGJOJTZXFJCGUXIH24SZCUTN6NSO6JBPZUNDC2AKSWOLUH444AAAANBCXMKEBYAAAAADVOFDNL6F2SDJIX&h5st=20261007181126868;nzpvmbene5npenn8;b5216;tk06wc3b7b6fc41lfUL6NonAfIGqpjrd9yVS7yVeGyVSJ2FO7CEQrrbrKVq1-1GNJGoQW61e1ioeWSGf1jodJeVd7bVS;4eda1bd99ba58d5cc3371e796fe09db74e939b616978cea3d028ac0bc046e1ae;5.3;1791367883868;q3EpJLIQ9WlP9WYS9WFT_SkPxyFjLDIj7SFjLrJ",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 37,
+    "timestamp": "2026-10-07T18:11:27.001260"
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=www-jd-com&client=pc&clientVersion=1.0.0&t=1791367883806&uuid=76161171.1791367883048967459410.1791367883.1791367883.1791367883.1&functionId=jsfbox_pre_gb&body=%7B%22source%22:%22pc_home%22%7D&h5st=20261007181126830%3Bnzpvmbene5npenn8%3Bb5216%3Btk06wd175457241lfZ-4h4iiQYaHpjrd9yVS7yVeGyVSJ2FO7CEQrrbrKVq1-RYfiulNSWoZ1yleWCEf1nFf3X1Tzf1f%3B3e714ef8dcaddb12016d3fd09ea7f27f71286b2bf1bc8c189e30ecd2f4552b7a%3B5.3%3B1791367883830%3Bq3EpJLIQ9WlP9WYS9WFT_SkPxyFjLDIj7SFjLrJp-Pof",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 1496,
+    "timestamp": "2026-10-07T18:11:27.001260"
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=www-jd-com&body=%7B%22source%22%3A%22www.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791367884081&uuid=76161171.1791367883048967459410.1791367883.1791367883.1791367883.1&loginType=3&x-api-eid-token=jdd03TABRUXZ47X63NVF6HOTJT6KVVLLSI2HABMO2F2G3SPGJOJTZXFJCGUXIH24SZCUTN6NSO6JBPZUNDC2AKSWOLUH444AAAANBCXMKEBYAAAAADVOFDNL6F2SDJIX&jsonp=jsonpAbData&_=1791367884113",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 1045,
+    "timestamp": "2026-10-07T18:11:27.006259"
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=www-jd-com&client=pc&clientVersion=1.0.0&t=1791367884110&uuid=76161171.1791367883048967459410.1791367883.1791367883.1791367883.1&functionId=jsfbox_user_queryPlusInfo&body=%7B%22source%22:%22pc-home%22%7D&h5st=20261007181127111%3Bnzpvmbene5npenn8%3Bb5216%3Btk06w75c10aa341lf0L6h4ezfJ-6pjrd9yVS7yVeGyVSJ2FO7CEQrrbrKVq1_tXg1CUWMyVWXekeFeEf1nIS6XVe1X4f%3B201630968ac4418021b4c91be9959a2737dc3016446451ff3ff41b6b147a0e24%3B5.3%3B1791367884111%3BpjbMhjpd9yVS7yVeGyVSJ2FO7CEQJrJd",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 822,
+    "timestamp": "2026-10-07T18:11:27.006259"
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=www-jd-com&client=pc&clientVersion=1.0.0&t=1791367884145&uuid=76161171.1791367883048967459410.1791367883.1791367883.1791367883.1&functionId=pccorechannels_queryCrossInfo&body=%7B%22source%22:%22home%22,%22sfFlag%22:true,%22area%22:%22%22%7D&h5st=20261007181127146%3Bnzpvmbene5npenn8%3Bb5216%3Btk06w3687a94141lfZ-5h4nAf4T0pjrd9yVS7yVeGyVSJ2FO7CEQrrbrKVq1_hETTulWWKUg5bneybHf1XldJSlSzTle%3B159294737b230fcbd24ff28c7223d47097645646e0d4ae2f908aa7f0ebe5a9bc%3B5.3%3B17913678841",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 124,
+    "timestamp": "2026-10-07T18:11:27.006259"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/getRule?version=1.1.0&aid=c4a31ea580074bc8dc6aa7572a0a0e81",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 2939,
+    "timestamp": "2026-10-07T18:11:27.006259"
+  },
+  {
+    "url": "https://lapi.jd.com/locate?source=pchome&callback=jsonpAreaLocate&_=1791367884151",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 190,
+    "timestamp": "2026-10-07T18:11:27.007259"
+  },
+  {
+    "url": "https://api.m.jd.com/api?functionId=jsfbox_site_notice&uuid=&appid=www-jd-com&loginType=3&x-api-eid-token=jdd03TABRUXZ47X63NVF6HOTJT6KVVLLSI2HABMO2F2G3SPGJOJTZXFJCGUXIH24SZCUTN6NSO6JBPZUNDC2AKSWOLUH444AAAANBCXMKEBYAAAAADVOFDNL6F2SDJIX&h5st=20261007181127721;nzpvmbene5npenn8;b5216;tk03w967d1b7318nuK41skjmQBbSEJaCJdk1WDAnjNrgLE6dq9sUuG-AmQCrAMXWOtAY_ID7t98dPkW9MGBC4NPrVabg;10cb0b9d816ff7a39b658b628538880552c5ba0f80dd8148aa7239ffe24ab046;5.3;1791367884721;pjbMhjpd9yVS7yVeGyVSJ2FO7CEQJrJdJrESJrpjh7p",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 38,
+    "timestamp": "2026-10-07T18:11:27.008260"
+  },
+  {
+    "url": "https://api.m.jd.com/",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 5440,
+    "timestamp": "2026-10-07T18:11:27.008260"
+  },
+  {
+    "url": "https://api.m.jd.com/api?appid=www-jd-com&client=pc&clientVersion=1.0.0&uuid=76161171.1791367883048967459410.1791367883.1791367883.1791367883.1&loginType=3&t=1791367886287&functionId=pctradesoa_queryBeanLoginPreInfo&x-api-eid-token=jdd03TABRUXZ47X63NVF6HOTJT6KVVLLSI2HABMO2F2G3SPGJOJTZXFJCGUXIH24SZCUTN6NSO6JBPZUNDC2AKSWOLUH444AAAANBCXMKEBYAAAAADVOFDNL6F2SDJIX&h5st=20261007181129288%3Bnzpvmbene5npenn8%3Bb5216%3Btk03w967d1b7318nuK41skjmQBbSEJaCJdk1WDAnjNrgLE6dq9sUuG-AmQCrAMXWOtAY_ID7t98dPkW9MGBC4NP",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 47,
+    "timestamp": "2026-10-07T18:11:27.009261"
+  },
+  {
+    "url": "https://jcap.m.jd.com/home/requireCaptchaPc.js?v=2",
+    "status": 200,
+    "content_type": "application/x-javascript",
+    "size": 4364,
+    "timestamp": "2026-10-07T18:11:27.014260"
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/app.0a547a75.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "size": 227879,
+    "timestamp": "2026-10-07T18:11:27.453905"
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-corejs.ccfc6249.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "size": 476024,
+    "timestamp": "2026-10-07T18:11:27.494916"
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-lodash.9ca18afc.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "size": 420342,
+    "timestamp": "2026-10-07T18:11:27.521944"
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-vendors.72a2765d.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "size": 1278579,
+    "timestamp": "2026-10-07T18:11:27.735321"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 410,
+    "timestamp": "2026-10-07T18:11:30.738737"
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/app.0a547a75.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "size": 227879,
+    "timestamp": "2026-10-07T18:11:30.957321"
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-corejs.ccfc6249.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "size": 476024,
+    "timestamp": "2026-10-07T18:11:30.967316"
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-lodash.9ca18afc.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "size": 420342,
+    "timestamp": "2026-10-07T18:11:30.970313"
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-vendors.72a2765d.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "size": 1278579,
+    "timestamp": "2026-10-07T18:11:31.036313"
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/app.0a547a75.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "size": 227879,
+    "timestamp": "2026-10-07T18:11:34.267286"
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-corejs.ccfc6249.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "size": 476024,
+    "timestamp": "2026-10-07T18:11:34.275531"
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-vendors.72a2765d.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "size": 1278579,
+    "timestamp": "2026-10-07T18:11:34.314272"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 89,
+    "timestamp": "2026-10-07T18:11:37.394025"
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/app.0a547a75.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "size": 227879,
+    "timestamp": "2026-10-07T18:11:37.568233"
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-corejs.ccfc6249.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "size": 476024,
+    "timestamp": "2026-10-07T18:11:37.575251"
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-lodash.9ca18afc.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "size": 420342,
+    "timestamp": "2026-10-07T18:11:37.579262"
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-vendors.72a2765d.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "size": 1278579,
+    "timestamp": "2026-10-07T18:11:37.622970"
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/app.0a547a75.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "size": 227879,
+    "timestamp": "2026-10-07T18:11:40.864586"
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-corejs.ccfc6249.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "size": 476024,
+    "timestamp": "2026-10-07T18:11:40.872585"
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-lodash.9ca18afc.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "size": 420342,
+    "timestamp": "2026-10-07T18:11:40.874585"
+  },
+  {
+    "url": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/js/chunk-vendors.72a2765d.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "size": 1278579,
+    "timestamp": "2026-10-07T18:11:40.914585"
+  },
+  {
+    "url": "https://api.m.jd.com/",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 355,
+    "timestamp": "2026-10-07T18:11:44.247887"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 89,
+    "timestamp": "2026-10-07T18:11:44.256891"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/getRule?version=1.2.3&aid=2a4144b23a15469402ba70fc7ed8810c",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 3029,
+    "timestamp": "2026-10-07T18:11:47.410425"
+  },
+  {
+    "url": "https://api.m.jd.com/",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 5440,
+    "timestamp": "2026-10-07T18:11:47.410425"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/getRule?version=1.2.3&aid=e29c409517502ccd3dd8cc8df26d56ee",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 4830,
+    "timestamp": "2026-10-07T18:11:47.410425"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 263,
+    "timestamp": "2026-10-07T18:11:47.410425"
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=search-pc-java&body=%7B%22source%22%3A%22list.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791367904881&uuid=29846306.1791367883048967459410.1791367883.1791367883.1791367883.1&loginType=3&x-api-eid-token=jdd03TABRUXZ47X63NVF6HOTJT6KVVLLSI2HABMO2F2G3SPGJOJTZXFJCGUXIH24SZCUTN6NSO6JBPZUNDC2AKSWOLUH444AAAANBCXMKEBYAAAAADVOFDNL6F2SDJIX&jsonp=jsonpAbData&_=1791367904886",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 1045,
+    "timestamp": "2026-10-07T18:11:47.410425"
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_queryAddress",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 202,
+    "timestamp": "2026-10-07T18:11:47.410425"
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_getAreaNameById",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 190,
+    "timestamp": "2026-10-07T18:11:47.412425"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 41,
+    "timestamp": "2026-10-07T18:11:48.422392"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 41,
+    "timestamp": "2026-10-07T18:11:48.422392"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 41,
+    "timestamp": "2026-10-07T18:11:48.422392"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 41,
+    "timestamp": "2026-10-07T18:11:48.422392"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 41,
+    "timestamp": "2026-10-07T18:11:48.422392"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 41,
+    "timestamp": "2026-10-07T18:11:52.068951"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 89,
+    "timestamp": "2026-10-07T18:12:00.125710"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/getRule?version=1.2.3&aid=2a4144b23a15469402ba70fc7ed8810c",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 3029,
+    "timestamp": "2026-10-07T18:12:00.125710"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 263,
+    "timestamp": "2026-10-07T18:12:00.125710"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/getRule?version=1.2.3&aid=e29c409517502ccd3dd8cc8df26d56ee",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 4830,
+    "timestamp": "2026-10-07T18:12:00.125710"
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=search-pc-java&body=%7B%22source%22%3A%22list.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791367917324&uuid=29846306.1791367883048967459410.1791367883.1791367883.1791367883.1&loginType=3&x-api-eid-token=jdd03TABRUXZ47X63NVF6HOTJT6KVVLLSI2HABMO2F2G3SPGJOJTZXFJCGUXIH24SZCUTN6NSO6JBPZUNDC2AKSWOLUH444AAAANBCXMKEBYAAAAADVOFDNL6F2SDJIX&jsonp=jsonpAbData&_=1791367917326",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 1045,
+    "timestamp": "2026-10-07T18:12:00.125710"
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_queryAddress",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 202,
+    "timestamp": "2026-10-07T18:12:00.125710"
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_getAreaNameById",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 212,
+    "timestamp": "2026-10-07T18:12:00.626736"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 41,
+    "timestamp": "2026-10-07T18:12:01.132755"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 41,
+    "timestamp": "2026-10-07T18:12:01.132755"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 41,
+    "timestamp": "2026-10-07T18:12:01.132755"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 41,
+    "timestamp": "2026-10-07T18:12:04.623017"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 89,
+    "timestamp": "2026-10-07T18:12:12.789751"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/getRule?version=1.2.3&aid=2a4144b23a15469402ba70fc7ed8810c",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 3029,
+    "timestamp": "2026-10-07T18:12:12.789751"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 262,
+    "timestamp": "2026-10-07T18:12:12.789751"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/getRule?version=1.2.3&aid=e29c409517502ccd3dd8cc8df26d56ee",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 4830,
+    "timestamp": "2026-10-07T18:12:12.789751"
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=search-pc-java&body=%7B%22source%22%3A%22list.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791367929929&uuid=29846306.1791367883048967459410.1791367883.1791367883.1791367883.1&loginType=3&x-api-eid-token=jdd03TABRUXZ47X63NVF6HOTJT6KVVLLSI2HABMO2F2G3SPGJOJTZXFJCGUXIH24SZCUTN6NSO6JBPZUNDC2AKSWOLUH444AAAANBCXMKEBYAAAAADVOFDNL6F2SDJIX&jsonp=jsonpAbData&_=1791367929932",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 1045,
+    "timestamp": "2026-10-07T18:12:12.793760"
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_queryAddress",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 202,
+    "timestamp": "2026-10-07T18:12:12.794752"
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_getAreaNameById",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 212,
+    "timestamp": "2026-10-07T18:12:12.794752"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 41,
+    "timestamp": "2026-10-07T18:12:13.803961"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 41,
+    "timestamp": "2026-10-07T18:12:13.805071"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 41,
+    "timestamp": "2026-10-07T18:12:13.805071"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 41,
+    "timestamp": "2026-10-07T18:12:13.805071"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 41,
+    "timestamp": "2026-10-07T18:12:17.320849"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 89,
+    "timestamp": "2026-10-07T18:12:25.472769"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/getRule?version=1.2.3&aid=2a4144b23a15469402ba70fc7ed8810c",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 3029,
+    "timestamp": "2026-10-07T18:12:25.472769"
+  },
+  {
+    "url": "https://api.m.jd.com/api",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 263,
+    "timestamp": "2026-10-07T18:12:25.472769"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/getRule?version=1.2.3&aid=e29c409517502ccd3dd8cc8df26d56ee",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 4830,
+    "timestamp": "2026-10-07T18:12:25.472769"
+  },
+  {
+    "url": "https://api.m.jd.com/?appid=search-pc-java&body=%7B%22source%22%3A%22list.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791367942627&uuid=29846306.1791367883048967459410.1791367883.1791367883.1791367883.1&loginType=3&x-api-eid-token=jdd03TABRUXZ47X63NVF6HOTJT6KVVLLSI2HABMO2F2G3SPGJOJTZXFJCGUXIH24SZCUTN6NSO6JBPZUNDC2AKSWOLUH444AAAANBCXMKEBYAAAAADVOFDNL6F2SDJIX&jsonp=jsonpAbData&_=1791367942629",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 1045,
+    "timestamp": "2026-10-07T18:12:25.472769"
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_queryAddress",
+    "status": 200,
+    "content_type": "application/json;charset=utf-8",
+    "size": 202,
+    "timestamp": "2026-10-07T18:12:25.472769"
+  },
+  {
+    "url": "https://api.m.jd.com/client.action?fid=pc_address_cmpnt_getAreaNameById",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "size": 212,
+    "timestamp": "2026-10-07T18:12:25.472769"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 41,
+    "timestamp": "2026-10-07T18:12:26.480256"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 41,
+    "timestamp": "2026-10-07T18:12:26.480256"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 41,
+    "timestamp": "2026-10-07T18:12:26.481268"
+  },
+  {
+    "url": "https://h5speed.m.jd.com/event/log",
+    "status": 200,
+    "content_type": "application/json",
+    "size": 41,
+    "timestamp": "2026-10-07T18:12:29.916972"
+  }
+]

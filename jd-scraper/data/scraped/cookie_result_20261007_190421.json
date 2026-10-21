@@ -1,0 +1,60 @@
+{
+  "method": "cookie_injection",
+  "keyword": "轴承",
+  "timestamp": "2026-10-07T19:04:21.930872",
+  "products_count": 0,
+  "api_responses_count": 24,
+  "products": [],
+  "api_responses": [
+    {
+      "url": "https://storage.360buyimg.com/retail-mall/main_search/preload/0.0.7/preload-search.js",
+      "size": 3855,
+      "preview": "!function(){try{if(!window.searchMainConfig||!window.searchMainConfig.newFrontOpt)return;if(\"function\"!=typeof window.Promise||\"function\"!=typeof window.fetch)return;var _themeMatch=(window.location.search||\"\").match(/[?&]themeColor=([^&#]*)/);if(_themeMatch&&\"ai\"===decodeURIComponent(_themeMatch[1]"
+    },
+    {
+      "url": "https://storage.360buyimg.com/retail-mall/lib/react/18.3.1/react.production.min.js",
+      "size": 10751,
+      "preview": "/**\n * @license React\n * react.production.min.js\n *\n * Copyright (c) Facebook, Inc. and its affiliates.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n(function(){'use strict';(function(c,x){\"object\"===typeof expor"
+    },
+    {
+      "url": "https://storage.360buyimg.com/retail-mall/main_search/pro/0.0.11/js/index.223f82fc.js",
+      "size": 707011,
+      "preview": "const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=[\"js/index.223f82fc2.js\",\"css/index.223f82fc2.css\"])))=>i.map(i=>d[i]);\nvar j1=Object.defineProperty;var R1=(e,t,n)=>t in e?j1(e,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[t]=n;var On=(e,t,n)=>R1(e,typeof t!=\"symbol\"?t+\"\":t,n);fun"
+    },
+    {
+      "url": "https://storage.360buyimg.com/retail-mall/lib/react/18.3.1/react-dom.production.min.js",
+      "size": 131835,
+      "preview": "/**\n * @license React\n * react-dom.production.min.js\n *\n * Copyright (c) Facebook, Inc. and its affiliates.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n(function(){/*\n Modernizr 3.0.0pre (Custom Build) | MIT\n*/\n"
+    },
+    {
+      "url": "https://storage.360buyimg.com/bjd-utils-sdk/bjdcommon/purchaselist/1.0.4/bjd.js",
+      "size": 687915,
+      "preview": "/*! For license information please see bjd.js.LICENSE.txt */\n!function(e){var t={};function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,"
+    },
+    {
+      "url": "https://api.m.jd.com/?appid=search-pc-java&body=%7B%22source%22%3A%22search.jd.com%22%7D&clientVersion=1.0.0&client=pc&functionId=pctradesoa_getAbExpLabel&screen=&t=1791371034105&uuid=143920055.179137",
+      "size": 849,
+      "preview": "jsonpAbData({\"abBuriedTag\":[\"tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest\"],\"abBuriedTagMap\":{\"weChatLogin\":\"tsabtest|base64|UENUZXN0Xzc4NzcwfGJhc2U|tsabtest\"},\"abExpLabelMap\":{\"widget\":{\"abBuriedTag\":\"\",\"keyParamMap\":{\"mult_function\":0}},\"loginPopup\":{\"keyParamMap\":{\"Pc_login_popup_type\":\"0\"}},"
+    },
+    {
+      "url": "https://storage.360buyimg.com/retail-mall/main_search/preload/0.0.7/preload-search.js",
+      "size": 3855,
+      "preview": "!function(){try{if(!window.searchMainConfig||!window.searchMainConfig.newFrontOpt)return;if(\"function\"!=typeof window.Promise||\"function\"!=typeof window.fetch)return;var _themeMatch=(window.location.search||\"\").match(/[?&]themeColor=([^&#]*)/);if(_themeMatch&&\"ai\"===decodeURIComponent(_themeMatch[1]"
+    },
+    {
+      "url": "https://storage.360buyimg.com/retail-mall/lib/react/18.3.1/react.production.min.js",
+      "size": 10751,
+      "preview": "/**\n * @license React\n * react.production.min.js\n *\n * Copyright (c) Facebook, Inc. and its affiliates.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n(function(){'use strict';(function(c,x){\"object\"===typeof expor"
+    },
+    {
+      "url": "https://storage.360buyimg.com/retail-mall/lib/react/18.3.1/react-dom.production.min.js",
+      "size": 131835,
+      "preview": "/**\n * @license React\n * react-dom.production.min.js\n *\n * Copyright (c) Facebook, Inc. and its affiliates.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n(function(){/*\n Modernizr 3.0.0pre (Custom Build) | MIT\n*/\n"
+    },
+    {
+      "url": "https://storage.360buyimg.com/retail-mall/main_search/pro/0.0.11/js/index.223f82fc.js",
+      "size": 707011,
+      "preview": "const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=[\"js/index.223f82fc2.js\",\"css/index.223f82fc2.css\"])))=>i.map(i=>d[i]);\nvar j1=Object.defineProperty;var R1=(e,t,n)=>t in e?j1(e,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[t]=n;var On=(e,t,n)=>R1(e,typeof t!=\"symbol\"?t+\"\":t,n);fun"
+    }
+  ]
+}

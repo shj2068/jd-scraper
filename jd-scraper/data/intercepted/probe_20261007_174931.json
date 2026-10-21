@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-10-07T17:49:31.078177",
+  "total": 9,
+  "found": 0,
+  "results": [
+    {
+      "fid": "getSearchResult",
+      "url": "https://api.m.jd.com/",
+      "status": 200,
+      "code": "2",
+      "echo": "the current API does not exist",
+      "has_data": false,
+      "keys": [
+        "code",
+        "echo"
+      ],
+      "data_preview": "{\"code\": \"2\", \"echo\": \"the current API does not exist\"}"
+    },
+    {
+      "fid": "queryMaterialProducts",
+      "url": "https://api.m.jd.com/",
+      "status": 200,
+      "code": "2",
+      "echo": "the current API does not exist",
+      "has_data": false,
+      "keys": [
+        "code",
+        "echo"
+      ],
+      "data_preview": "{\"code\": \"2\", \"echo\": \"the current API does not exist\"}"
+    },
+    {
+      "fid": "getRecommend",
+      "url": "https://api.m.jd.com/",
+      "status": 200,
+      "code": "2",
+      "echo": "the current API does not exist",
+      "has_data": false,
+      "keys": [
+        "code",
+        "echo"
+      ],
+      "data_preview": "{\"code\": \"2\", \"echo\": \"the current API does not exist\"}"
+    },
+    {
+      "fid": "searchIndustryGoods",
+      "url": "https://api.m.jd.com/",
+      "status": 200,
+      "code": "2",
+      "echo": "the current API does not exist",
+      "has_data": false,
+      "keys": [
+        "code",
+        "echo"
+      ],
+      "data_preview": "{\"code\": \"2\", \"echo\": \"the current API does not exist\"}"
+    },
+    {
+      "fid": "getIndustryCategoryList",
+      "url": "https://api.m.jd.com/",
+      "status": 200,
+      "code": "2",
+      "echo": "the current API does not exist",
+      "has_data": false,
+      "keys": [
+        "code",
+        "echo"
+      ],
+      "data_preview": "{\"code\": \"2\", \"echo\": \"the current API does not exist\"}"
+    },
+    {
+      "fid": "bizSearchCategoryList",
+      "url": "https://api.m.jd.com/",
+      "status": 200,
+      "code": "2",
+      "echo": "the current API does not exist",
+      "has_data": false,
+      "keys": [
+        "code",
+        "echo"
+      ],
+      "data_preview": "{\"code\": \"2\", \"echo\": \"the current API does not exist\"}"
+    },
+    {
+      "fid": "vendorQualificationQuery",
+      "url": "https://api.m.jd.com/",
+      "status": 200,
+      "code": "2",
+      "echo": "the current API does not exist",
+      "has_data": false,
+      "keys": [
+        "code",
+        "echo"
+      ],
+      "data_preview": "{\"code\": \"2\", \"echo\": \"the current API does not exist\"}"
+    },
+    {
+      "fid": "supplierServiceProviderList",
+      "url": "https://api.m.jd.com/",
+      "status": 200,
+      "code": "2",
+      "echo": "the current API does not exist",
+      "has_data": false,
+      "keys": [
+        "code",
+        "echo"
+      ],
+      "data_preview": "{\"code\": \"2\", \"echo\": \"the current API does not exist\"}"
+    },
+    {
+      "fid": "jd_industry_news_list",
+      "url": "https://api.m.jd.com/",
+      "status": 200,
+      "code": "2",
+      "echo": "the current API does not exist",
+      "has_data": false,
+      "keys": [
+        "code",
+        "echo"
+      ],
+      "data_preview": "{\"code\": \"2\", \"echo\": \"the current API does not exist\"}"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+version: "3.8"
+
+services:
+  jd-scraper:
+    build: .
+    container_name: jd-scraper
+    ports:
+      - "3001:3001"
+    volumes:
+      # Persist collected data
+      - ./data:/app/data
+      # Mount config for easy editing
+      - ./config:/app/config:ro
+    environment:
+      - JD_RPC_PORT=3001
+      - JD_RPC_POOL_SIZE=3
+      - JD_RPC_HEADLESS=true
+      # Optional: proxy configuration
+      # - HTTP_PROXY=http://proxy:8080
+      # - HTTPS_PROXY=http://proxy:8080
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3001/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  # Optional: separate Node.js signing service (for development)
+  jd-sign-server:
+    image: node:20-slim
+    container_name: jd-sign-server
+    working_dir: /app
+    volumes:
+      - ./node:/app
+    ports:
+      - "3001:3001"
+    command: sh -c "npm install --production && node server.js"
+    environment:
+      - PORT=3001
+      - POOL_SIZE=3
+      - HEADLESS=true
+    restart: unless-stopped
+    profiles:
+      - dev
