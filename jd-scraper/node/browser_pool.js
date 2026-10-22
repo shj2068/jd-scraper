@@ -57,13 +57,13 @@ class BrowserPool {
         // 创建 Page 实例
         for (let i = 0; i < this.poolSize; i++) {
             const context = await this.browser.newContext({
-                userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Mobile/15E148 Safari/604.1',
-                viewport: { width: 375, height: 812 },
+                userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                viewport: { width: 1920, height: 1080 },
                 locale: 'zh-CN',
                 timezoneId: 'Asia/Shanghai',
-                deviceScaleFactor: 3,
-                isMobile: true,
-                hasTouch: true,
+                deviceScaleFactor: 1,
+                isMobile: false,
+                hasTouch: false,
             });
 
             const page = await context.newPage();

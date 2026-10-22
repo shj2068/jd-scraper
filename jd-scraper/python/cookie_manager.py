@@ -98,6 +98,10 @@ class CookieManager:
 
         # 加载已有 Cookie
         self._load_all()
+        
+        # 设置当前账号为第一个加载的账号
+        if self._jars and self._current_account == "default":
+            self._current_account = next(iter(self._jars.keys()))
 
         # 启动自动刷新线程
         if self.auto_refresh and self.refresh_callback:

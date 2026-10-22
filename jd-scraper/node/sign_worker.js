@@ -98,7 +98,40 @@ class SignWorker {
      * 内部方法：执行签名
      */
     async _executeSign(functionId, body, uuid, t) {
-        // 策略 1: 调用已知的签名函数
+        // 策略 1: 使用提取的 ParamsSign 函数 (v5.3)
+        try {
+            // 等待 ParamsSign 加载（最多 3 秒）
+            await this.page.waitForFunction(() => typeof window.ParamsSign === 'function', { timeout: 3000 }).catch(() => {});
+            
+            const result = await this.page.evaluate(async ({ fid, b, ts, uid }) => {
+                if (typeof window.ParamsSign !== 'function') {
+                    return { error: 'ParamsSign not available' };
+                }
+                try {
+                    const signer = new window.ParamsSign();
+                    const signResult = await signer.sign({
+                        functionId: fid,
+                        body: b,
+                        t: ts,
+                        uuid: uid
+                    });
+                    return signResult;
+                } catch (e) {
+                    return { error: e.message };
+                }
+            }, { fid: functionId, b: body, ts: t, uid: uuid });
+
+            if (result && result.h5st) {
+                return { code: 0, h5st: result.h5st, t, _stk: result._stk, _ste: result._ste };
+            }
+            if (result && result.error) {
+                console.warn('ParamsSign 签名错误:', result.error);
+            }
+        } catch (e) {
+            console.warn('ParamsSign 签名失败:', e.message);
+        }
+
+        // 策略 2: 调用已知的签名函数
         if (this.signFunctionName) {
             try {
                 const h5st = await this.page.evaluate(({ fnName, fid, b, ts, uid }) => {
@@ -117,7 +150,7 @@ class SignWorker {
             }
         }
 
-        // 策略 2: 拦截网络请求获取 h5st
+        // 策略 3: 拦截网络请求获取 h5st
         try {
             const h5st = await this._interceptH5st(functionId, body, uuid, t);
             if (h5st) {
@@ -127,7 +160,7 @@ class SignWorker {
             console.warn('拦截 h5st 失败:', e.message);
         }
 
-        // 策略 3: 返回空 h5st（降级模式）
+        // 策略 4: 返回空 h5st（降级模式）
         return {
             code: 0,
             h5st: '',
@@ -190,6 +223,11 @@ class SignWorker {
     async _autoDetectSignFunction() {
         try {
             return await this.page.evaluate(() => {
+                // 优先检测 ParamsSign（h5st v5.3 签名构造器）
+                if (typeof window.ParamsSign === 'function') {
+                    return 'ParamsSign';
+                }
+
                 // 常见的签名函数名
                 const candidates = [
                     'getH5st', 'h5st', 'sign', 'getSign',

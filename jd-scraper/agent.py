@@ -349,11 +349,15 @@ class JDAgent:
         )
 
         # 7. 初始化请求构建器
+        api_config = self._config.get("api", {})
         self._request_builder = RequestBuilder(
             jsrpc_client=self._jsrpc_client if jsrpc_ok else None,
             cookie_manager=self._cookie_manager,
             anti_detect=self._anti_detect,
             fingerprint=self._fingerprint,
+            appid=api_config.get("appid", "search-pc-java"),
+            client=api_config.get("client", "pc"),
+            client_version=api_config.get("client_version", "1.0.0"),
         )
         report["services"].append({"name": "请求构建器", "status": "ok"})
 
@@ -533,14 +537,19 @@ class JDAgent:
                 }
 
             # 发送真实 HTTP 请求
-            api_url = self._config.get("api", {}).get("base_url", "https://api.m.jd.com/")
+            api_url = self._config.get("api", {}).get("base_url", "https://api.m.jd.com/api")
             headers = self._anti_detect.build_headers() if self._anti_detect else {}
-            headers["Content-Type"] = "application/x-www-form-urlencoded"
+            headers["Referer"] = "https://search.jd.com/"
+            headers["Origin"] = "https://search.jd.com"
+            cookies = self._cookie_manager.get_all_cookies() if self._cookie_manager else {}
 
-            resp = self._tls_client.post(
-                api_url,
-                data=params,
+            import urllib.parse
+            url_with_params = f"{api_url}?{urllib.parse.urlencode(params)}"
+
+            resp = self._tls_client.get(
+                url_with_params,
                 headers=headers,
+                cookies=cookies,
             )
 
             status_code = resp.status_code

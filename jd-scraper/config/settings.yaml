@@ -4,10 +4,11 @@
 
 # API 基础配置
 api:
-  base_url: "https://api.m.jd.com/"
-  appid: "ebf5a3c8"
-  client: "h5"
+  base_url: "https://api.m.jd.com/api"
+  appid: "search-pc-java"
+  client: "pc"
   client_version: "1.0.0"
+  login_type: "3"
 
 # JSRPC 签名服务配置
 jsrpc:
@@ -21,14 +22,14 @@ browser_pool:
   size: 3            # 池大小（Page 数量）
   headless: true     # 无头模式
   warmup_pages: 2    # 预热页面数
-  target_url: "https://zhaoshang.jd.com/"
+  target_url: "https://item.jd.com/"
   health_check_interval: 60  # 健康检查间隔（秒）
 
 # 反检测配置
 anti_detect:
   ua_rotation: true              # UA 轮换
   random_delay: [1.0, 5.0]      # 请求间隔随机范围（秒）
-  tls_fingerprint: "chrome118"   # TLS 指纹预设
+  tls_fingerprint: "chrome120"   # TLS 指纹预设
   stealth_headers: true          # 隐身请求头
   human_timing: true             # 人类操作时序模拟
   # v2.0 新增：Sec-CH-UA 一致性校验（文档第四章 4.2 节）

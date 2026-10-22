@@ -160,7 +160,7 @@ async function startServer() {
             poolSize: parseInt(process.env.POOL_SIZE) || 3,
             headless: process.env.HEADLESS !== 'false',
             warmupPages: parseInt(process.env.WARMUP_PAGES) || 2,
-            targetUrl: process.env.TARGET_URL || 'https://zhaoshang.jd.com/',
+            targetUrl: process.env.TARGET_URL || 'https://item.jd.com/',
         });
 
         await browserPool.init();

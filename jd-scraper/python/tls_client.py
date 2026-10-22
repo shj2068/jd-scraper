@@ -32,7 +32,7 @@ class TLSClient:
 
     def __init__(
         self,
-        tls_preset: str = "chrome118",
+        tls_preset: str = "chrome120",
         timeout: float = 30.0,
         proxy: Optional[str] = None,
         proxy_pool: Optional[ProxyPool] = None,

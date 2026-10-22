@@ -1,0 +1,178 @@
+{
+  "discovered_at": "2026-10-22T20:27:00",
+  "source": "browser network interception on search.jd.com and item.jd.com",
+  "common_params": {
+    "client": "pc",
+    "clientVersion": "1.0.0",
+    "loginType": "3",
+    "api_endpoint": "https://api.m.jd.com/api",
+    "method": "GET"
+  },
+  "apis": [
+    {
+      "functionId": "pc_search_searchWare",
+      "description": "商品搜索（核心接口）",
+      "appid": "search-pc-java",
+      "method": "GET",
+      "body_params": {
+        "enc": "utf-8",
+        "area": "19_1657_4141_0",
+        "page": 1,
+        "pageSize": 30,
+        "keyword": "搜索关键词",
+        "mode": "",
+        "concise": false
+      },
+      "status": "verified_success",
+      "notes": "返回搜索结果，包含商品列表、价格、店铺等"
+    },
+    {
+      "functionId": "pc_search_hotwords",
+      "description": "搜索热词",
+      "appid": "search-pc-java",
+      "method": "GET",
+      "body_params": {},
+      "status": "verified_success"
+    },
+    {
+      "functionId": "pc_search_relwords",
+      "description": "相关搜索词",
+      "appid": "search-pc-java",
+      "method": "GET",
+      "body_params": {
+        "keyword": "",
+        "num": 10,
+        "rettype": "json",
+        "type_name": "relsearch"
+      },
+      "status": "verified_success"
+    },
+    {
+      "functionId": "pc_search_aiPicTagInfo",
+      "description": "AI 图片标签信息",
+      "appid": "search-pc-java",
+      "method": "GET",
+      "body_params": {
+        "keyword": "电钻",
+        "sku_list": "SKU列表逗号分隔"
+      },
+      "status": "discovered"
+    },
+    {
+      "functionId": "pc_search_getUmcEquity",
+      "description": "UMC 权益信息",
+      "appid": "search-pc-java",
+      "method": "GET",
+      "body_params": {
+        "area": "19_1657_4141_0"
+      },
+      "status": "discovered"
+    },
+    {
+      "functionId": "pc_detailpage_wareBusiness",
+      "description": "商品详情页业务数据",
+      "appid": "pc-item-soa",
+      "method": "GET",
+      "body_params": {
+        "skuId": "SKU编号",
+        "area": "19_1657_4141_0",
+        "num": "1",
+        "clientSource": "PC",
+        "userAgent": "Windows"
+      },
+      "status": "requires_captcha",
+      "notes": "code=605 需要滑块验证"
+    },
+    {
+      "functionId": "getLegoWareDetailComment",
+      "description": "商品评论",
+      "appid": "item-v3",
+      "method": "GET",
+      "body_params": {
+        "shopType": "0",
+        "sku": 100012043978,
+        "commentNum": 5,
+        "source": "pc"
+      },
+      "status": "verified_success"
+    },
+    {
+      "functionId": "pc_item_getWareRecommendation",
+      "description": "商品推荐",
+      "appid": "item-v3",
+      "method": "GET",
+      "body_params": {
+        "source": "1",
+        "area": "19_1657_4141_0",
+        "skuId": "SKU编号",
+        "ps3Id": "分类ID"
+      },
+      "status": "discovered"
+    },
+    {
+      "functionId": "pctradesoa_equityInfo",
+      "description": "交易权益信息",
+      "appid": "search-pc-java",
+      "method": "GET",
+      "body_params": {},
+      "status": "discovered"
+    },
+    {
+      "functionId": "pctradesoa_queryPlusInfo",
+      "description": "增值信息查询",
+      "appid": "search-pc-java",
+      "method": "GET",
+      "body_params": {
+        "pageId": "Search_ProductList"
+      },
+      "status": "discovered"
+    },
+    {
+      "functionId": "pctradesoa_vender_batchIsFollow",
+      "description": "批量查询店铺关注状态",
+      "appid": "item-v3",
+      "method": "GET",
+      "body_params": {
+        "venderIds": "店铺ID",
+        "sysName": "item.jd.com"
+      },
+      "status": "discovered"
+    },
+    {
+      "functionId": "pccorechannels_queryCrossInfo",
+      "description": "跨渠道信息",
+      "appid": "item-v3",
+      "method": "POST",
+      "body_params": {
+        "source": "item",
+        "sfFlag": true,
+        "sku": "SKU编号",
+        "catId3": "分类ID",
+        "area": "地区编码"
+      },
+      "status": "discovered"
+    },
+    {
+      "functionId": "checkChat",
+      "description": "客服聊天可用性",
+      "appid": "item-v3",
+      "method": "GET",
+      "body_params": {
+        "source": "jd_pc_item",
+        "key": "JDPC_xxx",
+        "pid": "SKU编号",
+        "returnCharset": "utf-8"
+      },
+      "status": "discovered"
+    },
+    {
+      "functionId": "pc_address_cmpnt_queryAddress",
+      "description": "地址查询",
+      "appid": null,
+      "method": "POST",
+      "endpoint": "https://api.m.jd.com/client.action",
+      "fid_param": "pc_address_cmpnt_queryAddress",
+      "status": "discovered"
+    }
+  ]
+}
