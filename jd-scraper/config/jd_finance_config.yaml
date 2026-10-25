@@ -1,0 +1,231 @@
+# 京东金融 APP 金条数据采集配置
+
+# ============================================================================
+# 基础配置
+# ============================================================================
+
+app_name: "jd-finance-scraper"
+version: "1.0.0"
+description: "京东金融 APP 金条数据采集系统"
+
+# ============================================================================
+# 京东金融 API 配置
+# ============================================================================
+
+jd_finance:
+  # 应用凭证（需要从 APP 中提取）
+  app_key: ""
+  secret_key: ""
+  client_version: "10.5.0"
+  client: "android"
+  
+  # API 端点
+  base_url: "https://ms.jr.jd.com"
+  gateway: "/gw/generic/zj/h5/m/latest"
+  
+  # 金条相关接口
+  endpoints:
+    jintiao_quota:
+      path: "/creditLimit"
+      method: "POST"
+      description: "金条额度查询"
+    
+    jintiao_rate:
+      path: "/interestRate"
+      method: "POST"
+      description: "金条利率查询"
+    
+    jintiao_apply:
+      path: "/applyInfo"
+      method: "POST"
+      description: "金条申请信息"
+    
+    user_info:
+      path: "/userInfo"
+      method: "POST"
+      description: "用户信息"
+    
+    credit_score:
+      path: "/creditScore"
+      method: "POST"
+      description: "信用评分"
+    
+    repay_plan:
+      path: "/repayPlan"
+      method: "POST"
+      description: "还款计划"
+    
+    loan_detail:
+      path: "/loanDetail"
+      method: "POST"
+      description: "借款详情"
+
+# ============================================================================
+# 签名配置
+# ============================================================================
+
+sign:
+  # 签名算法
+  algorithm: "MD5"
+  
+  # 签名参数
+  params:
+    - appKey
+    - clientVersion
+    - client
+    - ts
+    - uuid
+  
+  # 签名方式
+  method: "sorted_concat_md5"  # 按 key 排序拼接后 MD5
+  
+  # 盐值位置
+  salt_position: "suffix"  # suffix, prefix, or embedded
+
+# ============================================================================
+# 反检测配置
+# ============================================================================
+
+anti_detect:
+  # User-Agent 轮换
+  ua_rotation: true
+  user_agents:
+    - "Mozilla/5.0 (Linux; Android 13; SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36 jdapp;android;10.5.0"
+    - "Mozilla/5.0 (Linux; Android 14; Pixel 8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.99 Mobile Safari/537.36 jdapp;android;10.5.0"
+    - "Mozilla/5.0 (Linux; Android 13; Redmi Note 12 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.70 Mobile Safari/537.36 jdapp;android;10.5.0"
+  
+  # TLS 指纹
+  tls_fingerprint: "chrome120"
+  
+  # 请求延迟
+  min_delay: 1.0
+  max_delay: 5.0
+  
+  # 设备指纹
+  fingerprint:
+    canvas_noise: true
+    webgl_spoof: true
+    audio_jitter: true
+    screen_resolution: ["1920x1080", "2560x1440", "1080x2400"]
+
+# ============================================================================
+# Cookie 配置
+# ============================================================================
+
+cookies:
+  # Cookie 来源
+  source: "manual"  # manual, browser, file
+  
+  # Cookie 文件路径
+  file_path: "data/cookies/jd_finance_cookies.json"
+  
+  # 自动刷新
+  auto_refresh: true
+  refresh_interval: 600  # 秒
+  
+  # 关键 Cookie
+  required_cookies:
+    - "pin"
+    - "wskey"
+    - "thor"
+    - "pt_key"
+    - "pt_pin"
+
+# ============================================================================
+# 代理配置
+# ============================================================================
+
+proxy:
+  enabled: false
+  strategy: "round_robin"  # round_robin, random, fastest
+  
+  pool: []
+  
+  # 代理健康检查
+  health_check:
+    enabled: true
+    interval: 300  # 秒
+    timeout: 10  # 秒
+
+# ============================================================================
+# 监控配置
+# ============================================================================
+
+monitoring:
+  # 请求监控
+  request_monitor:
+    enabled: true
+    window_size: 100  # 滑动窗口大小
+  
+  # 告警规则
+  alerts:
+    - name: "sign_failure_rate"
+      metric: "sign_failure_rate"
+      threshold: 0.1
+      action: "log"
+    
+    - name: "request_failure_rate"
+      metric: "request_failure_rate"
+      threshold: 0.2
+      action: "alert"
+    
+    - name: "cookie_expiry"
+      metric: "cookie_age"
+      threshold: 3600
+      action: "refresh"
+
+# ============================================================================
+# 自进化配置
+# ============================================================================
+
+evolution:
+  enabled: true
+  
+  # 微进化
+  micro:
+    max_retries: 3
+    strategy_switch: true
+  
+  # 宏进化
+  macro:
+    threshold: 5  # 连续失败次数
+    mutation: true
+    crossover: true
+  
+  # 经验存储
+  experience:
+    enabled: true
+    store_path: "data/experience/jd_finance_experience.json"
+
+# ============================================================================
+# 日志配置
+# ============================================================================
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+  # 文件日志
+  file:
+    enabled: true
+    path: "data/logs/jd_finance.log"
+    max_size: 10485760  # 10MB
+    backup_count: 5
+
+# ============================================================================
+# 数据存储
+# ============================================================================
+
+storage:
+  # 采集数据存储
+  data_dir: "data/jd_finance"
+  
+  # 导出格式
+  export_formats:
+    - "json"
+    - "csv"
+  
+  # 数据保留
+  retention:
+    days: 30
+    max_size: 1073741824  # 1GB

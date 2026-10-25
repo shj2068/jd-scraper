@@ -1,0 +1,1515 @@
+{
+  "test_time": "2026-10-25T23:21:33.211320",
+  "traffic_analysis": {
+    "total_requests": 2,
+    "suspicious_params": 12,
+    "risk_score": 0.96
+  },
+  "crypto_analysis": {
+    "total_analyzed": 12,
+    "reproduced": 0,
+    "algorithms": {
+      "unknown": 10,
+      "MD5": 2
+    }
+  },
+  "data_collection": {
+    "status": "success",
+    "steps": "1/1"
+  },
+  "skill_stats": {
+    "traffic-sniffer": {
+      "name": "traffic-sniffer",
+      "version": "1.0.0",
+      "execution_count": 1,
+      "success_count": 1,
+      "failure_count": 0,
+      "success_rate": 1.0,
+      "last_result": {
+        "status": "success",
+        "data": {
+          "status": "success",
+          "total_requests": 2,
+          "analyzed_requests": 2,
+          "suspicious_params_count": 12,
+          "analysis": [
+            {
+              "url": "https://ms.jr.jd.com/gw/generic/zj/h5/m/latest/creditLimit",
+              "method": "POST",
+              "timestamp": 1792941691.3102605,
+              "suspicious_params": [
+                {
+                  "name": "appKey",
+                  "value": "jd_finance_app",
+                  "reasons": [
+                    "naming_pattern:app_?key$"
+                  ],
+                  "characteristics": {
+                    "length": 14,
+                    "charset": "mixed",
+                    "entropy": 3.2359,
+                    "is_base64": false,
+                    "is_hex": false,
+                    "is_numeric": false,
+                    "unique_chars": 10,
+                    "char_distribution": {
+                      "_": 2,
+                      "n": 2,
+                      "a": 2,
+                      "p": 2,
+                      "j": 1,
+                      "d": 1,
+                      "f": 1,
+                      "i": 1,
+                      "c": 1,
+                      "e": 1
+                    }
+                  },
+                  "classification": {
+                    "name": "appKey",
+                    "type": "app_key",
+                    "suspicious": true,
+                    "reasons": [
+                      "naming_pattern:app_?key$"
+                    ],
+                    "confidence": 0.7
+                  }
+                },
+                {
+                  "name": "clientVersion",
+                  "value": "10.5.0",
+                  "reasons": [
+                    "naming_pattern:client[a-z_]*$"
+                  ],
+                  "characteristics": {
+                    "length": 6,
+                    "charset": "mixed",
+                    "entropy": 1.9183,
+                    "is_base64": false,
+                    "is_hex": false,
+                    "is_numeric": false,
+                    "unique_chars": 4,
+                    "char_distribution": {
+                      "0": 2,
+                      ".": 2,
+                      "1": 1,
+                      "5": 1
+                    }
+                  },
+                  "classification": {
+                    "name": "clientVersion",
+                    "type": "client_like",
+                    "suspicious": true,
+                    "reasons": [
+                      "naming_pattern:client[a-z_]*$"
+                    ],
+                    "confidence": 0.7
+                  }
+                },
+                {
+                  "name": "client",
+                  "value": "android",
+                  "reasons": [
+                    "naming_pattern:client[a-z_]*$"
+                  ],
+                  "characteristics": {
+                    "length": 7,
+                    "charset": "alphanumeric",
+                    "entropy": 2.5216,
+                    "is_base64": false,
+                    "is_hex": false,
+                    "is_numeric": false,
+                    "unique_chars": 6,
+                    "char_distribution": {
+                      "d": 2,
+                      "a": 1,
+                      "n": 1,
+                      "r": 1,
+                      "o": 1,
+                      "i": 1
+                    }
+                  },
+                  "classification": {
+                    "name": "client",
+                    "type": "client_like",
+                    "suspicious": true,
+                    "reasons": [
+                      "naming_pattern:client[a-z_]*$"
+                    ],
+                    "confidence": 0.7
+                  }
+                },
+                {
+                  "name": "uuid",
+                  "value": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+                  "reasons": [
+                    "naming_pattern:uuid$",
+                    "value_encrypted_like",
+                    "value_uuid"
+                  ],
+                  "characteristics": {
+                    "length": 36,
+                    "charset": "mixed",
+                    "entropy": 4.0588,
+                    "is_base64": false,
+                    "is_hex": false,
+                    "is_numeric": false,
+                    "unique_chars": 17,
+                    "char_distribution": {
+                      "-": 4,
+                      "a": 2,
+                      "1": 2,
+                      "b": 2,
+                      "2": 2,
+                      "c": 2,
+                      "3": 2,
+                      "d": 2,
+                      "4": 2,
+                      "e": 2
+                    }
+                  },
+                  "classification": {
+                    "name": "uuid",
+                    "type": "uuid",
+                    "suspicious": true,
+                    "reasons": [
+                      "naming_pattern:uuid$",
+                      "value_encrypted_like",
+                      "value_uuid"
+                    ],
+                    "confidence": 0.7
+                  }
+                },
+                {
+                  "name": "sign",
+                  "value": "e10adc3949ba59abbe56e057f20f883e",
+                  "reasons": [
+                    "naming_pattern:sign[a-z_]*$",
+                    "value_encrypted_like",
+                    "value_hash:MD5",
+                    "context_signature"
+                  ],
+                  "characteristics": {
+                    "length": 32,
+                    "charset": "hex_lowercase",
+                    "entropy": 3.8195,
+                    "is_base64": true,
+                    "is_hex": true,
+                    "is_numeric": false,
+                    "unique_chars": 16,
+                    "char_distribution": {
+                      "e": 4,
+                      "0": 3,
+                      "a": 3,
+                      "9": 3,
+                      "b": 3,
+                      "5": 3,
+                      "3": 2,
+                      "f": 2,
+                      "8": 2,
+                      "1": 1
+                    }
+                  },
+                  "classification": {
+                    "name": "sign",
+                    "type": "signature",
+                    "suspicious": true,
+                    "reasons": [
+                      "naming_pattern:sign[a-z_]*$",
+                      "value_encrypted_like",
+                      "value_hash:MD5",
+                      "context_signature"
+                    ],
+                    "confidence": 0.85
+                  }
+                },
+                {
+                  "name": "pin",
+                  "value": "test_user_pin",
+                  "reasons": [
+                    "naming_pattern:pin$"
+                  ],
+                  "characteristics": {
+                    "length": 13,
+                    "charset": "mixed",
+                    "entropy": 3.0851,
+                    "is_base64": false,
+                    "is_hex": false,
+                    "is_numeric": false,
+                    "unique_chars": 9,
+                    "char_distribution": {
+                      "t": 2,
+                      "e": 2,
+                      "s": 2,
+                      "_": 2,
+                      "u": 1,
+                      "r": 1,
+                      "p": 1,
+                      "i": 1,
+                      "n": 1
+                    }
+                  },
+                  "classification": {
+                    "name": "pin",
+                    "type": "jd_pin",
+                    "suspicious": true,
+                    "reasons": [
+                      "naming_pattern:pin$"
+                    ],
+                    "confidence": 0.7
+                  }
+                }
+              ],
+              "param_classification": {
+                "appKey": {
+                  "name": "appKey",
+                  "type": "app_key",
+                  "suspicious": true,
+                  "reasons": [
+                    "naming_pattern:app_?key$"
+                  ],
+                  "confidence": 0.7
+                },
+                "clientVersion": {
+                  "name": "clientVersion",
+                  "type": "client_like",
+                  "suspicious": true,
+                  "reasons": [
+                    "naming_pattern:client[a-z_]*$"
+                  ],
+                  "confidence": 0.7
+                },
+                "client": {
+                  "name": "client",
+                  "type": "client_like",
+                  "suspicious": true,
+                  "reasons": [
+                    "naming_pattern:client[a-z_]*$"
+                  ],
+                  "confidence": 0.7
+                },
+                "ts": {
+                  "name": "ts",
+                  "type": "unknown",
+                  "suspicious": false,
+                  "reasons": [],
+                  "confidence": 0.0
+                },
+                "uuid": {
+                  "name": "uuid",
+                  "type": "uuid",
+                  "suspicious": true,
+                  "reasons": [
+                    "naming_pattern:uuid$",
+                    "value_encrypted_like",
+                    "value_uuid"
+                  ],
+                  "confidence": 0.7
+                },
+                "sign": {
+                  "name": "sign",
+                  "type": "signature",
+                  "suspicious": true,
+                  "reasons": [
+                    "naming_pattern:sign[a-z_]*$",
+                    "value_encrypted_like",
+                    "value_hash:MD5",
+                    "context_signature"
+                  ],
+                  "confidence": 0.85
+                },
+                "pin": {
+                  "name": "pin",
+                  "type": "jd_pin",
+                  "suspicious": true,
+                  "reasons": [
+                    "naming_pattern:pin$"
+                  ],
+                  "confidence": 0.7
+                },
+                "body": {
+                  "name": "body",
+                  "type": "unknown",
+                  "suspicious": false,
+                  "reasons": [],
+                  "confidence": 0.0
+                }
+              },
+              "risk_score": 0.96
+            },
+            {
+              "url": "https://ms.jr.jd.com/gw/generic/zj/h5/m/latest/interestRate",
+              "method": "POST",
+              "timestamp": 1792941691.3102605,
+              "suspicious_params": [
+                {
+                  "name": "appKey",
+                  "value": "jd_finance_app",
+                  "reasons": [
+                    "naming_pattern:app_?key$"
+                  ],
+                  "characteristics": {
+                    "length": 14,
+                    "charset": "mixed",
+                    "entropy": 3.2359,
+                    "is_base64": false,
+                    "is_hex": false,
+                    "is_numeric": false,
+                    "unique_chars": 10,
+                    "char_distribution": {
+                      "_": 2,
+                      "n": 2,
+                      "a": 2,
+                      "p": 2,
+                      "j": 1,
+                      "d": 1,
+                      "f": 1,
+                      "i": 1,
+                      "c": 1,
+                      "e": 1
+                    }
+                  },
+                  "classification": {
+                    "name": "appKey",
+                    "type": "app_key",
+                    "suspicious": true,
+                    "reasons": [
+                      "naming_pattern:app_?key$"
+                    ],
+                    "confidence": 0.7
+                  }
+                },
+                {
+                  "name": "clientVersion",
+                  "value": "10.5.0",
+                  "reasons": [
+                    "naming_pattern:client[a-z_]*$"
+                  ],
+                  "characteristics": {
+                    "length": 6,
+                    "charset": "mixed",
+                    "entropy": 1.9183,
+                    "is_base64": false,
+                    "is_hex": false,
+                    "is_numeric": false,
+                    "unique_chars": 4,
+                    "char_distribution": {
+                      "0": 2,
+                      ".": 2,
+                      "1": 1,
+                      "5": 1
+                    }
+                  },
+                  "classification": {
+                    "name": "clientVersion",
+                    "type": "client_like",
+                    "suspicious": true,
+                    "reasons": [
+                      "naming_pattern:client[a-z_]*$"
+                    ],
+                    "confidence": 0.7
+                  }
+                },
+                {
+                  "name": "client",
+                  "value": "android",
+                  "reasons": [
+                    "naming_pattern:client[a-z_]*$"
+                  ],
+                  "characteristics": {
+                    "length": 7,
+                    "charset": "alphanumeric",
+                    "entropy": 2.5216,
+                    "is_base64": false,
+                    "is_hex": false,
+                    "is_numeric": false,
+                    "unique_chars": 6,
+                    "char_distribution": {
+                      "d": 2,
+                      "a": 1,
+                      "n": 1,
+                      "r": 1,
+                      "o": 1,
+                      "i": 1
+                    }
+                  },
+                  "classification": {
+                    "name": "client",
+                    "type": "client_like",
+                    "suspicious": true,
+                    "reasons": [
+                      "naming_pattern:client[a-z_]*$"
+                    ],
+                    "confidence": 0.7
+                  }
+                },
+                {
+                  "name": "uuid",
+                  "value": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+                  "reasons": [
+                    "naming_pattern:uuid$",
+                    "value_encrypted_like",
+                    "value_uuid"
+                  ],
+                  "characteristics": {
+                    "length": 36,
+                    "charset": "mixed",
+                    "entropy": 4.0588,
+                    "is_base64": false,
+                    "is_hex": false,
+                    "is_numeric": false,
+                    "unique_chars": 17,
+                    "char_distribution": {
+                      "-": 4,
+                      "a": 2,
+                      "1": 2,
+                      "b": 2,
+                      "2": 2,
+                      "c": 2,
+                      "3": 2,
+                      "d": 2,
+                      "4": 2,
+                      "e": 2
+                    }
+                  },
+                  "classification": {
+                    "name": "uuid",
+                    "type": "uuid",
+                    "suspicious": true,
+                    "reasons": [
+                      "naming_pattern:uuid$",
+                      "value_encrypted_like",
+                      "value_uuid"
+                    ],
+                    "confidence": 0.7
+                  }
+                },
+                {
+                  "name": "sign",
+                  "value": "098f6bcd4621d373cade4e832627b4f6",
+                  "reasons": [
+                    "naming_pattern:sign[a-z_]*$",
+                    "value_encrypted_like",
+                    "value_hash:MD5",
+                    "context_signature"
+                  ],
+                  "characteristics": {
+                    "length": 32,
+                    "charset": "hex_lowercase",
+                    "entropy": 3.7806,
+                    "is_base64": true,
+                    "is_hex": true,
+                    "is_numeric": false,
+                    "unique_chars": 15,
+                    "char_distribution": {
+                      "6": 4,
+                      "d": 3,
+                      "4": 3,
+                      "2": 3,
+                      "3": 3,
+                      "8": 2,
+                      "f": 2,
+                      "b": 2,
+                      "c": 2,
+                      "7": 2
+                    }
+                  },
+                  "classification": {
+                    "name": "sign",
+                    "type": "signature",
+                    "suspicious": true,
+                    "reasons": [
+                      "naming_pattern:sign[a-z_]*$",
+                      "value_encrypted_like",
+                      "value_hash:MD5",
+                      "context_signature"
+                    ],
+                    "confidence": 0.85
+                  }
+                },
+                {
+                  "name": "pin",
+                  "value": "test_user_pin",
+                  "reasons": [
+                    "naming_pattern:pin$"
+                  ],
+                  "characteristics": {
+                    "length": 13,
+                    "charset": "mixed",
+                    "entropy": 3.0851,
+                    "is_base64": false,
+                    "is_hex": false,
+                    "is_numeric": false,
+                    "unique_chars": 9,
+                    "char_distribution": {
+                      "t": 2,
+                      "e": 2,
+                      "s": 2,
+                      "_": 2,
+                      "u": 1,
+                      "r": 1,
+                      "p": 1,
+                      "i": 1,
+                      "n": 1
+                    }
+                  },
+                  "classification": {
+                    "name": "pin",
+                    "type": "jd_pin",
+                    "suspicious": true,
+                    "reasons": [
+                      "naming_pattern:pin$"
+                    ],
+                    "confidence": 0.7
+                  }
+                }
+              ],
+              "param_classification": {
+                "appKey": {
+                  "name": "appKey",
+                  "type": "app_key",
+                  "suspicious": true,
+                  "reasons": [
+                    "naming_pattern:app_?key$"
+                  ],
+                  "confidence": 0.7
+                },
+                "clientVersion": {
+                  "name": "clientVersion",
+                  "type": "client_like",
+                  "suspicious": true,
+                  "reasons": [
+                    "naming_pattern:client[a-z_]*$"
+                  ],
+                  "confidence": 0.7
+                },
+                "client": {
+                  "name": "client",
+                  "type": "client_like",
+                  "suspicious": true,
+                  "reasons": [
+                    "naming_pattern:client[a-z_]*$"
+                  ],
+                  "confidence": 0.7
+                },
+                "ts": {
+                  "name": "ts",
+                  "type": "unknown",
+                  "suspicious": false,
+                  "reasons": [],
+                  "confidence": 0.0
+                },
+                "uuid": {
+                  "name": "uuid",
+                  "type": "uuid",
+                  "suspicious": true,
+                  "reasons": [
+                    "naming_pattern:uuid$",
+                    "value_encrypted_like",
+                    "value_uuid"
+                  ],
+                  "confidence": 0.7
+                },
+                "sign": {
+                  "name": "sign",
+                  "type": "signature",
+                  "suspicious": true,
+                  "reasons": [
+                    "naming_pattern:sign[a-z_]*$",
+                    "value_encrypted_like",
+                    "value_hash:MD5",
+                    "context_signature"
+                  ],
+                  "confidence": 0.85
+                },
+                "pin": {
+                  "name": "pin",
+                  "type": "jd_pin",
+                  "suspicious": true,
+                  "reasons": [
+                    "naming_pattern:pin$"
+                  ],
+                  "confidence": 0.7
+                },
+                "body": {
+                  "name": "body",
+                  "type": "unknown",
+                  "suspicious": false,
+                  "reasons": [],
+                  "confidence": 0.0
+                }
+              },
+              "risk_score": 0.96
+            }
+          ],
+          "suspicious_params": [
+            {
+              "name": "appKey",
+              "value": "jd_finance_app",
+              "reasons": [
+                "naming_pattern:app_?key$"
+              ],
+              "characteristics": {
+                "length": 14,
+                "charset": "mixed",
+                "entropy": 3.2359,
+                "is_base64": false,
+                "is_hex": false,
+                "is_numeric": false,
+                "unique_chars": 10,
+                "char_distribution": {
+                  "_": 2,
+                  "n": 2,
+                  "a": 2,
+                  "p": 2,
+                  "j": 1,
+                  "d": 1,
+                  "f": 1,
+                  "i": 1,
+                  "c": 1,
+                  "e": 1
+                }
+              },
+              "classification": {
+                "name": "appKey",
+                "type": "app_key",
+                "suspicious": true,
+                "reasons": [
+                  "naming_pattern:app_?key$"
+                ],
+                "confidence": 0.7
+              }
+            },
+            {
+              "name": "clientVersion",
+              "value": "10.5.0",
+              "reasons": [
+                "naming_pattern:client[a-z_]*$"
+              ],
+              "characteristics": {
+                "length": 6,
+                "charset": "mixed",
+                "entropy": 1.9183,
+                "is_base64": false,
+                "is_hex": false,
+                "is_numeric": false,
+                "unique_chars": 4,
+                "char_distribution": {
+                  "0": 2,
+                  ".": 2,
+                  "1": 1,
+                  "5": 1
+                }
+              },
+              "classification": {
+                "name": "clientVersion",
+                "type": "client_like",
+                "suspicious": true,
+                "reasons": [
+                  "naming_pattern:client[a-z_]*$"
+                ],
+                "confidence": 0.7
+              }
+            },
+            {
+              "name": "client",
+              "value": "android",
+              "reasons": [
+                "naming_pattern:client[a-z_]*$"
+              ],
+              "characteristics": {
+                "length": 7,
+                "charset": "alphanumeric",
+                "entropy": 2.5216,
+                "is_base64": false,
+                "is_hex": false,
+                "is_numeric": false,
+                "unique_chars": 6,
+                "char_distribution": {
+                  "d": 2,
+                  "a": 1,
+                  "n": 1,
+                  "r": 1,
+                  "o": 1,
+                  "i": 1
+                }
+              },
+              "classification": {
+                "name": "client",
+                "type": "client_like",
+                "suspicious": true,
+                "reasons": [
+                  "naming_pattern:client[a-z_]*$"
+                ],
+                "confidence": 0.7
+              }
+            },
+            {
+              "name": "uuid",
+              "value": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+              "reasons": [
+                "naming_pattern:uuid$",
+                "value_encrypted_like",
+                "value_uuid"
+              ],
+              "characteristics": {
+                "length": 36,
+                "charset": "mixed",
+                "entropy": 4.0588,
+                "is_base64": false,
+                "is_hex": false,
+                "is_numeric": false,
+                "unique_chars": 17,
+                "char_distribution": {
+                  "-": 4,
+                  "a": 2,
+                  "1": 2,
+                  "b": 2,
+                  "2": 2,
+                  "c": 2,
+                  "3": 2,
+                  "d": 2,
+                  "4": 2,
+                  "e": 2
+                }
+              },
+              "classification": {
+                "name": "uuid",
+                "type": "uuid",
+                "suspicious": true,
+                "reasons": [
+                  "naming_pattern:uuid$",
+                  "value_encrypted_like",
+                  "value_uuid"
+                ],
+                "confidence": 0.7
+              }
+            },
+            {
+              "name": "sign",
+              "value": "e10adc3949ba59abbe56e057f20f883e",
+              "reasons": [
+                "naming_pattern:sign[a-z_]*$",
+                "value_encrypted_like",
+                "value_hash:MD5",
+                "context_signature"
+              ],
+              "characteristics": {
+                "length": 32,
+                "charset": "hex_lowercase",
+                "entropy": 3.8195,
+                "is_base64": true,
+                "is_hex": true,
+                "is_numeric": false,
+                "unique_chars": 16,
+                "char_distribution": {
+                  "e": 4,
+                  "0": 3,
+                  "a": 3,
+                  "9": 3,
+                  "b": 3,
+                  "5": 3,
+                  "3": 2,
+                  "f": 2,
+                  "8": 2,
+                  "1": 1
+                }
+              },
+              "classification": {
+                "name": "sign",
+                "type": "signature",
+                "suspicious": true,
+                "reasons": [
+                  "naming_pattern:sign[a-z_]*$",
+                  "value_encrypted_like",
+                  "value_hash:MD5",
+                  "context_signature"
+                ],
+                "confidence": 0.85
+              }
+            },
+            {
+              "name": "pin",
+              "value": "test_user_pin",
+              "reasons": [
+                "naming_pattern:pin$"
+              ],
+              "characteristics": {
+                "length": 13,
+                "charset": "mixed",
+                "entropy": 3.0851,
+                "is_base64": false,
+                "is_hex": false,
+                "is_numeric": false,
+                "unique_chars": 9,
+                "char_distribution": {
+                  "t": 2,
+                  "e": 2,
+                  "s": 2,
+                  "_": 2,
+                  "u": 1,
+                  "r": 1,
+                  "p": 1,
+                  "i": 1,
+                  "n": 1
+                }
+              },
+              "classification": {
+                "name": "pin",
+                "type": "jd_pin",
+                "suspicious": true,
+                "reasons": [
+                  "naming_pattern:pin$"
+                ],
+                "confidence": 0.7
+              }
+            },
+            {
+              "name": "appKey",
+              "value": "jd_finance_app",
+              "reasons": [
+                "naming_pattern:app_?key$"
+              ],
+              "characteristics": {
+                "length": 14,
+                "charset": "mixed",
+                "entropy": 3.2359,
+                "is_base64": false,
+                "is_hex": false,
+                "is_numeric": false,
+                "unique_chars": 10,
+                "char_distribution": {
+                  "_": 2,
+                  "n": 2,
+                  "a": 2,
+                  "p": 2,
+                  "j": 1,
+                  "d": 1,
+                  "f": 1,
+                  "i": 1,
+                  "c": 1,
+                  "e": 1
+                }
+              },
+              "classification": {
+                "name": "appKey",
+                "type": "app_key",
+                "suspicious": true,
+                "reasons": [
+                  "naming_pattern:app_?key$"
+                ],
+                "confidence": 0.7
+              }
+            },
+            {
+              "name": "clientVersion",
+              "value": "10.5.0",
+              "reasons": [
+                "naming_pattern:client[a-z_]*$"
+              ],
+              "characteristics": {
+                "length": 6,
+                "charset": "mixed",
+                "entropy": 1.9183,
+                "is_base64": false,
+                "is_hex": false,
+                "is_numeric": false,
+                "unique_chars": 4,
+                "char_distribution": {
+                  "0": 2,
+                  ".": 2,
+                  "1": 1,
+                  "5": 1
+                }
+              },
+              "classification": {
+                "name": "clientVersion",
+                "type": "client_like",
+                "suspicious": true,
+                "reasons": [
+                  "naming_pattern:client[a-z_]*$"
+                ],
+                "confidence": 0.7
+              }
+            },
+            {
+              "name": "client",
+              "value": "android",
+              "reasons": [
+                "naming_pattern:client[a-z_]*$"
+              ],
+              "characteristics": {
+                "length": 7,
+                "charset": "alphanumeric",
+                "entropy": 2.5216,
+                "is_base64": false,
+                "is_hex": false,
+                "is_numeric": false,
+                "unique_chars": 6,
+                "char_distribution": {
+                  "d": 2,
+                  "a": 1,
+                  "n": 1,
+                  "r": 1,
+                  "o": 1,
+                  "i": 1
+                }
+              },
+              "classification": {
+                "name": "client",
+                "type": "client_like",
+                "suspicious": true,
+                "reasons": [
+                  "naming_pattern:client[a-z_]*$"
+                ],
+                "confidence": 0.7
+              }
+            },
+            {
+              "name": "uuid",
+              "value": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+              "reasons": [
+                "naming_pattern:uuid$",
+                "value_encrypted_like",
+                "value_uuid"
+              ],
+              "characteristics": {
+                "length": 36,
+                "charset": "mixed",
+                "entropy": 4.0588,
+                "is_base64": false,
+                "is_hex": false,
+                "is_numeric": false,
+                "unique_chars": 17,
+                "char_distribution": {
+                  "-": 4,
+                  "a": 2,
+                  "1": 2,
+                  "b": 2,
+                  "2": 2,
+                  "c": 2,
+                  "3": 2,
+                  "d": 2,
+                  "4": 2,
+                  "e": 2
+                }
+              },
+              "classification": {
+                "name": "uuid",
+                "type": "uuid",
+                "suspicious": true,
+                "reasons": [
+                  "naming_pattern:uuid$",
+                  "value_encrypted_like",
+                  "value_uuid"
+                ],
+                "confidence": 0.7
+              }
+            },
+            {
+              "name": "sign",
+              "value": "098f6bcd4621d373cade4e832627b4f6",
+              "reasons": [
+                "naming_pattern:sign[a-z_]*$",
+                "value_encrypted_like",
+                "value_hash:MD5",
+                "context_signature"
+              ],
+              "characteristics": {
+                "length": 32,
+                "charset": "hex_lowercase",
+                "entropy": 3.7806,
+                "is_base64": true,
+                "is_hex": true,
+                "is_numeric": false,
+                "unique_chars": 15,
+                "char_distribution": {
+                  "6": 4,
+                  "d": 3,
+                  "4": 3,
+                  "2": 3,
+                  "3": 3,
+                  "8": 2,
+                  "f": 2,
+                  "b": 2,
+                  "c": 2,
+                  "7": 2
+                }
+              },
+              "classification": {
+                "name": "sign",
+                "type": "signature",
+                "suspicious": true,
+                "reasons": [
+                  "naming_pattern:sign[a-z_]*$",
+                  "value_encrypted_like",
+                  "value_hash:MD5",
+                  "context_signature"
+                ],
+                "confidence": 0.85
+              }
+            },
+            {
+              "name": "pin",
+              "value": "test_user_pin",
+              "reasons": [
+                "naming_pattern:pin$"
+              ],
+              "characteristics": {
+                "length": 13,
+                "charset": "mixed",
+                "entropy": 3.0851,
+                "is_base64": false,
+                "is_hex": false,
+                "is_numeric": false,
+                "unique_chars": 9,
+                "char_distribution": {
+                  "t": 2,
+                  "e": 2,
+                  "s": 2,
+                  "_": 2,
+                  "u": 1,
+                  "r": 1,
+                  "p": 1,
+                  "i": 1,
+                  "n": 1
+                }
+              },
+              "classification": {
+                "name": "pin",
+                "type": "jd_pin",
+                "suspicious": true,
+                "reasons": [
+                  "naming_pattern:pin$"
+                ],
+                "confidence": 0.7
+              }
+            }
+          ],
+          "report": {
+            "generated_at": "2026-10-25T23:21:32.558333",
+            "summary": {
+              "total_requests": 2,
+              "total_suspicious_params": 12,
+              "avg_risk_score": 0.96
+            },
+            "param_types": {
+              "app_key": 2,
+              "client_like": 4,
+              "uuid": 2,
+              "signature": 2,
+              "jd_pin": 2
+            },
+            "high_risk_params": [
+              {
+                "name": "appKey",
+                "type": "app_key",
+                "confidence": 0.7,
+                "reasons": [
+                  "naming_pattern:app_?key$"
+                ]
+              },
+              {
+                "name": "clientVersion",
+                "type": "client_like",
+                "confidence": 0.7,
+                "reasons": [
+                  "naming_pattern:client[a-z_]*$"
+                ]
+              },
+              {
+                "name": "client",
+                "type": "client_like",
+                "confidence": 0.7,
+                "reasons": [
+                  "naming_pattern:client[a-z_]*$"
+                ]
+              },
+              {
+                "name": "uuid",
+                "type": "uuid",
+                "confidence": 0.7,
+                "reasons": [
+                  "naming_pattern:uuid$",
+                  "value_encrypted_like",
+                  "value_uuid"
+                ]
+              },
+              {
+                "name": "sign",
+                "type": "signature",
+                "confidence": 0.85,
+                "reasons": [
+                  "naming_pattern:sign[a-z_]*$",
+                  "value_encrypted_like",
+                  "value_hash:MD5",
+                  "context_signature"
+                ]
+              },
+              {
+                "name": "pin",
+                "type": "jd_pin",
+                "confidence": 0.7,
+                "reasons": [
+                  "naming_pattern:pin$"
+                ]
+              },
+              {
+                "name": "appKey",
+                "type": "app_key",
+                "confidence": 0.7,
+                "reasons": [
+                  "naming_pattern:app_?key$"
+                ]
+              },
+              {
+                "name": "clientVersion",
+                "type": "client_like",
+                "confidence": 0.7,
+                "reasons": [
+                  "naming_pattern:client[a-z_]*$"
+                ]
+              },
+              {
+                "name": "client",
+                "type": "client_like",
+                "confidence": 0.7,
+                "reasons": [
+                  "naming_pattern:client[a-z_]*$"
+                ]
+              },
+              {
+                "name": "uuid",
+                "type": "uuid",
+                "confidence": 0.7,
+                "reasons": [
+                  "naming_pattern:uuid$",
+                  "value_encrypted_like",
+                  "value_uuid"
+                ]
+              },
+              {
+                "name": "sign",
+                "type": "signature",
+                "confidence": 0.85,
+                "reasons": [
+                  "naming_pattern:sign[a-z_]*$",
+                  "value_encrypted_like",
+                  "value_hash:MD5",
+                  "context_signature"
+                ]
+              },
+              {
+                "name": "pin",
+                "type": "jd_pin",
+                "confidence": 0.7,
+                "reasons": [
+                  "naming_pattern:pin$"
+                ]
+              }
+            ],
+            "recommendations": [
+              "发现 12 个可疑参数，建议进一步分析",
+              "其中 12 个高置信度参数需要重点关注",
+              "检测到京东特有参数（h5st/st/sv），建议使用 JD 专用逆向策略"
+            ]
+          }
+        },
+        "error": null,
+        "duration": 0.0011475086212158203,
+        "metadata": {
+          "attempt": 1,
+          "execution_count": 1
+        },
+        "timestamp": "2026-10-25T23:21:32.558333"
+      }
+    },
+    "crypto-analyzer": {
+      "name": "crypto-analyzer",
+      "version": "1.0.0",
+      "execution_count": 1,
+      "success_count": 1,
+      "failure_count": 0,
+      "success_rate": 1.0,
+      "last_result": {
+        "status": "success",
+        "data": {
+          "status": "success",
+          "total_analyzed": 12,
+          "analyses": [
+            {
+              "param_name": "appKey",
+              "param_value": "jd_finance_app",
+              "status": "unknown",
+              "message": "Could not identify algorithm"
+            },
+            {
+              "param_name": "clientVersion",
+              "param_value": "10.5.0",
+              "status": "unknown",
+              "message": "Could not identify algorithm"
+            },
+            {
+              "param_name": "client",
+              "param_value": "android",
+              "status": "unknown",
+              "message": "Could not identify algorithm"
+            },
+            {
+              "param_name": "uuid",
+              "param_value": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+              "status": "unknown",
+              "message": "Could not identify algorithm"
+            },
+            {
+              "param_name": "sign",
+              "param_value": "e10adc3949ba59abbe56e057f20f883e",
+              "inferred_algorithm": "MD5",
+              "confidence": 1.0,
+              "candidates": [
+                {
+                  "algorithm": "MD5",
+                  "confidence": 1.0
+                },
+                {
+                  "algorithm": "HMAC_MD5",
+                  "confidence": 0.7
+                },
+                {
+                  "algorithm": "Base64",
+                  "confidence": 0.7
+                },
+                {
+                  "algorithm": "AES_ECB",
+                  "confidence": 0.6
+                },
+                {
+                  "algorithm": "AES_CBC",
+                  "confidence": 0.6
+                },
+                {
+                  "algorithm": "DES",
+                  "confidence": 0.6
+                }
+              ],
+              "characteristics": {
+                "length": 32,
+                "charset": "hex_lowercase",
+                "entropy": 3.8195,
+                "is_base64": true,
+                "is_hex": true,
+                "is_numeric": false,
+                "unique_chars": 16,
+                "char_distribution": {
+                  "e": 4,
+                  "0": 3,
+                  "a": 3,
+                  "9": 3,
+                  "b": 3,
+                  "5": 3,
+                  "3": 2,
+                  "f": 2,
+                  "8": 2,
+                  "1": 1
+                }
+              },
+              "reproduction": {
+                "success": false,
+                "reason": "No matching combination found",
+                "suggestions": [
+                  "Check if there are hidden parameters",
+                  "Verify if timestamp is involved",
+                  "Look for salt/secret values in code",
+                  "Try different parameter ordering"
+                ]
+              },
+              "formula": null,
+              "code": "\nimport hashlib\nimport json\n\ndef generate_sign():\n    \"\"\"\n    Generate MD5 signature\n    Formula: N/A\n    \"\"\"\n    params = {}\n    \n    # Concatenate parameters\n    concat = \"\".join(str(v) for k, v in sorted(params.items()))\n    \n    # Calculate hash\n    return hashlib.md5(concat.encode()).hexdigest()\n"
+            },
+            {
+              "param_name": "pin",
+              "param_value": "test_user_pin",
+              "status": "unknown",
+              "message": "Could not identify algorithm"
+            },
+            {
+              "param_name": "appKey",
+              "param_value": "jd_finance_app",
+              "status": "unknown",
+              "message": "Could not identify algorithm"
+            },
+            {
+              "param_name": "clientVersion",
+              "param_value": "10.5.0",
+              "status": "unknown",
+              "message": "Could not identify algorithm"
+            },
+            {
+              "param_name": "client",
+              "param_value": "android",
+              "status": "unknown",
+              "message": "Could not identify algorithm"
+            },
+            {
+              "param_name": "uuid",
+              "param_value": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+              "status": "unknown",
+              "message": "Could not identify algorithm"
+            },
+            {
+              "param_name": "sign",
+              "param_value": "098f6bcd4621d373cade4e832627b4f6",
+              "inferred_algorithm": "MD5",
+              "confidence": 1.0,
+              "candidates": [
+                {
+                  "algorithm": "MD5",
+                  "confidence": 1.0
+                },
+                {
+                  "algorithm": "HMAC_MD5",
+                  "confidence": 0.7
+                },
+                {
+                  "algorithm": "Base64",
+                  "confidence": 0.7
+                },
+                {
+                  "algorithm": "AES_ECB",
+                  "confidence": 0.6
+                },
+                {
+                  "algorithm": "AES_CBC",
+                  "confidence": 0.6
+                },
+                {
+                  "algorithm": "DES",
+                  "confidence": 0.6
+                }
+              ],
+              "characteristics": {
+                "length": 32,
+                "charset": "hex_lowercase",
+                "entropy": 3.7806,
+                "is_base64": true,
+                "is_hex": true,
+                "is_numeric": false,
+                "unique_chars": 15,
+                "char_distribution": {
+                  "6": 4,
+                  "d": 3,
+                  "4": 3,
+                  "2": 3,
+                  "3": 3,
+                  "8": 2,
+                  "f": 2,
+                  "b": 2,
+                  "c": 2,
+                  "7": 2
+                }
+              },
+              "reproduction": {
+                "success": false,
+                "reason": "No matching combination found",
+                "suggestions": [
+                  "Check if there are hidden parameters",
+                  "Verify if timestamp is involved",
+                  "Look for salt/secret values in code",
+                  "Try different parameter ordering"
+                ]
+              },
+              "formula": null,
+              "code": "\nimport hashlib\nimport json\n\ndef generate_sign():\n    \"\"\"\n    Generate MD5 signature\n    Formula: N/A\n    \"\"\"\n    params = {}\n    \n    # Concatenate parameters\n    concat = \"\".join(str(v) for k, v in sorted(params.items()))\n    \n    # Calculate hash\n    return hashlib.md5(concat.encode()).hexdigest()\n"
+            },
+            {
+              "param_name": "pin",
+              "param_value": "test_user_pin",
+              "status": "unknown",
+              "message": "Could not identify algorithm"
+            }
+          ],
+          "reproduction_code": "",
+          "summary": {
+            "total_analyzed": 12,
+            "successfully_reproduced": 0,
+            "reproduction_rate": 0.0,
+            "average_confidence": 0.17,
+            "algorithm_distribution": {
+              "unknown": 10,
+              "MD5": 2
+            },
+            "high_confidence": [
+              "sign",
+              "sign"
+            ]
+          }
+        },
+        "error": null,
+        "duration": 0.0008637905120849609,
+        "metadata": {
+          "attempt": 1,
+          "execution_count": 1
+        },
+        "timestamp": "2026-10-25T23:21:32.559197"
+      }
+    },
+    "dynamic-verifier": {
+      "name": "dynamic-verifier",
+      "version": "1.0.0",
+      "execution_count": 0,
+      "success_count": 0,
+      "failure_count": 0,
+      "success_rate": 0.0,
+      "last_result": null
+    },
+    "jd-finance": {
+      "name": "jd-finance",
+      "version": "1.0.0",
+      "execution_count": 2,
+      "success_count": 2,
+      "failure_count": 0,
+      "success_rate": 1.0,
+      "last_result": {
+        "status": "success",
+        "data": {
+          "status": "success",
+          "target": "jintiao_quota",
+          "endpoint": "https://ms.jr.jd.com/gw/generic/zj/h5/m/latest/creditLimit",
+          "request": {
+            "url": "https://ms.jr.jd.com/gw/generic/zj/h5/m/latest/creditLimit",
+            "method": "POST",
+            "headers": {
+              "Content-Type": "application/x-www-form-urlencoded",
+              "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.210 Mobile Safari/537.36 jdapp;android;10.5.0;;;appBuild=96358;",
+              "Referer": "https://m.jd.com/",
+              "Origin": "https://m.jd.com",
+              "Cookie": "pin=test_pin"
+            },
+            "body": "appKey=test_app_key&clientVersion=10.5.0&client=android&ts=1792941692904&uuid=b2e3eb82-2e4c-4921-a782-ca1059e6584a&sign=e2485a3748f1d6a4bed1b1c99e179c7c",
+            "params": {
+              "appKey": "test_app_key",
+              "clientVersion": "10.5.0",
+              "client": "android",
+              "ts": "1792941692904",
+              "uuid": "b2e3eb82-2e4c-4921-a782-ca1059e6584a",
+              "sign": "e2485a3748f1d6a4bed1b1c99e179c7c"
+            }
+          },
+          "response": {
+            "success": false,
+            "error": "HTTP 404",
+            "message": "Request failed"
+          },
+          "timestamp": "2026-10-25T23:21:33.211320"
+        },
+        "error": null,
+        "duration": 0.3068227767944336,
+        "metadata": {
+          "attempt": 1,
+          "execution_count": 2
+        },
+        "timestamp": "2026-10-25T23:21:33.211320"
+      }
+    }
+  }
+}
